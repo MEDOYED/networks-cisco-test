@@ -1,10 +1,12 @@
+import PageHome from "../pages/PageHome/PageHome";
+
 import "./App.scss";
 
 function App() {
   return (
-    <>
-      <div>app</div>
-    </>
+    <div className="container">
+      <PageHome />
+    </div>
   );
 }
 
