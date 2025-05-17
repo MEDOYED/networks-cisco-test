@@ -45,6 +45,7 @@ const CardQuestion = ({ question }: PropsTypes) => {
                   value={answer.option}
                   checked={isSelected}
                   onChange={() => toggleAnswer(answer.option)}
+                  disabled={checked}
                 />
                 <span
                   style={{
