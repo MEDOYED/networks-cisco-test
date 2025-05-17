@@ -1,0 +1,11 @@
+.section-questions {
+  &__line {
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    width: 100vw;
+
+    height: 1px;
+    background-color: #000;
+  }
+}
