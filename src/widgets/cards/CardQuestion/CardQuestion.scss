@@ -1,3 +1,40 @@
 .card-question {
   padding: 40px 0;
+
+  &__question {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__option-wrapper {
+    display: flex;
+    gap: 15px;
+
+    :hover {
+      cursor: pointer;
+    }
+
+    input {
+      transform: scale(1.8);
+      accent-color: rgb(255, 0, 234);
+    }
+
+    span {
+      font-size: 25px;
+    }
+  }
 }

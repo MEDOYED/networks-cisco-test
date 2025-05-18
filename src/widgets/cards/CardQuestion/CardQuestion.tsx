@@ -27,18 +27,18 @@ const CardQuestion = ({ question }: PropsTypes) => {
 
   return (
     <article className="card-question">
-      <h2 className="question">{question.question}</h2>
+      <h2 className="card-question__question">{question.question}</h2>
 
       <form onSubmit={(e) => e.preventDefault()}>
         <fieldset>
-          <legend>Wybierz poprawną odpowiedź:</legend>
+          <legend className="card-question__subtitle">Wybierz poprawną odpowiedź:</legend>
 
           {question.answers.map((answer, i) => {
             const isSelected = selected.includes(answer.option);
             const showFeedback = checked && answer.correct;
 
             return (
-              <label key={i}>
+              <label className="card-question__option-wrapper" key={i}>
                 <input
                   type={question.multi ? "checkbox" : "radio"}
                   name={`question-${question.id}`}
