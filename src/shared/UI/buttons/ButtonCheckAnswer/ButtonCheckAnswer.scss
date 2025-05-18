@@ -5,6 +5,13 @@
   box-shadow: 2px 3px 5px 0.1px #00000056;
   transition: all 0.1s;
 
+  display: flex;
+
+  @media (max-width: 600px) {
+    justify-self: end;
+    margin-right: 30px;
+  }
+
   &:hover {
     transform: scale(1.05);
   }
