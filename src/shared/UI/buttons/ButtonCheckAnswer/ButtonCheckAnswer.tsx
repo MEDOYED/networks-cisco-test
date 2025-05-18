@@ -6,9 +6,10 @@ type Props = {
   answers: Answer[];
   onCheck: (isCorrect: boolean) => void;
   disabled: boolean;
+  isCorrect: boolean | null;
 };
 
-const ButtonCheckAnswer = ({ selected, answers, onCheck, disabled }: Props) => {
+const ButtonCheckAnswer = ({ selected, answers, onCheck, disabled, isCorrect }: Props) => {
   const checkAnswer = () => {
     const correctOptions = answers.filter((a) => a.correct).map((a) => a.option);
     const isCorrect =
@@ -19,7 +20,12 @@ const ButtonCheckAnswer = ({ selected, answers, onCheck, disabled }: Props) => {
   };
 
   return (
-    <button type="button" disabled={disabled} onClick={checkAnswer}>
+    <button
+      className="button-check-answer"
+      type="button"
+      disabled={disabled}
+      onClick={checkAnswer}
+      style={{ backgroundColor: disabled ? (isCorrect ? "green" : "red") : "inherit" }}>
       Sprawdź
     </button>
   );

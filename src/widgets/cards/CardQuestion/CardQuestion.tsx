@@ -66,6 +66,7 @@ const CardQuestion = ({ question }: PropsTypes) => {
             setChecked(true);
           }}
           disabled={checked}
+          isCorrect={isCorrect}
         />
 
         {checked && (
