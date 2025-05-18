@@ -69,9 +69,9 @@ const CardQuestion = ({ question }: PropsTypes) => {
           isCorrect={isCorrect}
         />
 
-        {checked && (
+        {/* {checked && (
           <p style={{ color: isCorrect ? "green" : "red" }}>{isCorrect ? "Dobrze!" : "Źle!"}</p>
-        )}
+        )} */}
       </form>
     </article>
   );
