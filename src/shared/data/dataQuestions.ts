@@ -66,4 +66,144 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
+
+  // 1.3
+  {
+    id: 4,
+    question: "Które połączenie fizycznie łączy urządzenie końcowe z siecią?",
+    answers: [
+      {
+        option: "Port",
+        correct: false,
+      },
+      {
+        option: "Karta sieciowa",
+        correct: true,
+      },
+      {
+        option: "Interfejs",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 5,
+    question:
+      "Które połączenia to specjalne porty w urządzeniu sieciowym, które łączą się z poszczególnymi sieciami?",
+    answers: [
+      {
+        option: "Port",
+        correct: false,
+      },
+      {
+        option: "Karta sieciowa",
+        correct: false,
+      },
+      {
+        option: "Interfejs",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 6,
+    question:
+      "Jaki rodzaj topologii sieci pozwala sprawdzić, które urządzenia końcowe są podłączone do urządzeń pośredniczących i jakie media są używane?",
+    answers: [
+      {
+        option: "Topologia fizyczna",
+        correct: false,
+      },
+      {
+        option: "Topologia logiczna",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 7,
+    question:
+      "Jaki rodzaj topologii sieci pozwala zobaczyć rzeczywistą lokalizację urządzeń pośredniczących i instalacji kabli?",
+    answers: [
+      {
+        option: "Topologia fizyczna",
+        correct: true,
+      },
+      {
+        option: "Topologia logiczna",
+        correct: false,
+      },
+    ],
+  },
+
+  // 1.4
+  {
+    id: 8,
+    question:
+      "Która infrastruktura sieciowa zapewnia dostęp do użytkowników i urządzeń końcowych na małym obszarze geograficznym, który jest zazwyczaj siecią w dziale przedsiębiorstwa, domu lub małej firmie?",
+    answers: [
+      {
+        option: "Ekstranet",
+        correct: false,
+      },
+      {
+        option: "Intranet",
+        correct: false,
+      },
+      {
+        option: "LAN",
+        correct: true,
+      },
+      {
+        option: "WAN",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 9,
+    question:
+      "Jaką infrastrukturę sieciową może wykorzystać organizacja w celu zapewnienia bezpiecznego dostępu osobom, które pracują dla innej organizacji, ale wymagają dostępu do danych organizacji?",
+    answers: [
+      {
+        option: "Ekstranet",
+        correct: true,
+      },
+      {
+        option: "Intranet",
+        correct: false,
+      },
+      {
+        option: "LAN",
+        correct: false,
+      },
+      {
+        option: "WAN",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 10,
+    question:
+      "Która infrastruktura sieciowa zapewnia dostęp do innych sieci na dużym obszarze geograficznym, który jest często własnością dostawcy usług telekomunikacyjnych i zarządzany przez niego?",
+    answers: [
+      {
+        option: "Ekstranet",
+        correct: false,
+      },
+      {
+        option: "Intranet",
+        correct: false,
+      },
+      {
+        option: "LAN",
+        correct: false,
+      },
+      {
+        option: "WAN",
+        correct: true,
+      },
+    ],
+  },
 ];
