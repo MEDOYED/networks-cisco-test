@@ -206,4 +206,100 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
+
+  // 1.5 no test in this module
+
+  //1.6
+  {
+    id: 11,
+    question:
+      "Kiedy projektanci przestrzegają przyjętych standardów i protokołów, która z czterech podstawowych cech architektury sieci jest osiągnięta?",
+    answers: [
+      {
+        option: "Tolerancja błędu",
+        correct: false,
+      },
+      {
+        option: "Skalowalność",
+        correct: true,
+      },
+      {
+        option: "Jakość usług (QoS)",
+        correct: false,
+      },
+      {
+        option: "Bezpieczeństwo",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 12,
+    question:
+      "Poufność, integralność i dostępność są wymaganiami, której z czterech podstawowych cech architektury sieci?",
+    answers: [
+      {
+        option: "Tolerancja błędu",
+        correct: false,
+      },
+      {
+        option: "Skalowalność",
+        correct: false,
+      },
+      {
+        option: "Jakość usług (QoS)",
+        correct: false,
+      },
+      {
+        option: "Bezpieczeństwo",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 13,
+    question:
+      "Za pomocą jakiego rodzaju polityki router może zarządzać przepływem danych i ruchu głosowego, nadając priorytet komunikacji głosowej, jeśli sieć doświadcza przeciążenia?",
+    answers: [
+      {
+        option: "Tolerancja błędu",
+        correct: false,
+      },
+      {
+        option: "Skalowalność",
+        correct: false,
+      },
+      {
+        option: "Jakość usług (QoS)",
+        correct: true,
+      },
+      {
+        option: "Bezpieczeństwo",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 14,
+    question:
+      "Posiadanie wielu ścieżek do miejsca przeznaczenia nazywamy nadmiarowością. Jest to przykład, której cechy architektury sieci?",
+    answers: [
+      {
+        option: "Tolerancja błędu",
+        correct: true,
+      },
+      {
+        option: "Skalowalność",
+        correct: false,
+      },
+      {
+        option: "Jakość usług (QoS)",
+        correct: false,
+      },
+      {
+        option: "Bezpieczeństwo",
+        correct: false,
+      },
+    ],
+  },
 ];
