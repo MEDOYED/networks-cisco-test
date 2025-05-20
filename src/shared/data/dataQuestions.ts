@@ -302,4 +302,1205 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
+  // {
+  //   id: 15,
+  //   question:
+  //     "Użytkownik realizuje zabezpieczenia w małej sieci biurowej. Które dwa działania zapewniałyby minimalne wymagania bezpieczeństwa dla tej sieci? (Wybierz dwie odpowiedzi.)",
+  //   multi: true,
+  //   answers: [
+  //     {
+  //       option: "instalowanie oprogramowania antywirusowego",
+  //       correct: true,
+  //     },
+  //     {
+  //       option: "instalowanie sieci bezprzewodowej",
+  //       correct: false,
+  //     },
+  //     {
+  //       option: "implementacja zapory",
+  //       correct: true,
+  //     },
+  //     {
+  //       option: "system wykrywania włamań",
+  //       correct: false,
+  //     },
+  //     {
+  //       option: "dodanie dedykowanego urządzenia zapobiegającego włamaniom",
+  //       correct: false,
+  //     },
+  //   ],
+  // },
+  {
+    id: 16,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 17,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 18,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 19,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 20,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 21,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 22,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 23,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 24,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 25,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 26,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 27,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 28,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 29,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 30,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 31,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 32,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 33,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 34,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 35,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 36,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 37,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 38,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 39,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 40,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 41,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 42,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 43,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 44,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 45,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 46,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 47,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 48,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 49,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 50,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 51,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 52,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 53,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 54,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 55,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 56,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 57,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 58,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 59,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 60,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 61,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 62,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 63,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 64,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 65,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 67,
+    question: "",
+    //   multi: true,
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
 ];
