@@ -1480,10 +1480,10 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
-  {
+ {
     id: 67,
     question: "",
-    //   multi: true,
+    //   multi: true, 
     answers: [
       {
         option: "",
@@ -1503,4 +1503,75 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
-];
+
+  //Pashka
+  {
+    id: 68,
+    question: "",
+    //   multi: true, 
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 69,
+    question: "",
+    //   multi: true, 
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 70,
+    question: "",
+    //   multi: true, 
+    answers: [
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+      {
+        option: "",
+        correct: false,
+      },
+    ],
+  },
+]
