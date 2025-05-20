@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+git add . --> щто б гит смотрел за твоими файлами. (перед комитом обезательно прописать)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+git commit -m "chore(dataQuestions.ts): filled data for 10-15 questions"
 
-Currently, two official plugins are available:
+git push -u
+Dima --> git push -u origin Dima
+Pasha --> git push -u origin pasha
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git checkout <nameBranch, на которую хотим переключиться> --> команда чтобы переключиться на другую ветку
+git checkout main
+Dima --> git checkout Dima
+Pasha --> git checkout pasha
 
-## Expanding the ESLint configuration
+git pull --> ету команду ми используєм тольно на ветке main.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+git rebase main --> Сливает изменения с ветки main на ветку на твою ветку
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+<!-- ------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------------------- -->
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+git clone https://github.com/MEDOYED/harmonia --> для того чтобы стянуть репозиторий с GitHub
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+gmt init git add . git commit -m " " git branch -M main git remote add origin https://github.com/MEDOYED/harmonia git push -u origin main
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+git init
+
+git remote add origin https://github.com/MEDOYED/harmonia
+
+git push -u origin main
+
+git pull origin main --> для того чтобы обновить код с ГитХаба
+
+git log --> можно посмотреть версии комитов
+
+git branch --> показывает в какой ветке мы находимся + список всех веток git branch --> добавить новую ветку git branch -D --> удалить ветку git checkout <nameBranch, на которую хотим переключиться> --> команда чтобы переключиться на другую ветку git branch -M main --> переименовывает ветку в main
+
+git branch --> показывает в какой ветке мы находимся + список всех веток
+
+git branch --> добавить новую ветку
+
+git branch -D --> удалить ветку
+
+git checkout <nameBranch, на которую хотим переключиться> --> команда чтобы переключиться на другую ветку
+
+git branch -M main --> переименовывает ветку в main
+
+git merge (nameBranch з якою треба злити) --> чтобы слить 2 ветки в одну
+
+git checkout -- . --> Возвращает к последнему комиту
+
+git rebase main --> Сливает изменения с ветки main на ветку на которой сейчас находишься
+
+git reset --hard origin/main --> когда находимся на ветке main и у нас есть изминения в коде и нам надо сделать git pull и не получается. С помощью етой команди можно стянуть код с репозитория
+
+- `git commit --amend --no-edit`
+  - внести изменения в последний комит
