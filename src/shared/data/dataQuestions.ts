@@ -746,46 +746,46 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 34,
-    question: "",
+    question: "What is a primary role of the Physical layer in transmitting data on the network?",
     //   multi: true,
     answers: [
       {
-        option: "",
+        option: "control data access to the media",
         correct: false,
       },
       {
-        option: "",
+        option: "provide physical addressing to the devices",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "create the signals that represent the bits in each frame on to the media",
+        correct: true,
       },
       {
-        option: "",
+        option: "determine the path packets take through the network",
         correct: false,
       },
     ],
   },
   {
     id: 35,
-    question: "",
+    question: "Refer to the graphic. What type of cabling is shown?",
     //   multi: true,
     answers: [
       {
-        option: "",
+        option: "UTP",
+        correct: true,
+      },
+      {
+        option: "fiber",
         correct: false,
       },
       {
-        option: "",
+        option: "coax",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "STP",
         correct: false,
       },
     ],
