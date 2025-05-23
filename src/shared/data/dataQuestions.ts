@@ -5471,759 +5471,774 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 240,
-    question: "",
-    //   multi: true,
+    question: "Która warstwa OSI wysyła segmenty do enkapsulacji w pakiecie IPv4 lub IPv6?",
     answers: [
       {
-        option: "",
+        option: "Warstwa łącza danych",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Warstwa transportowa",
+        correct: true,
       },
       {
-        option: "",
+        option: "Warstwa sesji",
         correct: false,
       },
     ],
   },
   {
     id: 241,
-    question: "",
-    //   multi: true,
+    question:
+      "Która warstwa jest odpowiedzialna za pobranie pakietu IP i przygotowanie go do transmisji za pośrednictwem medium komunikacyjnego?",
     answers: [
       {
-        option: "",
+        option: "Warstwa fizyczna",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Warstwa łącza danych",
+        correct: true,
       },
       {
-        option: "",
+        option: "Warstwa transportowa",
         correct: false,
       },
     ],
   },
   {
     id: 242,
-    question: "",
-    //   multi: true,
+    question:
+      "Który to termin podziału pakietu IP podczas przesyłania go z jednego nośnika do drugiego z mniejszym MTU?",
     answers: [
       {
-        option: "",
+        option: "Enkapsulacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Fragmentacja",
+        correct: true,
+      },
+      {
+        option: "Segmentacja",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Serializacja",
         correct: false,
       },
     ],
   },
   {
     id: 243,
-    question: "",
-    //   multi: true,
+    question:
+      "Która metoda dostarczania nie gwarantuje, że pakiet zostanie dostarczony w całości bez błędów?",
+    // multi: true,
     answers: [
       {
-        option: "",
+        option: "Bezpołączeniowa",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Najlepszych starań (ang. best-effort)",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Niezależna od mediów",
         correct: false,
       },
     ],
   },
   {
     id: 244,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie są dwa najczęściej używane pola w nagłówku pakietu IPv4, które wskazują, skąd pakiet pochodzi i dokąd zmierza? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Docelowy adres IP",
+        correct: true,
+      },
+      {
+        option: "Protokół",
         correct: false,
       },
       {
-        option: "",
+        option: "Czas życia",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródłowy adres IP",
+        correct: true,
       },
       {
-        option: "",
+        option: "DS",
         correct: false,
       },
     ],
   },
   {
     id: 245,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie jest poprawne o polach nagłówka pakietów IPv4?",
     answers: [
       {
-        option: "",
+        option:
+          "Źródłowe i docelowe adresy IPv4 pozostają takie same podczas przesyłania ze źródła do miejsca docelowego.",
+        correct: true,
+      },
+      {
+        option: "Pole Czas życia służy do określenia priorytetu każdego pakietu.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Pola Długość całkowita i Suma kontrolna nagłówka służą do zmiany kolejności pofragmentowanego pakietu.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Pole Wersja identyfikuje protokół następnego poziomu.",
         correct: false,
       },
     ],
   },
   {
     id: 246,
-    question: "",
-    //   multi: true,
+    question: "Które pole służy do wykrywania uszkodzenia w nagłówku IPv4?",
     answers: [
       {
-        option: "",
+        option: "Suma kontrolna nagłówka",
+        correct: true,
+      },
+      {
+        option: "Czas życia",
         correct: false,
       },
       {
-        option: "",
+        option: "Protokół",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "DS",
         correct: false,
       },
     ],
   },
   {
     id: 247,
-    question: "",
-    //   multi: true,
+    question: "Które pole zawiera typowe wartości, takie jak ICMP (1), TCP (6) i UDP (17)?",
     answers: [
       {
-        option: "",
+        option: "Suma kontrolna nagłówka",
         correct: false,
       },
       {
-        option: "",
+        option: "Czas życia",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Protokół",
+        correct: true,
       },
       {
-        option: "",
+        option: "DS",
         correct: false,
       },
     ],
   },
   {
     id: 248,
-    question: "",
-    //   multi: true,
+    question:
+      "Które trzy opcje są poważnymi problemami związanymi z IPv4? (Wybierz trzy odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Wyczerpywanie się puli adresów IP",
+        correct: true,
+      },
+      {
+        option: "Zwiększona złożoność sieci i rozbudowa tablic routingu internetowego",
+        correct: true,
+      },
+      {
+        option: "Stałe połączenia",
         correct: false,
       },
       {
-        option: "",
+        option: "Brak połączeń typu koniec-koniec",
+        correct: true,
+      },
+      {
+        option: "Granice globalne i polityczne",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Zbyt wiele adresów IPv4 dostępnych",
         correct: false,
       },
     ],
   },
   {
     id: 249,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie opcje to ulepszenia dostarczone przez IPv6 w porównaniu do IPv4? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Nagłówek obsługuje dodatkowe pola dla złożonych pakietów",
         correct: false,
       },
       {
-        option: "",
+        option: "Zwiększona przestrzeń adresowa",
+        correct: true,
+      },
+      {
+        option: "Standaryzuje wykorzystanie NAT",
         correct: false,
       },
       {
-        option: "",
+        option: "Obsługuje sieci oparte na klasach",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Używa prostszego nagłówka, aby zapewnić lepszą obsługę pakietów",
+        correct: true,
       },
     ],
   },
   {
     id: 250,
-    question: "",
-    //   multi: true,
+    question: "Co jest prawdziwe o nagłówku IPv6?",
     answers: [
       {
-        option: "",
+        option: "Składa się z 20 oktetów",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Składa się z 40 oktetów",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Zawiera 8 pól nagłówka",
+        correct: true,
       },
       {
-        option: "",
+        option: "Zawiera 12 pól nagłówka",
         correct: false,
       },
     ],
   },
   {
     id: 251,
-    question: "",
-    //   multi: true,
+    question: "Co jest prawdziwe o nagłówku pakietu IPv6?",
     answers: [
       {
-        option: "",
+        option: "Pole Limit przeskoków zastępuje pole Czas do życia z IPv4.",
+        correct: true,
+      },
+      {
+        option:
+          "Źródłowe i docelowe adresy IPv6 zmieniają się podczas wędrówki ze źródła do miejsca docelowego.",
         correct: false,
       },
       {
-        option: "",
+        option: "Pole Czas życia zastępuje pole DiffServ.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Pole Wersja identyfikuje następny nagłówek.",
         correct: false,
       },
     ],
   },
   {
     id: 252,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie dotyczące decyzji hosta o przekazywaniu jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "Host nie może sam siebie zweryfikować poleceniem ping.",
         correct: false,
       },
       {
-        option: "",
+        option: "Zdalny host docelowy znajduje się w tej samej sieci lokalnej co host wysyłający.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Lokalne hosty mogą osiągnąć siebie bez pośrednictwa routera.",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Routing jest włączony na przełącznikach, aby odkryć najlepszą drogę do miejsca docelowego.",
         correct: false,
       },
     ],
   },
   {
     id: 253,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie o bramie domyślnej jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option:
+          "Brama domyślna jest wymagana do wysyłania pakietów do innych hostów w sieci lokalnej.",
         correct: false,
       },
       {
-        option: "",
+        option: "Adresem bramy domyślnej jest adres IP przełącznika w sieci zdalnej.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adres bramy domyślnej jest adresem IP interfejsu routera w lokalnej sieci.",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Ruch może być przesyłany dalej poza lokalną sieć tylko wtedy, gdy nie ma bramy domyślnej.",
         correct: false,
       },
     ],
   },
   {
     id: 254,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa polecenia można wprowadzić na hoście systemu Windows, aby wyświetlić tablicę routingu IPv4 i IPv6? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "netroute -l",
         correct: false,
       },
       {
-        option: "",
+        option: "netstat -r",
+        correct: true,
+      },
+      {
+        option: "print route",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "route print",
+        correct: true,
       },
       {
-        option: "",
+        option: "print net",
         correct: false,
       },
     ],
   },
   {
     id: 255,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie polecenie używane jest na routerze Cisco IOS, aby wyświetlić tablicę routingu?",
     answers: [
       {
-        option: "",
+        option: "netstart -r",
         correct: false,
       },
       {
-        option: "",
+        option: "route print",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "show ip route",
+        correct: true,
       },
       {
-        option: "",
+        option: "show routing table",
         correct: false,
       },
     ],
   },
   {
     id: 256,
-    question: "",
-    //   multi: true,
+    question: "Co oznacza kod „O” obok trasy w tablicy routingu?",
     answers: [
       {
-        option: "",
+        option: "Bezpośrednio podłączona trasa",
         correct: false,
       },
       {
-        option: "",
+        option: "Trasa o odległością administracyjną 0",
         correct: false,
       },
       {
-        option: "",
+        option: "Brama ostatniej szansy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Trasa nauczona dynamicznie z OSPF",
+        correct: true,
       },
     ],
   },
   {
     id: 257,
-    question: "",
-    //   multi: true,
+    question: "Ten typ trasy jest również znany jako brama ostatniej szansy.",
     answers: [
       {
-        option: "",
+        option: "Trasa statyczna",
         correct: false,
       },
       {
-        option: "",
+        option: "Trasach zdalna",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Trasa domyślna",
+        correct: true,
       },
       {
-        option: "",
+        option: "Trasa połączona bezpośrednio",
         correct: false,
       },
     ],
   },
   {
     id: 258,
-    question: "",
-    //   multi: true,
+    question: "Co jest cechą tras statycznych?",
     answers: [
       {
-        option: "",
+        option: "Są one ręcznie konfigurowane.",
+        correct: true,
+      },
+      {
+        option: "Trasy te są ogłaszane do bezpośrednio podłączonych sąsiadów.",
         correct: false,
       },
       {
-        option: "",
+        option: "Są odpowiednie, gdy istnieje wiele nadmiarowych łączy.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Automatycznie dostosowują się do zmiany topologii sieci.",
         correct: false,
       },
     ],
   },
   {
     id: 259,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Router można skonfigurować za pomocą kombinacji obu tras, statycznyej i protokołu routingu dynamicznego.",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Prawda",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Fałsz",
         correct: false,
       },
     ],
   },
   {
     id: 260,
-    question: "",
-    //   multi: true,
+    question: "Które polecenie można użyć na hoście Windows do wyświetlenia tablicy routingu?",
     answers: [
       {
-        option: "",
+        option: "Source IP address",
         correct: false,
       },
       {
-        option: "",
+        option: "Destination IP address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Source data-link address",
+        correct: true,
       },
       {
-        option: "",
+        option: "Destination data-link address",
         correct: false,
       },
     ],
   },
   {
     id: 261,
-    question: "",
-    //   multi: true,
+    question: "Które informacje są dodawane w trakcie enkapsulacji w warstwie 3 modelu OSI?",
     answers: [
       {
-        option: "",
+        option: "Źródłowy i docelowy adres MAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Źródłowy i docelowy protokół warstwy aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer portu źródłowego i docelowego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródłowy i docelowy adres IP",
+        correct: true,
       },
     ],
   },
   {
     id: 262,
-    question: "",
-    //   multi: true,
+    question: "Jak warstwa sieciowa używa wartości MTU?",
     answers: [
       {
-        option: "",
+        option: "Aby określić wartość MTU warstwa sieci używa warstw wyższego poziomu.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Aby ustawić wartość MTU oraz dostosować prędkość transmisji do liczby odbieranych danych, warstwa sieci korzysta z warstwy łącza danych.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Wartość pola MTU jest przekazywana do warstwy sieciowej poprzez warstwę łącza danych.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Aby zwiększyć szybkość dostarczania danych, warstwa sieci ignoruje MTU.",
         correct: false,
       },
     ],
   },
   {
     id: 263,
-    question: "",
-    //   multi: true,
+    question:
+      "Router odbiera pakiet z interfejsu Gigabit 0/0 i określa, że pakiet musi zostać przekazany do interfejsu Gigabit 0/1. Co zrobi dalej router?",
     answers: [
       {
-        option: "",
+        option:
+          "IPv6 addresses are based on 128-bit flat addressing as opposed to IPv4 which is based on 32-bit hierarchical addressing.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "The IPv6 header is simpler than the IPv4 header is, which improves packet handling.",
+        correct: true,
+      },
+      {
+        option:
+          "Both IPv4 and IPv6 support authentication, but only IPv6 supports privacy capabilities.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "The IPv6 address space is four times bigger than the IPv4 address space.​",
         correct: false,
       },
     ],
   },
   {
     id: 264,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie dokładnie opisuje charakterystykę IPv4?",
     answers: [
       {
-        option: "",
+        option: "Wszystkie adresy IPv4 mogą być przypisane do hostów.",
         correct: false,
       },
       {
-        option: "",
+        option: "IPv4 ma 32-bitową przestrzeń adresową.",
+        correct: true,
+      },
+      {
+        option: "Nagłówek IPv4 ma mniej pól niż nagłówek IPv6.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "IPv4 natywnie obsługuje protokół IPsec.",
         correct: false,
       },
     ],
   },
   {
     id: 265,
-    question: "",
-    //   multi: true,
+    question:
+      "Gdy router odbiera pakiet, jakie informacje muszą zostać zbadane, aby pakiet został przekazany do odległego miejsca docelowego?",
     answers: [
       {
-        option: "",
+        option: "Docelowy adres MAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Źródłowy adres IP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Docelowy adres IP",
+        correct: true,
       },
       {
-        option: "",
+        option: "Źródłowego adresu MAC",
         correct: false,
       },
     ],
   },
   {
     id: 266,
-    question: "",
-    //   multi: true,
+    question:
+      "Komputer musi wysłać pakiet do hosta docelowego w tej samej sieci LAN. Jak pakiet będzie wysłany?",
     answers: [
       {
-        option: "",
+        option:
+          "Pakiet będzie najpierw wysyłany do bramy domyślnej, a potem w zależności od odpowiedzi z bramy może być przesyłany do docelowego hosta.",
         correct: false,
       },
       {
-        option: "",
+        option: "Pakiet zostanie wysłany bezpośrednio do hosta docelowego.",
+        correct: true,
+      },
+      {
+        option:
+          "Pakiet zostanie najpierw przesłany do bramy domyślnej, a następnie z bramy domyślnej zostanie wysłany bezpośrednio do hosta docelowego.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Pakiet zostanie wysłany tylko do bramy domyślnej.",
         correct: false,
       },
     ],
   },
   {
     id: 267,
-    question: "",
-    //   multi: true,
+    question:
+      "Który adres IPv4 może użyć host do sprawdzenia poleceniem ping interfejsu pętli zwrotnej?",
     answers: [
       {
-        option: "",
+        option:
+          "The IPv6 header is simpler than the IPv4 header is, which improves packet handling.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "IPv6 addresses are based on 128-bit flat addressing as opposed to IPv4 which is based on 32-bit hierarchical addressing.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Both IPv4 and IPv6 support authentication, but only IPv6 supports privacy capabilities.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "The IPv6 address space is four times bigger than the IPv4 address space.​",
+        correct: true,
       },
     ],
   },
   {
     id: 268,
-    question: "",
-    //   multi: true,
+    question:
+      "Gdy protokół bezpołączeniowy jest używany w dolnej warstwie modelu OSI, w jaki sposób utrata danych jest wykrywana i ponownie przesyłana w razie potrzeby?",
     answers: [
       {
-        option: "",
+        option: "Potwierdzenia bezpołączeniowe służą do żądania ponownej transmisji.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Protokoły połączeniowe wyższej warstwy śledzą otrzymane dane i mogą żądać retransmisji z protokołów wyższego poziomu na hoście wysyłającym.",
+        correct: true,
+      },
+      {
+        option:
+          "Protokoły IP warstwy sieciowej zarządzają sesjami komunikacyjnymi, jeśli usługi transportowe połączeniowe nie są dostępne.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Proces dostarczania według najlepszych starań gwarantuje, że wszystkie wysyłane pakiety są odbierane.",
         correct: false,
       },
     ],
   },
   {
     id: 269,
-    question: "",
-    //   multi: true,
+    question: "Jaki był powód tworzenia i wdrażania IPv6?",
     answers: [
       {
-        option: "",
+        option: "To make reading a 32-bit address easier",
         correct: false,
       },
       {
-        option: "",
+        option: "Aby złagodzić wyczerpanie adresu IPv4",
+        correct: true,
+      },
+      {
+        option: "Aby zapewnić więcej miejsca adresowego w rejestrze nazw internetowych",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Aby umożliwić obsługę NAT dla adresowania prywatnego",
         correct: false,
       },
     ],
   },
   {
     id: 270,
-    question: "",
-    //   multi: true,
+    question:
+      "Które informacje są wykorzystywane przez routery do przesyłania pakietów danych w kierunku jego miejsca docelowego?",
     answers: [
       {
-        option: "",
+        option: "Source IP address",
         correct: false,
       },
       {
-        option: "",
+        option: "Destination IP address",
+        correct: true,
+      },
+      {
+        option: "Source data-link address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Destination data-link address",
         correct: false,
       },
     ],
   },
   {
     id: 271,
-    question: "",
-    //   multi: true,
+    question: "Które pole w nagłówku IPv4 typowo pozostaje takie same podczas transmisji?",
     answers: [
       {
-        option: "",
+        option: "Flaga",
         correct: false,
       },
       {
-        option: "",
+        option: "Czas życia (TTL)",
         correct: false,
       },
       {
-        option: "",
+        option: "Długość pakietu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adres docelowy",
+        correct: true,
       },
     ],
   },
   {
     id: 272,
-    question: "",
-    //   multi: true,
+    question:
+      "Które pole w pakiecie IPv6 jest używane przez router do określenia, czy pakiet wygasł i powinien zostać usunięty?",
     answers: [
       {
-        option: "",
+        option: "To make reading a 32-bit address easier",
         correct: false,
       },
       {
-        option: "",
+        option: "Limit przeskoków",
+        correct: true,
+      },
+      {
+        option: "Adres nieosiągalny",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Brak trasy",
         correct: false,
       },
     ],
