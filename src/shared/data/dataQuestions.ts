@@ -4,7 +4,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 2  -->  id: 40-69
 // MODULE 3  -->  id: 70-112
 // MODULE 4  -->  id: 113-150
-// MODULE 5  -->  id:
+// MODULE 5  -->  id: 151-170
 // MODULE 6  -->  id:
 // MODULE 7  -->  id:
 // MODULE 8  -->  id: 240-272
@@ -3265,460 +3265,459 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 151,
-    question: "",
-    //   multi: true,
+    question: "Który to binarny odpowiednik adresu IP 192.168.11.10?",
     answers: [
       {
-        option: "",
+        option: "11000000.11000000.00001011.00001010",
         correct: false,
       },
       {
-        option: "",
+        option: "11000000.10101000.00001011.00001010",
+        correct: true,
+      },
+      {
+        option: "11000000.10101000.00001010.00001011",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "11000000.10101000.00001011.00010010",
         correct: false,
       },
     ],
   },
   {
     id: 152,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych jest binarnym odpowiednikiem adresu IP 172.16.31.30?",
     answers: [
       {
-        option: "",
+        option: "11000000.00010000.00011111.00011110",
         correct: false,
       },
       {
-        option: "",
+        option: "10101000.00010000.00011111.00011110",
         correct: false,
       },
       {
-        option: "",
+        option: "10101100.00010000.00011110.00011110",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "10101100.00010000.00011111.00011110",
+        correct: true,
       },
     ],
   },
   {
     id: 153,
-    question: "",
-    //   multi: true,
+    question: "Co jest szesnastkowym odpowiednikiem 202?",
     answers: [
       {
-        option: "",
+        option: "B10",
         correct: false,
       },
       {
-        option: "",
+        option: "BA",
         correct: false,
       },
       {
-        option: "",
+        option: "C10",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "CA",
+        correct: true,
       },
     ],
   },
   {
     id: 154,
-    question: "",
-    //   multi: true,
+    question: "Co jest szesnastkowym odpowiednikiem 254?",
     answers: [
       {
-        option: "",
+        option: "EA",
         correct: false,
       },
       {
-        option: "",
+        option: "ED",
         correct: false,
       },
       {
-        option: "",
+        option: "FA",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "FE",
+        correct: true,
       },
     ],
   },
   {
     id: 155,
-    question: "",
-    //   multi: true,
+    question: "Co jest dziesiętnym odpowiednikiem A9?",
     answers: [
       {
-        option: "",
+        option: "168",
         correct: false,
       },
       {
-        option: "",
+        option: "169",
+        correct: true,
+      },
+      {
+        option: "170",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "171",
         correct: false,
       },
     ],
   },
   {
     id: 156,
-    question: "",
-    //   multi: true,
+    question: "Które z poniższych jest dziesiętnym odpowiednikiem 7D?",
     answers: [
       {
-        option: "",
+        option: "124",
         correct: false,
       },
       {
-        option: "",
+        option: "125",
+        correct: true,
+      },
+      {
+        option: "126",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "127",
         correct: false,
       },
     ],
   },
   {
     id: 157,
-    question: "",
-    //   multi: true,
+    question:
+      "Która z następujących liczb jest dwójkowym odpowiednikiem dziesiętnej liczby 173?",
     answers: [
       {
-        option: "",
+        option: "10100111",
         correct: false,
       },
       {
-        option: "",
+        option: "10100101",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "10101101",
+        correct: true,
       },
       {
-        option: "",
+        option: "10110101",
         correct: false,
       },
     ],
   },
   {
     id: 158,
-    question: "",
-    //   multi: true,
+    question:
+      "Biorąc pod uwagę adres binarny 11101100 00010001 00001100 00001010, który adres reprezentuje go w formacie dziesiętnym?",
     answers: [
       {
-        option: "",
+        option: "234.17.10.9",
         correct: false,
       },
       {
-        option: "",
+        option: "234.16.12.10",
         correct: false,
       },
       {
-        option: "",
+        option: "236.17.12.6",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "236.17.12.10",
+        correct: true,
       },
     ],
   },
   {
     id: 159,
-    question: "",
-    //   multi: true,
+    question: "Ile cyfr binarnych (bitów) zawiera adres IPv6?",
     answers: [
       {
-        option: "",
+        option: "32",
         correct: false,
       },
       {
-        option: "",
+        option: "48",
         correct: false,
       },
       {
-        option: "",
+        option: "64",
         correct: false,
       },
       {
-        option: "",
+        option: "128",
+        correct: true,
+      },
+      {
+        option: "256",
         correct: false,
       },
     ],
   },
   {
     id: 160,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest binarny odpowiednik liczby dziesiętnej 232?",
     answers: [
       {
-        option: "",
+        option: "11101000",
+        correct: true,
+      },
+      {
+        option: "11000110",
         correct: false,
       },
       {
-        option: "",
+        option: "10011000",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "11110010",
         correct: false,
       },
     ],
   },
   {
     id: 161,
-    question: "",
-    //   multi: true,
+    question: "Które dwa stwierdzenia o adresach IPv4 i IPv6 są prawidłowe?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Adresy IPv6 są reprezentowane przez liczby szesnastkowe.",
+        correct: true,
+      },
+      {
+        option: "Adresy IPv4 są reprezentowane przez liczby szesnastkowe.",
         correct: false,
       },
       {
-        option: "",
+        option: "Adresy IPv6 mają długość 32 bity.",
         correct: false,
       },
       {
-        option: "",
+        option: "Adresy IPv4 mają długość 32 bity.",
+        correct: true,
+      },
+      {
+        option: "Adresy IPv4 mają długość 128 bitów.",
         correct: false,
       },
       {
-        option: "",
+        option: "Adresy IPv6 mają długość 64 bity.",
         correct: false,
       },
     ],
   },
   {
     id: 162,
-    question: "",
-    //   multi: true,
+    question:
+      "Który format adresu IPv4 został stworzony dla łatwości obsługi przez ludzi i jest wyrażony jako 201.192.1.14?",
     answers: [
       {
-        option: "",
+        option: "Binarny",
         correct: false,
       },
       {
-        option: "",
+        option: "Notacja dziesiętna z kropkami",
+        correct: true,
+      },
+      {
+        option: "Szesnastkowy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "ASCII",
         correct: false,
       },
     ],
   },
   {
     id: 163,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jest dziesiętna reprezentacja następującego adresu IPv4 - 11001011.00000000.01110001.11010011?",
     answers: [
       {
-        option: "",
+        option: "192.0.2.199",
         correct: false,
       },
       {
-        option: "",
+        option: "198.51.100.201",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "203.0.113.211",
+        correct: true,
       },
       {
-        option: "",
+        option: "209.165.201.223",
         correct: false,
       },
     ],
   },
   {
     id: 164,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest dziesiętny odpowiednik liczby binarnej 10010101?",
     answers: [
       {
-        option: "",
+        option: "149",
+        correct: true,
+      },
+      {
+        option: "157",
         correct: false,
       },
       {
-        option: "",
+        option: "168",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "192",
         correct: false,
       },
     ],
   },
   {
     id: 165,
-    question: "",
-    //   multi: true,
+    question: "Co jest odpowiednikiem dziesiętnym liczby szesnastkowej 0x3F?",
     answers: [
       {
-        option: "",
+        option: "63",
+        correct: true,
+      },
+      {
+        option: "77",
         correct: false,
       },
       {
-        option: "",
+        option: "87",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "93",
         correct: false,
       },
     ],
   },
   {
     id: 166,
-    question: "",
-    //   multi: true,
+    question:
+      "Co jest dziesiętnym odpowiednikiem adresu IPv4, który jest reprezentowany jako ciąg binarny 00001010.01100100.00010101.00000001?",
     answers: [
       {
-        option: "",
+        option: "10.100.21.1",
+        correct: true,
+      },
+      {
+        option: "10.10.20.1",
         correct: false,
       },
       {
-        option: "",
+        option: "100.10.11.1",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "100.21.10.1",
         correct: false,
       },
     ],
   },
   {
     id: 167,
-    question: "",
-    //   multi: true,
+    question: "Co jest dziesiętnym odpowiednikiem 0xC9?",
     answers: [
       {
-        option: "",
+        option: "185",
         correct: false,
       },
       {
-        option: "",
+        option: "200",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "201",
+        correct: true,
       },
       {
-        option: "",
+        option: "199",
         correct: false,
       },
     ],
   },
   {
     id: 168,
-    question: "",
-    //   multi: true,
+    question: "Która to poprawna liczba szesnastkowa?",
     answers: [
       {
-        option: "",
+        option: "F",
+        correct: true,
+      },
+      {
+        option: "G",
         correct: false,
       },
       {
-        option: "",
+        option: "H",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "J",
         correct: false,
       },
     ],
   },
   {
     id: 169,
-    question: "",
-    //   multi: true,
+    question: "Co jest binarną reprezentacja 0xCA?",
     answers: [
       {
-        option: "",
+        option: "10111010",
         correct: false,
       },
       {
-        option: "",
+        option: "11010101",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "11001010",
+        correct: true,
       },
       {
-        option: "",
+        option: "11011010",
         correct: false,
       },
     ],
   },
   {
     id: 170,
-    question: "",
-    //   multi: true,
+    question: "Ile bitów występuje w adresie IPv4?",
     answers: [
       {
-        option: "",
+        option: "32",
+        correct: true,
+      },
+      {
+        option: "64",
         correct: false,
       },
       {
-        option: "",
+        option: "128",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "256",
         correct: false,
       },
     ],
