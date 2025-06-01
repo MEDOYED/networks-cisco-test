@@ -6,7 +6,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 4  -->  id: 113-150
 // MODULE 5  -->  id: 151-170
 // MODULE 6  -->  id: 152-199
-// MODULE 7  -->  id: 200-
+// MODULE 7  -->  id: 200-224
 // MODULE 8  -->  id: 240-272
 // MODULE 9  -->  id:
 // MODULE 10  -->  id:
@@ -4444,575 +4444,587 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 200,
-    question: "",
-    //   multi: true,
+    question:
+      "Która część ramki Ethernet używa wypełnienia, aby zwiększyć pole ramki do co najmniej 64 bajtów?",
     answers: [
       {
-        option: "",
+        option: "EtherType",
         correct: false,
       },
       {
-        option: "",
+        option: "Preambuła",
         correct: false,
       },
       {
-        option: "",
+        option: "Znacznik początku ramki",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Pole danych",
+        correct: true,
       },
     ],
   },
   {
     id: 201,
-    question: "",
-    //   multi: true,
+    question: "Która część ramki Ethernet wykrywa błędy w ramce?",
     answers: [
       {
-        option: "",
+        option: "Preambuła",
         correct: false,
       },
       {
-        option: "",
+        option: "Znacznik początku ramki",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Suma kontrolna ramki (FCS)",
+        correct: true,
       },
     ],
   },
   {
     id: 202,
-    question: "",
-    //   multi: true,
+    question:
+      "Która część ramki Ethernet opisuje protokół wyższej warstwy, który jest ładunkiem?",
     answers: [
       {
-        option: "",
+        option: "EtherType",
+        correct: true,
+      },
+      {
+        option: "Preambuła",
         correct: false,
       },
       {
-        option: "",
+        option: "Znacznik początku ramki",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Suma kontrolna ramki (FCS)",
         correct: false,
       },
     ],
   },
   {
     id: 203,
-    question: "",
-    //   multi: true,
+    question:
+      "Która część ramki Ethernet powiadamia odbiornik, aby przygotować się do nowej ramki?",
     answers: [
       {
-        option: "",
+        option: "Znacznik początku ramki",
         correct: false,
       },
       {
-        option: "",
+        option: "Suma kontrolna ramki (FCS)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Preambuła",
+        correct: true,
       },
       {
-        option: "",
+        option: "Pole danych",
         correct: false,
       },
     ],
   },
   {
     id: 204,
-    question: "",
-    //   multi: true,
+    question:
+      "Która podwarstwa łącza danych steruje interfejsem sieciowym poprzez sterowniki?",
     answers: [
       {
-        option: "",
+        option: "MAC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "LLC",
+        correct: true,
       },
     ],
   },
   {
     id: 205,
-    question: "",
-    //   multi: true,
+    question:
+      "Która podwarstwa łącza danych współpracuje z górnymi warstwami w celu dodania informacji o aplikacji w celu dostarczenia danych do protokołów wyższego poziomu?",
     answers: [
       {
-        option: "",
+        option: "MAC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "LLC",
+        correct: true,
       },
     ],
   },
   {
     id: 206,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest funkcja podwarstwy MAC? (Wybierz trzy odpowiedzi).",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Kontrola dostępu danych do medium",
+        correct: true,
+      },
+      {
+        option: "Sprawdza błędy w odebranych bitach",
+        correct: true,
+      },
+      {
+        option:
+          "Wykorzystuje CSMA/CD lub CSMA/CA do obsługi technologii Ethernet",
+        correct: true,
+      },
+      {
+        option:
+          "Komunikuje się między oprogramowaniem w wyższych warstwach a sprzętem urządzenia w niższych warstwach",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Pozwala wielu protokołom warstwy 3 korzystać z tego samego interfejsu sieciowego i nośnika",
         correct: false,
       },
     ],
   },
   {
     id: 207,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie są dwie metody przełączania danych między portami na przełączniku? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Cut-off",
         correct: false,
       },
       {
-        option: "",
+        option: "Cut-through",
+        correct: true,
+      },
+      {
+        option: "Store-and-forward",
+        correct: true,
+      },
+      {
+        option: "Store-and-supply",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Store-and-restore",
         correct: false,
       },
     ],
   },
   {
     id: 208,
-    question: "",
-    //   multi: true,
+    question:
+      "Którą metodę przełączania można zaimplementować za pomocą przełączania fast-forward lub fragment-free?",
     answers: [
       {
-        option: "",
+        option: "Cut-off",
         correct: false,
       },
       {
-        option: "",
+        option: "Cut-through",
+        correct: true,
+      },
+      {
+        option: "Store-and-forward",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Store-and-restore",
         correct: false,
       },
     ],
   },
   {
     id: 209,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa rodzaje technik buforowania pamięci są używane przez przełączniki? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Buforowanie pamięci długoterminowej",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Buforowanie oparte na portach",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Buforowanie w pamięci współdzielonej",
+        correct: true,
       },
       {
-        option: "",
+        option: "Buforowanie pamięci krótkoterminowej",
         correct: false,
       },
     ],
   },
   {
     id: 210,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka funkcja automatycznie negocjuje najlepsze ustawienia prędkości i dupleksu między urządzeniami łączącymi?",
     answers: [
       {
-        option: "",
+        option: "Auto-MDIX",
         correct: false,
       },
       {
-        option: "",
+        option: "Autoboty",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Autonegocjacja",
+        correct: true,
       },
       {
-        option: "",
+        option: "Autotune",
         correct: false,
       },
     ],
   },
   {
     id: 211,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie cechy opisują technologię Ethernet? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Jest wspierana przez standardy IEEE 802.3",
+        correct: true,
+      },
+      {
+        option: "Jest wspierana przez standardy IEEE 802.5",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Zwykle używa średniej prędkości przesyłu danych równej 16 Mb/s",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Stosuje metodę kontroli dostępu CSMA/CD",
+        correct: true,
       },
       {
-        option: "",
+        option: "It uses a ring topology",
         correct: false,
       },
     ],
   },
   {
     id: 212,
-    question: "",
-    //   multi: true,
+    question: "Jakie stwierdzenie opisuje cechę adresów MAC?",
     answers: [
       {
-        option: "",
+        option: "Muszą być unikalne na całym świecie.",
+        correct: true,
+      },
+      {
+        option: "Są one routowane tylko w sieci prywatnej.",
         correct: false,
       },
       {
-        option: "",
+        option: "Są one dodawane jako część jedostki PDU warstwy 3.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Mają 32-bitową wartość binarną.",
         correct: false,
       },
     ],
   },
   {
     id: 213,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jest wartość specjalna przypisana do pierwszych 24 bitów multicastowego adresu MAC?",
     answers: [
       {
-        option: "",
+        option: "01-5E-00",
         correct: false,
       },
       {
-        option: "",
+        option: "FF-00-5E",
         correct: false,
       },
       {
-        option: "",
+        option: "FF-FF-FF",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "01-00-5E",
+        correct: true,
       },
     ],
   },
   {
     id: 214,
-    question: "",
-    //   multi: true,
+    question:
+      "Co zrobi host w sieci Ethernet jeżeli otrzyma ramkę z adresem MAC przeznaczenia (docelowym), który nie pasuje do jego własnego adresu MAC?",
     answers: [
       {
-        option: "",
+        option: "Odrzuci ramkę.",
+        correct: true,
+      },
+      {
+        option: "Przekaże ramkę do następnego hosta.",
         correct: false,
       },
       {
-        option: "",
+        option: "Usunie ramkę z medium.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Zdejmie ramkę łącza danych aby sprawdzić docelowy adres IP.",
         correct: false,
       },
     ],
   },
   {
     id: 215,
-    question: "",
-    //   multi: true,
+    question:
+      "Które urządzenie sieciowe podejmuje decyzję o przekazaniu ramki na podstawie docelowego adresu MAC, który jest zawarty w ramce?",
     answers: [
       {
-        option: "",
+        option: "Wtórnik",
         correct: false,
       },
       {
-        option: "",
+        option: "Koncentrator",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Przełącznik",
+        correct: true,
       },
       {
-        option: "",
+        option: "Router",
         correct: false,
       },
     ],
   },
   {
     id: 216,
-    question: "",
-    //   multi: true,
+    question:
+      "Które urządzenie sieciowe ma podstawową funkcję wysyłania danych do określonego miejsca docelowego na podstawie informacji znajdujących się w tablicy adresów MAC?",
     answers: [
       {
-        option: "",
+        option: "Koncentrator",
         correct: false,
       },
       {
-        option: "",
+        option: "Router",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Przełącznik",
+        correct: true,
       },
       {
-        option: "",
+        option: "Modem",
         correct: false,
       },
     ],
   },
   {
     id: 217,
-    question: "",
-    //   multi: true,
+    question:
+      "Która funkcja lub operacja jest wykonywana przez podwarstwę LLC?",
     answers: [
       {
-        option: "",
+        option: "Wykonuje enkapsulację danych.",
         correct: false,
       },
       {
-        option: "",
+        option: "Komunikuje się z górnymi warstwami protokołu.",
+        correct: true,
+      },
+      {
+        option: "Jest ona odpowiedzialna za kontrolę dostępu do nośnika.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Dodaje nagłówek i stopkę w celu utworzenia jednostki PDU w warstwie 2 modelu OSI.",
         correct: false,
       },
     ],
   },
   {
     id: 218,
-    question: "",
-    //   multi: true,
+    question:
+      "Co dzieje się z karłowatą ramką odbieraną przez przełącznik Cisco Ethernet?",
     answers: [
       {
-        option: "",
+        option: "Ramka jest odrzucona.",
+        correct: true,
+      },
+      {
+        option: "Rama jest zwracana do źródłowego urządzenia sieciowego.",
         correct: false,
       },
       {
-        option: "",
+        option: "Ramka jest rozgłaszana do wszystkich urządzeń w sieci.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Ramka jest wysyłana do bramy domyślnej.",
         correct: false,
       },
     ],
   },
   {
     id: 219,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie informacje adresowe są rejestrowane przez przełącznik by zbudować swoją tablicę adresów MAC?",
     answers: [
       {
-        option: "",
+        option: "Docelowy adres warstwy 3 przychodzących pakietów",
         correct: false,
       },
       {
-        option: "",
+        option: "Docelowy adres warstwy 2 wychodzących ramek",
         correct: false,
       },
       {
-        option: "",
+        option: "Źródłowy adres warstwy 3 pakietów wychodzących",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródłowy adres warstwy 2 przychodzących ramek",
+        correct: true,
       },
     ],
   },
   {
     id: 220,
-    question: "",
-    //   multi: true,
+    question: "Co to jest Auto-MDIX?",
     answers: [
       {
-        option: "",
+        option: "Typ przełącznika Cisco",
         correct: false,
       },
       {
-        option: "",
+        option: "Typ złącza Ethernet",
         correct: false,
       },
       {
-        option: "",
+        option: "Typ portu na przełączniku Cisco",
         correct: false,
       },
       {
-        option: "",
+        option: "Funkcja wykrywająca typ kabla Ethernet",
         correct: false,
       },
     ],
   },
   {
     id: 221,
-    question: "",
-    //   multi: true,
+    question: "Co to za typ adresu adresu 01-00-5E-0A-00-02?",
     answers: [
       {
-        option: "",
+        option:
+          "Adres, do którego mają dostęp wszystkie hosty wewnątrz lokalnej podsieci",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres, do którego ma dostęp jeden host",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres, do którego mają dostęp wszystkie hosty w sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Adres, do którego mają dostęp hosty należące do pewnej grupy hostów",
+        correct: true,
       },
     ],
   },
   {
     id: 222,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie o adresach MAC jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "Adresy MAC są implementowane przez oprogramowanie.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Karta sieciowa potrzebuje tylko adresu MAC, jeśli podłączona jest do sieci WAN.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Pierwsze trzy bajty użyte są przez producenta przypisującego identyfikator OUI.",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Organizacja ISO odpowiedzialna jest za regulacje dotyczące adresów MAC.",
         correct: false,
       },
     ],
   },
   {
     id: 223,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie są dwa rozmiary (minimalne i maksymalne) ramki Ethernet? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "56 bajty",
         correct: false,
       },
       {
-        option: "",
+        option: "64 bajty",
+        correct: true,
+      },
+      {
+        option: "128 bajty",
         correct: false,
       },
       {
-        option: "",
+        option: "1024 bajty",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "1518 bajty",
+        correct: true,
       },
     ],
   },
   {
     id: 224,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie funkcje lub operacje są wykonywane przez podwarstwę MAC? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Jest ona odpowiedzialna za kontrolę dostępu do nośnika.",
+        correct: true,
+      },
+      {
+        option: "Pełni funkcję oprogramowania sterownika karty sieciowej.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Dodaje nagłówek i pole końcowe (trailer) w celu utworzenia PDU w warstwie 2 modelu OSI.",
+        correct: true,
+      },
+      {
+        option: "Obsługuje komunikację pomiędzy górnymi i dolnymi warstwami.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Dodaje informacje sterujące do danych warstwy protokołu sieci.",
         correct: false,
       },
     ],
