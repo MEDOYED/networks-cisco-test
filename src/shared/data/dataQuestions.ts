@@ -5,8 +5,8 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 3  -->  id: 70-112
 // MODULE 4  -->  id: 113-150
 // MODULE 5  -->  id: 151-170
-// MODULE 6  -->  id:
-// MODULE 7  -->  id:
+// MODULE 6  -->  id: 152-199
+// MODULE 7  -->  id: 200-
 // MODULE 8  -->  id: 240-272
 // MODULE 9  -->  id:
 // MODULE 10  -->  id:
@@ -3724,667 +3724,720 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 171,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest inna nazwa warstwy łącza danych OSI?",
     answers: [
       {
-        option: "",
+        option: "Warstwa 1",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa 2",
+        correct: true,
+      },
+      {
+        option: "Warstwa 3",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Warstwa 6",
         correct: false,
       },
     ],
   },
   {
     id: 172,
-    question: "",
-    //   multi: true,
+    question:
+      "Warstwa łącza danych IEEE 802 LAN/MAN składa się z jakich dwóch podwarstw?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Network Control Protocol",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Logical Link Control",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Media Access Control",
+        correct: true,
       },
       {
-        option: "",
+        option: "Link Control Protocol",
         correct: false,
       },
     ],
   },
   {
     id: 173,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest odpowiedzialność podwarstwy MAC?",
     answers: [
       {
-        option: "",
+        option: "Dodaje adresy warstwy 3 do ramki",
         correct: false,
       },
       {
-        option: "",
+        option: "Komunikuje się z warstwą sieciową (warstwa 3)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Udostępnia metodę propagowania ramki do i odbierania z medium",
+        correct: true,
       },
       {
-        option: "",
+        option: "Przesyła bity w medium",
         correct: false,
       },
     ],
   },
   {
     id: 174,
-    question: "",
-    //   multi: true,
+    question: "Które funkcje warstwy 2 wykonuje router?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Przejmuje ramkę z medium",
+        correct: true,
+      },
+      {
+        option: "Dokonuje dekapsulacji ramki",
+        correct: true,
+      },
+      {
+        option:
+          "Odwołuje się do tabeli routingu warstwy 3 dla pasującej sieci docelowej",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Ponownie enkapsuluje pakiet do nowej ramki",
+        correct: true,
       },
     ],
   },
   {
     id: 175,
-    question: "",
-    //   multi: true,
+    question:
+      "Zastosowana metoda kontroli dostępu do mediów zależy od których dwóch kryteriów?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Protokół IP warstwy 3",
         correct: false,
       },
       {
-        option: "",
+        option: "Współdzielenie medium",
+        correct: true,
+      },
+      {
+        option: "Topologia",
+        correct: true,
+      },
+      {
+        option: "Protokół warstwy transportu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Rodzaj danych",
         correct: false,
       },
     ],
   },
   {
     id: 176,
-    question: "",
-    //   multi: true,
+    question:
+      "Która organizacja definiuje standardy dla warstwy dostępu do sieci (tj. warstwy fizycznej OSI i łącza danych)?",
     answers: [
       {
-        option: "",
+        option: "Cisco",
         correct: false,
       },
       {
-        option: "",
+        option: "IANA",
         correct: false,
       },
       {
-        option: "",
+        option: "EEE",
         correct: false,
       },
       {
-        option: "",
+        option: "IETF",
         correct: false,
       },
     ],
   },
   {
     id: 177,
-    question: "",
-    //   multi: true,
+    question: "Która topologia wyświetla adresy IP warstwy sieciowej urządzeń?",
     answers: [
       {
-        option: "",
+        option: "Topologia lotnicza",
         correct: false,
       },
       {
-        option: "",
+        option: "Topologia adresacji IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Topologia logiczna",
         correct: false,
       },
       {
-        option: "",
+        option: "Topologia fizyczna",
         correct: false,
       },
     ],
   },
   {
     id: 178,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakiego rodzaju sieć wykorzystuje topologie typu punkt-punkt, hub and spoke lub siatki?",
     answers: [
       {
-        option: "",
+        option: "PAN",
         correct: false,
       },
       {
-        option: "",
+        option: "LAN",
         correct: false,
       },
       {
-        option: "",
+        option: "WLAN",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "WAN",
+        correct: true,
       },
     ],
   },
   {
     id: 179,
-    question: "",
-    //   multi: true,
+    question: "Która topologia sieci LAN jest topologią hybrydową?",
     answers: [
       {
-        option: "",
+        option: "Magistrali",
         correct: false,
       },
       {
-        option: "",
+        option: "Rozszerzonej gwiazdy",
+        correct: true,
+      },
+      {
+        option: "Pierścienia",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Gwiazdy",
         correct: false,
       },
     ],
   },
   {
     id: 180,
-    question: "",
-    //   multi: true,
+    question: "Która metoda komunikacji duplex jest stosowana w sieci WLAN?",
     answers: [
       {
-        option: "",
+        option: "Pełny dupleks",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Półdupleks",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Simpleks",
         correct: false,
       },
     ],
   },
   {
     id: 181,
-    question: "",
-    //   multi: true,
+    question:
+      "Która metoda kontroli dostępu do mediów jest stosowana w starszych sieciach sieciowych Ethernet?",
     answers: [
       {
-        option: "",
+        option: "Wielodostęp z wykrywaniem nośnej i złośliwymi kolizjami",
         correct: false,
       },
       {
-        option: "",
+        option: "Wielodostęp z wykrywaniem nośnej i unikaniem kolizji",
         correct: false,
       },
       {
-        option: "",
+        option: "Wielodostęp z wykrywaniem nośnej i detstrukcją kolizji",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Wielodostęp z wykrywaniem nośnej i detekcją kolizji",
+        correct: true,
       },
     ],
   },
   {
     id: 182,
-    question: "",
-    //   multi: true,
+    question:
+      "Co dodaje warstwa łącza danych do pakietu warstwy 3, aby utworzyć ramkę? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Flagi",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer sekwencyjny",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Nagłówek",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Stopkę",
+        correct: true,
       },
     ],
   },
   {
     id: 183,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest funkcja ostatniego pola w ramce warstwy łącza danych?",
     answers: [
       {
-        option: "",
+        option: "Aby ustalić, czy w ramce wystąpiły błędy transmisji",
+        correct: true,
+      },
+      {
+        option:
+          "Aby zidentyfikować specjalne usługi kontroli przepływu, takie jak jakość usług (QoS)",
         correct: false,
       },
       {
-        option: "",
+        option: "Aby zidentyfikować początkową i końcową granicę ramki",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Aby zidentyfikować protokół warstwy 3 w polu danych",
         correct: false,
       },
     ],
   },
   {
     id: 184,
-    question: "",
-    //   multi: true,
+    question:
+      "Która lista zawiera pola adresu warstwy 2 i warstwy 3 w odpowiedniej kolejności?",
     answers: [
       {
-        option: "",
+        option:
+          "Docelowy adres karty sieciowej, źródłowy adres karty sieciowej, źródłowy adres IP, docelowy adres IP",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Źródłowy adres karty sieciowej, docelowy adres karty sieciowej, źródłowy adres IP, docelowy adres IP",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Docelowy adres karty sieciowej, źródłowy adres karty sieciowej, docelowy adres IP, źródłowy adres IP",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Źródłowy adres karty sieciowej, docelowy adres karty sieciowej, docelowy adres IP, źródłowy adres IP",
         correct: false,
       },
     ],
   },
   {
     id: 185,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych są protokołami warstwy łącza danych? (Wybierz trzy odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "802.11",
+        correct: true,
+      },
+      {
+        option: "Ethernet",
+        correct: true,
+      },
+      {
+        option: "IP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "PPP",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "UDP",
         correct: false,
       },
     ],
   },
   {
     id: 186,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki identyfikator jest używany w warstwie łącza danych do jednoznacznej identyfikacji urządzenia Ethernet?",
     answers: [
       {
-        option: "",
+        option: "Adres IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres MAC",
+        correct: true,
+      },
+      {
+        option: "Numer sekwencyjny",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer portu TCP",
         correct: false,
       },
       {
-        option: "",
+        option: "Numery portu UDP",
         correct: false,
       },
     ],
   },
   {
     id: 187,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
     answers: [
       {
-        option: "",
+        option: "Dołączony kabel Ethernet",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres MAC",
+        correct: true,
+      },
+      {
+        option: "Port RJ-45",
         correct: false,
       },
       {
-        option: "",
+        option: "Stos protokołó TCP/IP",
         correct: false,
       },
     ],
   },
   {
     id: 188,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie organizacje inżynierskie definiują otwarte standardy i protokoły, które mają zastosowanie do warstwy łącza danych? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Institute of Electrical and Electronics Engineers (IEEE)",
+        correct: true,
+      },
+      {
+        option: "Internet Assigned Numbers Authority (IANA)",
         correct: false,
       },
       {
-        option: "",
+        option: "International Telecommunication Union (ITU)",
+        correct: true,
+      },
+      {
+        option: "Electronic Industries Alliance (EIA)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Internet Society (ISOC)",
         correct: false,
       },
     ],
   },
   {
     id: 189,
-    question: "",
-    //   multi: true,
+    question:
+      "Wybierz prawdziwe zdanie dotyczące topologii logicznych i fizycznych?",
     answers: [
       {
-        option: "",
+        option:
+          "Topologia logiczna jest zawsze taka sama jak topologia fizyczna.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Topologie fizyczne skupiają się na sposobie przesyłania ramek przez sieć.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Topologie fizyczne przedstawiają schemat adresowania IP każdej sieci.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Topologie logiczne odnoszą się do sposobu przesyłania danych między urządzeniami.",
+        correct: true,
       },
     ],
   },
   {
     id: 190,
-    question: "",
-    //   multi: true,
+    question:
+      "Która metoda jest używana do zarządzania dostępem do sieci bezprzewodowej opartej o rywalizację?",
     answers: [
       {
-        option: "",
+        option: "CSMA/CD",
         correct: false,
       },
       {
-        option: "",
+        option: "Kolejkowanie priorytetowe",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "CSMA/CA",
+        correct: true,
       },
       {
-        option: "",
+        option: "Przekazywanie tokenu",
         correct: false,
       },
     ],
   },
   {
     id: 191,
-    question: "",
-    //   multi: true,
+    question:
+      "Technik został poproszony o stworzenie fizycznej topologii sieci, która zapewni wysoki poziom nadmiarowości. Która topologia fizyczna wymaga, by każdy węzeł został połączony z każdym innym węzłem w sieci?",
     answers: [
       {
-        option: "",
+        option: "Magistrali",
         correct: false,
       },
       {
-        option: "",
+        option: "Hierarchiczna",
         correct: false,
       },
       {
-        option: "",
+        option: "Siatki",
+        correct: true,
+      },
+      {
+        option: "Pierścienia",
         correct: false,
       },
       {
-        option: "",
+        option: "Gwiazdy",
         correct: false,
       },
     ],
   },
   {
     id: 192,
-    question: "",
-    //   multi: true,
+    question:
+      "Które stwierdzenie opisuje tryb półdupleksu w transmisji danych?",
     answers: [
       {
-        option: "",
+        option:
+          "Dane przesyłane przez sieć mogą płynąć tylko w jednym kierunku.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Dane przesyłane przez sieć przepływają w jednym kierunku naraz.",
+        correct: true,
+      },
+      {
+        option:
+          "Dane przesyłane przez sieć przepływają w jednym kierunku do wielu różnych miejsc jednocześnie.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Dane przesyłane przez sieć przepływają w obu kierunkach jednocześnie.",
         correct: false,
       },
     ],
   },
   {
     id: 193,
-    question: "",
-    //   multi: true,
+    question: "Jaką rolę pełni podwarstwa Logical Link Control (LLC)?",
     answers: [
       {
-        option: "",
+        option:
+          "Definiowanie procesów dostępu do mediów, które są wykonywane przez sprzęt",
         correct: false,
       },
       {
-        option: "",
+        option: "Zapewnianie adresowania dla warstwy łącza danych",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Określenie protokołu używanego przez warstwę sieciową",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Akceptowanie segmentów i pakowanie ich do jednostek danych nazywanych pakietami",
         correct: false,
       },
     ],
   },
   {
     id: 194,
-    question: "",
-    //   multi: true,
+    question:
+      "Której metody kontroli dostępu warstwy łącza danych używa Ethernet?",
     answers: [
       {
-        option: "",
+        option: "CSMA/CD",
+        correct: true,
+      },
+      {
+        option: "Deterministycznej",
         correct: false,
       },
       {
-        option: "",
+        option: "Włączania się",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Przekazywanie tokenu",
         correct: false,
       },
     ],
   },
   {
     id: 195,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie są dwie podwarstwy warstwy łącza danych modelu OSI? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Internetu",
         correct: false,
       },
       {
-        option: "",
+        option: "Fizyczna",
         correct: false,
       },
       {
-        option: "",
+        option: "LLC",
+        correct: true,
+      },
+      {
+        option: "Transportu",
         correct: false,
       },
       {
-        option: "",
+        option: "MAC",
+        correct: true,
+      },
+      {
+        option: "Dostępu do sieci",
         correct: false,
       },
     ],
   },
   {
     id: 196,
-    question: "",
-    //   multi: true,
+    question:
+      "Która warstwa modelu OSI odpowiedzialna jest za określenie metody enkapsulacji zastosowanej dla konkretnego rodzaju medium transmisji?",
     answers: [
       {
-        option: "",
+        option: "Aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Transportu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Łącza danych",
+        correct: true,
       },
       {
-        option: "",
+        option: "Fizyczna",
         correct: false,
       },
     ],
   },
   {
     id: 197,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki rodzaj fizycznej topologii można stworzyć poprzez podłączenie wszystkich kabli Ethernet do urządzenia centralnego?",
     answers: [
       {
-        option: "",
+        option: "Magistrali",
         correct: false,
       },
       {
-        option: "",
+        option: "Pierścienia",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Gwiazdy",
+        correct: true,
       },
       {
-        option: "",
+        option: "Siatki",
         correct: false,
       },
     ],
   },
   {
     id: 198,
-    question: "",
-    //   multi: true,
+    question:
+      "Które to dwie usługi wykonywane przez warstwę łącza danych modelu OSI? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Szyfruje dane.",
         correct: false,
       },
       {
-        option: "",
+        option: "Określa trasę do przesłania pakietów.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Akceptuje pakiety warstwy 3 i enkapsuluje je w ramki.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Zapewnia kontrolę dostępu do multimediów i wykrywa błędy.",
+        correct: true,
+      },
+      {
+        option:
+          "It monitors the Layer 2 communication by building a MAC address table.",
         correct: false,
       },
     ],
   },
   {
     id: 199,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
     answers: [
       {
-        option: "",
+        option: "Dołączony kabel Ethernet",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres MAC",
+        correct: true,
+      },
+      {
+        option: "Port RJ-45",
         correct: false,
       },
       {
-        option: "",
+        option: "Stos protokołó TCP/IP",
         correct: false,
       },
     ],
