@@ -8,7 +8,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 6  -->  id:
 // MODULE 7  -->  id:
 // MODULE 8  -->  id: 240-272
-// MODULE 9  -->  id:
+// MODULE 9  -->  id: 273-297
 // MODULE 10  -->  id:
 // MODULE 11  -->  id:
 // MODULE 12  -->  id:
@@ -6263,578 +6263,578 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
+  // modul 9
   {
     id: 273,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki docelowy adres MAC zostanie uwzględniony w ramce wysłanej z urządzenia źródłowego do urządzenia docelowego w tej samej sieci lokalnej?",
     answers: [
       {
-        option: "",
+        option: "Adres rozgłoszeniowy MAC FF-FF-FF-FF-FF-FF",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adres MAC urządzenia docelowego",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Adres MAC interfejsu routera lokalnego",
         correct: false,
       },
     ],
   },
   {
     id: 274,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki docelowy adres MAC zostanie uwzględniony w ramce wysyłanej z urządzenia źródłowego do urządzenia docelowego w zdalnej sieci lokalnej?",
     answers: [
       {
-        option: "",
+        option: "Adres rozgłoszeniowy MAC FF-FF-FF-FF-FF-FF",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres MAC urządzenia docelowego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Adres MAC interfejsu routera lokalnego",
+        correct: true,
       },
     ],
   },
   {
     id: 275,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie dwa protokoły są używane do określania adresu MAC znanego adresu IP urządzenia docelowego (IPv4 i IPv6)?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "DHCP",
         correct: false,
       },
       {
-        option: "",
+        option: "ARP",
+        correct: true,
+      },
+      {
+        option: "DNS",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "ND",
+        correct: true,
       },
     ],
   },
+
   {
     id: 276,
-    question: "",
-    //   multi: true,
+    question: "Jakie dwie funkcje są zapewniane przez ARP? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Utrzymuje tablicę przypisań adresów IPv4 do nazw domen",
         correct: false,
       },
       {
-        option: "",
+        option: "Utrzymuje tablicę mapowania IPv4 do MAC",
+        correct: true,
+      },
+      {
+        option: "Utrzymuje tablicę mapowania IPv6 do MAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Odwzorowuje adresy IPv4 na nazwy domen",
         correct: false,
       },
       {
-        option: "",
+        option: "Odwzorowuje adresy IPv4 na adresy MAC",
+        correct: true,
+      },
+      {
+        option: "Odwzorowuje adresy IPv6 na adresy MAC",
         correct: false,
       },
     ],
   },
   {
     id: 277,
-    question: "",
-    //   multi: true,
+    question: "Gdzie jest przechowywana tabela ARP na urządzeniu?",
     answers: [
       {
-        option: "",
+        option: "Pamięci ROM",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć flash",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć NVRAM",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Pamięć RAM",
+        correct: true,
       },
     ],
   },
   {
     id: 278,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie jest prawdziwe o ARP?",
     answers: [
       {
-        option: "",
+        option: "Pamięć podręczna ARP nie może zostać ręcznie usunięta.",
         correct: false,
       },
       {
-        option: "",
+        option: "Wpisy ARP są buforowane na stałe.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Wpisy ARP są buforowane tymczasowo.",
+        correct: true,
       },
     ],
   },
   {
     id: 279,
-    question: "",
-    //   multi: true,
+    question: "Które polecenie może być użyte na routerze Cisco do wyświetlenia tablicy ARP?",
     answers: [
       {
-        option: "",
+        option: "arp -a",
         correct: false,
       },
       {
-        option: "",
+        option: "arp -d",
         correct: false,
       },
       {
-        option: "",
+        option: "show arp table",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "show ip arp",
+        correct: true,
       },
     ],
   },
   {
     id: 280,
-    question: "",
-    //   multi: true,
+    question: "Który to atak za pomocą ARP?",
     answers: [
       {
-        option: "",
+        option: "Broadcast ARP",
         correct: false,
       },
       {
-        option: "",
+        option: "Skoki ARP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Zatruwanie ARP",
+        correct: true,
       },
       {
-        option: "",
+        option: "Zagłodzenie ARP",
         correct: false,
       },
     ],
   },
+
   {
     id: 281,
-    question: "",
-    //   multi: true,
+    question: "Które dwa komunikaty ICMPv6 są używane w SLAAC?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Neighbor Advertisement",
         correct: false,
       },
       {
-        option: "",
+        option: "Neighbor Solicitation",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Powiadomienie, że router jest",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Router solicitation",
+        correct: true,
       },
     ],
   },
   {
     id: 282,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa komunikaty ICMPv6 są używane w celu określenia adresu MAC znanego adresu IPv6?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Neighbor Advertisement",
+        correct: true,
+      },
+      {
+        option: "Neighbor Solicitation",
+        correct: true,
+      },
+      {
+        option: "Router Advertisement",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Router Solicitation",
         correct: false,
       },
     ],
   },
   {
     id: 283,
-    question: "",
-    //   multi: true,
+    question: "Na jaki adres wysyłane są komunikaty ICMPv6 NS?",
     answers: [
       {
-        option: "",
+        option: "Unicast",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Multicast",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Broadcast",
         correct: false,
       },
     ],
   },
+
   {
     id: 284,
-    question: "",
-    //   multi: true,
+    question:
+      "Który element routera przechowuje tablicę routingu, pamięć podręczną ARP oraz plik konfiguracji bieżącej?",
     answers: [
       {
-        option: "",
+        option: "Pamięć RAM",
+        correct: true,
+      },
+      {
+        option: "It broadcasts the frame out of all ports on the switch.",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć NVRAM",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Pamięci ROM",
         correct: false,
       },
     ],
   },
   {
     id: 285,
-    question: "",
-    //   multi: true,
+    question: "Jaki rodzaj informacji znajduje się w tablicy ARP?",
     answers: [
       {
-        option: "",
+        option: "Porty przełącznika skojarzone z docelowymi adresami MAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Mapowanie nazw domen na adresy IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Trasy do dotarcia do sieci docelowych",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Mapowanie adresów IP na adresy MAC",
+        correct: true,
       },
     ],
   },
   {
     id: 286,
-    question: "",
-    //   multi: true,
+    question:
+      "Komputer jest skonfigurowany do automatycznego uzyskiwania adresu IP z sieci 192.168.1.0/24. Administrator sieci wydaje polecenie arp -a i zauważa pozycję 192.168.1.255 ff-ff-ff-ff-ff-ff. Które stwierdzenie opisuje ten wpis?",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "To jest wpis statyczny.",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "To jest wpis dynamiczny.",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
+        option: "To jest wpis dodany przez PC samodzielnie.",
+        correct: false, // no this
       },
       {
-        option: "",
+        option: "To jest wpis mapowania dla bramy domyślnej.",
         correct: false,
       },
     ],
   },
   {
     id: 287,
-    question: "",
-    //   multi: true,
+    question:
+      "Analityk cyberbezpieczeństwa uważa, że atakujący fałszuje adres MAC bramy domyślnej, aby wykonać atak man-in-the-middle. Jakiego polecenia powinien użyć analityk, aby wyświetlić adres MAC, z którego korzysta host, aby dotrzeć do domyślnej bramy?",
     answers: [
       {
-        option: "",
+        option: "Obtaining an IPv4 address automatically",
+        correct: false, // no this
+      },
+      {
+        option: "Mapping a domain name to its IP address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Resolving an IPv4 address to a MAC address",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Maintaining a table of domain names with their resolved IP addresses",
         correct: false,
       },
     ],
   },
   {
     id: 288,
-    question: "",
-    //   multi: true,
+    question:
+      "Co zrobi przełącznik warstwy drugiej jeżeli docelowy adres MAC w otrzymanej ramce nie znajduje się w tablicy MAC?",
     answers: [
       {
-        option: "",
+        option: "Zainicjuje zapytanie ARP.",
         correct: false,
       },
       {
-        option: "",
+        option: "It broadcasts the frame out of all ports on the switch.",
         correct: false,
       },
       {
-        option: "",
+        option: "Poinformuje hosta, który wysłał ramkę, że ramka nie zostanie dostarczona.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Przekaże ramkę na wszystkie porty z wyjątkiem portu na który otrzymał ramkę.",
+        correct: true,
       },
     ],
   },
   {
     id: 289,
-    question: "",
-    //   multi: true,
+    question: "Co jest funkcją ARP?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Odwzorowanie adresów MAC na adresy IPv4",
+        correct: true,
+      },
+      {
+        option: "Odwzorowanie adresów portów na adresy MAC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Odwzorowanie adresów MAC na adresy portów",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
+        option: "Odwzorowanie adresów IPv4 na adresy MAC",
+        correct: true, // true 100%
       },
       {
-        option: "",
-        correct: false,
+        option: "Echo request",
+        correct: false, // no this
       },
     ],
   },
   {
     id: 290,
-    question: "",
-    //   multi: true,
+    question: "W jaki sposób proces ARP wykorzystuje adres IP?",
     answers: [
       {
-        option: "",
+        option: "W celu ustalenia adresu MAC zdalnego hosta docelowego",
         correct: false,
       },
       {
-        option: "",
+        option: "W celu ustalenia adresu MAC urządzenia w tej samej sieci",
+        correct: true,
+      },
+      {
+        option:
+          "Aby określić czas, jaki pakiet zajmuje podczas podróży ze źródła do miejsca docelowego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Aby określić numer sieci na podstawie liczby bitów w adresie IP",
         correct: false,
       },
     ],
   },
   {
     id: 291,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest jedna funkcja protokołu ARP?",
     answers: [
       {
-        option: "",
+        option: "Obtaining an IPv4 address automatically",
         correct: false,
       },
       {
-        option: "",
+        option: "Mapping a domain name to its IP address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Resolving an IPv4 address to a MAC address",
+        correct: true,
       },
       {
-        option: "",
+        option: "Maintaining a table of domain names with their resolved IP addresses",
         correct: false,
       },
     ],
   },
   {
     id: 292,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie operacje wykona przełącznik warstwy 2, gdy odbierze ramkę rozgłoszeniową warstwy 2?",
     answers: [
       {
-        option: "",
+        option: "Odrzuca ramkę.",
         correct: false,
       },
       {
-        option: "",
+        option: "Wysyła ramkę do wszystkich portów z wyjątkiem portu, z którego otrzymał ramkę.",
+        correct: true,
+      },
+      {
+        option:
+          "Wysyła ramkę do wszystkich portów, które są zarejestrowane dla przekazywania transmisji rozgłoszeniowych.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wysyła ramkę do wszystkich portów.",
         correct: false,
       },
     ],
   },
   {
     id: 293,
-    question: "",
-    //   multi: true,
+    question: "Jakie adresy są mapowane przez ARP?",
     answers: [
       {
-        option: "",
+        option: "Docelowy adres MAC na docelowy adres IPv4",
+        correct: true,
+      },
+      {
+        option: "Docelowy adres IPv4 na źródłowy adres MAC",
+        correct: false, // no this
+      },
+      {
+        option: "Docelowy adres IPv4 na nazwę hosta docelowego",
         correct: false,
       },
       {
-        option: "",
+        option: "Docelowy adres MAC na adres źródłowy IPv4",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Docelowy adres IPv4 na docelowy adres MAC",
         correct: false,
       },
     ],
   },
   {
     id: 294,
-    question: "",
-    //   multi: true,
+    question:
+      "Gdy pakiet IP jest wysyłany do hosta w sieci zdalnej, jakie informacje są dostarczane przez ARP?",
     answers: [
       {
-        option: "",
+        option: "Adres IP hosta docelowego",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres IP bramy domyślnej",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adres MAC interfejsu routera najbliżej hosta wysyłającego",
+        correct: true,
       },
       {
-        option: "",
+        option: "Adres MAC portu przełącznika, który łączy się z hosta wysyłającego",
         correct: false,
       },
     ],
   },
   {
     id: 295,
-    question: "",
-    //   multi: true,
+    question: "Które dwa typy adresów odwzorowuje tablica ARP w przełączniku?",
     answers: [
       {
-        option: "",
+        option: "Adresy warstwy 3 na adresy warstwy2",
+        correct: true,
+      },
+      {
+        option: "Layer 3 address to a Layer 4 address",
         correct: false,
       },
       {
-        option: "",
+        option: "Layer 4 address to a Layer 2 address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Layer 2 address to a Layer 4 address",
         correct: false,
       },
     ],
   },
   {
     id: 296,
-    question: "",
-    //   multi: true,
+    question: "Jakie jest przeznaczenie ARP w sieci IPv4?",
     answers: [
       {
-        option: "",
+        option: "Aby dalej przesyłać dane na podstawie docelowego adresu IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Aby uzyskać określony adres MAC, gdy znany jest adres IP",
+        correct: true,
+      },
+      {
+        option: "Aby dalej przesyłać dane na podstawie docelowego adresu MAC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Zbudować tabelę adresów MAC w przełączniku z informacji, które są gromadzone",
         correct: false,
       },
     ],
   },
   {
     id: 297,
-    question: "",
-    //   multi: true,
+    question: "Jaki adres docelowy jest używany w ramce żądania ARP?",
     answers: [
       {
-        option: "",
+        option: "0.0.0.0",
         correct: false,
       },
       {
-        option: "",
+        option: "Layer 3 address to a Layer 4 address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Layer 4 address to a Layer 2 address",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Layer 2 address to a Layer 4 address",
+        correct: false, // no this
+      },
+      {
+        option: "01-00-5E-00-AA-23",
+        correct: false, // no this
       },
     ],
   },
