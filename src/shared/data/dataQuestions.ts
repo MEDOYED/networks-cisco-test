@@ -1,9 +1,9 @@
 import type { Question } from "../types/typesQuiz";
 
 // MODULE 1  -->  id: 1-39
-// MODULE 2  -->  id:
-// MODULE 3  -->  id:
-// MODULE 4  -->  id:
+// MODULE 2  -->  id: 40-69
+// MODULE 3  -->  id: 70-112
+// MODULE 4  -->  id: 113-
 // MODULE 5  -->  id:
 // MODULE 6  -->  id:
 // MODULE 7  -->  id:
@@ -65,7 +65,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 3,
-    question: "Które dwa urządzenia są urządzeniami pośredniczącymi? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Które dwa urządzenia są urządzeniami pośredniczącymi? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -404,7 +405,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 19,
-    question: "Która funkcja wykorzystuje tę samą technologię komórkową co smartfon?",
+    question:
+      "Która funkcja wykorzystuje tę samą technologię komórkową co smartfon?",
     //   multi: true,
     answers: [
       {
@@ -450,7 +452,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 21,
-    question: "Która opcja tworzy bezpieczne połączenie dla pracowników zdalnych?",
+    question:
+      "Która opcja tworzy bezpieczne połączenie dla pracowników zdalnych?",
     //   multi: true,
     answers: [
       {
@@ -532,7 +535,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 24,
-    question: "Która opcja opisuje złośliwy kod działający na urządzeniach użytkownika?",
+    question:
+      "Która opcja opisuje złośliwy kod działający na urządzeniach użytkownika?",
     //   multi: true,
     answers: [
       {
@@ -640,7 +644,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Jest to protokół, który określa jak komunikują się hosty w sieci lokalnej.",
+        option:
+          "Jest to protokół, który określa jak komunikują się hosty w sieci lokalnej.",
         correct: false,
       },
       {
@@ -649,7 +654,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Jest to urządzenie sieciowe, które łączy funkcjonalność wielu innych w jednym.",
+        option:
+          "Jest to urządzenie sieciowe, które łączy funkcjonalność wielu innych w jednym.",
         correct: false,
       },
     ],
@@ -733,7 +739,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 32,
-    question: "Jakie są dwie cechy skalowalnej sieci? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Jakie są dwie cechy skalowalnej sieci? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -749,7 +756,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Właściwa dla urządzeń modularnych, które pozwalają na rozszerzanie",
+        option:
+          "Właściwa dla urządzeń modularnych, które pozwalają na rozszerzanie",
         correct: true,
       },
       {
@@ -840,7 +848,8 @@ export const dataQuestions: Question[] = [
     //   multi: true,
     answers: [
       {
-        option: "BYOD wymaga od organizacji zakupu laptopów zamiast komputerów stacjonarnych.",
+        option:
+          "BYOD wymaga od organizacji zakupu laptopów zamiast komputerów stacjonarnych.",
         correct: false,
       },
       {
@@ -849,7 +858,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Urządzenia BYOD są droższe niż urządzenia zakupione przez organizację.",
+        option:
+          "Urządzenia BYOD są droższe niż urządzenia zakupione przez organizację.",
         correct: false,
       },
       {
@@ -897,18 +907,21 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Zapewnia połączenia za pośrednictwem połączonych sieci globalnych.",
+        option:
+          "Zapewnia połączenia za pośrednictwem połączonych sieci globalnych.",
         correct: true,
       },
       {
-        option: "Jest to prywatna sieć dla organizacji z połączeniami LAN i WAN.",
+        option:
+          "Jest to prywatna sieć dla organizacji z połączeniami LAN i WAN.",
         correct: false,
       },
     ],
   },
   {
     id: 39,
-    question: "Jakie są dwie funkcje urządzeń końcowych w sieci? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Jakie są dwie funkcje urządzeń końcowych w sieci? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -916,7 +929,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Kierują dane na alternatywne ścieżki w przypadku awarii łącza.",
+        option:
+          "Kierują dane na alternatywne ścieżki w przypadku awarii łącza.",
         correct: false,
       },
       {
@@ -934,1638 +948,1546 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 41,
-    question: "",
-    //   multi: true,
+    id: 40,
+    question:
+      "Która metoda dostępu byłaby najbardziej odpowiednia, gdybyś był w pomieszczeniu wyposażenia z nowym przełącznikiem, który musi zostać skonfigurowany?",
     answers: [
       {
-        option: "",
+        option: "Konsola",
+        correct: true,
+      },
+      {
+        option: "Telnet/SSH",
         correct: false,
       },
       {
-        option: "",
+        option: "Port AUX",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 41,
+    question:
+      "Która metoda dostępu byłaby najbardziej odpowiednia, gdyby Twój menedżer dał ci specjalny kabel i kazał ci go użyć do skonfigurowania przełącznika?",
+    answers: [
+      {
+        option: "Konsola",
+        correct: true,
+      },
+      {
+        option: "Telnet/SSH",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Port AUX",
         correct: false,
       },
     ],
   },
   {
     id: 42,
-    question: "",
-    //   multi: true,
+    question:
+      "Która metoda dostępu byłaby najbardziej odpowiednim dostępem w paśmie do IOS za pośrednictwem połączenia sieciowego?",
     answers: [
       {
-        option: "",
+        option: "Konsola",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Telnet/SSH",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 43,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Port AUX",
         correct: false,
       },
     ],
   },
   {
     id: 44,
-    question: "",
-    //   multi: true,
+    question:
+      "Który tryb IOS umożliwia dostęp do wszystkich poleceń i funkcji?",
     answers: [
       {
-        option: "",
+        option: "Tryb konfiguracji globalnej",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb konfiguracji interfejsu",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb konfiguracji linii konsoli",
         correct: false,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
+        correct: true,
+      },
+      {
+        option: "Tryb EXEC użytkownika",
         correct: false,
       },
     ],
   },
   {
     id: 45,
-    question: "",
-    //   multi: true,
+    question:
+      "W którym trybie IOS jesteś, jeśli wyświetlany jest następujący znak zachęty Switch(config)#?",
     answers: [
       {
-        option: "",
+        option: "Tryb konfiguracji globalnej",
+        correct: true,
+      },
+      {
+        option: "Tryb konfiguracji interfejsu",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb konfiguracji linii konsoli",
         correct: false,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb EXEC użytkownika",
         correct: false,
       },
     ],
   },
   {
     id: 46,
-    question: "",
-    //   multi: true,
+    question:
+      "W którym trybie IOS jesteś, jeśli wyświetlany jest nastepujący znak zachety Switch>?",
     answers: [
       {
-        option: "",
+        option: "Tryb konfiguracji globalnej",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb konfiguracji interfejsu",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb konfiguracji linii konsoli",
         correct: false,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
         correct: false,
+      },
+      {
+        option: "Tryb EXEC użytkownika",
+        correct: true,
       },
     ],
   },
   {
     id: 47,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z dwóch poleceń zawróci Cię do uprzywilejowanego trybu EXEC niezależnie od trybu konfiguracji, w którym jesteś? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "CTRL+Z",
+        correct: true,
+      },
+      {
+        option: "disable",
         correct: false,
       },
       {
-        option: "",
+        option: "enable",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "end",
+        correct: true,
       },
       {
-        option: "",
+        option: "exit",
         correct: false,
       },
     ],
   },
   {
     id: 48,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie jest polecenie nadające nazwę „Sw-Floor-2” do przełącznikowi?",
     answers: [
       {
-        option: "",
+        option: "hostname Sw-Floor-2",
+        correct: true,
+      },
+      {
+        option: "host name Sw-Floor-2",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "name Sw-Floor-2",
         correct: false,
       },
     ],
   },
   {
     id: 49,
-    question: "",
-    //   multi: true,
+    question:
+      "W jaki sposób dostęp do uprzywilejowanego trybu EXEC jest zabezpieczony na przełączniku?",
     answers: [
       {
-        option: "",
+        option: "enable class",
         correct: false,
       },
       {
-        option: "",
+        option: "secret class",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "enable secret class",
+        correct: true,
       },
       {
-        option: "",
+        option: "service password-encryption",
         correct: false,
       },
     ],
   },
   {
     id: 50,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie umożliwia uwierzytelnianie hasła w celu uzyskania dostępu do trybu EXEC użytkownika na przełączniku?",
     answers: [
       {
-        option: "",
+        option: "enable secret",
         correct: false,
       },
       {
-        option: "",
+        option: "login",
+        correct: true,
+      },
+      {
+        option: "secret",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "service password-encryption",
         correct: false,
       },
     ],
   },
   {
     id: 51,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie szyfruje dostęp do wszystkich haseł w postaci zwykłego tekstu na przełączniku?",
     answers: [
       {
-        option: "",
+        option: "enable secret",
         correct: false,
       },
       {
-        option: "",
+        option: "login",
         correct: false,
       },
       {
-        option: "",
+        option: "secret",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "service password-encryption",
+        correct: true,
       },
     ],
   },
   {
     id: 52,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie jest polecenie konfigurujące baner, który ma być wyświetlany podczas łączenia się z przełącznikiem?",
     answers: [
       {
-        option: "",
+        option: "banner $ Keep out $",
         correct: false,
       },
       {
-        option: "",
+        option: "banner motd $ Keep out $",
+        correct: true,
+      },
+      {
+        option: "display $ Keep out $",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "login banner $ Keep out $",
         correct: false,
       },
     ],
   },
   {
     id: 53,
-    question: "",
-    //   multi: true,
+    question: "Jaka nazywana jest struktura adresu IPv4?",
     answers: [
       {
-        option: "",
+        option: "Format kropkowo-binarny",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Format kropkowo-dziesiętny",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Format kropkowo-szesnastkowy",
         correct: false,
       },
     ],
   },
   {
     id: 54,
-    question: "",
-    //   multi: true,
+    question: "Jak reprezentowany jest adres IPv4?",
     answers: [
       {
-        option: "",
+        option: "Cztery liczby binarne od 0 do 1 oddzielone dwukropkami.",
         correct: false,
       },
       {
-        option: "",
+        option: "Cztery liczby dziesiętne od 0 do 255 oddzielone kropkami.",
+        correct: true,
+      },
+      {
+        option: "Trzydzieści dwie liczby szesnastkowe oddzielone dwukropkami.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Trzydzieści dwie liczby szesnastkowe oddzielone kropkami.",
         correct: false,
       },
     ],
   },
   {
     id: 55,
-    question: "",
-    //   multi: true,
+    question: "Jaki typ interfejsu nie ma fizycznego portu z nim powiązanego?",
     answers: [
       {
-        option: "",
+        option: "Konsola",
         correct: false,
       },
       {
-        option: "",
+        option: "Ethernet",
         correct: false,
       },
       {
-        option: "",
+        option: "Szeregowy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Interfejs SVI",
+        correct: true,
       },
     ],
   },
   {
     id: 56,
-    question: "",
-    //   multi: true,
+    question:
+      "Które stwierdzenie jest prawdziwe odnośnie pliku konfiguracji bieżącej urządzenia Cisco IOS?",
     answers: [
       {
-        option: "",
+        option: "Ma wpływ na pracę urządzenia niezwłocznie po modyfikacji.",
+        correct: true,
+      },
+      {
+        option: "Jest przechowywany w pamięci NVRAM.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Powinien być kasowany z użyciem polecenia erase running-config.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Jest automatycznie zapisywany podczas ponownego uruchomienia routera.",
         correct: false,
       },
     ],
   },
   {
     id: 57,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa zdania są prawdziwe na temat trybu EXEC użytkownika? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Dostępne są wszystkie polecenia routera.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Do trybu konfiguracji globalnej można wejść po wpisaniu polecenia enable.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Znak zachęty urządzenia dla tego trybu kończy się symbolem „>”.",
+        correct: true,
+      },
+      {
+        option:
+          "W tym trybie można konfigurować interfejsy i protokoły routingu.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "W tym trybie można wyświetlać tylko wybrane informacje o konfiguracji routera.",
+        correct: true,
       },
     ],
   },
   {
     id: 58,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki rodzaj dostępu jest zabezpieczony na routerze Cisco lub przełączniku za pomocą polecenia enable secret?",
     answers: [
       {
-        option: "",
+        option: "Linia wirtualnego terminala",
         correct: false,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
+        correct: true,
+      },
+      {
+        option: "Port AUX",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Konsola",
         correct: false,
       },
     ],
   },
   {
     id: 59,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest domyślny interfejs SVI na przełączniku Cisco?",
     answers: [
       {
-        option: "",
+        option: "VLAN1",
+        correct: true,
+      },
+      {
+        option: "VLAN99",
         correct: false,
       },
       {
-        option: "",
+        option: "VLAN100",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "VLAN999",
         correct: false,
       },
     ],
   },
   {
     id: 60,
-    question: "",
-    //   multi: true,
+    question:
+      "Gdy nazwa hosta jest skonfigurowana przez Cisco CLI, które trzy konwencje nazewnictwa są częścią wytycznych? (Wybierz trzy odpowiedzi).",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Nazwa hosta powinna mieć mniej niż 64 znaki długości",
+        correct: true,
+      },
+      {
+        option: "Nazwa hosta powinna być zapisana tylko małymi literami",
         correct: false,
       },
       {
-        option: "",
+        option: "Nazwa hosta nie powinna zawierać spacji",
+        correct: true,
+      },
+      {
+        option: "Nazwa hosta powinna kończyć się znakiem specjalnym",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Nazwa hosta powinna zaczynać się od litery",
+        correct: true,
       },
     ],
   },
   {
     id: 61,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest funkcja powłoki w systemie operacyjnym?",
     answers: [
       {
-        option: "",
+        option: "Interakcja ze sprzętem urządzenia.",
         correct: false,
       },
       {
-        option: "",
+        option: "Interfejs między użytkownikami i jądrem.",
+        correct: true,
+      },
+      {
+        option: "Zapewnia dedykowane usługi zapory sieciowej.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Zapewnia usługi ochrony przed włamaniem do urządzenia.",
         correct: false,
       },
     ],
   },
   {
     id: 62,
-    question: "",
-    //   multi: true,
+    question:
+      "Router z prawidłowym systemem operacyjnym zawiera plik konfiguracyjny zapisany w pamięci NVRAM. Plik konfiguracyjny zawiera włączone hasło enable secret, ale nie ma hasła konsoli. Jaki tryb jest wyświetlany w momencie uruchomienia routera?",
     answers: [
       {
-        option: "",
+        option: "Tryb konfiguracji globalnej",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb setup",
         correct: false,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Tryb EXEC użytkownika",
+        correct: true,
       },
     ],
   },
   {
     id: 63,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator zmienił właśnie adres IP dla interfejsu w urządzeniu pracującym pod nadzorem systemu IOS. Co jeszcze należy zrobić w celu zastosowania tych zmian w urządzeniu?",
     answers: [
       {
-        option: "",
+        option:
+          "Skopiować bieżącą konfigurację do startowego pliku konfiguracyjnego.",
+        correct: true,
+      },
+      {
+        option:
+          "Skopiować informacje zawarte w startowym pliku konfiguracyjnym do bieżącej konfiguracji.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Przeładować urządzenie i wpisać yes , gdy pojawi się monit o zapisanie konfiguracji.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Nic nie musi być zrobione. Zmiany w konfiguracji urządzenia pracującego pod kontrolą systemu IOS zostaną wprowadzone natychmiast po poprawnym wpisaniu polecenia i naciśnięciu klawisza Enter.",
         correct: false,
       },
     ],
   },
   {
     id: 64,
-    question: "",
-    //   multi: true,
+    question:
+      "Która lokalizacja pamięci na routerze Cisco lub przełączniku utraci całą zawartość po ponownym uruchomieniu urządzenia?",
     answers: [
       {
-        option: "",
+        option: "Pamięci ROM",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć flash",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć NVRAM",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Pamięć RAM",
+        correct: true,
       },
     ],
   },
   {
     id: 65,
-    question: "",
-    //   multi: true,
+    question:
+      "Dlaczego technik miałby wprowadzać polecenie copy startup-config running-config?",
     answers: [
       {
-        option: "",
+        option: "Aby usunąć wszystkie konfiguracje z przełącznika",
         correct: false,
       },
       {
-        option: "",
+        option: "Aby zapisać aktualną konfigurację w pamięci NVRAM",
         correct: false,
       },
       {
-        option: "",
+        option: "Aby skopiować istniejącą konfigurację do pamięci RAM",
+        correct: true,
+      },
+      {
+        option: "Aby zmienić konfigurację na nową konfigurację początkową",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 66,
+    question: "Która z funkcji realizowana jest przez DHCP?",
+    answers: [
+      {
+        option: "Automatyczne przypisywanie adresu IP do każdego hosta",
+        correct: true,
+      },
+      {
+        option: "Zdalne zarządzanie przełącznikami",
         correct: false,
       },
       {
-        option: "",
+        option: "Translacja nazw na adresy IP",
+        correct: false,
+      },
+      {
+        option: "Testowanie połączeń end-to-end",
         correct: false,
       },
     ],
   },
   {
     id: 67,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie dwie funkcje dostarcza użytkownikom pomoc kontekstowa linii komend systemu CISCO IOS?(Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option:
+          "Wyświetla komunikat o błędzie, gdy została wpisana zła komenda",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Wyświetla listę wszystkich dostępnych komend w bieżącym trybie",
+        correct: true,
+      },
+      {
+        option:
+          "Wykorzystując klawisz TAB umożliwia użytkownikowi uzupełnienie nazwy pozostałej części komendy",
+        correct: true,
+      },
+      {
+        option:
+          "Pozwala określić która opcja, słowo kluczowe lub argument jest dostępny dla wprowadzonej komendy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Pozwala wybrać najlepszą komendę do wykonania zadania",
         correct: false,
       },
     ],
   },
-
-  //Pashka
   {
     id: 68,
-    question: "",
-    //   multi: true,
+    question:
+      "Która lokalizacja pamięci na routerze Cisco lub przełączniku przechowuje plik konfiguracyjny uruchamiania?",
     answers: [
       {
-        option: "",
+        option: "Pamięć RAM",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć ROM",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Pamięć NVRAM",
+        correct: true,
       },
       {
-        option: "",
+        option: "Pamięć flash",
         correct: false,
       },
     ],
   },
   {
     id: 69,
-    question: "",
-    //   multi: true,
+    question:
+      "Do jakiej podsieci należy adres IP 10.1.100.50, jeśli używana jest maska podsieci w postaci 255.255.0.0?",
     answers: [
       {
-        option: "",
+        option: "10.1.0.0",
+        correct: true,
+      },
+      {
+        option: "10.0.0.0",
         correct: false,
       },
       {
-        option: "",
+        option: "10.1.100.32",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "10.1.100.0",
         correct: false,
       },
     ],
   },
   {
     id: 70,
-    question: "",
-    //   multi: true,
+    question:
+      "Co jest procesem konwersji informacji do odpowiedniej formy do przesłania?",
     answers: [
       {
-        option: "",
+        option: "Formatowanie",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Kodowanie",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Enkapsulacja",
         correct: false,
       },
     ],
   },
   {
     id: 71,
-    question: "",
-    //   multi: true,
+    question:
+      "Który etap procesu komunikacji dotyczy prawidłowej identyfikacji adresu nadawcy i odbiorcy?",
     answers: [
       {
-        option: "",
+        option: "Formatowanie",
+        correct: true,
+      },
+      {
+        option: "Kodowanie",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Enkapsulacja",
+        correct: true,
       },
     ],
   },
   {
     id: 72,
-    question: "",
-    //   multi: true,
+    question:
+      "Które trzy elementy są składowe dotyczą zarządzania czasem wiadomości? (Wybierz trzy odpowiedzi).",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Kontrola przepływu",
+        correct: true,
+      },
+      {
+        option: "Numery sekwencyjne",
         correct: false,
       },
       {
-        option: "",
+        option: "Metoda dostępu",
+        correct: true,
+      },
+      {
+        option: "Czas retransmisji",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Limit czasu odpowiedzi",
+        correct: true,
       },
     ],
   },
   {
     id: 73,
-    question: "",
-    //   multi: true,
+    question:
+      "Która metoda dostarczania służy do przesyłania informacji do jednego lub więcej urządzeń końcowych, ale nie do wszystkich urządzeń w sieci?",
     answers: [
       {
-        option: "",
+        option: "Unicast",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Multicast",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Broadcast",
         correct: false,
       },
     ],
   },
   {
     id: 74,
-    question: "",
-    //   multi: true,
+    question: "BGP i OSPF to przykłady, jakiego typu protokołu?",
     answers: [
       {
-        option: "",
+        option: "Komunikacji sieciowej",
         correct: false,
       },
       {
-        option: "",
+        option: "Bezpieczeństwa sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Routingu",
+        correct: true,
       },
       {
-        option: "",
+        option: "Odnajdywania usług",
         correct: false,
       },
     ],
   },
   {
     id: 75,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa protokoły są protokołami odnajdywania usług? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "DNS",
+        correct: true,
+      },
+      {
+        option: "TCP",
         correct: false,
       },
       {
-        option: "",
+        option: "SSH",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "DHCP",
+        correct: true,
       },
     ],
   },
   {
     id: 76,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel funkcji sekwencjonowania w komunikacji sieciowej?",
     answers: [
       {
-        option: "",
+        option:
+          "Jednoznacznie oznaczyć przesyłane segmenty danych dla właściwego ponownego scalania przez odbiorcę",
+        correct: true,
+      },
+      {
+        option: "Aby ustalić, czy dane są uszkodzone podczas transmisji",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Dla zapewnienia przepływu danych w efektywnym tempie między nadawcą a odbiorcą",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Aby zagwarantować dostarczenie danych",
         correct: false,
       },
     ],
   },
   {
     id: 77,
-    question: "",
-    //   multi: true,
+    question:
+      "Protokół ten jest odpowiedzialny za zagwarantowanie niezawodnego dostarczania informacji.",
     answers: [
       {
-        option: "",
+        option: "TCP",
+        correct: true,
+      },
+      {
+        option: "IP",
         correct: false,
       },
       {
-        option: "",
+        option: "HTTP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Ethernet",
         correct: false,
       },
     ],
   },
   {
     id: 78,
-    question: "",
-    //   multi: true,
+    question: "Do której warstwy stosu TCP/IP należą UDP i TCP?",
     answers: [
       {
-        option: "",
+        option: "Aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Transportowej",
+        correct: true,
+      },
+      {
+        option: "Internetu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Dostępu do sieci",
         correct: false,
       },
     ],
   },
   {
     id: 79,
-    question: "",
-    //   multi: true,
+    question: "Które dwa protokoły należą do warstwy aplikacji modelu TCP/IP?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "EIGRP",
         correct: false,
       },
       {
-        option: "",
+        option: "DNS",
+        correct: true,
+      },
+      {
+        option: "OSPF",
         correct: false,
       },
       {
-        option: "",
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "DHCP",
+        correct: true,
       },
     ],
   },
   {
     id: 80,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół działa w warstwie dostępu do sieci modelu TCP/IP?",
     answers: [
       {
-        option: "",
+        option: "HTTP",
         correct: false,
       },
       {
-        option: "",
+        option: "IP",
         correct: false,
       },
       {
-        option: "",
+        option: "DNS",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Ethernet",
+        correct: true,
       },
     ],
   },
   {
     id: 81,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych protokołów dostarczają informacje zwrotne od hosta docelowego do hosta źródłowego dotyczące błędów w dostarczaniu pakietów? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "IPv4",
         correct: false,
       },
       {
-        option: "",
+        option: "TCP",
         correct: false,
       },
       {
-        option: "",
+        option: "ICMPv4",
+        correct: true,
+      },
+      {
+        option: "IPv6",
         correct: false,
       },
       {
-        option: "",
+        option: "UDP",
         correct: false,
+      },
+      {
+        option: "ICMPv6",
+        correct: true,
       },
     ],
   },
   {
     id: 82,
-    question: "",
-    //   multi: true,
+    question:
+      "Urządzenie odbiera ramkę łącza danych z danymi, przetwarza ją oraz usuwa informacje Ethernet. Jakie informacje będą następnie przetwarzane przez urządzenie odbiorcze?",
     answers: [
       {
-        option: "",
+        option: "HTTP w warstwie aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "HTML na warstwie aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "IP na warstwie internetowej",
+        correct: true,
+      },
+      {
+        option: "UDP w warstwie internetowej",
         correct: false,
       },
       {
-        option: "",
+        option: "TCP w warstwie transportowej",
         correct: false,
       },
     ],
   },
   {
     id: 83,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie usługi zapewnia warstwa internetowa zestawu protokołów TCP/IP? (Wybierz trzy odpowiedzi).",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Przesyłanie plików",
         correct: false,
       },
       {
-        option: "",
+        option: "Odwzorowanie adresów",
         correct: false,
       },
       {
-        option: "",
+        option: "Protokoły routingu",
+        correct: true,
+      },
+      {
+        option: "Komunikaty",
+        correct: true,
+      },
+      {
+        option: "Ethernet",
         correct: false,
       },
       {
-        option: "",
+        option: "Protokół IP",
         correct: false,
       },
     ],
   },
   {
     id: 84,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz. Organizacje normalizacyjne są zazwyczaj neutralne w stosunku od producentów.",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Prawda",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Fałsz",
         correct: false,
       },
     ],
   },
   {
     id: 85,
-    question: "",
-    //   multi: true,
+    question:
+      "Ta organizacja normalizacyjna odpowiada za dokumenty Request for Comments (RFC), które określają nowe protokoły i aktualizują istniejące.",
     answers: [
       {
-        option: "",
+        option: "Internet Society (ISOC)",
         correct: false,
       },
       {
-        option: "",
+        option: "Internet Engineering Task Force (IETF)",
+        correct: true,
+      },
+      {
+        option: "Internet Architecture Board (IAB)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Internet Research Task Force (IRTF)",
         correct: false,
       },
     ],
   },
   {
     id: 86,
-    question: "",
-    //   multi: true,
+    question:
+      "Ta organizacja normalizacyjna jest odpowiedzialna za przydzielanie adresów IP i zarządzanie nazwami domen.",
     answers: [
       {
-        option: "",
+        option: "Internet Society (ISOC)",
         correct: false,
       },
       {
-        option: "",
+        option: "Internet Engineering Task Force (IETF)",
         correct: false,
       },
       {
-        option: "",
+        option: "Internet Architecture Board (IAB)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Internet Assigned Numbers Authority (IANA)",
+        correct: true,
       },
     ],
   },
   {
     id: 87,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie rodzaje standardów są opracowywane przez Electronics Industries Alliance (EIA)?",
     answers: [
       {
-        option: "",
+        option: "Okablowanie elektryczne i złącza",
+        correct: true,
+      },
+      {
+        option: "Sprzęt radiowy i wieże komórkowe",
         correct: false,
       },
       {
-        option: "",
+        option: "Kompresja wideo i łączność szerokopasmowa",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Voice over IP (VoIP) i komunikacja satelitarna",
         correct: false,
       },
     ],
   },
   {
     id: 88,
-    question: "",
-    //   multi: true,
+    question:
+      "Który to proces dzielenia dużego strumienia danych na mniejsze kawałki przed transmisją?",
     answers: [
       {
-        option: "",
+        option: "Sekwencjonowanie",
         correct: false,
       },
       {
-        option: "",
+        option: "Dupleksowanie",
         correct: false,
       },
       {
-        option: "",
+        option: "Multipleksacja",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Segmentacja",
+        correct: true,
       },
     ],
   },
   {
     id: 89,
-    question: "",
-    //   multi: true,
+    question: "Co jest jednostką PDU związaną z warstwą transportową?",
     answers: [
       {
-        option: "",
+        option: "Segment",
+        correct: true,
+      },
+      {
+        option: "Pakiet",
         correct: false,
       },
       {
-        option: "",
+        option: "Bit",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Ramka",
         correct: false,
       },
     ],
   },
   {
     id: 90,
-    question: "",
-    //   multi: true,
+    question: "Która warstwa stosu protokołów enkapsuluje dane w ramki?",
     answers: [
       {
-        option: "",
+        option: "Łącza danych",
+        correct: true,
+      },
+      {
+        option: "Transportowu",
         correct: false,
       },
       {
-        option: "",
+        option: "Sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Aplikacji",
         correct: false,
       },
     ],
   },
   {
     id: 91,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jest nazwa procesu dodawania informacji o protokole do danych, przy przetwarzaniu w dół stosu protokołów?",
     answers: [
       {
-        option: "",
+        option: "Dekapsulacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Sekwencjonowanie",
         correct: false,
       },
       {
-        option: "",
+        option: "Segmentacja",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Enkapsulacja",
+        correct: true,
       },
     ],
   },
   {
     id: 92,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Ramki wymieniane między urządzeniami w różnych sieciach IP muszą być przesyłane do bramy domyślnej.",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Prawda",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Fałsz",
         correct: false,
       },
     ],
   },
   {
     id: 93,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Prawa część adresu IP służy do identyfikacji sieci, do której należy urządzenie.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 94,
-    question: "",
-    //   multi: true,
+    question: "Co służy do określenia części sieciowej adresu IPv4?",
     answers: [
       {
-        option: "",
+        option: "Maska podsieci",
+        correct: true,
+      },
+      {
+        option: "Adres MAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Prawa części adresu IP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Lewa część adresu MAC",
         correct: false,
       },
     ],
   },
   {
     id: 95,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych stwierdzeń są prawdziwe w odniesieniu do warstwy sieciowej i adresów warstwy łącza danych?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option:
+          "Adresy warstwy sieciowej są logiczne a adresy łącza danych są wyrażone jako 12 cyfr szesnastkowych.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Adresy warstwy łącza danych są fizyczne i adresy warstwy sieciowej są logiczne.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adresy warstwy sieciowej mają długość 32 lub 128 bitów.",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Adresy warstwy łącza danych są logiczne i adresy warstwy sieciowej są fizyczne.",
+        correct: true,
+      },
+      {
+        option:
+          "Adresy warstwy sieciowej są wyrażone jako 12 cyfr szesnastkowych, a adresy warstwy łącza danych są dziesiętne.",
+        correct: true,
+      },
+      {
+        option: "Adresy warstwy łącza danych mają długość 32 bitów.",
         correct: false,
       },
     ],
   },
   {
     id: 96,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest kolejność dwóch adresów w ramce łącza danych?",
     answers: [
       {
-        option: "",
+        option: "Źródłowy MAC, docelowy MAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Docelowy MAC, źródłowy IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Docelowy IP, źródłowy IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Docelowy MAC, źródłowy MAC",
+        correct: true,
+      },
+      {
+        option: "Źródłowy IP, docelowy IP",
         correct: false,
       },
     ],
   },
   {
     id: 97,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Adresy łącza danych są fizyczne, więc nigdy nie zmieniają się w ramce łącza danych ze źródła do miejsca docelowego.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 98,
-    question: "",
-    //   multi: true,
+    question:
+      "Które trzy akronimy i inicjalizmy reprezentują organizacje normalizacyjne?",
+    multi: true,
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "IANA", correct: true },
+      { option: "TCP/IP", correct: false },
+      { option: "IEEE", correct: true },
+      { option: "IETF", correct: true },
+      { option: "OSI", correct: false },
+      { option: "MAC", correct: false },
     ],
   },
   {
     id: 99,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki rodzaj komunikacji wyśle wiadomość do wszystkich urządzeń w sieci lokalnej?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Broadcast", correct: true },
+      { option: "Multicast", correct: false },
+      { option: "Unicast", correct: false },
+      { option: "Allcast", correct: false },
     ],
   },
   {
     id: 100,
-    question: "",
-    //   multi: true,
+    question: "W komunikacji komputerowej, jaki jest cel kodowania wiadomości?",
     answers: [
       {
-        option: "",
+        option: "Do konwersji informacji na odpowiedni format do przesyłania",
+        correct: true,
+      },
+      { option: "By interpretować informacje", correct: false },
+      {
+        option: "By podzielić duże wiadomości na mniejsze ramki",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Do wynegocjowania właściwego czasu dla udanej komunikacji",
         correct: false,
       },
     ],
   },
   {
     id: 101,
-    question: "",
-    //   multi: true,
+    question:
+      "Która opcja dostarczania wiadomości jest stosowane w przypadku, gdy wszystkie urządzenia muszą otrzymać taką samą wiadomość jednocześnie?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Duplex", correct: false },
+      { option: "Unicast", correct: false },
+      { option: "Multicast", correct: false },
+      { option: "Broadcast", correct: true },
     ],
   },
   {
     id: 102,
-    question: "",
-    //   multi: true,
+    question: "Jakie są dwie zalety korzystania z warstwowego modelu sieci?",
+    multi: true,
     answers: [
+      { option: "Pomaga w projektowaniu protokołów.", correct: true },
+      { option: "Przyspiesza dostawę pakietów.", correct: false },
       {
-        option: "",
+        option: "Uniemożliwia projektantom tworzenie własnego modelu.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Zapobiega wpływowi technologii jednej warstwy na inne warstwy.",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Zapewnia, że urządzenie z jednej warstwy może funkcjonować w następnej wyższej warstwie.",
         correct: false,
       },
     ],
   },
   {
     id: 103,
-    question: "",
-    //   multi: true,
+    question: "Jakie jest przeznaczenie protokołów transmisji danych?",
     answers: [
       {
-        option: "",
+        option:
+          "Określanie przepustowości kanału lub medium dla każdego rodzaju komunikacji",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Określanie systemów operacyjnych dla urządzeń, które obsługują komunikację",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Dostarczenie reguł wymaganych dla konkretnego typu komunikacji, który może wystąpić",
+        correct: true,
       },
       {
-        option: "",
+        option: "Dyktowanie treści wiadomości wysłanej podczas komunikacji",
         correct: false,
       },
     ],
   },
   {
     id: 104,
-    question: "",
-    //   multi: true,
+    question:
+      "Który adres logiczny jest używany w celu dostarczenia danych do zdalnej sieci?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Docelowy adres MAC", correct: false },
+      { option: "Docelowy adres IP", correct: true },
+      { option: "Numer portu docelowego", correct: false },
+      { option: "Źródłowego adresu MAC", correct: false },
+      { option: "Źródłowy adres IP", correct: false },
     ],
   },
   {
     id: 105,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie jest ogólne określenie, które stosowane jest do opisania elementu danych w każdej warstwie modelu sieci?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Ramka", correct: false },
+      { option: "Pakiet", correct: false },
+      { option: "Jednostka danych protokołu", correct: true },
+      { option: "Segment", correct: false },
     ],
   },
   {
     id: 106,
-    question: "",
-    //   multi: true,
+    question: "Które dwa protokoły działają w warstwie internetowej?",
+    multi: true,
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "POP", correct: false },
+      { option: "BOOTP", correct: false },
+      { option: "ICMP", correct: true },
+      { option: "IP", correct: true },
+      { option: "PPP", correct: false },
     ],
   },
   {
     id: 107,
-    question: "",
-    //   multi: true,
+    question:
+      "Która warstwa modelu OSI definiuje usługi segmentowania i ponownego scalania danych dla indywidualnej komunikacji między urządzeniami końcowymi?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Aplikacji", correct: false },
+      { option: "Prezentacji", correct: false },
+      { option: "Sesji", correct: false },
+      { option: "Transportu", correct: true },
+      { option: "Sieci", correct: false },
     ],
   },
   {
     id: 108,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki rodzaj komunikacji wyśle wiadomość do grupy docelowych hostów jednocześnie?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Broadcast", correct: false },
+      { option: "Multicast", correct: true },
+      { option: "Unicast", correct: false },
+      { option: "Anycast", correct: false },
     ],
   },
   {
     id: 109,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki proces jest używany do odbierania przesyłanych danych i konwersji go do czytelnej wiadomości?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Kontrola dostępu", correct: false },
+      { option: "Dekodowanie", correct: true },
+      { option: "Enkapsulacja", correct: false },
+      { option: "Kontrola przepływu", correct: false },
     ],
   },
   {
     id: 110,
-    question: "",
-    //   multi: true,
+    question:
+      "Co się dzieje z pakietem IP, zanim zostanie on przekazany fizycznym medium?",
     answers: [
       {
-        option: "",
+        option:
+          "Jest oznaczany informacjami gwarantującymi niezawodną dostawę.",
         correct: false,
       },
       {
-        option: "",
+        option: "Jest dzielony na mniejsze pojedyncze kawałki.",
         correct: false,
       },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Jest enkapsulowany w segment TCP.", correct: false },
+      { option: "Jest enkapsulowany w ramce warstwy 2.", correct: true },
     ],
   },
   {
     id: 111,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki proces jest używany, aby umieścić jedną wiadomość wewnątrz innej wiadomości do transferu ze źródła do miejsca docelowego?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "Kontrola dostępu", correct: false },
+      { option: "Dekodowanie", correct: false },
+      { option: "Enkapsulacja", correct: true },
+      { option: "Kontrola przepływu", correct: false },
     ],
   },
   {
     id: 112,
-    question: "",
-    //   multi: true,
+    question:
+      "Klient wysyła żądanie strony internetowej do serwera WWW. Z punktu widzenia klienta, jaka jest poprawna kolejność stosu protokołów, które użyte są do przygotowania żądania transmisji?",
     answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
+      { option: "HTTP, IP, TCP, Ethernet", correct: false },
+      { option: "HTTP, TCP, IP, Ethernet", correct: true },
+      { option: "Ethernet, TCP, IP, HTTP", correct: false },
+      { option: "Ethernet, IP, TCP, HTTP", correct: false },
     ],
   },
   {
@@ -5491,7 +5413,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 240,
-    question: "Która warstwa OSI wysyła segmenty do enkapsulacji w pakiecie IPv4 lub IPv6?",
+    question:
+      "Która warstwa OSI wysyła segmenty do enkapsulacji w pakiecie IPv4 lub IPv6?",
     answers: [
       {
         option: "Warstwa łącza danych",
@@ -5607,7 +5530,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 245,
-    question: "Które stwierdzenie jest poprawne o polach nagłówka pakietów IPv4?",
+    question:
+      "Które stwierdzenie jest poprawne o polach nagłówka pakietów IPv4?",
     answers: [
       {
         option:
@@ -5615,7 +5539,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Pole Czas życia służy do określenia priorytetu każdego pakietu.",
+        option:
+          "Pole Czas życia służy do określenia priorytetu każdego pakietu.",
         correct: false,
       },
       {
@@ -5653,7 +5578,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 247,
-    question: "Które pole zawiera typowe wartości, takie jak ICMP (1), TCP (6) i UDP (17)?",
+    question:
+      "Które pole zawiera typowe wartości, takie jak ICMP (1), TCP (6) i UDP (17)?",
     answers: [
       {
         option: "Suma kontrolna nagłówka",
@@ -5684,7 +5610,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Zwiększona złożoność sieci i rozbudowa tablic routingu internetowego",
+        option:
+          "Zwiększona złożoność sieci i rozbudowa tablic routingu internetowego",
         correct: true,
       },
       {
@@ -5728,7 +5655,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Używa prostszego nagłówka, aby zapewnić lepszą obsługę pakietów",
+        option:
+          "Używa prostszego nagłówka, aby zapewnić lepszą obsługę pakietów",
         correct: true,
       },
     ],
@@ -5780,14 +5708,16 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 252,
-    question: "Które stwierdzenie dotyczące decyzji hosta o przekazywaniu jest prawdziwe?",
+    question:
+      "Które stwierdzenie dotyczące decyzji hosta o przekazywaniu jest prawdziwe?",
     answers: [
       {
         option: "Host nie może sam siebie zweryfikować poleceniem ping.",
         correct: false,
       },
       {
-        option: "Zdalny host docelowy znajduje się w tej samej sieci lokalnej co host wysyłający.",
+        option:
+          "Zdalny host docelowy znajduje się w tej samej sieci lokalnej co host wysyłający.",
         correct: false,
       },
       {
@@ -5811,11 +5741,13 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Adresem bramy domyślnej jest adres IP przełącznika w sieci zdalnej.",
+        option:
+          "Adresem bramy domyślnej jest adres IP przełącznika w sieci zdalnej.",
         correct: false,
       },
       {
-        option: "Adres bramy domyślnej jest adresem IP interfejsu routera w lokalnej sieci.",
+        option:
+          "Adres bramy domyślnej jest adresem IP interfejsu routera w lokalnej sieci.",
         correct: true,
       },
       {
@@ -5959,7 +5891,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 260,
-    question: "Które polecenie można użyć na hoście Windows do wyświetlenia tablicy routingu?",
+    question:
+      "Które polecenie można użyć na hoście Windows do wyświetlenia tablicy routingu?",
     answers: [
       {
         option: "Source IP address",
@@ -5981,7 +5914,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 261,
-    question: "Które informacje są dodawane w trakcie enkapsulacji w warstwie 3 modelu OSI?",
+    question:
+      "Które informacje są dodawane w trakcie enkapsulacji w warstwie 3 modelu OSI?",
     answers: [
       {
         option: "Źródłowy i docelowy adres MAC",
@@ -6006,7 +5940,8 @@ export const dataQuestions: Question[] = [
     question: "Jak warstwa sieciowa używa wartości MTU?",
     answers: [
       {
-        option: "Aby określić wartość MTU warstwa sieci używa warstw wyższego poziomu.",
+        option:
+          "Aby określić wartość MTU warstwa sieci używa warstw wyższego poziomu.",
         correct: false,
       },
       {
@@ -6020,7 +5955,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Aby zwiększyć szybkość dostarczania danych, warstwa sieci ignoruje MTU.",
+        option:
+          "Aby zwiększyć szybkość dostarczania danych, warstwa sieci ignoruje MTU.",
         correct: false,
       },
     ],
@@ -6046,7 +5982,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "The IPv6 address space is four times bigger than the IPv4 address space.​",
+        option:
+          "The IPv6 address space is four times bigger than the IPv4 address space.​",
         correct: false,
       },
     ],
@@ -6142,7 +6079,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "The IPv6 address space is four times bigger than the IPv4 address space.​",
+        option:
+          "The IPv6 address space is four times bigger than the IPv4 address space.​",
         correct: true,
       },
     ],
@@ -6153,7 +6091,8 @@ export const dataQuestions: Question[] = [
       "Gdy protokół bezpołączeniowy jest używany w dolnej warstwie modelu OSI, w jaki sposób utrata danych jest wykrywana i ponownie przesyłana w razie potrzeby?",
     answers: [
       {
-        option: "Potwierdzenia bezpołączeniowe służą do żądania ponownej transmisji.",
+        option:
+          "Potwierdzenia bezpołączeniowe służą do żądania ponownej transmisji.",
         correct: false,
       },
       {
@@ -6186,7 +6125,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Aby zapewnić więcej miejsca adresowego w rejestrze nazw internetowych",
+        option:
+          "Aby zapewnić więcej miejsca adresowego w rejestrze nazw internetowych",
         correct: false,
       },
       {
@@ -6220,7 +6160,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 271,
-    question: "Które pole w nagłówku IPv4 typowo pozostaje takie same podczas transmisji?",
+    question:
+      "Które pole w nagłówku IPv4 typowo pozostaje takie same podczas transmisji?",
     answers: [
       {
         option: "Flaga",
