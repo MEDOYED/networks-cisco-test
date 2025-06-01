@@ -8,9 +8,9 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 6  -->  id: 152-199
 // MODULE 7  -->  id: 200-224
 // MODULE 8  -->  id: 240-272
-// MODULE 9  -->  id:
-// MODULE 10  -->  id:
-// MODULE 11  -->  id:
+// MODULE 9  -->  id: 273-297
+// MODULE 10  -->  id: 298-310
+// MODULE 11  -->  id: 311-335
 // MODULE 12  -->  id:
 // MODULE 13  -->  id:
 // MODULE 14  -->  id:
@@ -6167,1451 +6167,1526 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
+  // modul 9
   {
     id: 273,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki docelowy adres MAC zostanie uwzględniony w ramce wysłanej z urządzenia źródłowego do urządzenia docelowego w tej samej sieci lokalnej?",
     answers: [
       {
-        option: "",
+        option: "Adres rozgłoszeniowy MAC FF-FF-FF-FF-FF-FF",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adres MAC urządzenia docelowego",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Adres MAC interfejsu routera lokalnego",
         correct: false,
       },
     ],
   },
   {
     id: 274,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki docelowy adres MAC zostanie uwzględniony w ramce wysyłanej z urządzenia źródłowego do urządzenia docelowego w zdalnej sieci lokalnej?",
     answers: [
       {
-        option: "",
+        option: "Adres rozgłoszeniowy MAC FF-FF-FF-FF-FF-FF",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres MAC urządzenia docelowego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Adres MAC interfejsu routera lokalnego",
+        correct: true,
       },
     ],
   },
   {
     id: 275,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie dwa protokoły są używane do określania adresu MAC znanego adresu IP urządzenia docelowego (IPv4 i IPv6)?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "DHCP",
         correct: false,
       },
       {
-        option: "",
+        option: "ARP",
+        correct: true,
+      },
+      {
+        option: "DNS",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "ND",
+        correct: true,
       },
     ],
   },
+
   {
     id: 276,
-    question: "",
-    //   multi: true,
+    question: "Jakie dwie funkcje są zapewniane przez ARP? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Utrzymuje tablicę przypisań adresów IPv4 do nazw domen",
         correct: false,
       },
       {
-        option: "",
+        option: "Utrzymuje tablicę mapowania IPv4 do MAC",
+        correct: true,
+      },
+      {
+        option: "Utrzymuje tablicę mapowania IPv6 do MAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Odwzorowuje adresy IPv4 na nazwy domen",
         correct: false,
       },
       {
-        option: "",
+        option: "Odwzorowuje adresy IPv4 na adresy MAC",
+        correct: true,
+      },
+      {
+        option: "Odwzorowuje adresy IPv6 na adresy MAC",
         correct: false,
       },
     ],
   },
   {
     id: 277,
-    question: "",
-    //   multi: true,
+    question: "Gdzie jest przechowywana tabela ARP na urządzeniu?",
     answers: [
       {
-        option: "",
+        option: "Pamięci ROM",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć flash",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć NVRAM",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Pamięć RAM",
+        correct: true,
       },
     ],
   },
   {
     id: 278,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie jest prawdziwe o ARP?",
     answers: [
       {
-        option: "",
+        option: "Pamięć podręczna ARP nie może zostać ręcznie usunięta.",
         correct: false,
       },
       {
-        option: "",
+        option: "Wpisy ARP są buforowane na stałe.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Wpisy ARP są buforowane tymczasowo.",
+        correct: true,
       },
     ],
   },
   {
     id: 279,
-    question: "",
-    //   multi: true,
+    question: "Które polecenie może być użyte na routerze Cisco do wyświetlenia tablicy ARP?",
     answers: [
       {
-        option: "",
+        option: "arp -a",
         correct: false,
       },
       {
-        option: "",
+        option: "arp -d",
         correct: false,
       },
       {
-        option: "",
+        option: "show arp table",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "show ip arp",
+        correct: true,
       },
     ],
   },
   {
     id: 280,
-    question: "",
-    //   multi: true,
+    question: "Który to atak za pomocą ARP?",
     answers: [
       {
-        option: "",
+        option: "Broadcast ARP",
         correct: false,
       },
       {
-        option: "",
+        option: "Skoki ARP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Zatruwanie ARP",
+        correct: true,
       },
       {
-        option: "",
+        option: "Zagłodzenie ARP",
         correct: false,
       },
     ],
   },
+
   {
     id: 281,
-    question: "",
-    //   multi: true,
+    question: "Które dwa komunikaty ICMPv6 są używane w SLAAC?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Neighbor Advertisement",
         correct: false,
       },
       {
-        option: "",
+        option: "Neighbor Solicitation",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Powiadomienie, że router jest",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Router solicitation",
+        correct: true,
       },
     ],
   },
   {
     id: 282,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa komunikaty ICMPv6 są używane w celu określenia adresu MAC znanego adresu IPv6?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Neighbor Advertisement",
+        correct: true,
+      },
+      {
+        option: "Neighbor Solicitation",
+        correct: true,
+      },
+      {
+        option: "Router Advertisement",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Router Solicitation",
         correct: false,
       },
     ],
   },
   {
     id: 283,
-    question: "",
-    //   multi: true,
+    question: "Na jaki adres wysyłane są komunikaty ICMPv6 NS?",
     answers: [
       {
-        option: "",
+        option: "Unicast",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Multicast",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Broadcast",
         correct: false,
       },
     ],
   },
+
   {
     id: 284,
-    question: "",
-    //   multi: true,
+    question:
+      "Który element routera przechowuje tablicę routingu, pamięć podręczną ARP oraz plik konfiguracji bieżącej?",
     answers: [
       {
-        option: "",
+        option: "Pamięć RAM",
+        correct: true,
+      },
+      {
+        option: "It broadcasts the frame out of all ports on the switch.",
         correct: false,
       },
       {
-        option: "",
+        option: "Pamięć NVRAM",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Pamięci ROM",
         correct: false,
       },
     ],
   },
   {
     id: 285,
-    question: "",
-    //   multi: true,
+    question: "Jaki rodzaj informacji znajduje się w tablicy ARP?",
     answers: [
       {
-        option: "",
+        option: "Porty przełącznika skojarzone z docelowymi adresami MAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Mapowanie nazw domen na adresy IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Trasy do dotarcia do sieci docelowych",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Mapowanie adresów IP na adresy MAC",
+        correct: true,
       },
     ],
   },
   {
     id: 286,
-    question: "",
-    //   multi: true,
+    question:
+      "Komputer jest skonfigurowany do automatycznego uzyskiwania adresu IP z sieci 192.168.1.0/24. Administrator sieci wydaje polecenie arp -a i zauważa pozycję 192.168.1.255 ff-ff-ff-ff-ff-ff. Które stwierdzenie opisuje ten wpis?",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "To jest wpis statyczny.",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "To jest wpis dynamiczny.",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
+        option: "To jest wpis dodany przez PC samodzielnie.",
+        correct: false, // no this
       },
       {
-        option: "",
+        option: "To jest wpis mapowania dla bramy domyślnej.",
         correct: false,
       },
     ],
   },
   {
     id: 287,
-    question: "",
-    //   multi: true,
+    question:
+      "Analityk cyberbezpieczeństwa uważa, że atakujący fałszuje adres MAC bramy domyślnej, aby wykonać atak man-in-the-middle. Jakiego polecenia powinien użyć analityk, aby wyświetlić adres MAC, z którego korzysta host, aby dotrzeć do domyślnej bramy?",
     answers: [
       {
-        option: "",
+        option: "Obtaining an IPv4 address automatically",
+        correct: false, // no this
+      },
+      {
+        option: "Mapping a domain name to its IP address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Resolving an IPv4 address to a MAC address",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Maintaining a table of domain names with their resolved IP addresses",
         correct: false,
       },
     ],
   },
   {
     id: 288,
-    question: "",
-    //   multi: true,
+    question:
+      "Co zrobi przełącznik warstwy drugiej jeżeli docelowy adres MAC w otrzymanej ramce nie znajduje się w tablicy MAC?",
     answers: [
       {
-        option: "",
+        option: "Zainicjuje zapytanie ARP.",
         correct: false,
       },
       {
-        option: "",
+        option: "It broadcasts the frame out of all ports on the switch.",
         correct: false,
       },
       {
-        option: "",
+        option: "Poinformuje hosta, który wysłał ramkę, że ramka nie zostanie dostarczona.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Przekaże ramkę na wszystkie porty z wyjątkiem portu na który otrzymał ramkę.",
+        correct: true,
       },
     ],
   },
   {
     id: 289,
-    question: "",
-    //   multi: true,
+    question: "Co jest funkcją ARP?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Odwzorowanie adresów MAC na adresy IPv4",
+        correct: true,
+      },
+      {
+        option: "Odwzorowanie adresów portów na adresy MAC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Odwzorowanie adresów MAC na adresy portów",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
+        option: "Odwzorowanie adresów IPv4 na adresy MAC",
+        correct: true, // true 100%
       },
       {
-        option: "",
-        correct: false,
+        option: "Echo request",
+        correct: false, // no this
       },
     ],
   },
   {
     id: 290,
-    question: "",
-    //   multi: true,
+    question: "W jaki sposób proces ARP wykorzystuje adres IP?",
     answers: [
       {
-        option: "",
+        option: "W celu ustalenia adresu MAC zdalnego hosta docelowego",
         correct: false,
       },
       {
-        option: "",
+        option: "W celu ustalenia adresu MAC urządzenia w tej samej sieci",
+        correct: true,
+      },
+      {
+        option:
+          "Aby określić czas, jaki pakiet zajmuje podczas podróży ze źródła do miejsca docelowego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Aby określić numer sieci na podstawie liczby bitów w adresie IP",
         correct: false,
       },
     ],
   },
   {
     id: 291,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest jedna funkcja protokołu ARP?",
     answers: [
       {
-        option: "",
+        option: "Obtaining an IPv4 address automatically",
         correct: false,
       },
       {
-        option: "",
+        option: "Mapping a domain name to its IP address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Resolving an IPv4 address to a MAC address",
+        correct: true,
       },
       {
-        option: "",
+        option: "Maintaining a table of domain names with their resolved IP addresses",
         correct: false,
       },
     ],
   },
   {
     id: 292,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie operacje wykona przełącznik warstwy 2, gdy odbierze ramkę rozgłoszeniową warstwy 2?",
     answers: [
       {
-        option: "",
+        option: "Odrzuca ramkę.",
         correct: false,
       },
       {
-        option: "",
+        option: "Wysyła ramkę do wszystkich portów z wyjątkiem portu, z którego otrzymał ramkę.",
+        correct: true,
+      },
+      {
+        option:
+          "Wysyła ramkę do wszystkich portów, które są zarejestrowane dla przekazywania transmisji rozgłoszeniowych.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wysyła ramkę do wszystkich portów.",
         correct: false,
       },
     ],
   },
   {
     id: 293,
-    question: "",
-    //   multi: true,
+    question: "Jakie adresy są mapowane przez ARP?",
     answers: [
       {
-        option: "",
+        option: "Docelowy adres MAC na docelowy adres IPv4",
+        correct: true,
+      },
+      {
+        option: "Docelowy adres IPv4 na źródłowy adres MAC",
+        correct: false, // no this
+      },
+      {
+        option: "Docelowy adres IPv4 na nazwę hosta docelowego",
         correct: false,
       },
       {
-        option: "",
+        option: "Docelowy adres MAC na adres źródłowy IPv4",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Docelowy adres IPv4 na docelowy adres MAC",
         correct: false,
       },
     ],
   },
   {
     id: 294,
-    question: "",
-    //   multi: true,
+    question:
+      "Gdy pakiet IP jest wysyłany do hosta w sieci zdalnej, jakie informacje są dostarczane przez ARP?",
     answers: [
       {
-        option: "",
+        option: "Adres IP hosta docelowego",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres IP bramy domyślnej",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adres MAC interfejsu routera najbliżej hosta wysyłającego",
+        correct: true,
       },
       {
-        option: "",
+        option: "Adres MAC portu przełącznika, który łączy się z hosta wysyłającego",
         correct: false,
       },
     ],
   },
   {
     id: 295,
-    question: "",
-    //   multi: true,
+    question: "Które dwa typy adresów odwzorowuje tablica ARP w przełączniku?",
     answers: [
       {
-        option: "",
+        option: "Adresy warstwy 3 na adresy warstwy2",
+        correct: true,
+      },
+      {
+        option: "Layer 3 address to a Layer 4 address",
         correct: false,
       },
       {
-        option: "",
+        option: "Layer 4 address to a Layer 2 address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Layer 2 address to a Layer 4 address",
         correct: false,
       },
     ],
   },
   {
     id: 296,
-    question: "",
-    //   multi: true,
+    question: "Jakie jest przeznaczenie ARP w sieci IPv4?",
     answers: [
       {
-        option: "",
+        option: "Aby dalej przesyłać dane na podstawie docelowego adresu IP",
         correct: false,
       },
       {
-        option: "",
+        option: "Aby uzyskać określony adres MAC, gdy znany jest adres IP",
+        correct: true,
+      },
+      {
+        option: "Aby dalej przesyłać dane na podstawie docelowego adresu MAC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Zbudować tabelę adresów MAC w przełączniku z informacji, które są gromadzone",
         correct: false,
       },
     ],
   },
   {
     id: 297,
-    question: "",
-    //   multi: true,
+    question: "Jaki adres docelowy jest używany w ramce żądania ARP?",
     answers: [
       {
-        option: "",
+        option: "0.0.0.0",
         correct: false,
       },
       {
-        option: "",
+        option: "Layer 3 address to a Layer 4 address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Layer 4 address to a Layer 2 address",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Layer 2 address to a Layer 4 address",
+        correct: false, // no this
+      },
+      {
+        option: "01-00-5E-00-AA-23",
+        correct: false, // no this
       },
     ],
   },
   {
     id: 298,
-    question: "",
-    //   multi: true,
+    question: "Router uruchamia się i przechodzi w tryb setup. Jaka jest tego przyczyna?",
     answers: [
       {
-        option: "",
+        option: "Obraz IOS jest uszkodzony.",
         correct: false,
       },
       {
-        option: "",
+        option: "Obraz systemu Cisco IOS nie istnieje w pamięci flash.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Plik konfiguracyjny nie istnieje w pamięci NVRAM.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Proces POST wykrył awarię sprzętu.",
         correct: false,
       },
     ],
   },
   {
     id: 299,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie służy do szyfrowania wszystkich haseł w pliku konfiguracyjnym routera?",
     answers: [
       {
-        option: "",
+        option: "Router_A (config) # enable secret <password>",
         correct: false,
       },
       {
-        option: "",
+        option: "Router_A (config) # service password-encryption",
+        correct: true,
+      },
+      {
+        option: "Router_A (config) # enable password <password>",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Router_A (config) # encrypt password",
         correct: false,
       },
     ],
   },
   {
     id: 300,
-    question: "",
-    //   multi: true,
+    question:
+      "Zasady firmy wymagają użycia najbardziej bezpiecznej metody w celu zabezpieczenia dostępu do uprzywilejowanego trybu exec i konfiguracji routerów. Hasło trybu uprzywilejowanego EXEC to: trustknow1. Które z poniższych poleceń routera osiąga cel, jakim jest zapewnienie najwyższego poziomu bezpieczeństwa?",
     answers: [
       {
-        option: "",
+        option: "secret password trustknow1",
         correct: false,
       },
       {
-        option: "",
+        option: "enable password trustknow1",
         correct: false,
       },
       {
-        option: "",
+        option: "service password-encryption",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "enable secret trustknow1",
+        correct: true,
       },
     ],
   },
   {
     id: 301,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka będzie odpowiedź routera po wprowadzeniu polecenia router(config)# hostname portsmouth?",
     answers: [
       {
-        option: "",
+        option: "portsmouth#",
         correct: false,
       },
       {
-        option: "",
+        option: "portsmouth(config)#",
+        correct: true,
+      },
+      {
+        option: "invalid input detected",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "router(config-host)#",
         correct: false,
       },
     ],
   },
   {
     id: 302,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator konfiguruje nowy router, aby zezwolić na dostęp do zarządzania poza pasmem. Który zestaw poleceń pozwoli na wymagane logowanie przy użyciu hasła cisco?",
     answers: [
       {
-        option: "",
+        option:
+          "Router(config)# line vty 0 4\nRouter(config-line)# password manage\nRouter(config-line)# exit\nRouter(config)# enable password cisco",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Router(config)# line vty 0 4\nRouter(config-line)# password cisco\nRouter(config-line)# login",
+        correct: false, // no this
+      },
+      {
+        option:
+          "Router(config)# line console 0\nRouter(config-line)# password cisco\nRouter(config-line)# login",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Router(config)# line console 0\nRouter(config-line)# password cisco\nRouter(config-line)# exit\nRouter(config)# service password-encryption",
         correct: false,
       },
     ],
   },
+
   {
     id: 303,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie może być używane na routerze Cisco, aby wyświetlić wszystkie interfejsy, przypisane adresy IPv4 i aktualny stan?",
     answers: [
       {
-        option: "",
+        option: "show ip interface brief",
+        correct: true,
+      },
+      {
+        option: "ping",
         correct: false,
       },
       {
-        option: "",
+        option: "show ip route",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "show interface fa0/1",
         correct: false,
       },
     ],
   },
   {
     id: 304,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z trybów interfejsu wiersza poleceń (CLI) pozwala użytkownikowi na dostęp do wszystkich poleceń urządzenia takich jak polecenia do konfiguracji, zarządzania i rozwiązywania problemów?",
     answers: [
       {
-        option: "",
+        option: "Tryb EXEC użytkownika",
         correct: false,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
+        correct: true,
+      },
+      {
+        option: "Tryb konfiguracji globalnej",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Tryb konfiguracji interfejsu",
         correct: false,
       },
     ],
   },
   {
     id: 305,
-    question: "",
-    //   multi: true,
+    question: "Do czego służy plik konfiguracji startowej w routerze Cisco?",
     answers: [
       {
-        option: "",
+        option: "W celu ułatwienia podstawowej obsługi komponentów sprzętowych urządzenia",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Zawiera polecenia używane do początkowej konfiguracji routera podczas uruchamiania",
+        correct: true,
+      },
+      {
+        option: "Zawiera polecenia konfiguracyjne, których obecnie używa router IOS",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Aby zapewnić ograniczoną wersję kopii zapasowej IOS, na wypadek, gdyby router nie mógł załadować w pełni funkcjonalnego IOS",
         correct: false,
       },
     ],
   },
   {
     id: 306,
-    question: "",
-    //   multi: true,
+    question: "Która cecha opisuje domyślną bramę komputera?",
     answers: [
       {
-        option: "",
+        option: "Logiczny adres interfejsu routera w tej samej sieci co komputer",
+        correct: true,
+      },
+      {
+        option: "Fizyczny adres interfejsu przełącznika podłączonego do komputera",
         correct: false,
       },
       {
-        option: "",
+        option: "Fizyczny adres interfejsu routera w tej samej sieci co komputer",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Logiczny adres przypisany do interfejsu przełącznika podłączonego do routera",
         correct: false,
       },
     ],
   },
   {
     id: 307,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel stosowania polecenia banner motd?",
     answers: [
       {
-        option: "",
+        option:
+          "Umożliwia ustawienie komunikatu, dzięki któremu użytkownicy sieci LAN będą mogli rozpoznawać dokumenty drukowane.",
         correct: false,
       },
       {
-        option: "",
+        option: "Jest to metoda używana przez routery do wymiany informacji o stanie łączy.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Jest to prosty sposób komunikacji z użytkownikami dołączonymi do sieci LAN routera.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Jest to metoda generowania ogłoszeń dla użytkowników logujących się do routera.",
+        correct: true,
       },
     ],
   },
   {
     id: 308,
-    question: "",
-    //   multi: true,
+    question:
+      "Technik konfiguruje router, aby umożliwić wszystkie formy dostępu do zarządzania. W ramach każdego rodzaju dostępu technik próbuje wpisać polecenie login.. Który tryb konfiguracji należy wprowadzić, aby wykonać to zadanie?",
     answers: [
       {
-        option: "",
+        option: "Tryb EXEC użytkownika",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb konfiguracji globalnej",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Jakikolwiek tryb konfiguracji linii",
+        correct: true,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
         correct: false,
       },
     ],
   },
   {
     id: 309,
-    question: "",
-    //   multi: true,
+    question: "Co jest przechowywane w NVRAM routera Cisco?",
     answers: [
       {
-        option: "",
+        option: "The Cisco IOS",
         correct: false,
       },
       {
-        option: "",
+        option: "Bieżąca konfiguracja",
         correct: false,
       },
       {
-        option: "",
+        option: "Instrukcje procesu rozruchu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Konfiguracja startowa",
+        correct: true,
       },
     ],
   },
   {
     id: 310,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie dotyczące polecenia service password-encryption jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "Jest konfigurowane w trybie uprzywilejowanym EXEC.",
         correct: false,
       },
       {
-        option: "",
+        option: "Szyfruje tylko hasła linii.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Gdy tylko polecenie service password-encryption zostanie wprowadzone, wszystkie aktualnie ustawione hasła poprzednio wyświetlane w zwykłym tekście są szyfrowane.",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Aby zobaczyć hasła zaszyfrowane przez poleceniem service password-encryption jako zwykły tekst, wydaj polecenie no service password-encryption.",
         correct: false,
       },
     ],
   },
   {
     id: 311,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 10.5.4.100 255.255.255.0. What is the network address of Host-A?",
     answers: [
       {
-        option: "",
+        option: "10.0.0.0",
         correct: false,
       },
       {
-        option: "",
+        option: "10.5.0.0",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "10.5.4.0",
+        correct: true,
       },
       {
-        option: "",
+        option: "10.5.4.100",
         correct: false,
       },
     ],
   },
   {
     id: 312,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. What is the network address of Host-A?",
     answers: [
       {
-        option: "",
+        option: "172.0.0.0",
         correct: false,
       },
       {
-        option: "",
+        option: "172.16.0.0",
+        correct: true,
+      },
+      {
+        option: "172.16.4.0",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "172.16.4.100",
         correct: false,
       },
     ],
   },
   {
     id: 313,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 10.5.4.100 255.255.255.0. Which of the following IPv4 addresses would be on the same network as Host-A?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "10.5.4.1",
+        correct: true,
+      },
+      {
+        option: "10.5.0.1",
         correct: false,
       },
       {
-        option: "",
+        option: "10.5.4.99",
+        correct: true,
+      },
+      {
+        option: "10.0.0.98",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "10.5.100.4",
         correct: false,
       },
     ],
   },
   {
     id: 314,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. Which of the following IPv4 addresses would be on the same network as Host-A?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "172.16.4.99",
+        correct: true,
+      },
+      {
+        option: "172.16.0.1",
+        correct: true,
+      },
+      {
+        option: "172.17.4.99",
         correct: false,
       },
       {
-        option: "",
+        option: "172.17.4.1",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "172.18.4.1",
         correct: false,
       },
     ],
   },
   {
     id: 315,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 192.168.1.50 255.255.255.0. Which of the following IPv4 addresses would be on the same network as Host-A?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "192.168.0.1",
         correct: false,
       },
       {
-        option: "",
+        option: "192.168.0.100",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "192.168.1.1",
+        correct: true,
       },
       {
-        option: "",
+        option: "192.168.1.100",
+        correct: true,
+      },
+      {
+        option: "192.168.2.1",
         correct: false,
       },
     ],
   },
+
   {
     id: 316,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa stwierdzenia dotyczące prywatnych adresów IPv4 są poprawne? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option:
+          "Prywatne adresy IPv4 są przypisywane do urządzeń w sieci intranetowej organizacji (sieci wewnętrznej).",
+        correct: true,
+      },
+      {
+        option:
+          "Routery internetowe zazwyczaj przesyłają dowolny pakiet z adresem docelowym, który jest prywatnym adresem IPv4.",
         correct: false,
       },
       {
-        option: "",
+        option: "172.99.1.1 jest prywatnym adresem IPv4.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Każda organizacja (dom, szkoła, biuro, firma) może korzystać z adresu 10.0.0.0/8.",
+        correct: true,
       },
     ],
   },
   {
     id: 317,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa stwierdzenia dotyczące publicznych adresów IPv4 są poprawne? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option:
+          "Publiczne adresy IPv4 mogą być przypisane do urządzeń w sieci intranetowej organizacji (wewnętrznej sieci).",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Aby uzyskać dostęp do urządzenia z Internetu, docelowy adres IPv4 musi być adresem publicznym.",
+        correct: true,
+      },
+      {
+        option: "192.168.1.10 jest publicznym adresem IPv4.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option:
+          "Wyczerpanie publicznego adresu IPv4 jest powodem, dla którego istnieje prywatny adres IPv4 i dlatego organizacje przechodzą na IPv6.",
+        correct: true,
       },
     ],
   },
   {
     id: 318,
-    question: "",
-    //   multi: true,
+    question:
+      "Która organizacja lub grupa organizacji otrzymuje adresy IP od IANA i jest odpowiedzialna za przydzielanie tych adresów do ISP i niektórym organizacjom?",
     answers: [
       {
-        option: "",
+        option: "IETF",
         correct: false,
       },
       {
-        option: "",
+        option: "EEE",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "RIR",
+        correct: true,
       },
       {
-        option: "",
+        option: "ISP poziomu 1",
         correct: false,
       },
     ],
   },
   {
     id: 319,
-    question: "",
-    //   multi: true,
+    question: "Które urządzenia nie będą przesyłać domyślnie pakietu rozgłoszeniowego IPv4?",
     answers: [
       {
-        option: "",
+        option: "Przełącznik Ethernet",
         correct: false,
       },
       {
-        option: "",
+        option: "Router",
+        correct: true,
+      },
+      {
+        option: "PC z systemem Windows",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Żadne z powyższych wszystkie urządzenia przesyłają domyślnie pakiety rozgłoszeniowe IPv4.",
         correct: false,
       },
     ],
   },
   {
     id: 320,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie sytuacje są wynikiem nadmiernego ruchu rozgłoszeniowego? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Powolne działanie sieci",
+        correct: true,
+      },
+      {
+        option: "Powolne działanie urządzeń",
+        correct: true,
+      },
+      {
+        option: "Gdy dotyczy to urządzeń we wszystkich sąsiednich sieciach",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Gdy router musi przesłać nadmierną liczbę pakietów",
         correct: false,
       },
     ],
   },
+
   {
     id: 321,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest długość prefiksu dla maski podsieci 255.255.255.224?",
     answers: [
       {
-        option: "",
+        option: "/25",
         correct: false,
       },
       {
-        option: "",
+        option: "/26",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "/27",
+        correct: true,
       },
       {
-        option: "",
+        option: "/28",
         correct: false,
       },
     ],
   },
   {
     id: 322,
-    question: "",
-    //   multi: true,
+    question:
+      "Ile poprawnych adresów hostów jest dostępnych w podsieci IPv4 skonfigurowanej za pomocą maski /26?",
     answers: [
       {
-        option: "",
+        option: "254",
         correct: false,
       },
       {
-        option: "",
+        option: "190",
         correct: false,
       },
       {
-        option: "",
+        option: "192",
         correct: false,
       },
       {
-        option: "",
+        option: "62",
+        correct: true,
+      },
+      {
+        option: "64",
         correct: false,
       },
     ],
   },
   {
     id: 323,
-    question: "",
-    //   multi: true,
+    question: "Która maska podsieci będzie używana, jeśli 5 bitów hosta będzie dostępne?",
     answers: [
       {
-        option: "",
+        option: "255.255.255.0",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.255.128",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.255.224",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "255.255.255.240",
+        correct: false, // no this
       },
     ],
   },
   {
     id: 324,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci tworzy podsieci z 192.168.10.0/24 na podsieci z maskami /26. Ile utworzonych podsieci o równej wielkości?",
     answers: [
       {
-        option: "",
+        option: "1",
         correct: false,
       },
       {
-        option: "",
+        option: "2",
         correct: false,
       },
       {
-        option: "",
+        option: "4",
+        correct: true,
+      },
+      {
+        option: "8",
         correct: false,
       },
       {
-        option: "",
+        option: "16",
+        correct: false,
+      },
+      {
+        option: "64",
         correct: false,
       },
     ],
   },
   {
     id: 325,
-    question: "",
-    //   multi: true,
+    question: "Jaką maskę podsieci reprezentuje notacja /20?",
     answers: [
       {
-        option: "",
+        option: "255.255.255.248",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.224.0",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.240.0",
+        correct: true,
+      },
+      {
+        option: "255.255.255.0",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.255.192",
         correct: false,
       },
     ],
   },
   {
     id: 326,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie jest prawdziwe o podziale o zmiennej długości maski?",
     answers: [
       {
-        option: "",
+        option: "Każda z podsieci posiada taki sam rozmiar.",
         correct: false,
       },
       {
-        option: "",
+        option: "Wielkość każdej podsieci może być różna, w zależności od wymagań.",
+        correct: true,
+      },
+      {
+        option: "Podsieci mogą być podzielone na podsieci tylko jeden dodatkowy raz.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Bity są zwracane, a nie pożyczane, aby utworzyć dodatkowe podsieci.",
         correct: false,
       },
     ],
   },
   {
     id: 327,
-    question: "",
-    //   multi: true,
+    question:
+      "Dlaczego urządzenie warstwy 3 wykonuje operację AND na docelowym adresie IP i masce podsieci?",
     answers: [
       {
-        option: "",
+        option: "Aby zidentyfikować adres rozgłoszeniowy sieci docelowej",
         correct: false,
       },
       {
-        option: "",
+        option: "W celu identyfikacji adresu hosta docelowego",
         correct: false,
       },
       {
-        option: "",
+        option: "Aby zidentyfikować wadliwe ramki",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Aby zidentyfikować adres sieci docelowej",
+        correct: true,
       },
     ],
   },
   {
     id: 328,
-    question: "",
-    //   multi: true,
+    question: "Ile użytecznych adresów IP jest dostępnych w sieci 192.168.1.0/27?",
     answers: [
       {
-        option: "",
+        option: "256",
         correct: false,
       },
       {
-        option: "",
+        option: "254",
         correct: false,
       },
       {
-        option: "",
+        option: "62",
         correct: false,
       },
       {
-        option: "",
+        option: "30",
+        correct: true,
+      },
+      {
+        option: "16",
+        correct: false,
+      },
+      {
+        option: "32",
         correct: false,
       },
     ],
   },
   {
     id: 329,
-    question: "",
-    //   multi: true,
+    question: "Która maska podsieci będzie używana, jeśli dokładnie 4 bity hosta są dostępne?",
     answers: [
       {
-        option: "",
+        option: "255.255.255.224",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.255.128",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "255.255.255.240",
+        correct: true,
       },
       {
-        option: "",
+        option: "255.255.255.248",
         correct: false,
       },
     ],
   },
   {
     id: 330,
-    question: "",
-    //   multi: true,
+    question: "Które dwie części są składnikami adresu IPv4? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Część identyfikująca podsieć",
         correct: false,
       },
       {
-        option: "",
+        option: "Część identyfikująca sieć",
+        correct: true,
+      },
+      {
+        option: "Fragment logiczny",
         correct: false,
       },
       {
-        option: "",
+        option: "Część identyfikująca hosta",
+        correct: true,
+      },
+      {
+        option: "Część fizyczna",
         correct: false,
       },
       {
-        option: "",
+        option: "Część rozgłoszeniowa",
         correct: false,
       },
     ],
   },
+
   {
     id: 331,
-    question: "",
-    //   multi: true,
+    question:
+      "Jeśli urządzenie sieciowe ma maskę /26, ile adresów IP jest dostępnych dla hostów w tej sieci?",
     answers: [
       {
-        option: "",
+        option: "64",
         correct: false,
       },
       {
-        option: "",
+        option: "30",
         correct: false,
       },
       {
-        option: "",
+        option: "62",
+        correct: true,
+      },
+      {
+        option: "32",
         correct: false,
       },
       {
-        option: "",
+        option: "16",
+        correct: false,
+      },
+      {
+        option: "14",
         correct: false,
       },
     ],
   },
   {
     id: 332,
-    question: "",
-    //   multi: true,
+    question: "Co reprezentuje adres IP 172.17.4.250/24?",
     answers: [
       {
-        option: "",
+        option: "Adres sieci",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres grupowy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adres hosta",
+        correct: true,
       },
       {
-        option: "",
+        option: "Adres rozgłoszeniowy",
         correct: false,
       },
     ],
   },
   {
     id: 333,
-    question: "",
-    //   multi: true,
+    question:
+      "Jeśli urządzenie sieciowe ma maskę /28, ile adresów IP jest dostępnych dla hostów w tej sieci?",
     answers: [
       {
-        option: "",
+        option: "256",
         correct: false,
       },
       {
-        option: "",
+        option: "254",
         correct: false,
       },
       {
-        option: "",
+        option: "62",
         correct: false,
       },
       {
-        option: "",
+        option: "32",
         correct: false,
+      },
+      {
+        option: "16",
+        correct: false,
+      },
+      {
+        option: "14",
+        correct: true,
       },
     ],
   },
   {
     id: 334,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel maski podsieci w połączeniu z adresem IP?",
     answers: [
       {
-        option: "",
+        option: "Aby jednoznacznie zidentyfikować hosta w sieci",
         correct: false,
       },
       {
-        option: "",
+        option: "W celu ustalenia, czy adres jest publiczny czy prywatny",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Aby określić podsieć, do której należy host",
+        correct: true,
       },
       {
-        option: "",
+        option: "Aby zamaskować adres IP dla osób z zewnątrz",
         correct: false,
       },
     ],
   },
   {
     id: 335,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci podzielił sieć na podsieci ze zmienną długością maski. Najmniejsza podsieć ma maskę 255.255.255.224. Ile użytecznych adresów hosta zapewni ta podsieć?",
     answers: [
       {
-        option: "",
+        option: "2",
         correct: false,
       },
       {
-        option: "",
+        option: "6",
         correct: false,
       },
       {
-        option: "",
+        option: "14",
         correct: false,
       },
       {
-        option: "",
+        option: "30",
+        correct: true,
+      },
+      {
+        option: "62",
         correct: false,
       },
     ],
