@@ -3,7 +3,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 1  -->  id: 1-39
 // MODULE 2  -->  id: 40-69
 // MODULE 3  -->  id: 70-112
-// MODULE 4  -->  id: 113-
+// MODULE 4  -->  id: 113-150
 // MODULE 5  -->  id:
 // MODULE 6  -->  id:
 // MODULE 7  -->  id:
@@ -2492,874 +2492,773 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 113,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Warstwa fizyczna dotyczy tylko przewodowych połączeń sieciowych.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 114,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Gdy ramka jest kodowana przez warstwę fizyczną, wszystkie bity są przesyłane przez nośnik w tym samym czasie.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 115,
-    question: "",
-    //   multi: true,
+    question:
+      "Warstwa fizyczna urządzenia odbiorczego przekazuje bity do której warstwy wyższego poziomu?",
     answers: [
       {
-        option: "",
+        option: "Aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Prezentacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Łącza danych",
+        correct: true,
       },
     ],
   },
   {
     id: 116,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jednostka PDU jest odbierana przez warstwę fizyczną do kodowania i transmisji?",
     answers: [
       {
-        option: "",
+        option: "Ramka",
+        correct: true,
+      },
+      {
+        option: "Segment",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Pakiet",
         correct: false,
       },
     ],
   },
   {
     id: 117,
-    question: "",
-    //   multi: true,
+    question:
+      "Które media wykorzystują wzorce mikrofal do reprezentowania bitów?",
     answers: [
       {
-        option: "",
+        option: "Miedź",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Bezprzewodowe",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Światłowodowy",
         correct: false,
       },
     ],
   },
   {
     id: 118,
-    question: "",
-    //   multi: true,
+    question: "Które media używają wzorców światła do reprezentowania bitów?",
     answers: [
       {
-        option: "",
+        option: "Miedź",
         correct: false,
       },
       {
-        option: "",
+        option: "Bezprzewodowe",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Światłowodowy",
+        correct: true,
       },
     ],
   },
   {
     id: 119,
-    question: "",
-    //   multi: true,
+    question:
+      "Które media wykorzystują impulsy elektryczne do reprezentowania bitów?",
     answers: [
       {
-        option: "",
+        option: "Miedź",
+        correct: true,
+      },
+      {
+        option: "Bezprzewodowe",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Światłowodowy",
         correct: false,
       },
     ],
   },
   {
     id: 120,
-    question: "",
-    //   multi: true,
+    question:
+      "Która z nich jest nazwą zdolności nośnika do przenoszenia danych?",
     answers: [
       {
-        option: "",
+        option: "Szerokość pasma",
+        correct: true,
+      },
+      {
+        option: "Przepustowość",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Przepustowość efektywna",
         correct: false,
       },
     ],
   },
   {
     id: 121,
-    question: "",
-    //   multi: true,
+    question: "Które z nich jest miarą transferu bitów w mediach?",
     answers: [
       {
-        option: "",
+        option: "Szerokość pasma",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Przepustowość",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Przepustowość efektywna",
         correct: false,
       },
     ],
   },
   {
     id: 122,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych połączy anteny do urządzeń bezprzewodowych? Można go również połączyć z okablowaniem światłowodowym do dwukierunkowej transmisji danych.",
     answers: [
       {
-        option: "",
+        option: "UTP",
         correct: false,
       },
       {
-        option: "",
+        option: "STP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Kabel koncentryczny",
+        correct: true,
       },
     ],
   },
   {
     id: 123,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych przeciwdziała EMI i RFI przy użyciu technik ekranowania i specjalnych złączy?",
     answers: [
       {
-        option: "",
+        option: "UTP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "STP",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Kabel koncentryczny",
         correct: false,
       },
     ],
   },
   {
     id: 124,
-    question: "",
-    //   multi: true,
+    question: "Który z poniższych jest najpopularniejszym nośnikiem sieciowym?",
     answers: [
       {
-        option: "",
+        option: "UTP",
+        correct: true,
+      },
+      {
+        option: "STP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Kabel koncentryczny",
         correct: false,
       },
     ],
   },
   {
     id: 125,
-    question: "",
-    //   multi: true,
+    question: "Które z poniższych zakończone jest złączami typu BNC, N i F?",
     answers: [
       {
-        option: "",
+        option: "UTP",
         correct: false,
       },
       {
-        option: "",
+        option: "STP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Kabel koncentryczny",
+        correct: true,
       },
     ],
   },
   {
     id: 126,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych typów kabli światłowodowych mogą pomóc w transmisji danych na odległości około 500 metrów?",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Wielomodowy",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Jednomodowy",
         correct: false,
       },
     ],
   },
   {
     id: 127,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych typów kabli światłowodowych wykorzystują diody elektroluminescencyjne (diody LED) jako nadajnik źródła danych?",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Wielomodowy",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Jednomodowy",
         correct: false,
       },
     ],
   },
   {
     id: 128,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych typów kabli światłowodowych wykorzystują lasery jako transmitery pojedynczego promienia światła?",
     answers: [
       {
-        option: "",
+        option: "Wielomodowy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Jednomodowy",
+        correct: true,
       },
     ],
   },
   {
     id: 129,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych rodzajów kabli światłowodowych jest używany do łączenia telefonii na duże odległości i w telewizji kablowej?",
     answers: [
       {
-        option: "",
+        option: "Wielomodowy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Jednomodowy",
+        correct: true,
       },
     ],
   },
   {
     id: 130,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych typów kabli światłowodowych mogą przenościć sygnał na około 62,5 mil lub 100 km/100000 m?",
     answers: [
       {
-        option: "",
+        option: "Wielomodowy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Jednomodowy",
+        correct: true,
       },
     ],
   },
   {
     id: 131,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych typów kabli światłowodowych jest używany w sieciach kampusowych?",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Wielomodowy",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Jednomodowy",
         correct: false,
       },
     ],
   },
   {
     id: 132,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz. Technika bezprzewodowa nie nadaje się do sieci korporacyjnych.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 133,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz. Bezprzewodowe sieci LAN działają w pełnym duplesie, dzięki czemu wszystkie urządzenia mogą wysyłać lub odbierać dane w tym samym czasie, dzięki czemu liczba użytkowników nie wpływa na wydajność.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 134,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych standardów bezprzewodowych najlepiej nadaje się do środowisk przemysłowych i IoT?",
     answers: [
       {
-        option: "",
+        option: "ZigBee",
+        correct: true,
+      },
+      {
+        option: "WiMAX",
         correct: false,
       },
       {
-        option: "",
+        option: "Wi-Fi",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Bluetooth",
         correct: false,
       },
     ],
   },
   {
     id: 135,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych standardów bezprzewodowych są używane w sieciach osobistych (PAN) i umożliwiają urządzeniom komunikację na odległość od 1 do 100 metrów?",
     answers: [
       {
-        option: "",
+        option: "ZigBee",
         correct: false,
       },
       {
-        option: "",
+        option: "WiMAX",
         correct: false,
       },
       {
-        option: "",
+        option: "Wi-Fi",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Bluetooth",
+        correct: true,
       },
     ],
   },
   {
     id: 136,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci rozwiązuje problem z połączeniem na serwerze. Używając testera administrator stwierdza, że sygnały generowane przez kartę sieciową serwera są zniekształcone i bezużyteczne. Do której warstwy modelu OSI należy przyporządkować ten błąd?",
     answers: [
       {
-        option: "",
+        option: "Warstwa prezentacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Warstwa fizyczna",
+        correct: true,
       },
       {
-        option: "",
+        option: "Warstwa łącza danych",
         correct: false,
       },
     ],
   },
   {
     id: 137,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki rodzaj kabla służy do podłączenia portu szeregowego stacji roboczej do portu konsoli routera Cisco?",
     answers: [
       {
-        option: "",
+        option: "Kabel z przeplotem",
         correct: false,
       },
       {
-        option: "",
+        option: "Kabel rollover",
+        correct: true,
+      },
+      {
+        option: "Kabel prosty",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Kabel koncentryczny",
         correct: false,
       },
     ],
   },
   {
     id: 138,
-    question: "",
-    //   multi: true,
+    question:
+      "Dlaczego do pojedynczego połączenia światłowodowego wykorzystywane są dwie żyły światłowodu?",
     answers: [
       {
-        option: "",
+        option:
+          "Dwie żyły pozwalają na bezproblemowe przesyłanie danych na długie dystanse.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Zapobiegają zakłóceniom powodowanym przez przesłuch w połączeniu.",
         correct: false,
       },
       {
-        option: "",
+        option: "Zwiększają szybkość z jaką mogą być przesyłane dane.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Pozwalają na połączenie full-duplex.",
+        correct: true,
       },
     ],
   },
   {
     id: 139,
-    question: "",
-    //   multi: true,
+    question:
+      "Która procedura jest używana do redukcji skutków przesłuchów w kablach miedzianych?",
     answers: [
       {
-        option: "",
+        option: "Wymaganie prawidłowego podłączenia uziemienia",
         correct: false,
       },
       {
-        option: "",
+        option: "Skręcanie ze sobą przeciwstawnych przewodów w pary",
+        correct: true,
+      },
+      {
+        option: "Zawijanie wiązki przewodów w ekran metalowy",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Projektowanie infrastruktury okablowania tak, aby uniknąć przesłuchów",
         correct: false,
       },
       {
-        option: "",
+        option: "Unikanie ostrych załamań podczas instalacji",
         correct: false,
       },
     ],
   },
   {
     id: 140,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jest główna korzyść ze stosowania okablowania światłowodowego w stosunku do miedzianego?",
     answers: [
       {
-        option: "",
+        option: "Jest zazwyczaj tańsze niż okablowanie miedziane.",
         correct: false,
       },
       {
-        option: "",
+        option: "Może być zainstalowane wokół ostrych zakrzywień.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Jest łatwiejsze do zakańczania i instalacji niż okablowanie miedziane.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
+        correct: true,
       },
     ],
   },
   {
     id: 141,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci projektuje nową infrastrukturę sieciową, która zawiera jednocześnie technologię przewodową i bezprzewodową. W jakiej sytuacji rekomendowane są połączenia bezprzewodowe?",
     answers: [
       {
-        option: "",
+        option: "Urządzenia użytkownika końcowego mają jedynie kartę Ethernet.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Urządzenie końcowe użytkownika wymaga dedykowanego połączenia ze względu na wymagania wydajności.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Urządzenie końcowe użytkownika potrzebuje mobilnego połączenia do sieci.",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Obszar, w którym pracuje urządzenie końcowe użytkownika cechuje wysoka koncentracja RFI.",
         correct: false,
       },
     ],
   },
   {
     id: 142,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki typ kabla UTP służy do podłączenia komputera do portu przełącznika?",
     answers: [
       {
-        option: "",
+        option: "Kabel konsolowy",
         correct: false,
       },
       {
-        option: "",
+        option: "Kabel rollover",
         correct: false,
       },
       {
-        option: "",
+        option: "Kabel z przeplotem",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Kabel prosty",
+        correct: true,
       },
     ],
   },
   {
     id: 143,
-    question: "",
-    //   multi: true,
+    question: "Która to definicja szerokości pasma?",
     answers: [
       {
-        option: "",
+        option: "Miara transferu bitów przez media w danym okresie czasu",
         correct: false,
       },
       {
-        option: "",
+        option: "Prędkość, z jaką bity podróżują w sieci",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Ilość danych, które mogą przepływać z jednego miejsca do drugiego w danym czasie",
         correct: false,
       },
       {
-        option: "",
+        option: "Miara użytecznych danych przesyłanych w danym okresie czasu",
         correct: false,
       },
     ],
   },
   {
     id: 144,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie poprawnie opisuje kodowanie ramek?",
     answers: [
       {
-        option: "",
+        option:
+          "Wykorzystuje charakterystykę jednej fali, aby zmodyfikować inną falę.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Przesyła sygnały danych wraz z sygnałem podstawy czasu, który realizowany jest w równomiernie rozłożonych okresach czasu.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Generuje sygnały elektryczne, optyczne lub bezprzewodowe reprezentujące liczby binarne ramki.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Konwertuje bity na predefiniowany kod w celu zapewnienia przewidywalnego wzorca, który pomaga odróżnić bity danych od bitów kontrolnych.",
+        correct: true,
       },
     ],
   },
   {
     id: 145,
-    question: "",
-    //   multi: true,
+    question: "Co jest cechą okablowania UTP?",
     answers: [
       {
-        option: "",
+        option: "Znoszenie",
         correct: false,
       },
       {
-        option: "",
+        option: "Płaszcz",
         correct: false,
       },
       {
-        option: "",
+        option: "Odporność na porażenie prądem",
         correct: false,
       },
       {
-        option: "",
+        option: "Plecionki miedziane lub folia metaliczna",
         correct: false,
       },
     ],
   },
   {
     id: 146,
-    question: "",
-    //   multi: true,
+    question:
+      "Bezprzewodowa sieci LAN jest wdrożona wewnątrz nowego pomieszczenia biurowego, zajmowanego przez strażnika w parku. Biuro znajduje się w najwyższej części parku narodowego. Po zakończeniu testowania sieci, technicy zgłaszają, że sygnał sieci bezprzewodowej LAN jest czasami zakłócany przez pewnego rodzaju interferencje. Jakie są dwie możliwe przyczyny zakłóceń sygnału?",
+    // multi: true,
     answers: [
       {
-        option: "",
+        option: "Mikrofalówka",
         correct: false,
       },
       {
-        option: "",
+        option: "Wiele drzew, które otacza biuro",
+        correct: true,
+      },
+      {
+        option:
+          "Podwyższone miejsce, w którym została zainstalowana bezprzewodowa sieć LAN",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
         correct: false,
       },
     ],
   },
   {
     id: 147,
-    question: "",
-    //   multi: true,
+    question: "Co najlepiej opisuje cel warstwy fizycznej OSI?",
     answers: [
       {
-        option: "",
+        option: "Kontrolę dostępu do medium",
         correct: false,
       },
       {
-        option: "",
+        option: "Przesyłanie bitów w mediach lokalnych",
+        correct: true,
+      },
+      {
+        option: "Wykrywanie błędów w odebranych ramkach",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wymiana ramek między węzłami przez fizyczne media sieciowe",
         correct: false,
       },
     ],
   },
   {
     id: 148,
-    question: "",
-    //   multi: true,
+    question: "Która cecha opisuje przesłuch?",
     answers: [
       {
-        option: "",
+        option:
+          "Zniekształcenie sygnału sieciowego z oświetlenia fluorescencyjnego",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Zniekształcenie przesyłanych komunikatów z sygnałów przenoszonych w sąsiednich przewodach",
+        correct: true,
+      },
+      {
+        option: "Osłabienie sygnału sieciowego na długich odcinkach kabli",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Utrata sygnału bezprzewodowego w nadmiernej odległości od punktu dostępowego",
         correct: false,
       },
     ],
   },
   {
     id: 149,
-    question: "",
-    //   multi: true,
+    question: "Co wskazuje termin przepustowość?",
     answers: [
       {
-        option: "",
+        option:
+          "Gwarantowana szybkość transferu danych oferowana przez dostawcę usług internetowych",
         correct: false,
       },
       {
-        option: "",
+        option: "Zdolność danego nośnika do przenoszenia danych",
         correct: false,
       },
       {
-        option: "",
+        option: "Miara użytecznych danych przesyłanych przez media",
         correct: false,
       },
       {
-        option: "",
+        option: "Miara transferu bitów przez media w danym okresie czasu",
+        correct: true,
+      },
+      {
+        option:
+          "The time it takes for a message to get from sender to receiver",
         correct: false,
       },
     ],
   },
   {
     id: 150,
-    question: "",
-    //   multi: true,
+    question:
+      "Która organizacja normalizacyjna nadzoruje rozwój standardów bezprzewodowej sieci LAN?",
     answers: [
       {
-        option: "",
+        option: "IANA",
         correct: false,
       },
       {
-        option: "",
+        option: "IEEE",
+        correct: true,
+      },
+      {
+        option: "ISO",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "TIA",
         correct: false,
       },
     ],
