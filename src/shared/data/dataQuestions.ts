@@ -9,7 +9,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 7  -->  id:
 // MODULE 8  -->  id: 240-272
 // MODULE 9  -->  id: 273-297
-// MODULE 10  -->  id:
+// MODULE 10  -->  id: 298-310
 // MODULE 11  -->  id:
 // MODULE 12  -->  id:
 // MODULE 13  -->  id:
@@ -6840,299 +6840,304 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 298,
-    question: "",
-    //   multi: true,
+    question: "Router uruchamia się i przechodzi w tryb setup. Jaka jest tego przyczyna?",
     answers: [
       {
-        option: "",
+        option: "Obraz IOS jest uszkodzony.",
         correct: false,
       },
       {
-        option: "",
+        option: "Obraz systemu Cisco IOS nie istnieje w pamięci flash.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Plik konfiguracyjny nie istnieje w pamięci NVRAM.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Proces POST wykrył awarię sprzętu.",
         correct: false,
       },
     ],
   },
   {
     id: 299,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie służy do szyfrowania wszystkich haseł w pliku konfiguracyjnym routera?",
     answers: [
       {
-        option: "",
+        option: "Router_A (config) # enable secret <password>",
         correct: false,
       },
       {
-        option: "",
+        option: "Router_A (config) # service password-encryption",
+        correct: true,
+      },
+      {
+        option: "Router_A (config) # enable password <password>",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Router_A (config) # encrypt password",
         correct: false,
       },
     ],
   },
   {
     id: 300,
-    question: "",
-    //   multi: true,
+    question:
+      "Zasady firmy wymagają użycia najbardziej bezpiecznej metody w celu zabezpieczenia dostępu do uprzywilejowanego trybu exec i konfiguracji routerów. Hasło trybu uprzywilejowanego EXEC to: trustknow1. Które z poniższych poleceń routera osiąga cel, jakim jest zapewnienie najwyższego poziomu bezpieczeństwa?",
     answers: [
       {
-        option: "",
+        option: "secret password trustknow1",
         correct: false,
       },
       {
-        option: "",
+        option: "enable password trustknow1",
         correct: false,
       },
       {
-        option: "",
+        option: "service password-encryption",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "enable secret trustknow1",
+        correct: true,
       },
     ],
   },
   {
     id: 301,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka będzie odpowiedź routera po wprowadzeniu polecenia router(config)# hostname portsmouth?",
     answers: [
       {
-        option: "",
+        option: "portsmouth#",
         correct: false,
       },
       {
-        option: "",
+        option: "portsmouth(config)#",
+        correct: true,
+      },
+      {
+        option: "invalid input detected",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "router(config-host)#",
         correct: false,
       },
     ],
   },
   {
     id: 302,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator konfiguruje nowy router, aby zezwolić na dostęp do zarządzania poza pasmem. Który zestaw poleceń pozwoli na wymagane logowanie przy użyciu hasła cisco?",
     answers: [
       {
-        option: "",
+        option:
+          "Router(config)# line vty 0 4\nRouter(config-line)# password manage\nRouter(config-line)# exit\nRouter(config)# enable password cisco",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Router(config)# line vty 0 4\nRouter(config-line)# password cisco\nRouter(config-line)# login",
+        correct: false, // no this
+      },
+      {
+        option:
+          "Router(config)# line console 0\nRouter(config-line)# password cisco\nRouter(config-line)# login",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Router(config)# line console 0\nRouter(config-line)# password cisco\nRouter(config-line)# exit\nRouter(config)# service password-encryption",
         correct: false,
       },
     ],
   },
+
   {
     id: 303,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie może być używane na routerze Cisco, aby wyświetlić wszystkie interfejsy, przypisane adresy IPv4 i aktualny stan?",
     answers: [
       {
-        option: "",
+        option: "show ip interface brief",
+        correct: true,
+      },
+      {
+        option: "ping",
         correct: false,
       },
       {
-        option: "",
+        option: "show ip route",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "show interface fa0/1",
         correct: false,
       },
     ],
   },
   {
     id: 304,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z trybów interfejsu wiersza poleceń (CLI) pozwala użytkownikowi na dostęp do wszystkich poleceń urządzenia takich jak polecenia do konfiguracji, zarządzania i rozwiązywania problemów?",
     answers: [
       {
-        option: "",
+        option: "Tryb EXEC użytkownika",
         correct: false,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
+        correct: true,
+      },
+      {
+        option: "Tryb konfiguracji globalnej",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Tryb konfiguracji interfejsu",
         correct: false,
       },
     ],
   },
   {
     id: 305,
-    question: "",
-    //   multi: true,
+    question: "Do czego służy plik konfiguracji startowej w routerze Cisco?",
     answers: [
       {
-        option: "",
+        option: "W celu ułatwienia podstawowej obsługi komponentów sprzętowych urządzenia",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Zawiera polecenia używane do początkowej konfiguracji routera podczas uruchamiania",
+        correct: true,
+      },
+      {
+        option: "Zawiera polecenia konfiguracyjne, których obecnie używa router IOS",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Aby zapewnić ograniczoną wersję kopii zapasowej IOS, na wypadek, gdyby router nie mógł załadować w pełni funkcjonalnego IOS",
         correct: false,
       },
     ],
   },
   {
     id: 306,
-    question: "",
-    //   multi: true,
+    question: "Która cecha opisuje domyślną bramę komputera?",
     answers: [
       {
-        option: "",
+        option: "Logiczny adres interfejsu routera w tej samej sieci co komputer",
+        correct: true,
+      },
+      {
+        option: "Fizyczny adres interfejsu przełącznika podłączonego do komputera",
         correct: false,
       },
       {
-        option: "",
+        option: "Fizyczny adres interfejsu routera w tej samej sieci co komputer",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Logiczny adres przypisany do interfejsu przełącznika podłączonego do routera",
         correct: false,
       },
     ],
   },
   {
     id: 307,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel stosowania polecenia banner motd?",
     answers: [
       {
-        option: "",
+        option:
+          "Umożliwia ustawienie komunikatu, dzięki któremu użytkownicy sieci LAN będą mogli rozpoznawać dokumenty drukowane.",
         correct: false,
       },
       {
-        option: "",
+        option: "Jest to metoda używana przez routery do wymiany informacji o stanie łączy.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Jest to prosty sposób komunikacji z użytkownikami dołączonymi do sieci LAN routera.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Jest to metoda generowania ogłoszeń dla użytkowników logujących się do routera.",
+        correct: true,
       },
     ],
   },
   {
     id: 308,
-    question: "",
-    //   multi: true,
+    question:
+      "Technik konfiguruje router, aby umożliwić wszystkie formy dostępu do zarządzania. W ramach każdego rodzaju dostępu technik próbuje wpisać polecenie login.. Który tryb konfiguracji należy wprowadzić, aby wykonać to zadanie?",
     answers: [
       {
-        option: "",
+        option: "Tryb EXEC użytkownika",
         correct: false,
       },
       {
-        option: "",
+        option: "Tryb konfiguracji globalnej",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Jakikolwiek tryb konfiguracji linii",
+        correct: true,
       },
       {
-        option: "",
+        option: "Uprzywilejowany tryb EXEC",
         correct: false,
       },
     ],
   },
   {
     id: 309,
-    question: "",
-    //   multi: true,
+    question: "Co jest przechowywane w NVRAM routera Cisco?",
     answers: [
       {
-        option: "",
+        option: "The Cisco IOS",
         correct: false,
       },
       {
-        option: "",
+        option: "Bieżąca konfiguracja",
         correct: false,
       },
       {
-        option: "",
+        option: "Instrukcje procesu rozruchu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Konfiguracja startowa",
+        correct: true,
       },
     ],
   },
   {
     id: 310,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie dotyczące polecenia service password-encryption jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "Jest konfigurowane w trybie uprzywilejowanym EXEC.",
         correct: false,
       },
       {
-        option: "",
+        option: "Szyfruje tylko hasła linii.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Gdy tylko polecenie service password-encryption zostanie wprowadzone, wszystkie aktualnie ustawione hasła poprzednio wyświetlane w zwykłym tekście są szyfrowane.",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Aby zobaczyć hasła zaszyfrowane przez poleceniem service password-encryption jako zwykły tekst, wydaj polecenie no service password-encryption.",
         correct: false,
       },
     ],
