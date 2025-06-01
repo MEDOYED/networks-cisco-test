@@ -10,7 +10,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 8  -->  id: 240-272
 // MODULE 9  -->  id: 273-297
 // MODULE 10  -->  id: 298-310
-// MODULE 11  -->  id:
+// MODULE 11  -->  id: 311-335
 // MODULE 12  -->  id:
 // MODULE 13  -->  id:
 // MODULE 14  -->  id:
@@ -7144,575 +7144,645 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 311,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 10.5.4.100 255.255.255.0. What is the network address of Host-A?",
     answers: [
       {
-        option: "",
+        option: "10.0.0.0",
         correct: false,
       },
       {
-        option: "",
+        option: "10.5.0.0",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "10.5.4.0",
+        correct: true,
       },
       {
-        option: "",
+        option: "10.5.4.100",
         correct: false,
       },
     ],
   },
   {
     id: 312,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. What is the network address of Host-A?",
     answers: [
       {
-        option: "",
+        option: "172.0.0.0",
         correct: false,
       },
       {
-        option: "",
+        option: "172.16.0.0",
+        correct: true,
+      },
+      {
+        option: "172.16.4.0",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "172.16.4.100",
         correct: false,
       },
     ],
   },
   {
     id: 313,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 10.5.4.100 255.255.255.0. Which of the following IPv4 addresses would be on the same network as Host-A?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "10.5.4.1",
+        correct: true,
+      },
+      {
+        option: "10.5.0.1",
         correct: false,
       },
       {
-        option: "",
+        option: "10.5.4.99",
+        correct: true,
+      },
+      {
+        option: "10.0.0.98",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "10.5.100.4",
         correct: false,
       },
     ],
   },
   {
     id: 314,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. Which of the following IPv4 addresses would be on the same network as Host-A?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "172.16.4.99",
+        correct: true,
+      },
+      {
+        option: "172.16.0.1",
+        correct: true,
+      },
+      {
+        option: "172.17.4.99",
         correct: false,
       },
       {
-        option: "",
+        option: "172.17.4.1",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "172.18.4.1",
         correct: false,
       },
     ],
   },
   {
     id: 315,
-    question: "",
-    //   multi: true,
+    question:
+      "Host-A has the IPv4 address and subnet mask 192.168.1.50 255.255.255.0. Which of the following IPv4 addresses would be on the same network as Host-A?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "192.168.0.1",
         correct: false,
       },
       {
-        option: "",
+        option: "192.168.0.100",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "192.168.1.1",
+        correct: true,
       },
       {
-        option: "",
+        option: "192.168.1.100",
+        correct: true,
+      },
+      {
+        option: "192.168.2.1",
         correct: false,
       },
     ],
   },
+
   {
     id: 316,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa stwierdzenia dotyczące prywatnych adresów IPv4 są poprawne? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option:
+          "Prywatne adresy IPv4 są przypisywane do urządzeń w sieci intranetowej organizacji (sieci wewnętrznej).",
+        correct: true,
+      },
+      {
+        option:
+          "Routery internetowe zazwyczaj przesyłają dowolny pakiet z adresem docelowym, który jest prywatnym adresem IPv4.",
         correct: false,
       },
       {
-        option: "",
+        option: "172.99.1.1 jest prywatnym adresem IPv4.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Każda organizacja (dom, szkoła, biuro, firma) może korzystać z adresu 10.0.0.0/8.",
+        correct: true,
       },
     ],
   },
   {
     id: 317,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa stwierdzenia dotyczące publicznych adresów IPv4 są poprawne? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option:
+          "Publiczne adresy IPv4 mogą być przypisane do urządzeń w sieci intranetowej organizacji (wewnętrznej sieci).",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Aby uzyskać dostęp do urządzenia z Internetu, docelowy adres IPv4 musi być adresem publicznym.",
+        correct: true,
+      },
+      {
+        option: "192.168.1.10 jest publicznym adresem IPv4.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option:
+          "Wyczerpanie publicznego adresu IPv4 jest powodem, dla którego istnieje prywatny adres IPv4 i dlatego organizacje przechodzą na IPv6.",
+        correct: true,
       },
     ],
   },
   {
     id: 318,
-    question: "",
-    //   multi: true,
+    question:
+      "Która organizacja lub grupa organizacji otrzymuje adresy IP od IANA i jest odpowiedzialna za przydzielanie tych adresów do ISP i niektórym organizacjom?",
     answers: [
       {
-        option: "",
+        option: "IETF",
         correct: false,
       },
       {
-        option: "",
+        option: "EEE",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "RIR",
+        correct: true,
       },
       {
-        option: "",
+        option: "ISP poziomu 1",
         correct: false,
       },
     ],
   },
   {
     id: 319,
-    question: "",
-    //   multi: true,
+    question: "Które urządzenia nie będą przesyłać domyślnie pakietu rozgłoszeniowego IPv4?",
     answers: [
       {
-        option: "",
+        option: "Przełącznik Ethernet",
         correct: false,
       },
       {
-        option: "",
+        option: "Router",
+        correct: true,
+      },
+      {
+        option: "PC z systemem Windows",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Żadne z powyższych wszystkie urządzenia przesyłają domyślnie pakiety rozgłoszeniowe IPv4.",
         correct: false,
       },
     ],
   },
   {
     id: 320,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie sytuacje są wynikiem nadmiernego ruchu rozgłoszeniowego? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Powolne działanie sieci",
+        correct: true,
+      },
+      {
+        option: "Powolne działanie urządzeń",
+        correct: true,
+      },
+      {
+        option: "Gdy dotyczy to urządzeń we wszystkich sąsiednich sieciach",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Gdy router musi przesłać nadmierną liczbę pakietów",
         correct: false,
       },
     ],
   },
+
   {
     id: 321,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest długość prefiksu dla maski podsieci 255.255.255.224?",
     answers: [
       {
-        option: "",
+        option: "/25",
         correct: false,
       },
       {
-        option: "",
+        option: "/26",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "/27",
+        correct: true,
       },
       {
-        option: "",
+        option: "/28",
         correct: false,
       },
     ],
   },
   {
     id: 322,
-    question: "",
-    //   multi: true,
+    question:
+      "Ile poprawnych adresów hostów jest dostępnych w podsieci IPv4 skonfigurowanej za pomocą maski /26?",
     answers: [
       {
-        option: "",
+        option: "254",
         correct: false,
       },
       {
-        option: "",
+        option: "190",
         correct: false,
       },
       {
-        option: "",
+        option: "192",
         correct: false,
       },
       {
-        option: "",
+        option: "62",
+        correct: true,
+      },
+      {
+        option: "64",
         correct: false,
       },
     ],
   },
   {
     id: 323,
-    question: "",
-    //   multi: true,
+    question: "Która maska podsieci będzie używana, jeśli 5 bitów hosta będzie dostępne?",
     answers: [
       {
-        option: "",
+        option: "255.255.255.0",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.255.128",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.255.224",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "255.255.255.240",
+        correct: false, // no this
       },
     ],
   },
   {
     id: 324,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci tworzy podsieci z 192.168.10.0/24 na podsieci z maskami /26. Ile utworzonych podsieci o równej wielkości?",
     answers: [
       {
-        option: "",
+        option: "1",
         correct: false,
       },
       {
-        option: "",
+        option: "2",
         correct: false,
       },
       {
-        option: "",
+        option: "4",
+        correct: true,
+      },
+      {
+        option: "8",
         correct: false,
       },
       {
-        option: "",
+        option: "16",
+        correct: false,
+      },
+      {
+        option: "64",
         correct: false,
       },
     ],
   },
   {
     id: 325,
-    question: "",
-    //   multi: true,
+    question: "Jaką maskę podsieci reprezentuje notacja /20?",
     answers: [
       {
-        option: "",
+        option: "255.255.255.248",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.224.0",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.240.0",
+        correct: true,
+      },
+      {
+        option: "255.255.255.0",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.255.192",
         correct: false,
       },
     ],
   },
   {
     id: 326,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie jest prawdziwe o podziale o zmiennej długości maski?",
     answers: [
       {
-        option: "",
+        option: "Każda z podsieci posiada taki sam rozmiar.",
         correct: false,
       },
       {
-        option: "",
+        option: "Wielkość każdej podsieci może być różna, w zależności od wymagań.",
+        correct: true,
+      },
+      {
+        option: "Podsieci mogą być podzielone na podsieci tylko jeden dodatkowy raz.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Bity są zwracane, a nie pożyczane, aby utworzyć dodatkowe podsieci.",
         correct: false,
       },
     ],
   },
   {
     id: 327,
-    question: "",
-    //   multi: true,
+    question:
+      "Dlaczego urządzenie warstwy 3 wykonuje operację AND na docelowym adresie IP i masce podsieci?",
     answers: [
       {
-        option: "",
+        option: "Aby zidentyfikować adres rozgłoszeniowy sieci docelowej",
         correct: false,
       },
       {
-        option: "",
+        option: "W celu identyfikacji adresu hosta docelowego",
         correct: false,
       },
       {
-        option: "",
+        option: "Aby zidentyfikować wadliwe ramki",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Aby zidentyfikować adres sieci docelowej",
+        correct: true,
       },
     ],
   },
   {
     id: 328,
-    question: "",
-    //   multi: true,
+    question: "Ile użytecznych adresów IP jest dostępnych w sieci 192.168.1.0/27?",
     answers: [
       {
-        option: "",
+        option: "256",
         correct: false,
       },
       {
-        option: "",
+        option: "254",
         correct: false,
       },
       {
-        option: "",
+        option: "62",
         correct: false,
       },
       {
-        option: "",
+        option: "30",
+        correct: true,
+      },
+      {
+        option: "16",
+        correct: false,
+      },
+      {
+        option: "32",
         correct: false,
       },
     ],
   },
   {
     id: 329,
-    question: "",
-    //   multi: true,
+    question: "Która maska podsieci będzie używana, jeśli dokładnie 4 bity hosta są dostępne?",
     answers: [
       {
-        option: "",
+        option: "255.255.255.224",
         correct: false,
       },
       {
-        option: "",
+        option: "255.255.255.128",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "255.255.255.240",
+        correct: true,
       },
       {
-        option: "",
+        option: "255.255.255.248",
         correct: false,
       },
     ],
   },
   {
     id: 330,
-    question: "",
-    //   multi: true,
+    question: "Które dwie części są składnikami adresu IPv4? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Część identyfikująca podsieć",
         correct: false,
       },
       {
-        option: "",
+        option: "Część identyfikująca sieć",
+        correct: true,
+      },
+      {
+        option: "Fragment logiczny",
         correct: false,
       },
       {
-        option: "",
+        option: "Część identyfikująca hosta",
+        correct: true,
+      },
+      {
+        option: "Część fizyczna",
         correct: false,
       },
       {
-        option: "",
+        option: "Część rozgłoszeniowa",
         correct: false,
       },
     ],
   },
+
   {
     id: 331,
-    question: "",
-    //   multi: true,
+    question:
+      "Jeśli urządzenie sieciowe ma maskę /26, ile adresów IP jest dostępnych dla hostów w tej sieci?",
     answers: [
       {
-        option: "",
+        option: "64",
         correct: false,
       },
       {
-        option: "",
+        option: "30",
         correct: false,
       },
       {
-        option: "",
+        option: "62",
+        correct: true,
+      },
+      {
+        option: "32",
         correct: false,
       },
       {
-        option: "",
+        option: "16",
+        correct: false,
+      },
+      {
+        option: "14",
         correct: false,
       },
     ],
   },
   {
     id: 332,
-    question: "",
-    //   multi: true,
+    question: "Co reprezentuje adres IP 172.17.4.250/24?",
     answers: [
       {
-        option: "",
+        option: "Adres sieci",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres grupowy",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Adres hosta",
+        correct: true,
       },
       {
-        option: "",
+        option: "Adres rozgłoszeniowy",
         correct: false,
       },
     ],
   },
   {
     id: 333,
-    question: "",
-    //   multi: true,
+    question:
+      "Jeśli urządzenie sieciowe ma maskę /28, ile adresów IP jest dostępnych dla hostów w tej sieci?",
     answers: [
       {
-        option: "",
+        option: "256",
         correct: false,
       },
       {
-        option: "",
+        option: "254",
         correct: false,
       },
       {
-        option: "",
+        option: "62",
         correct: false,
       },
       {
-        option: "",
+        option: "32",
         correct: false,
+      },
+      {
+        option: "16",
+        correct: false,
+      },
+      {
+        option: "14",
+        correct: true,
       },
     ],
   },
   {
     id: 334,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel maski podsieci w połączeniu z adresem IP?",
     answers: [
       {
-        option: "",
+        option: "Aby jednoznacznie zidentyfikować hosta w sieci",
         correct: false,
       },
       {
-        option: "",
+        option: "W celu ustalenia, czy adres jest publiczny czy prywatny",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Aby określić podsieć, do której należy host",
+        correct: true,
       },
       {
-        option: "",
+        option: "Aby zamaskować adres IP dla osób z zewnątrz",
         correct: false,
       },
     ],
   },
   {
     id: 335,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci podzielił sieć na podsieci ze zmienną długością maski. Najmniejsza podsieć ma maskę 255.255.255.224. Ile użytecznych adresów hosta zapewni ta podsieć?",
     answers: [
       {
-        option: "",
+        option: "2",
         correct: false,
       },
       {
-        option: "",
+        option: "6",
         correct: false,
       },
       {
-        option: "",
+        option: "14",
         correct: false,
       },
       {
-        option: "",
+        option: "30",
+        correct: true,
+      },
+      {
+        option: "62",
         correct: false,
       },
     ],
