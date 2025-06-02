@@ -11,14 +11,12 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 9  -->  id: 273-297
 // MODULE 10  -->  id: 298-310
 // MODULE 11  -->  id: 311-335
-// MODULE 12  -->  id:
-// MODULE 13  -->  id:
-// MODULE 14  -->  id:
+// MODULE 12  -->  id: 336-370
+// MODULE 13  -->  id: 371-386
+// MODULE 14  -->  id: 387-424
 // MODULE 15  -->  id:
 // MODULE 16  -->  id:
 // MODULE 17  -->  id:
-// MODULE 18  -->  id:
-// MODULE 19  -->  id:
 
 export const dataQuestions: Question[] = [
   {
@@ -65,8 +63,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 3,
-    question:
-      "Które dwa urządzenia są urządzeniami pośredniczącymi? (Wybierz dwie odpowiedzi.)",
+    question: "Które dwa urządzenia są urządzeniami pośredniczącymi? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -405,8 +402,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 19,
-    question:
-      "Która funkcja wykorzystuje tę samą technologię komórkową co smartfon?",
+    question: "Która funkcja wykorzystuje tę samą technologię komórkową co smartfon?",
     //   multi: true,
     answers: [
       {
@@ -452,8 +448,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 21,
-    question:
-      "Która opcja tworzy bezpieczne połączenie dla pracowników zdalnych?",
+    question: "Która opcja tworzy bezpieczne połączenie dla pracowników zdalnych?",
     //   multi: true,
     answers: [
       {
@@ -535,8 +530,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 24,
-    question:
-      "Która opcja opisuje złośliwy kod działający na urządzeniach użytkownika?",
+    question: "Która opcja opisuje złośliwy kod działający na urządzeniach użytkownika?",
     //   multi: true,
     answers: [
       {
@@ -644,8 +638,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Jest to protokół, który określa jak komunikują się hosty w sieci lokalnej.",
+        option: "Jest to protokół, który określa jak komunikują się hosty w sieci lokalnej.",
         correct: false,
       },
       {
@@ -654,8 +647,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Jest to urządzenie sieciowe, które łączy funkcjonalność wielu innych w jednym.",
+        option: "Jest to urządzenie sieciowe, które łączy funkcjonalność wielu innych w jednym.",
         correct: false,
       },
     ],
@@ -739,8 +731,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 32,
-    question:
-      "Jakie są dwie cechy skalowalnej sieci? (Wybierz dwie odpowiedzi.)",
+    question: "Jakie są dwie cechy skalowalnej sieci? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -756,8 +747,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Właściwa dla urządzeń modularnych, które pozwalają na rozszerzanie",
+        option: "Właściwa dla urządzeń modularnych, które pozwalają na rozszerzanie",
         correct: true,
       },
       {
@@ -848,8 +838,7 @@ export const dataQuestions: Question[] = [
     //   multi: true,
     answers: [
       {
-        option:
-          "BYOD wymaga od organizacji zakupu laptopów zamiast komputerów stacjonarnych.",
+        option: "BYOD wymaga od organizacji zakupu laptopów zamiast komputerów stacjonarnych.",
         correct: false,
       },
       {
@@ -858,8 +847,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Urządzenia BYOD są droższe niż urządzenia zakupione przez organizację.",
+        option: "Urządzenia BYOD są droższe niż urządzenia zakupione przez organizację.",
         correct: false,
       },
       {
@@ -907,21 +895,18 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Zapewnia połączenia za pośrednictwem połączonych sieci globalnych.",
+        option: "Zapewnia połączenia za pośrednictwem połączonych sieci globalnych.",
         correct: true,
       },
       {
-        option:
-          "Jest to prywatna sieć dla organizacji z połączeniami LAN i WAN.",
+        option: "Jest to prywatna sieć dla organizacji z połączeniami LAN i WAN.",
         correct: false,
       },
     ],
   },
   {
     id: 39,
-    question:
-      "Jakie są dwie funkcje urządzeń końcowych w sieci? (Wybierz dwie odpowiedzi.)",
+    question: "Jakie są dwie funkcje urządzeń końcowych w sieci? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -929,8 +914,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Kierują dane na alternatywne ścieżki w przypadku awarii łącza.",
+        option: "Kierują dane na alternatywne ścieżki w przypadku awarii łącza.",
         correct: false,
       },
       {
@@ -1006,8 +990,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 44,
-    question:
-      "Który tryb IOS umożliwia dostęp do wszystkich poleceń i funkcji?",
+    question: "Który tryb IOS umożliwia dostęp do wszystkich poleceń i funkcji?",
     answers: [
       {
         option: "Tryb konfiguracji globalnej",
@@ -1115,8 +1098,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 48,
-    question:
-      "Jakie jest polecenie nadające nazwę „Sw-Floor-2” do przełącznikowi?",
+    question: "Jakie jest polecenie nadające nazwę „Sw-Floor-2” do przełącznikowi?",
     answers: [
       {
         option: "hostname Sw-Floor-2",
@@ -1300,13 +1282,11 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Powinien być kasowany z użyciem polecenia erase running-config.",
+        option: "Powinien być kasowany z użyciem polecenia erase running-config.",
         correct: false,
       },
       {
-        option:
-          "Jest automatycznie zapisywany podczas ponownego uruchomienia routera.",
+        option: "Jest automatycznie zapisywany podczas ponownego uruchomienia routera.",
         correct: false,
       },
     ],
@@ -1322,23 +1302,19 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Do trybu konfiguracji globalnej można wejść po wpisaniu polecenia enable.",
+        option: "Do trybu konfiguracji globalnej można wejść po wpisaniu polecenia enable.",
         correct: false,
       },
       {
-        option:
-          "Znak zachęty urządzenia dla tego trybu kończy się symbolem „>”.",
+        option: "Znak zachęty urządzenia dla tego trybu kończy się symbolem „>”.",
         correct: true,
       },
       {
-        option:
-          "W tym trybie można konfigurować interfejsy i protokoły routingu.",
+        option: "W tym trybie można konfigurować interfejsy i protokoły routingu.",
         correct: false,
       },
       {
-        option:
-          "W tym trybie można wyświetlać tylko wybrane informacje o konfiguracji routera.",
+        option: "W tym trybie można wyświetlać tylko wybrane informacje o konfiguracji routera.",
         correct: true,
       },
     ],
@@ -1467,8 +1443,7 @@ export const dataQuestions: Question[] = [
       "Administrator zmienił właśnie adres IP dla interfejsu w urządzeniu pracującym pod nadzorem systemu IOS. Co jeszcze należy zrobić w celu zastosowania tych zmian w urządzeniu?",
     answers: [
       {
-        option:
-          "Skopiować bieżącą konfigurację do startowego pliku konfiguracyjnego.",
+        option: "Skopiować bieżącą konfigurację do startowego pliku konfiguracyjnego.",
         correct: true,
       },
       {
@@ -1513,8 +1488,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 65,
-    question:
-      "Dlaczego technik miałby wprowadzać polecenie copy startup-config running-config?",
+    question: "Dlaczego technik miałby wprowadzać polecenie copy startup-config running-config?",
     answers: [
       {
         option: "Aby usunąć wszystkie konfiguracje z przełącznika",
@@ -1563,13 +1537,11 @@ export const dataQuestions: Question[] = [
     multi: true,
     answers: [
       {
-        option:
-          "Wyświetla komunikat o błędzie, gdy została wpisana zła komenda",
+        option: "Wyświetla komunikat o błędzie, gdy została wpisana zła komenda",
         correct: false,
       },
       {
-        option:
-          "Wyświetla listę wszystkich dostępnych komend w bieżącym trybie",
+        option: "Wyświetla listę wszystkich dostępnych komend w bieżącym trybie",
         correct: true,
       },
       {
@@ -1636,8 +1608,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 70,
-    question:
-      "Co jest procesem konwersji informacji do odpowiedniej formy do przesłania?",
+    question: "Co jest procesem konwersji informacji do odpowiedniej formy do przesłania?",
     answers: [
       {
         option: "Formatowanie",
@@ -1743,8 +1714,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 75,
-    question:
-      "Które dwa protokoły są protokołami odnajdywania usług? (Wybierz dwie odpowiedzi.)",
+    question: "Które dwa protokoły są protokołami odnajdywania usług? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -1779,8 +1749,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Dla zapewnienia przepływu danych w efektywnym tempie między nadawcą a odbiorcą",
+        option: "Dla zapewnienia przepływu danych w efektywnym tempie między nadawcą a odbiorcą",
         correct: false,
       },
       {
@@ -1863,8 +1832,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 80,
-    question:
-      "Który protokół działa w warstwie dostępu do sieci modelu TCP/IP?",
+    question: "Który protokół działa w warstwie dostępu do sieci modelu TCP/IP?",
     answers: [
       {
         option: "HTTP",
@@ -2213,8 +2181,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Adresy warstwy łącza danych są fizyczne i adresy warstwy sieciowej są logiczne.",
+        option: "Adresy warstwy łącza danych są fizyczne i adresy warstwy sieciowej są logiczne.",
         correct: false,
       },
       {
@@ -2222,8 +2189,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Adresy warstwy łącza danych są logiczne i adresy warstwy sieciowej są fizyczne.",
+        option: "Adresy warstwy łącza danych są logiczne i adresy warstwy sieciowej są fizyczne.",
         correct: true,
       },
       {
@@ -2280,8 +2246,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 98,
-    question:
-      "Które trzy akronimy i inicjalizmy reprezentują organizacje normalizacyjne?",
+    question: "Które trzy akronimy i inicjalizmy reprezentują organizacje normalizacyjne?",
     multi: true,
     answers: [
       { option: "IANA", correct: true },
@@ -2294,8 +2259,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 99,
-    question:
-      "Jaki rodzaj komunikacji wyśle wiadomość do wszystkich urządzeń w sieci lokalnej?",
+    question: "Jaki rodzaj komunikacji wyśle wiadomość do wszystkich urządzeń w sieci lokalnej?",
     answers: [
       { option: "Broadcast", correct: true },
       { option: "Multicast", correct: false },
@@ -2345,8 +2309,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Zapobiega wpływowi technologii jednej warstwy na inne warstwy.",
+        option: "Zapobiega wpływowi technologii jednej warstwy na inne warstwy.",
         correct: true,
       },
       {
@@ -2361,13 +2324,11 @@ export const dataQuestions: Question[] = [
     question: "Jakie jest przeznaczenie protokołów transmisji danych?",
     answers: [
       {
-        option:
-          "Określanie przepustowości kanału lub medium dla każdego rodzaju komunikacji",
+        option: "Określanie przepustowości kanału lub medium dla każdego rodzaju komunikacji",
         correct: false,
       },
       {
-        option:
-          "Określanie systemów operacyjnych dla urządzeń, które obsługują komunikację",
+        option: "Określanie systemów operacyjnych dla urządzeń, które obsługują komunikację",
         correct: false,
       },
       {
@@ -2383,8 +2344,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 104,
-    question:
-      "Który adres logiczny jest używany w celu dostarczenia danych do zdalnej sieci?",
+    question: "Który adres logiczny jest używany w celu dostarczenia danych do zdalnej sieci?",
     answers: [
       { option: "Docelowy adres MAC", correct: false },
       { option: "Docelowy adres IP", correct: true },
@@ -2430,8 +2390,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 108,
-    question:
-      "Jaki rodzaj komunikacji wyśle wiadomość do grupy docelowych hostów jednocześnie?",
+    question: "Jaki rodzaj komunikacji wyśle wiadomość do grupy docelowych hostów jednocześnie?",
     answers: [
       { option: "Broadcast", correct: false },
       { option: "Multicast", correct: true },
@@ -2452,12 +2411,10 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 110,
-    question:
-      "Co się dzieje z pakietem IP, zanim zostanie on przekazany fizycznym medium?",
+    question: "Co się dzieje z pakietem IP, zanim zostanie on przekazany fizycznym medium?",
     answers: [
       {
-        option:
-          "Jest oznaczany informacjami gwarantującymi niezawodną dostawę.",
+        option: "Jest oznaczany informacjami gwarantującymi niezawodną dostawę.",
         correct: false,
       },
       {
@@ -2492,8 +2449,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 113,
-    question:
-      "Prawda czy fałsz? Warstwa fizyczna dotyczy tylko przewodowych połączeń sieciowych.",
+    question: "Prawda czy fałsz? Warstwa fizyczna dotyczy tylko przewodowych połączeń sieciowych.",
     answers: [
       {
         option: "Prawda",
@@ -2545,8 +2501,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 116,
-    question:
-      "Jaka jednostka PDU jest odbierana przez warstwę fizyczną do kodowania i transmisji?",
+    question: "Jaka jednostka PDU jest odbierana przez warstwę fizyczną do kodowania i transmisji?",
     answers: [
       {
         option: "Ramka",
@@ -2564,8 +2519,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 117,
-    question:
-      "Które media wykorzystują wzorce mikrofal do reprezentowania bitów?",
+    question: "Które media wykorzystują wzorce mikrofal do reprezentowania bitów?",
     answers: [
       {
         option: "Miedź",
@@ -2601,8 +2555,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 119,
-    question:
-      "Które media wykorzystują impulsy elektryczne do reprezentowania bitów?",
+    question: "Które media wykorzystują impulsy elektryczne do reprezentowania bitów?",
     answers: [
       {
         option: "Miedź",
@@ -2620,8 +2573,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 120,
-    question:
-      "Która z nich jest nazwą zdolności nośnika do przenoszenia danych?",
+    question: "Która z nich jest nazwą zdolności nośnika do przenoszenia danych?",
     answers: [
       {
         option: "Szerokość pasma",
@@ -2806,8 +2758,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 131,
-    question:
-      "Który z poniższych typów kabli światłowodowych jest używany w sieciach kampusowych?",
+    question: "Który z poniższych typów kabli światłowodowych jest używany w sieciach kampusowych?",
     answers: [
       {
         option: "Wielomodowy",
@@ -2821,8 +2772,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 132,
-    question:
-      "Prawda czy fałsz. Technika bezprzewodowa nie nadaje się do sieci korporacyjnych.",
+    question: "Prawda czy fałsz. Technika bezprzewodowa nie nadaje się do sieci korporacyjnych.",
     answers: [
       {
         option: "Prawda",
@@ -2947,13 +2897,11 @@ export const dataQuestions: Question[] = [
       "Dlaczego do pojedynczego połączenia światłowodowego wykorzystywane są dwie żyły światłowodu?",
     answers: [
       {
-        option:
-          "Dwie żyły pozwalają na bezproblemowe przesyłanie danych na długie dystanse.",
+        option: "Dwie żyły pozwalają na bezproblemowe przesyłanie danych na długie dystanse.",
         correct: false,
       },
       {
-        option:
-          "Zapobiegają zakłóceniom powodowanym przez przesłuch w połączeniu.",
+        option: "Zapobiegają zakłóceniom powodowanym przez przesłuch w połączeniu.",
         correct: false,
       },
       {
@@ -2968,8 +2916,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 139,
-    question:
-      "Która procedura jest używana do redukcji skutków przesłuchów w kablach miedzianych?",
+    question: "Która procedura jest używana do redukcji skutków przesłuchów w kablach miedzianych?",
     answers: [
       {
         option: "Wymaganie prawidłowego podłączenia uziemienia",
@@ -2984,8 +2931,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Projektowanie infrastruktury okablowania tak, aby uniknąć przesłuchów",
+        option: "Projektowanie infrastruktury okablowania tak, aby uniknąć przesłuchów",
         correct: false,
       },
       {
@@ -3008,13 +2954,11 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Jest łatwiejsze do zakańczania i instalacji niż okablowanie miedziane.",
+        option: "Jest łatwiejsze do zakańczania i instalacji niż okablowanie miedziane.",
         correct: false,
       },
       {
-        option:
-          "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
+        option: "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
         correct: true,
       },
     ],
@@ -3034,8 +2978,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Urządzenie końcowe użytkownika potrzebuje mobilnego połączenia do sieci.",
+        option: "Urządzenie końcowe użytkownika potrzebuje mobilnego połączenia do sieci.",
         correct: true,
       },
       {
@@ -3047,8 +2990,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 142,
-    question:
-      "Jaki typ kabla UTP służy do podłączenia komputera do portu przełącznika?",
+    question: "Jaki typ kabla UTP służy do podłączenia komputera do portu przełącznika?",
     answers: [
       {
         option: "Kabel konsolowy",
@@ -3081,8 +3023,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Ilość danych, które mogą przepływać z jednego miejsca do drugiego w danym czasie",
+        option: "Ilość danych, które mogą przepływać z jednego miejsca do drugiego w danym czasie",
         correct: false,
       },
       {
@@ -3096,8 +3037,7 @@ export const dataQuestions: Question[] = [
     question: "Które stwierdzenie poprawnie opisuje kodowanie ramek?",
     answers: [
       {
-        option:
-          "Wykorzystuje charakterystykę jednej fali, aby zmodyfikować inną falę.",
+        option: "Wykorzystuje charakterystykę jednej fali, aby zmodyfikować inną falę.",
         correct: false,
       },
       {
@@ -3154,13 +3094,11 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Podwyższone miejsce, w którym została zainstalowana bezprzewodowa sieć LAN",
+        option: "Podwyższone miejsce, w którym została zainstalowana bezprzewodowa sieć LAN",
         correct: false,
       },
       {
-        option:
-          "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
+        option: "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
         correct: false,
       },
     ],
@@ -3192,8 +3130,7 @@ export const dataQuestions: Question[] = [
     question: "Która cecha opisuje przesłuch?",
     answers: [
       {
-        option:
-          "Zniekształcenie sygnału sieciowego z oświetlenia fluorescencyjnego",
+        option: "Zniekształcenie sygnału sieciowego z oświetlenia fluorescencyjnego",
         correct: false,
       },
       {
@@ -3206,8 +3143,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Utrata sygnału bezprzewodowego w nadmiernej odległości od punktu dostępowego",
+        option: "Utrata sygnału bezprzewodowego w nadmiernej odległości od punktu dostępowego",
         correct: false,
       },
     ],
@@ -3234,8 +3170,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "The time it takes for a message to get from sender to receiver",
+        option: "The time it takes for a message to get from sender to receiver",
         correct: false,
       },
     ],
@@ -3287,8 +3222,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 152,
-    question:
-      "Który z poniższych jest binarnym odpowiednikiem adresu IP 172.16.31.30?",
+    question: "Który z poniższych jest binarnym odpowiednikiem adresu IP 172.16.31.30?",
     answers: [
       {
         option: "11000000.00010000.00011111.00011110",
@@ -3398,8 +3332,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 157,
-    question:
-      "Która z następujących liczb jest dwójkowym odpowiednikiem dziesiętnej liczby 173?",
+    question: "Która z następujących liczb jest dwójkowym odpowiednikiem dziesiętnej liczby 173?",
     answers: [
       {
         option: "10100111",
@@ -3746,8 +3679,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 172,
-    question:
-      "Warstwa łącza danych IEEE 802 LAN/MAN składa się z jakich dwóch podwarstw?",
+    question: "Warstwa łącza danych IEEE 802 LAN/MAN składa się z jakich dwóch podwarstw?",
     multi: true,
     answers: [
       {
@@ -3804,8 +3736,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Odwołuje się do tabeli routingu warstwy 3 dla pasującej sieci docelowej",
+        option: "Odwołuje się do tabeli routingu warstwy 3 dla pasującej sieci docelowej",
         correct: false,
       },
       {
@@ -3816,8 +3747,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 175,
-    question:
-      "Zastosowana metoda kontroli dostępu do mediów zależy od których dwóch kryteriów?",
+    question: "Zastosowana metoda kontroli dostępu do mediów zależy od których dwóch kryteriów?",
     multi: true,
     answers: [
       {
@@ -4022,8 +3952,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 184,
-    question:
-      "Która lista zawiera pola adresu warstwy 2 i warstwy 3 w odpowiedniej kolejności?",
+    question: "Która lista zawiera pola adresu warstwy 2 i warstwy 3 w odpowiedniej kolejności?",
     answers: [
       {
         option:
@@ -4049,8 +3978,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 185,
-    question:
-      "Które z poniższych są protokołami warstwy łącza danych? (Wybierz trzy odpowiedzi.)",
+    question: "Które z poniższych są protokołami warstwy łącza danych? (Wybierz trzy odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -4104,8 +4032,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 187,
-    question:
-      "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
+    question: "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
     answers: [
       {
         option: "Dołączony kabel Ethernet",
@@ -4159,27 +4086,22 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 189,
-    question:
-      "Wybierz prawdziwe zdanie dotyczące topologii logicznych i fizycznych?",
+    question: "Wybierz prawdziwe zdanie dotyczące topologii logicznych i fizycznych?",
     answers: [
       {
-        option:
-          "Topologia logiczna jest zawsze taka sama jak topologia fizyczna.",
+        option: "Topologia logiczna jest zawsze taka sama jak topologia fizyczna.",
         correct: false,
       },
       {
-        option:
-          "Topologie fizyczne skupiają się na sposobie przesyłania ramek przez sieć.",
+        option: "Topologie fizyczne skupiają się na sposobie przesyłania ramek przez sieć.",
         correct: false,
       },
       {
-        option:
-          "Topologie fizyczne przedstawiają schemat adresowania IP każdej sieci.",
+        option: "Topologie fizyczne przedstawiają schemat adresowania IP każdej sieci.",
         correct: false,
       },
       {
-        option:
-          "Topologie logiczne odnoszą się do sposobu przesyłania danych między urządzeniami.",
+        option: "Topologie logiczne odnoszą się do sposobu przesyłania danych między urządzeniami.",
         correct: true,
       },
     ],
@@ -4236,17 +4158,14 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 192,
-    question:
-      "Które stwierdzenie opisuje tryb półdupleksu w transmisji danych?",
+    question: "Które stwierdzenie opisuje tryb półdupleksu w transmisji danych?",
     answers: [
       {
-        option:
-          "Dane przesyłane przez sieć mogą płynąć tylko w jednym kierunku.",
+        option: "Dane przesyłane przez sieć mogą płynąć tylko w jednym kierunku.",
         correct: false,
       },
       {
-        option:
-          "Dane przesyłane przez sieć przepływają w jednym kierunku naraz.",
+        option: "Dane przesyłane przez sieć przepływają w jednym kierunku naraz.",
         correct: true,
       },
       {
@@ -4255,8 +4174,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Dane przesyłane przez sieć przepływają w obu kierunkach jednocześnie.",
+        option: "Dane przesyłane przez sieć przepływają w obu kierunkach jednocześnie.",
         correct: false,
       },
     ],
@@ -4266,8 +4184,7 @@ export const dataQuestions: Question[] = [
     question: "Jaką rolę pełni podwarstwa Logical Link Control (LLC)?",
     answers: [
       {
-        option:
-          "Definiowanie procesów dostępu do mediów, które są wykonywane przez sprzęt",
+        option: "Definiowanie procesów dostępu do mediów, które są wykonywane przez sprzęt",
         correct: false,
       },
       {
@@ -4279,16 +4196,14 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Akceptowanie segmentów i pakowanie ich do jednostek danych nazywanych pakietami",
+        option: "Akceptowanie segmentów i pakowanie ich do jednostek danych nazywanych pakietami",
         correct: false,
       },
     ],
   },
   {
     id: 194,
-    question:
-      "Której metody kontroli dostępu warstwy łącza danych używa Ethernet?",
+    question: "Której metody kontroli dostępu warstwy łącza danych używa Ethernet?",
     answers: [
       {
         option: "CSMA/CD",
@@ -4409,16 +4324,14 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "It monitors the Layer 2 communication by building a MAC address table.",
+        option: "It monitors the Layer 2 communication by building a MAC address table.",
         correct: false,
       },
     ],
   },
   {
     id: 199,
-    question:
-      "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
+    question: "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
     answers: [
       {
         option: "Dołączony kabel Ethernet",
@@ -4485,8 +4398,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 202,
-    question:
-      "Która część ramki Ethernet opisuje protokół wyższej warstwy, który jest ładunkiem?",
+    question: "Która część ramki Ethernet opisuje protokół wyższej warstwy, który jest ładunkiem?",
     answers: [
       {
         option: "EtherType",
@@ -4531,8 +4443,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 204,
-    question:
-      "Która podwarstwa łącza danych steruje interfejsem sieciowym poprzez sterowniki?",
+    question: "Która podwarstwa łącza danych steruje interfejsem sieciowym poprzez sterowniki?",
     answers: [
       {
         option: "MAC",
@@ -4573,8 +4484,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Wykorzystuje CSMA/CD lub CSMA/CA do obsługi technologii Ethernet",
+        option: "Wykorzystuje CSMA/CD lub CSMA/CA do obsługi technologii Ethernet",
         correct: true,
       },
       {
@@ -4689,8 +4599,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 211,
-    question:
-      "Które dwie cechy opisują technologię Ethernet? (Wybierz dwie odpowiedzi.)",
+    question: "Które dwie cechy opisują technologię Ethernet? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -4702,8 +4611,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Zwykle używa średniej prędkości przesyłu danych równej 16 Mb/s",
+        option: "Zwykle używa średniej prędkości przesyłu danych równej 16 Mb/s",
         correct: false,
       },
       {
@@ -4832,8 +4740,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 217,
-    question:
-      "Która funkcja lub operacja jest wykonywana przez podwarstwę LLC?",
+    question: "Która funkcja lub operacja jest wykonywana przez podwarstwę LLC?",
     answers: [
       {
         option: "Wykonuje enkapsulację danych.",
@@ -4848,16 +4755,14 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Dodaje nagłówek i stopkę w celu utworzenia jednostki PDU w warstwie 2 modelu OSI.",
+        option: "Dodaje nagłówek i stopkę w celu utworzenia jednostki PDU w warstwie 2 modelu OSI.",
         correct: false,
       },
     ],
   },
   {
     id: 218,
-    question:
-      "Co dzieje się z karłowatą ramką odbieraną przez przełącznik Cisco Ethernet?",
+    question: "Co dzieje się z karłowatą ramką odbieraną przez przełącznik Cisco Ethernet?",
     answers: [
       {
         option: "Ramka jest odrzucona.",
@@ -4927,8 +4832,7 @@ export const dataQuestions: Question[] = [
     question: "Co to za typ adresu adresu 01-00-5E-0A-00-02?",
     answers: [
       {
-        option:
-          "Adres, do którego mają dostęp wszystkie hosty wewnątrz lokalnej podsieci",
+        option: "Adres, do którego mają dostęp wszystkie hosty wewnątrz lokalnej podsieci",
         correct: false,
       },
       {
@@ -4940,8 +4844,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Adres, do którego mają dostęp hosty należące do pewnej grupy hostów",
+        option: "Adres, do którego mają dostęp hosty należące do pewnej grupy hostów",
         correct: true,
       },
     ],
@@ -4955,18 +4858,15 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Karta sieciowa potrzebuje tylko adresu MAC, jeśli podłączona jest do sieci WAN.",
+        option: "Karta sieciowa potrzebuje tylko adresu MAC, jeśli podłączona jest do sieci WAN.",
         correct: false,
       },
       {
-        option:
-          "Pierwsze trzy bajty użyte są przez producenta przypisującego identyfikator OUI.",
+        option: "Pierwsze trzy bajty użyte są przez producenta przypisującego identyfikator OUI.",
         correct: true,
       },
       {
-        option:
-          "Organizacja ISO odpowiedzialna jest za regulacje dotyczące adresów MAC.",
+        option: "Organizacja ISO odpowiedzialna jest za regulacje dotyczące adresów MAC.",
         correct: false,
       },
     ],
@@ -5023,8 +4923,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Dodaje informacje sterujące do danych warstwy protokołu sieci.",
+        option: "Dodaje informacje sterujące do danych warstwy protokołu sieci.",
         correct: false,
       },
     ],
@@ -5376,8 +5275,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 240,
-    question:
-      "Która warstwa OSI wysyła segmenty do enkapsulacji w pakiecie IPv4 lub IPv6?",
+    question: "Która warstwa OSI wysyła segmenty do enkapsulacji w pakiecie IPv4 lub IPv6?",
     answers: [
       {
         option: "Warstwa łącza danych",
@@ -5493,8 +5391,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 245,
-    question:
-      "Które stwierdzenie jest poprawne o polach nagłówka pakietów IPv4?",
+    question: "Które stwierdzenie jest poprawne o polach nagłówka pakietów IPv4?",
     answers: [
       {
         option:
@@ -5502,8 +5399,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Pole Czas życia służy do określenia priorytetu każdego pakietu.",
+        option: "Pole Czas życia służy do określenia priorytetu każdego pakietu.",
         correct: false,
       },
       {
@@ -5541,8 +5437,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 247,
-    question:
-      "Które pole zawiera typowe wartości, takie jak ICMP (1), TCP (6) i UDP (17)?",
+    question: "Które pole zawiera typowe wartości, takie jak ICMP (1), TCP (6) i UDP (17)?",
     answers: [
       {
         option: "Suma kontrolna nagłówka",
@@ -5573,8 +5468,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Zwiększona złożoność sieci i rozbudowa tablic routingu internetowego",
+        option: "Zwiększona złożoność sieci i rozbudowa tablic routingu internetowego",
         correct: true,
       },
       {
@@ -5618,8 +5512,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Używa prostszego nagłówka, aby zapewnić lepszą obsługę pakietów",
+        option: "Używa prostszego nagłówka, aby zapewnić lepszą obsługę pakietów",
         correct: true,
       },
     ],
@@ -5671,16 +5564,14 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 252,
-    question:
-      "Które stwierdzenie dotyczące decyzji hosta o przekazywaniu jest prawdziwe?",
+    question: "Które stwierdzenie dotyczące decyzji hosta o przekazywaniu jest prawdziwe?",
     answers: [
       {
         option: "Host nie może sam siebie zweryfikować poleceniem ping.",
         correct: false,
       },
       {
-        option:
-          "Zdalny host docelowy znajduje się w tej samej sieci lokalnej co host wysyłający.",
+        option: "Zdalny host docelowy znajduje się w tej samej sieci lokalnej co host wysyłający.",
         correct: false,
       },
       {
@@ -5704,13 +5595,11 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "Adresem bramy domyślnej jest adres IP przełącznika w sieci zdalnej.",
+        option: "Adresem bramy domyślnej jest adres IP przełącznika w sieci zdalnej.",
         correct: false,
       },
       {
-        option:
-          "Adres bramy domyślnej jest adresem IP interfejsu routera w lokalnej sieci.",
+        option: "Adres bramy domyślnej jest adresem IP interfejsu routera w lokalnej sieci.",
         correct: true,
       },
       {
@@ -5854,8 +5743,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 260,
-    question:
-      "Które polecenie można użyć na hoście Windows do wyświetlenia tablicy routingu?",
+    question: "Które polecenie można użyć na hoście Windows do wyświetlenia tablicy routingu?",
     answers: [
       {
         option: "Source IP address",
@@ -5877,8 +5765,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 261,
-    question:
-      "Które informacje są dodawane w trakcie enkapsulacji w warstwie 3 modelu OSI?",
+    question: "Które informacje są dodawane w trakcie enkapsulacji w warstwie 3 modelu OSI?",
     answers: [
       {
         option: "Źródłowy i docelowy adres MAC",
@@ -5903,8 +5790,7 @@ export const dataQuestions: Question[] = [
     question: "Jak warstwa sieciowa używa wartości MTU?",
     answers: [
       {
-        option:
-          "Aby określić wartość MTU warstwa sieci używa warstw wyższego poziomu.",
+        option: "Aby określić wartość MTU warstwa sieci używa warstw wyższego poziomu.",
         correct: false,
       },
       {
@@ -5918,8 +5804,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Aby zwiększyć szybkość dostarczania danych, warstwa sieci ignoruje MTU.",
+        option: "Aby zwiększyć szybkość dostarczania danych, warstwa sieci ignoruje MTU.",
         correct: false,
       },
     ],
@@ -5945,8 +5830,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "The IPv6 address space is four times bigger than the IPv4 address space.​",
+        option: "The IPv6 address space is four times bigger than the IPv4 address space.​",
         correct: false,
       },
     ],
@@ -6042,8 +5926,7 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option:
-          "The IPv6 address space is four times bigger than the IPv4 address space.​",
+        option: "The IPv6 address space is four times bigger than the IPv4 address space.​",
         correct: true,
       },
     ],
@@ -6054,8 +5937,7 @@ export const dataQuestions: Question[] = [
       "Gdy protokół bezpołączeniowy jest używany w dolnej warstwie modelu OSI, w jaki sposób utrata danych jest wykrywana i ponownie przesyłana w razie potrzeby?",
     answers: [
       {
-        option:
-          "Potwierdzenia bezpołączeniowe służą do żądania ponownej transmisji.",
+        option: "Potwierdzenia bezpołączeniowe służą do żądania ponownej transmisji.",
         correct: false,
       },
       {
@@ -6088,8 +5970,7 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option:
-          "Aby zapewnić więcej miejsca adresowego w rejestrze nazw internetowych",
+        option: "Aby zapewnić więcej miejsca adresowego w rejestrze nazw internetowych",
         correct: false,
       },
       {
@@ -6123,8 +6004,7 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 271,
-    question:
-      "Które pole w nagłówku IPv4 typowo pozostaje takie same podczas transmisji?",
+    question: "Które pole w nagłówku IPv4 typowo pozostaje takie same podczas transmisji?",
     answers: [
       {
         option: "Flaga",
@@ -7693,2047 +7573,2076 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 336,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest najważniejszy czynnik motywujący do przejścia do IPv6?",
     answers: [
       {
-        option: "",
+        option: "Lepsza wydajność z IPv6",
         correct: false,
       },
       {
-        option: "",
+        option: "Adresy IPv6, z którymi łatwiej pracować",
         correct: false,
       },
       {
-        option: "",
+        option: "Lepsze bezpieczeństwo z IPv6",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Wyczerpanie adresów IPv4",
+        correct: true,
       },
     ],
   },
   {
     id: 337,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda lub fałsz: 4 na 5 RIP nie mają już wystarczającej ilości adresów IPv4, aby regularnie przydzielać je klientom.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 338,
-    question: "",
-    //   multi: true,
+    question: "Która z poniższych technik używa natywnej łączności IPv6?",
     answers: [
       {
-        option: "",
+        option: "Podwójny stos",
+        correct: true,
+      },
+      {
+        option: "Tunelowanie",
+        correct: false, // no this
+      },
+      {
+        option: "Translacja",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wszystkie powyższe",
         correct: false,
       },
     ],
   },
   {
     id: 339,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest najważniejszy czynnik motywujący do przejścia do IPv6?",
     answers: [
       {
-        option: "",
+        option: "Lepsza wydajność z IPv6",
         correct: false,
       },
       {
-        option: "",
+        option: "Adresy IPv6, z którymi łatwiej pracować",
         correct: false,
       },
       {
-        option: "",
+        option: "Lepsze bezpieczeństwo z IPv6",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Wyczerpanie adresów IPv4",
+        correct: true,
       },
     ],
   },
   {
     id: 340,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda lub fałsz: 4 na 5 RIP nie mają już wystarczającej ilości adresów IPv4, aby regularnie przydzielać je klientom.",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Prawda",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Fałsz",
         correct: false,
       },
     ],
   },
   {
     id: 341,
-    question: "",
-    //   multi: true,
+    question: "Która z poniższych technik używa natywnej łączności IPv6?",
     answers: [
       {
-        option: "",
+        option: "Podwójny stos",
+        correct: true,
+      },
+      {
+        option: "Tunelowanie",
         correct: false,
       },
       {
-        option: "",
+        option: "Translacja",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wszystkie powyższe",
         correct: false,
       },
     ],
   },
   {
     id: 342,
-    question: "",
-    //   multi: true,
+    question: "Jaka jest zalecana długość prefiksu dla większości podsieci IPv6?",
     answers: [
       {
-        option: "",
+        option: "/32",
         correct: false,
       },
       {
-        option: "",
+        option: "/48",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "/64",
+        correct: true,
       },
       {
-        option: "",
+        option: "/128",
         correct: false,
       },
     ],
   },
   {
     id: 343,
-    question: "",
-    //   multi: true,
+    question: "Która część adresu GUA jest przypisana przez dostawcę usług internetowych?",
     answers: [
       {
-        option: "",
+        option: "Prefiks routingu globalnego",
+        correct: true,
+      },
+      {
+        option: "Prefiks routingu globalnego i identyfikator podsieci",
         correct: false,
       },
       {
-        option: "",
+        option: "Prefiks",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Prefiks RIR",
         correct: false,
       },
     ],
   },
   {
     id: 344,
-    question: "",
-    //   multi: true,
+    question: "Jaki typ adresu IPv6 unicast nie jest routowany między sieciami?",
     answers: [
       {
-        option: "",
+        option: "Unikalny adres lokalny",
+        correct: false, // no this
+      },
+      {
+        option: "GUA",
         correct: false,
       },
       {
-        option: "",
+        option: "Wbudowany adres IPv4",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "LLA",
+        correct: true,
       },
     ],
   },
   {
     id: 345,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda lub False: Pole identyfikatora podsieci w GUA musi pożyczyć bity z identyfikatora interfejsu.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 346,
-    question: "",
-    //   multi: true,
+    question: "Jaki typ adresu IPv6 zaczyna się od fe80?",
     answers: [
       {
-        option: "",
+        option: "GUA",
         correct: false,
       },
       {
-        option: "",
+        option: "LLA",
+        correct: true,
+      },
+      {
+        option: "Adres multicast",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Brak. Adres IPv6 musi zaczynać się od 2001",
         correct: false,
       },
     ],
   },
   {
     id: 347,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz. Wiadomości RA są wysyłane do wszystkich routerów IPv6 przez hosty żądające informacji adresowych.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 348,
-    question: "",
-    //   multi: true,
+    question:
+      "Która dynamiczna metoda adresowania GUA jest tą, w której urządzenia polegają wyłącznie na zawartości komunikatu RA dla swoich informacji adresowych?",
     answers: [
       {
-        option: "",
+        option: "Metoda 1: SLAAC",
+        correct: true,
+      },
+      {
+        option: "Metoda 2: SLAAC i bezstanowy DHCPv6",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Metoda 3: Stanowy DHCPv6",
         correct: false,
       },
     ],
   },
   {
     id: 349,
-    question: "",
-    //   multi: true,
+    question:
+      "Która dynamiczna metoda adresowania GUA jest tą, w której urządzenia polegają wyłącznie na serwerze DHCPv6 dla swoich informacji adresowych?",
     answers: [
       {
-        option: "",
+        option: "Metoda 1: SLAAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Metoda 2: SLAAC i bezstanowy DHCPv6",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Metoda 3: Stanowy DHCPv6",
+        correct: true,
       },
     ],
   },
   {
     id: 350,
-    question: "",
-    //   multi: true,
+    question:
+      "Która dynamiczna metoda adresowania GUA jest tą, w której urządzenia otrzymują konfigurację IPv6 w komunikacie RA i żądają informacji DNS z serwera DHCPv6?",
     answers: [
       {
-        option: "",
+        option: "Metoda 1: SLAAC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Metoda 2: SLAAC i bezstanowy DHCPv6",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Metoda 3: Stanowy DHCPv6",
         correct: false,
       },
     ],
   },
   {
     id: 351,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie są dwie metody, które urządzenie może wykorzystać do generowania własnego identyfikatora interfejsu IPv6?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "SLAAC",
         correct: false,
       },
       {
-        option: "",
+        option: "Bezstanowe DHCPv6",
         correct: false,
       },
       {
-        option: "",
+        option: "Stanowe DHCPv6",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "EUI-64",
+        correct: true,
+      },
+      {
+        option: "Generowany losowo",
+        correct: true,
       },
     ],
   },
   {
     id: 352,
-    question: "",
-    //   multi: true,
+    question: "Prawda czy fałsz? IPv6 został zaprojektowany z myślą o tworzeniu podsieci.",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Prawda",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Fałsz",
         correct: false,
       },
     ],
   },
   {
     id: 353,
-    question: "",
-    //   multi: true,
+    question: "Które pole w GUA IPv6 służy do tworzenia podsieci?",
     answers: [
       {
-        option: "",
+        option: "Prefiks",
         correct: false,
       },
       {
-        option: "",
+        option: "Sieć",
         correct: false,
       },
       {
-        option: "",
+        option: "Prefiks routingu globalnego",
         correct: false,
       },
       {
-        option: "",
+        option: "Identyfikator podsieci",
+        correct: true,
+      },
+      {
+        option: "Identyfikator interfejsu",
         correct: false,
       },
     ],
   },
   {
     id: 354,
-    question: "",
-    //   multi: true,
+    question:
+      "Biorąc pod uwagę prefiks routingu globalnego /48 i przedrostek /64, jaka jest część podsieci następującego adresu: 2001:db8:cafe:1111:2222:33:4444:5555",
     answers: [
       {
-        option: "",
+        option: "Café",
         correct: false,
       },
       {
-        option: "",
+        option: "1111",
+        correct: true,
+      },
+      {
+        option: "2222",
         correct: false,
       },
       {
-        option: "",
+        option: "3333",
         correct: false,
       },
       {
-        option: "",
+        option: "4444",
         correct: false,
       },
     ],
   },
   {
     id: 355,
-    question: "",
-    //   multi: true,
+    question:
+      "Biorąc pod uwagę /32 jako prefiks routingu globalnego i /64 jako prefiks, ile bitów zostanie przydzielonych do identyfikatora podsieci?",
     answers: [
       {
-        option: "",
+        option: "8",
         correct: false,
       },
       {
-        option: "",
+        option: "16",
         correct: false,
       },
       {
-        option: "",
+        option: "32",
+        correct: true,
+      },
+      {
+        option: "48",
         correct: false,
       },
       {
-        option: "",
+        option: "64",
         correct: false,
       },
     ],
   },
   {
     id: 356,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki jest prawidłowy najbardziej skompresowany format adresu IPv6 2001:0DB8:0000:AB00:0000:0000:1234?",
     answers: [
       {
-        option: "",
+        option: "2001::/64",
+        correct: true,
+      },
+      {
+        option: "2001:DB8::/64​",
+        correct: false, // no this
+      },
+      {
+        option: "2001:DB8:AA04::/64​",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "2001:DB8:AA04:B5::/64​",
         correct: false,
       },
     ],
   },
   {
     id: 357,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest prefiks związany z adresem IPv6 2001:CA48:D15:EA:CC44::1/64?",
     answers: [
       {
-        option: "",
+        option: "2001::/64",
+        correct: false, // no this
+      },
+      {
+        option: "2001:DB8::/64​",
+        correct: false, // no this
+      },
+      {
+        option: "2001:DB8:D15:EA::/64​",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "2001:DB8:D15:EA:CC44::/64​",
         correct: false,
       },
     ],
   },
   {
     id: 358,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki typ adresu jest automatycznie przypisywany do interfejsu, gdy protokół IPv6 jest włączony na tym interfejsie?",
     answers: [
       {
-        option: "",
+        option: "The host is cabled properly.",
+        correct: false, // no this
+      },
+      {
+        option: "The default gateway address is correctly configured.",
         correct: false,
       },
       {
-        option: "",
+        option: "Pętla zwrotna.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "The link-local address is correctly configured.",
+        correct: false, // no this
       },
     ],
   },
   {
     id: 359,
-    question: "",
-    //   multi: true,
+    question:
+      "Który prefiks sieci IPv6 jest przeznaczony tylko dla lokalnych połączeń i nie może być routowany?",
     answers: [
       {
-        option: "",
+        option: "2001::/3",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "FC00::/7",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
+        option: "2001:0db8:abcd::0001",
+        correct: true,
       },
       {
-        option: "",
+        option: "2001:0db8:0000:abcd::1",
         correct: false,
       },
     ],
   },
   {
     id: 360,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel stosowania polecenia ping ::1?",
     answers: [
       {
-        option: "",
+        option: "It tests the internal configuration of an IPv6 host.",
+        correct: true,
+      },
+      {
+        option: "It tests the broadcast capability of all hosts on the subnet.",
         correct: false,
       },
       {
-        option: "",
+        option: "It tests the multicast connectivity to all hosts on the subnet.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "It tests the reachability of the default gateway for the network.",
         correct: false,
       },
     ],
   },
   {
     id: 361,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki jest identyfikator interfejsu adresu IPv6 2001:DB8::1000:A9CD:47FF:FE57:FE94/64?",
     answers: [
       {
-        option: "",
+        option: "It tests the internal configuration of an IPv6 host.",
+        correct: false, // no this
+      },
+      {
+        option: "It tests the broadcast capability of all hosts on the subnet.",
         correct: false,
       },
       {
-        option: "",
+        option: "It tests the multicast connectivity to all hosts on the subnet.",
         correct: false,
       },
       {
-        option: "",
+        option: "It tests the reachability of the default gateway for the network.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "1000:A9CD:47FF:FE57:FE94",
+        correct: false, // no this
       },
     ],
   },
   {
     id: 362,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest adres podsieci dla adresu IPv6 2001:D12:AA04:B5::1/64?",
     answers: [
       {
-        option: "",
+        option: "2001::/64",
         correct: false,
       },
       {
-        option: "",
+        option: "2001:DB8::/64​",
         correct: false,
       },
       {
-        option: "",
+        option: "2001:DB8:AA04::/64​",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "2001:DB8:AA04:B5::/64​",
+        correct: true,
       },
     ],
   },
   {
     id: 363,
-    question: "",
-    //   multi: true,
+    question: "Jaki typ adresu nie istnieje w wersji IPv6?",
     answers: [
       {
-        option: "",
+        option: "Private",
         correct: false,
       },
       {
-        option: "",
+        option: "Multicast",
         correct: false,
       },
       {
-        option: "",
+        option: "Unicast",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Broadcast",
+        correct: true,
       },
     ],
   },
   {
     id: 364,
-    question: "",
-    //   multi: true,
+    question: "Co oznacza pozytywne wykonanie ping do adresu ::1 IPv6?",
     answers: [
       {
-        option: "",
+        option: "The host is cabled properly.",
         correct: false,
       },
       {
-        option: "",
+        option: "The default gateway address is correctly configured.",
         correct: false,
       },
       {
-        option: "",
+        option: "Wszystkie hosty na lokalnym łączu są dostępne.",
         correct: false,
       },
       {
-        option: "",
+        option: "The link-local address is correctly configured.",
         correct: false,
+      },
+      {
+        option: "IP is properly installed on the host.",
+        correct: true,
       },
     ],
   },
   {
     id: 365,
-    question: "",
-    //   multi: true,
+    question:
+      "Jak wygląda najbardziej skompresowana postać adresu IPv6 2001:0000:0000:abcd:0000:0000:0000:0001?",
     answers: [
       {
-        option: "",
+        option: "2001:0db8:abcd::1",
         correct: false,
       },
       {
-        option: "",
+        option: "2001:db8:0:abcd::1",
         correct: false,
       },
       {
-        option: "",
+        option: "2001:0db8:abcd::0001",
+        correct: true,
+      },
+      {
+        option: "2001:0db8:0000:abcd::1",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "2001:db8::abcd:0:1",
+        correct: false, // no this
       },
     ],
   },
   {
     id: 366,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jest minimalna konfiguracja interfejsu routera, który uczestniczy w routingu IPv6?",
     answers: [
       {
-        option: "",
+        option: "To have a link-local IPv6 address",
+        correct: true,
+      },
+      {
+        option: "To have both an IPv4 and an IPv6 address",
         correct: false,
       },
       {
-        option: "",
+        option: "To have a self-generated loopback address",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "To have both a link-local and a global unicast IPv6 address",
         correct: false,
       },
     ],
   },
   {
     id: 367,
-    question: "",
-    //   multi: true,
+    question: "Jaki adres jest wymagany, co najmniej, na interfejsach obsługujących protokół IPv6?",
     answers: [
       {
-        option: "",
+        option: "Link-local",
+        correct: true,
+      },
+      {
+        option: "Unique local",
         correct: false,
       },
       {
-        option: "",
+        option: "Site local",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Global unicast",
         correct: false,
       },
     ],
   },
   {
     id: 368,
-    question: "",
-    //   multi: true,
+    question: "Jakie są trzy części globalnego adresu unicast IPv6? (Wybierz trzy odpowiedzi).",
     answers: [
       {
-        option: "",
+        option:
+          "Identyfikator interfejsu, który jest używany do identyfikacji sieci lokalnej dla określonego hosta",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Prefiks routingu globalnego, który jest używany do identyfikacji części adresu sieci, przydzielonego przez ISP",
+        correct: true,
+      },
+      {
+        option:
+          "Identyfikator podsieci, który jest używany do identyfikacji sieci wewnątrz przedsiębiorstwa",
+        correct: true,
+      },
+      {
+        option:
+          "Prefiks routingu globalnego, który jest używany do identyfikacji części adresu sieciowego dostarczonego przez lokalnego administratora",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option:
+          "Identyfikator interfejsu, który jest używany do identyfikacji lokalnego hosta w sieci",
+        correct: true,
       },
     ],
+    multi: true,
   },
   {
     id: 369,
-    question: "",
-    //   multi: true,
+    question:
+      "Dla Twojej organizacji został przydzielony przez usługodawcę prefiks IPv6 2001:0000:130F::/48. Przy pomocy tego prefiksu, ile bitów jest dostępnych dla twojej organizacji do tworzenia podsieci, jeśli bity identyfikatora interfejsu nie są pożyczone?",
     answers: [
       {
-        option: "",
+        option: "To have a link-local IPv6 address",
         correct: false,
       },
       {
-        option: "",
+        option: "16",
+        correct: true,
+      },
+      {
+        option: "80",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "128",
         correct: false,
       },
     ],
   },
   {
     id: 370,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki typ adresu IPv6 nie jest routowalny i wykorzystywany jest tylko do komunikacji w lokalnej podsieci?",
     answers: [
       {
-        option: "",
+        option: "GUA",
         correct: false,
       },
       {
-        option: "",
+        option: "LLA",
+        correct: true,
+      },
+      {
+        option: "Adres pętli zwrotnej",
         correct: false,
       },
       {
-        option: "",
+        option: "ULA",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres nieokreślony",
         correct: false,
       },
     ],
   },
   {
     id: 371,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie dwa typy komunikatów ICMP są wspólne dla ICMPv4 i ICMPv6? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Przeznaczenie lub usługa niedostępna",
+        correct: true,
+      },
+      {
+        option: "Odwzorowanie hosta",
         correct: false,
       },
       {
-        option: "",
+        option: "Konfiguracja IP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródło nieosiągalne",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
+        option: "Przekroczenie czasu",
+        correct: true,
       },
     ],
+    multi: true,
   },
+
   {
     id: 372,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki typ komunikatu ICMPv6 wysyła host w celu uzyskania konfiguracji IPv6 podczas uruchamiania?",
     answers: [
       {
-        option: "",
+        option: "Komunikat Neighbor Advertisement (NA)",
         correct: false,
       },
       {
-        option: "",
+        option: "Komunikat Neighbor Solicitation (NS)",
         correct: false,
       },
       {
-        option: "",
+        option: "Komunikat Router Advertisement (RA)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Komunikat Router Solicitation (RS)",
+        correct: true,
       },
     ],
   },
+
   {
     id: 373,
-    question: "",
-    //   multi: true,
+    question:
+      "Technik rozwiązuje problem z siecią. Podejrzewa się, że uszkodzony węzeł w ścieżce sieciowej powoduje odrzucanie pakietów. Technik ma tylko adres IP urządzenia końcowego i nie ma żadnych informacji o urządzeniach pośredniczących. Którego polecenia może technik użyć do identyfikacji uszkodzonego węzła?",
     answers: [
       {
-        option: "",
+        option: "The PC can access the network. The problem exists beyond the local network.",
+        correct: true,
+      },
+      {
+        option: "The IP address obtained from the DHCP server is correct.",
         correct: false,
       },
       {
-        option: "",
+        option: "The PC can access the Internet. However, the web browser may not work.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "The TCP/IP implementation is functional.",
         correct: false,
       },
     ],
   },
   {
     id: 374,
-    question: "",
-    //   multi: true,
+    question:
+      "Użytkownik, który nie jest w stanie połączyć się z serwerem plików kontaktuje się z działem pomocy. Pracownik działu pomocy prosi użytkownika, aby użył polecenia ping, aby zbadać dostępność adresu IP bramy domyślnej, która jest skonfigurowana na stacji roboczej. Jaki jest cel użycia polecenia ping?",
     answers: [
       {
-        option: "",
+        option: "To obtain a dynamic IP address from the server",
         correct: false,
       },
       {
-        option: "",
+        option: "To request that gateway forward the connection request to the file server",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "To test that the host has the capability to reach hosts on other networks",
+        correct: true,
       },
       {
-        option: "",
+        option: "To resolve the domain name of the file server to its IP address",
         correct: false,
       },
     ],
   },
   {
     id: 375,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jest funkcja polecenia tracert, które różni się od polecenia ping, gdy są używane na stacji roboczej?",
     answers: [
       {
-        option: "",
+        option: "Polecenie tracert dociera do celu szybciej.",
         correct: false,
       },
       {
-        option: "",
+        option: "Polecenie tracert pokazuje informacje o routerach na ścieżce.",
+        correct: true,
+      },
+      {
+        option: "Polecenie tracert wysyła jeden komunikat ICMP do każdego skoku na ścieżce.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Polecenie tracert służy do testowania połączenia między hostami.",
         correct: false,
       },
     ],
   },
   {
     id: 376,
-    question: "",
-    //   multi: true,
+    question:
+      "Która wiadomość ICMP jest używana przez narzędzie traceroute podczas procesu znajdowania ścieżki między dwoma hostami końcowymi?",
     answers: [
       {
-        option: "",
+        option: "Redirect",
         correct: false,
       },
       {
-        option: "",
+        option: "Ping",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Time exceeded",
+        correct: true,
       },
       {
-        option: "",
+        option: "Destination unreachable",
         correct: false,
       },
     ],
   },
   {
     id: 377,
-    question: "",
-    //   multi: true,
+    question: "Które narzędzie korzysta z protokołu ICMP (Internet Control Messaging Protocol)?",
     answers: [
       {
-        option: "",
+        option: "RIP",
         correct: false,
       },
       {
-        option: "",
+        option: "DNS",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Ping",
+        correct: true,
       },
       {
-        option: "",
+        option: "NTP",
         correct: false,
       },
     ],
   },
   {
     id: 378,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół jest używany przez IPv4 i IPv6 do dostarczania komunikatów o błędach?",
     answers: [
       {
-        option: "",
+        option: "ICMP",
+        correct: true,
+      },
+      {
+        option: "NDP",
         correct: false,
       },
       {
-        option: "",
+        option: "ARP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "DHCP",
         correct: false,
       },
     ],
   },
   {
     id: 379,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie opisuje własności narzędzia traceroute?",
     answers: [
       {
-        option: "",
+        option: "!",
         correct: false,
       },
       {
-        option: "",
+        option: ".",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "U",
+        correct: false, // no this
       },
       {
-        option: "",
+        option: "$",
         correct: false,
       },
     ],
   },
   {
     id: 380,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie rzeczy można ustalić na podstawie polecenia ping? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Liczbę routerów pomiędzy urządzeniem źródłowym i docelowym",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres IP routera położonego jak najbliżej urządzenia docelowego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Średni czas przejścia pakietu do celu oraz powrotu odpowiedzi do źródła",
+        correct: true,
       },
       {
-        option: "",
+        option: "Osiągalność urządzenia docelowego w sieci",
+        correct: true,
+      },
+      {
+        option:
+          "The average time it takes each router in the path between source and destination to respond",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 381,
-    question: "",
-    //   multi: true,
+    question:
+      "Użytkownik dzwoni, aby zgłosić, że komputer nie może uzyskać dostępu do Internetu. Technik sieciowy prosi użytkownika o wydanie polecenia ping 127.0.0.1 w oknie wiersza polecenia. Użytkownik zgłasza, że wynikiem są cztery pozytywne odpowiedzi. Jaki wniosek można wyciągnąć na podstawie tego testu łączności?",
     answers: [
       {
-        option: "",
+        option: "The PC can access the network. The problem exists beyond the local network.",
         correct: false,
       },
       {
-        option: "",
+        option: "The IP address obtained from the DHCP server is correct.",
         correct: false,
       },
       {
-        option: "",
+        option: "The PC can access the Internet. However, the web browser may not work.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "The TCP/IP implementation is functional.",
+        correct: true,
       },
     ],
   },
   {
     id: 382,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie może być używane do testowania łączności między dwoma urządzeniami za pomocą żądania echa i echa wiadomości odpowiedzi?",
     answers: [
       {
-        option: "",
+        option: "To obtain a dynamic IP address from the server",
         correct: false,
       },
       {
-        option: "",
+        option: "To request that gateway forward the connection request to the file server",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "To test that the host has the capability to reach hosts on other networks",
+        correct: false, // no this
       },
       {
-        option: "",
+        option: "To resolve the domain name of the file server to its IP address",
         correct: false,
       },
     ],
   },
   {
     id: 383,
-    question: "",
-    //   multi: true,
+    question: "Jaka zawartość pola jest używana przez ICMPv6 do stwierdzenia, że pakiet wygasł?",
     answers: [
       {
-        option: "",
+        option: "Pole TTL",
         correct: false,
       },
       {
-        option: "",
+        option: "Pole CRC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Pole limit przeskoków",
+        correct: true,
       },
       {
-        option: "",
+        option: "Pole przekroczenie czasu",
         correct: false,
       },
     ],
   },
   {
     id: 384,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół zapewnia hostowi źródłowemu informację zwrotną na temat błędów w dostarczaniu pakietów?",
     answers: [
       {
-        option: "",
+        option: "Redirect",
         correct: false,
       },
       {
-        option: "",
+        option: "BOOTP",
         correct: false,
       },
       {
-        option: "",
+        option: "Time exceeded",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Destination unreachable",
+        correct: true,
       },
     ],
   },
   {
     id: 385,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci może wykonać polecenie ping w kierunku serwera www.cisco.com, natomiast nie może w kierunku serwera www przedsiębiorstwa umieszczonego u dostawcy usług internetowych (ISP) w innym mieście. Jakim narzędziem lub poleceniem może określić router w którym pakiet jest tracony albo usuwany?",
     answers: [
       {
-        option: "",
+        option: "ICMP",
+        correct: true,
+      },
+      {
+        option: "NDP",
         correct: false,
       },
       {
-        option: "",
+        option: "ARP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "DHCP",
         correct: false,
       },
     ],
   },
   {
     id: 386,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka wiadomość jest wysyłana przez hosta, aby sprawdzić unikalność adresu IPv6 przed użyciem tego adresu?",
     answers: [
       {
-        option: "",
+        option: "Wywołanie sąsiada",
+        correct: true,
+      },
+      {
+        option: "Żądanie ARP",
         correct: false,
       },
       {
-        option: "",
+        option: "Żądanie echa",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wywoływanie routera",
         correct: false,
       },
     ],
   },
   {
     id: 387,
-    question: "",
-    //   multi: true,
+    question:
+      "Która warstwa jest odpowiedzialna za ustanowienie tymczasowej sesji komunikacji między źródłowymi i docelowymi aplikacjami hosta?",
     answers: [
       {
-        option: "",
+        option: "Warstwa aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa łącza danych",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa sieci",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa fizyczna",
         correct: false,
+      },
+      {
+        option: "Warstwa transportowa",
+        correct: true,
       },
     ],
   },
   {
     id: 388,
-    question: "",
-    //   multi: true,
+    question: "Które trzy są zadaniami warstwy transportowej? (Wybierz trzy odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Multipleksowanie konwersacji",
+        correct: true,
+      },
+      {
+        option: "Identyfikowanie ramki",
         correct: false,
       },
       {
-        option: "",
+        option: "Identyfikowanie informacji o routingu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Segmentacja i powtórne składanie segmentów",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Śledzenie indywidualnych konwersacji",
+        correct: true,
       },
     ],
+    multi: true,
   },
   {
     id: 389,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie o protokołach warstwy transportowej jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "TCP ma mniej pól niż UDP.",
         correct: false,
       },
       {
-        option: "",
+        option: "TCP jest szybszy niż UDP.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "UDP jest definiowany jako protokół best-effort.",
+        correct: true,
       },
       {
-        option: "",
+        option: "UDP zapewnia niezawodność.",
         correct: false,
       },
     ],
   },
   {
     id: 390,
-    question: "",
-    //   multi: true,
+    question: "Który protokół warstwy transportowej będzie używany do aplikacji VoIP?",
     answers: [
       {
-        option: "",
+        option: "Session Information Protocol (SIP)",
         correct: false,
       },
       {
-        option: "",
+        option: "Transmission Control Protocol (TCP)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "User Datagram Protocol (UDP)",
+        correct: true,
       },
       {
-        option: "",
+        option: "VoIP Transfer Protocol",
         correct: false,
       },
     ],
   },
   {
     id: 391,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół warstwy transportowej zapewnia niezawodne dostarczanie z zachowaniem kolejności?",
     answers: [
       {
-        option: "",
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
+        option: "IP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "TCP",
+        correct: true,
       },
       {
-        option: "",
+        option: "UDP",
         correct: false,
       },
     ],
   },
   {
     id: 392,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie o nagłówku TCP jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "Składa się z 4 pól w nagłówku 8-bajtowym.",
         correct: false,
       },
       {
-        option: "",
+        option: "Składa się z 8 pól w 10-bajtowym nagłówku.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Składa się z 10 pól w 20-bajtowym nagłówku.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Składa się z 20 pól w 40-bajtowym nagłówku.",
         correct: false,
       },
     ],
   },
   {
     id: 393,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie aplikacje wykorzystałyby protokół warstwy transportowej TCP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "FTP",
+        correct: true,
+      },
+      {
+        option: "HTTP",
+        correct: true,
+      },
+      {
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
+        option: "TFTP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "VoIP",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 394,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych jest bezstanowym protokołem warstwy transportowej dostarczania wg. najlepszych starań?",
     answers: [
       {
-        option: "",
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
+        option: "IP",
         correct: false,
       },
       {
-        option: "",
+        option: "TCP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "UDP",
+        correct: true,
       },
     ],
   },
   {
     id: 395,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie dotyczące nagłówka UDP jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "Składa się z 4 pól w nagłówku 8-bajtowym.",
+        correct: true,
+      },
+      {
+        option: "Składa się z 8 pól w 10-bajtowym nagłówku.",
         correct: false,
       },
       {
-        option: "",
+        option: "Składa się z 10 pól w 20-bajtowym nagłówku.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Składa się z 20 pól w 40-bajtowym nagłówku.",
         correct: false,
       },
     ],
   },
   {
     id: 396,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie aplikacje wykorzystałyby protokół warstwy transportowej UDP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "FTP",
         correct: false,
       },
       {
-        option: "",
+        option: "HTTP",
         correct: false,
       },
       {
-        option: "",
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "TFTP",
+        correct: true,
+      },
+      {
+        option: "VoIP",
+        correct: true,
       },
     ],
+    multi: true,
   },
   {
     id: 397,
-    question: "",
-    //   multi: true,
+    question: "Które dwa pola są takie same w nagłówku TCP i UDP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Bity kontrolne",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer portu docelowego",
+        correct: true,
+      },
+      {
+        option: "Numer sekwencyjny",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Numer portu źródłowego",
+        correct: true,
       },
       {
-        option: "",
+        option: "Dobrze znane porty",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 398,
-    question: "",
-    //   multi: true,
+    question:
+      "Załóżmy, że host z adresem IP 10.1.1.10 chce żądać usług internetowych z serwera na 10.1.1.254. Które z poniższych jest poprawną parą gniazd?",
     answers: [
       {
-        option: "",
+        option: "1099:10.1.1.10, 80:10.1.1.254",
         correct: false,
       },
       {
-        option: "",
+        option: "10.1.1.10:80, 10.1.1.254:1099",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "10.1.1.10:1099, 10.1.1.254:80",
+        correct: true,
       },
       {
-        option: "",
+        option: "80:10.1.1.10, 1099:10.1.1.254",
         correct: false,
       },
     ],
   },
   {
     id: 399,
-    question: "",
-    //   multi: true,
+    question: "Która grupa portów zawiera numery portów dla aplikacji FTP, HTTP i TFTP?",
     answers: [
       {
-        option: "",
+        option: "Porty dynamiczne",
         correct: false,
       },
       {
-        option: "",
+        option: "Porty prywatne",
         correct: false,
       },
       {
-        option: "",
+        option: "Porty zarejestrowane",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Dobrze znane porty",
+        correct: true,
       },
     ],
   },
   {
     id: 400,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie systemu Windows wyświetli używane protokoły, adres lokalny i numery portów, adres zdalny i numery portów oraz stan połączenia?",
     answers: [
       {
-        option: "",
+        option: "Ipconfig /all",
         correct: false,
       },
       {
-        option: "",
+        option: "Ping",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Netstat",
+        correct: true,
       },
       {
-        option: "",
+        option: "Traceroute",
         correct: false,
       },
     ],
   },
   {
     id: 401,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych byłyby poprawnymi portami źródłowymi i docelowymi dla hosta łączącego się z serwerem e-mail?",
     answers: [
       {
-        option: "",
+        option: "Źródło: 25, Miejsce przeznaczenia: 49152",
         correct: false,
       },
       {
-        option: "",
+        option: "Źródło: 80, Miejsce przeznaczenia: 49152",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródło: 49152, Miejsce przeznaczenia: 25",
+        correct: true,
       },
       {
-        option: "",
+        option: "Źródło: 49152, Miejsce przeznaczenia: 80",
         correct: false,
       },
     ],
   },
   {
     id: 402,
-    question: "",
-    //   multi: true,
+    question: "Które flagi bitów kontrolnych są używane podczas trójetapowego uzgadniania?",
     answers: [
       {
-        option: "",
+        option: "ACK i FIN",
         correct: false,
       },
       {
-        option: "",
+        option: "FIN i RESET",
         correct: false,
       },
       {
-        option: "",
+        option: "RESET i SYN",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "SYN i ACK",
+        correct: true,
       },
     ],
   },
   {
     id: 403,
-    question: "",
-    //   multi: true,
+    question: "Ile wymian jest potrzebnych do zakończenia obu sesji między dwoma hostami?",
     answers: [
       {
-        option: "",
+        option: "Jedna wymiana",
         correct: false,
       },
       {
-        option: "",
+        option: "Dwie wymiany",
         correct: false,
       },
       {
-        option: "",
+        option: "Trzy wymiany",
         correct: false,
       },
       {
-        option: "",
+        option: "Cztery wymiany",
+        correct: true,
+      },
+      {
+        option: "Pięć wymian",
         correct: false,
       },
     ],
   },
   {
     id: 404,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie pole jest używane przez hosta docelowego do ponownego złożenia segmentów w oryginalnej kolejności?",
     answers: [
       {
-        option: "",
+        option: "Bity kontrolne",
         correct: false,
       },
       {
-        option: "",
+        option: "Port docelowy",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer sekwencyjny",
+        correct: true,
+      },
+      {
+        option: "Port źródłowy",
         correct: false,
       },
       {
-        option: "",
+        option: "Rozmiar okna",
         correct: false,
       },
     ],
   },
   {
     id: 405,
-    question: "",
-    //   multi: true,
+    question: "Jakie pole służy do zapewnienia kontroli przepływu?",
     answers: [
       {
-        option: "",
+        option: "Bity kontrolne",
         correct: false,
       },
       {
-        option: "",
+        option: "Port docelowy",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer sekwencyjny",
         correct: false,
       },
       {
-        option: "",
+        option: "Port źródłowy",
         correct: false,
+      },
+      {
+        option: "Rozmiar okna",
+        correct: true,
       },
     ],
   },
   {
     id: 406,
-    question: "",
-    //   multi: true,
+    question: "Co się stanie, gdy host wysyłający stwierdzi zatory?",
     answers: [
       {
-        option: "",
+        option:
+          "Host odbierający zwiększa liczbę bajtów, które wysyła przed otrzymaniem potwierdzenia z hosta wysyłającego.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Host odbierający zmniejsza liczbę bajtów, które wysyła przed otrzymaniem potwierdzenia z hosta wysyłającego.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Host wysyłający zwiększa liczbę bajtów, które wysyła przed otrzymaniem potwierdzenia z hosta docelowego.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Host wysyłający zmniejsza liczbę bajtów, które wysyła przed otrzymaniem potwierdzenia z hosta docelowego.",
+        correct: true,
       },
     ],
   },
   {
     id: 407,
-    question: "",
-    //   multi: true,
+    question:
+      "Dlaczego protokół UDP jest pożądany w przypadku protokołów wykonujących proste żądania i odpowiedzi?",
     answers: [
       {
-        option: "",
+        option: "Kontrola przepływu",
         correct: false,
       },
       {
-        option: "",
+        option: "Mały narzut",
+        correct: true,
+      },
+      {
+        option: "Niezawodność",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Dostarczanie w odpowiedniej kolejności",
         correct: false,
       },
     ],
   },
   {
     id: 408,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie dotyczące ponownego składania datagramu UDP jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "UDP nie scala ponownie danych.",
+        correct: false, // no this
+      },
+      {
+        option: "UDP scala dane w kolejności, w jakiej zostały odebrane.",
+        correct: true,
+      },
+      {
+        option: "UDP scala dane za pomocą bitów kontrolnych.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "UDP scala dane za pomocą numerów sekwencyjnych.",
         correct: false,
       },
     ],
   },
   {
     id: 409,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych byłyby poprawnymi portami źródłowymi i docelowymi dla hosta łączącego się z serwerem DNS?",
     answers: [
       {
-        option: "",
+        option: "Źródło: 53, Miejsce przeznaczenia: 49152",
         correct: false,
       },
       {
-        option: "",
+        option: "Źródło: 1812, Miejsce przeznaczenia: 49152",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródło: 49152, Miejsce przeznaczenia: 53",
+        correct: true,
       },
       {
-        option: "",
+        option: "Źródło: 49152, Miejsce przeznaczenia: 1812",
         correct: false,
       },
     ],
   },
   {
     id: 410,
-    question: "",
-    //   multi: true,
+    question:
+      "Która funkcja warstwy transportowej jest używana do zagwarantowania ustanowienia sesji?",
     answers: [
       {
-        option: "",
+        option: "Flaga ACK w UDP",
         correct: false,
       },
       {
-        option: "",
+        option: "Uzgadnianie trójetapowe TCP",
+        correct: true,
+      },
+      {
+        option: "Numer sekwencji UDP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Numer portu TCP",
         correct: false,
       },
     ],
   },
   {
     id: 411,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest pełny zakres dobrze znanych portów TCP i UDP?",
     answers: [
       {
-        option: "",
+        option: "Od 0 do 255",
         correct: false,
       },
       {
-        option: "",
+        option: "Od 0 do 1023",
+        correct: true,
+      },
+      {
+        option: "Od 256 do 1023",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Od 1024 do 49151",
         correct: false,
       },
     ],
   },
   {
     id: 412,
-    question: "",
-    //   multi: true,
+    question: "Co to jest gniazdo (ang.socket)?",
     answers: [
       {
-        option: "",
+        option:
+          "Połączenie źródłowego i docelowego adresu IP oraz źródłowego i docelowego adresu Ethernetowego",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Połączenie źródłowego adresu IP i numeru portu lub docelowego adresu IP i numeru portu",
+        correct: true,
+      },
+      {
+        option: "Połączenie źródłowych i docelowych numerów sekwencji i potwierdzeń",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Połączenie źródłowych i docelowych numerów sekwencji i numerów portów",
         correct: false,
       },
     ],
   },
   {
     id: 413,
-    question: "",
-    //   multi: true,
+    question: "Jak serwer sieciowy zarządza żądaniami od wielu klientów dla różnych usług?",
     answers: [
       {
-        option: "",
+        option: "Serwer wysyła wszystkie żądania przez bramę domyślną.",
         correct: false,
       },
       {
-        option: "",
+        option: "Każdemu żądaniu przypisany jest numer portu źródłowego i docelowego.",
+        correct: true,
+      },
+      {
+        option: "Serwer wykorzystuje adresy IP do identyfikacji różnych usług.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Każde żądanie śledzone jest za pomocą fizycznego adresu klienta.",
         correct: false,
       },
     ],
   },
   {
     id: 414,
-    question: "",
-    //   multi: true,
+    question:
+      "Co stanie się, gdy część wiadomości FTP nie zostanie dostarczona do hosta docelowego?",
     answers: [
       {
-        option: "",
+        option:
+          "Wiadomość zostanie utracona, ponieważ FTP nie używa metody potwierdzenia skutecznego dostarczenia danych.",
         correct: false,
       },
       {
-        option: "",
+        option: "Host źródłowy FTP wysyła zapytanie do hosta docelowego.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Część wiadomości FTP, która została utracona jest ponownie wysyłana.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Cała wiadomość FTP jest ponownie wysyłana.",
         correct: false,
       },
     ],
   },
   {
     id: 415,
-    question: "",
-    //   multi: true,
+    question: "Jakie aplikacje najlepiej nadają się do korzystania z UDP?",
     answers: [
       {
-        option: "",
+        option: "Applications that are sensitive to delay",
+        correct: true,
+      },
+      {
+        option: "Applications that need reliable delivery",
         correct: false,
       },
       {
-        option: "",
+        option: "Aplikacje, które wymagają retransmisji utraconych segmentów",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Applications that are sensitive to packet loss",
         correct: false,
       },
     ],
   },
   {
     id: 416,
-    question: "",
-    //   multi: true,
+    question:
+      "Przeciążenie sieci spowodowało, że źródło poznało utratę segmentów TCP wysłanych do miejsca docelowego. W jaki sposób protokół TCP rozwiązuje ten problem?",
     answers: [
       {
-        option: "",
+        option:
+          "Źródło zmniejsza ilość danych, które przesyła, zanim otrzyma potwierdzenie z miejsca docelowego.",
+        correct: true,
+      },
+      {
+        option:
+          "Źródło zmniejsza rozmiar okna, aby zmniejszyć szybkość transmisji z miejsca docelowego.",
         correct: false,
       },
       {
-        option: "",
+        option: "Miejsce docelowe zmniejsza rozmiar okna.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Miejsce docelowe wysyła mniej komunikatów potwierdzających w celu zachowania przepustowości.",
         correct: false,
       },
     ],
   },
   {
     id: 417,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie operacje są oferowane przez TCP, ale nie przez UDP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Identifying the applications",
         correct: false,
       },
       {
-        option: "",
+        option: "Acknowledging received data",
+        correct: true,
+      },
+      {
+        option: "Identifying individual conversations",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Retransmitting any unacknowledged data",
+        correct: true,
       },
       {
-        option: "",
+        option: "Reconstructing data in the order received",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 418,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel użycia numeru portu źródłowego w komunikacji TCP?",
     answers: [
       {
-        option: "",
+        option: "To notify the remote device that the conversation is over",
         correct: false,
       },
       {
-        option: "",
+        option: "To assemble the segments that arrived out of order",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "To keep track of multiple conversations between devices",
+        correct: true,
       },
       {
-        option: "",
+        option: "To inquire for a nonreceived segment",
         correct: false,
       },
     ],
   },
   {
     id: 419,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie flagi w nagłówku TCP są używane przy trójetapowym uzgadnianiu aby ustanowić połączenie między dwoma urządzeniami sieciowymi? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "ACK",
+        correct: true,
+      },
+      {
+        option: "FIN",
         correct: false,
       },
       {
-        option: "",
+        option: "PSH",
         correct: false,
       },
       {
-        option: "",
+        option: "RST",
         correct: false,
       },
       {
-        option: "",
+        option: "SYN",
+        correct: true,
+      },
+      {
+        option: "URG",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 420,
-    question: "",
-    //   multi: true,
+    question: "Jakiego mechanizmu TCP używa się do unikania zatorów?",
     answers: [
       {
-        option: "",
+        option: "Uzgadnianie trójetapowe",
         correct: false,
       },
       {
-        option: "",
+        option: "Para gniazd",
         correct: false,
       },
       {
-        option: "",
+        option: "Używa dwuetapowego uzgadniania",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Okno przesuwne",
+        correct: true,
       },
     ],
   },
   {
     id: 421,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie działania są podejmowane po stronie klienta podczas ustanawiania komunikacji z serwerem przy zastosowaniu protokołu UDP w warstwie transportowej?",
     answers: [
       {
-        option: "",
+        option: "Klient ustawia rozmiar okna dla sesji.",
         correct: false,
       },
       {
-        option: "",
+        option: "Klient wysyła ISN do serwera, aby rozpocząć proces trójetapowego uzgadniania.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Klient wybiera losowo numer portu źródłowego.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Klient wysyła segment synchronizacji, aby rozpocząć sesję.",
         correct: false,
       },
     ],
   },
   {
     id: 422,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie usługi lub protokoły używają preferowanego protokołu UDP do szybkiej transmisji i niskiego narzutu? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "FTP",
         correct: false,
       },
       {
-        option: "",
+        option: "DNS",
+        correct: true,
+      },
+      {
+        option: "HTTP",
         correct: false,
       },
       {
-        option: "",
+        option: "POP3",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "VoIP",
+        correct: true,
       },
     ],
+    multi: true,
   },
   {
     id: 423,
-    question: "",
-    //   multi: true,
+    question: "Których liczba lub zestaw liczb reprezentuje gniazdo (ang. socket)?",
     answers: [
       {
-        option: "",
+        option: "01-23-45-67-89-AB",
         correct: false,
       },
       {
-        option: "",
+        option: "21",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "192.168.1.1:80",
+        correct: true,
       },
       {
-        option: "",
+        option: "10.1.1.15",
         correct: false,
       },
     ],
   },
   {
     id: 424,
-    question: "",
-    //   multi: true,
+    question: "Co jest zadaniem protokołów warstwy transportu?",
     answers: [
       {
-        option: "",
+        option: "Zapewnienie dostępu do sieci",
         correct: false,
       },
       {
-        option: "",
+        option: "Śledzenie indywidualnych konwersacji",
+        correct: true,
+      },
+      {
+        option: "Określenie trasy do przesłania pakietu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Tłumaczenie prywatnych adresów IP na publiczne adresy IP",
         correct: false,
       },
     ],
