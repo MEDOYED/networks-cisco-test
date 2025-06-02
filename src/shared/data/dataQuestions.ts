@@ -15,8 +15,8 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 13  -->  id: 371-386
 // MODULE 14  -->  id: 387-424
 // MODULE 15  -->  id: 425-461
-// MODULE 16  -->  id: 462-489
-// MODULE 17  -->  id: 490-518
+// MODULE 16  -->  id: 462-495
+// MODULE 17  -->  id: 496-524
 
 export const dataQuestions: Question[] = [
   {
@@ -10850,6 +10850,144 @@ export const dataQuestions: Question[] = [
   {
     id: 470,
     question:
+      "Angela, pracownik IT w ACME Inc., zauważa, że komunikacja z serwerem firmy jest bardzo powolna. Po zbadaniu, ustali, że przyczyną powolnej reakcji jest komputer w Internecie wysyłający bardzo dużą liczbę zniekształconych żądań na serwer WWW ACME. Jaki rodzaj ataku opisano w tym scenariuszu?",
+    answers: [
+      {
+        option: "Atak w celu uzyskania dostępu",
+        correct: false,
+      },
+      {
+        option: "Atak odmowy usługi (DoS)",
+        correct: true,
+      },
+      {
+        option: "Atak ze strony złośliwego oprogramowania",
+        correct: false,
+      },
+      {
+        option: "Ataki rozpoznania",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 471,
+    question:
+      "George musiał udostępnić wideo współpracownikowi. Ze względu na duży rozmiar pliku wideo postanowił uruchomić prosty serwer FTP na swojej stacji roboczej, aby udostępnić plik wideo swojemu współpracownikowi. Aby sobie ułatwić, George utworzył konto z prostym hasłem „plik” i dostarczył je swojemu współpracownikowi w piątek. Bez odpowiednich środków bezpieczeństwa i silnego hasła personel IT nie zdziwił się, gdy dowiedział się w poniedziałek, że stacja robocza George'a została przejęta i próbuje przesłać dokumenty związane z pracą do Internetu. Jaki rodzaj ataku opisano w tym scenariuszu?",
+    answers: [
+      {
+        option: "Atak w celu uzyskania dostępu",
+        correct: true,
+      },
+      {
+        option: "Atak odmowy usługi (DoS)",
+        correct: false,
+      },
+      {
+        option: "Atak ze strony złośliwego oprogramowania",
+        correct: false,
+      },
+      {
+        option: "Ataki rozpoznania",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 472,
+    question:
+      "Jeremiasz przeglądał internet ze swojego komputera, kiedy przypadkowa strona oferowała darmowy program do czyszczenia systemu. Po pobraniu i uruchomieniu pliku wykonywalnego system operacyjny uległ awarii. Najważniejsze pliki związane z systemem operacyjnym zostały uszkodzone, a komputer Jeremiasza wymagał pełnego formatu dysku i ponownej instalacji systemu operacyjnego. Jaki rodzaj ataku opisano w tym scenariuszu?",
+    answers: [
+      {
+        option: "Atak w celu uzyskania dostępu",
+        correct: false,
+      },
+      {
+        option: "Atak odmowy usługi (DoS)",
+        correct: false,
+      },
+      {
+        option: "Atak ze strony złośliwego oprogramowania",
+        correct: true,
+      },
+      {
+        option: "Ataki rozpoznania",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 473,
+    question:
+      "Arianna znalazła dysk flash leżący na chodniku parkingu w centrum handlowym. Pytała wokół, ale nie mogła znaleźć właściciela. Postanowiła go zatrzymać i podłączyć do laptopa, tylko po to, aby znaleźć folder ze zdjęciami. Czując ciekawość, Arianna otworzyła kilka zdjęć przed sformatowaniem dysku flash na własny użytek. Następnie Arianna zauważyła, że jej kamera laptopa jest aktywna. Jaki rodzaj ataku opisano w tym scenariuszu?",
+    answers: [
+      {
+        option: "Atak w celu uzyskania dostępu",
+        correct: false,
+      },
+      {
+        option: "Atak odmowy usługi (DoS)",
+        correct: false,
+      },
+      {
+        option: "Atak ze strony złośliwego oprogramowania",
+        correct: true,
+      },
+      {
+        option: "Ataki rozpoznania",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 474,
+    question:
+      "Komputer jest używany jako serwer druku dla firmy ACME Inc. Pracownicy IT nie zastosowali aktualizacji zabezpieczeń na tym komputerze przez ponad 60 dni. Teraz serwer wydruku działa powoli i wysyła dużą liczbę złośliwych pakietów ze swojej karty sieciowej. Jaki rodzaj ataku opisano w tym scenariuszu?",
+    answers: [
+      {
+        option: "Atak w celu uzyskania dostępu",
+        correct: false,
+      },
+      {
+        option: "Atak odmowy usługi (DoS)",
+        correct: false,
+      },
+      {
+        option: "Atak ze strony złośliwego oprogramowania",
+        correct: false, // not this
+      },
+      {
+        option: "Ataki rozpoznania",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 475,
+    question:
+      "Sharon, stażystka IT w ACME Inc., zauważyła dziwne pakiety podczas przeglądania dzienników zabezpieczeń generowanych przez zaporę. Kilka adresów IP w internecie wysyłało znieksztalcone pakiety na kilka różnych adresów IP, pod różnymi losowymi numerami portów wewnątrz ACME Inc. Jaki rodzaj ataku opisano w tym scenariuszu?",
+    answers: [
+      {
+        option: "Atak w celu uzyskania dostępu",
+        correct: false,
+      },
+      {
+        option: "Atak odmowy usługi (DoS)",
+        correct: false,
+      },
+      {
+        option: "Atak ze strony złośliwego oprogramowania",
+        correct: false,
+      },
+      {
+        option: "Ataki rozpoznania",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 476,
+    question:
       "Które urządzenie kontroluje ruch między dwiema lub więcej sieciami, aby zapobiec nieautoryzowanemu dostępowi?",
     answers: [
       {
@@ -10871,7 +11009,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 471,
+    id: 477,
     question:
       "Które urządzenie jest używane przez inne urządzenia sieciowe do uwierzytelniania i autoryzacji dostępu do zarządzania?",
     answers: [
@@ -10894,7 +11032,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 472,
+    id: 478,
     question:
       "Które zasady tworzenia kopii zapasowych dotyczą używania silnych haseł do ochrony kopii zapasowych i przywracania danych?",
     answers: [
@@ -10917,7 +11055,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 473,
+    id: 479,
     question:
       "Ta strefa służy do umeszczania serwerów, które powinny być dostępne dla użytkowników zewnętrznych.",
     answers: [
@@ -10940,7 +11078,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 474,
+    id: 480,
     question:
       "Co jest odpowiednie dla zapewnienia bezpieczeństwa punktów końcowych?",
     answers: [
@@ -10963,7 +11101,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 475,
+    id: 481,
     question:
       "Który komponent ma chronić przed nieautoryzowaną komunikacją do i z komputera?",
     answers: [
@@ -10990,7 +11128,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 476,
+    id: 482,
     question:
       "Które polecenie spowoduje zablokowanie prób logowania na RouterA przez okres 30 sekund, jeśli w ciągu 10 sekund wykonano dwie nieudane próby logowania?",
     answers: [
@@ -11013,7 +11151,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 477,
+    id: 483,
     question:
       "Jaki może być cel ewidencjonowania jako funkcji bezpieczeństwa sieciowego?",
     answers: [
@@ -11038,7 +11176,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 478,
+    id: 484,
     question:
       "Jaki rodzaj ataku może wiązać się z wykorzystaniem narzędzi, takich jak nslookup i fping?",
     answers: [
@@ -11061,7 +11199,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 479,
+    id: 485,
     question:
       "Jaka jest zaleta SSH w porównaniu z Telnet w przypadku zdalnego zarządzania routerem?",
     answers: [
@@ -11084,7 +11222,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 480,
+    id: 486,
     question:
       "Co jest jednym z najskuteczniejszych dostępnych narzędzi bezpieczeństwa do ochrony użytkowników przed zagrożeniami zewnętrznymi?",
     answers: [
@@ -11107,7 +11245,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 481,
+    id: 487,
     question:
       "Jaki rodzaj zagrożenia sieciowego ma na celu uniemożliwienie autoryzowanym użytkownikom dostępu do zasobów?",
     answers: [
@@ -11130,7 +11268,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 482,
+    id: 488,
     question:
       "Które trzy usługi świadczone są w ramach AAA? (Wybierz trzy odpowiedzi.)",
     multi: true,
@@ -11162,7 +11300,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 483,
+    id: 489,
     question:
       "Który atak złośliwego kodu jest samodzielny i próbuje wykorzystać konkretną lukę w atakowanym systemie?",
     answers: [
@@ -11185,7 +11323,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 484,
+    id: 490,
     question:
       "Niektóre routery i przełączniki w pomieszczeniu sieciowym działały nieprawidłowo po awarii klimatyzatora. Jaki rodzaj zagrożenia opisuje ta sytuacja?",
     answers: [
@@ -11208,7 +11346,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 485,
+    id: 491,
     question: "Co oznacza termin podatność?",
     answers: [
       {
@@ -11234,7 +11372,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 486,
+    id: 492,
     question:
       "Jakie trzy kroki konfiguracyjne muszą być wykonane, aby wdrożyć dostęp SSH do routera? (Wybierz trzy odpowiedzi.)",
     multi: true,
@@ -11266,7 +11404,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 487,
+    id: 493,
     question: "Jaki jest cel ataku rozpoznania sieci?",
     answers: [
       {
@@ -11288,7 +11426,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 488,
+    id: 494,
     question:
       "Ze względów bezpieczeństwa administrator sieci musi zagwarantować, że lokalne komputery nie mogą komunikować się ze sobą za pomocą pakietów ping. Które ustawienia pomogą wykonać to zadanie?",
     answers: [
@@ -11311,7 +11449,7 @@ export const dataQuestions: Question[] = [
     ],
   },
   {
-    id: 489,
+    id: 495,
     question:
       "Administrator sieci ustanawia połączenie z przełącznikiem przez SSH. Jaka cecha jednoznacznie opisuje połączenie SSH?",
     answers: [
@@ -11342,820 +11480,718 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
-{
-  id: 490,
-  question: "Które stwierdzenie poprawnie odnosi się do małej sieci?",
-  answers: [
-    {
-      option: "Małe sieci są skomplikowane.",
-      correct: false,
-    },
-    {
-      option: "Małe sieci wymagają działu IT do utrzymania.",
-      correct: false,
-    },
-    {
-      option: "Większość przedsiębiorstw to małe firmy.",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 491,
-  question: "Który czynnik należy wziąć pod uwagę przy wyborze urządzeń sieciowych?",
-  answers: [
-    {
-      option: "Kolor",
-      correct: false,
-    },
-    {
-      option: "Połączenie konsoli",
-      correct: false,
-    },
-    {
-      option: "Koszt",
-      correct: true,
-    },
-    {
-      option: "Elastyczność",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 492,
-  question: "Co jest konieczne do zaplanowania i użycia podczas wdrażania sieci?",
-  answers: [
-    {
-      option: "Nazwy urządzeń",
-      correct: false,
-    },
-    {
-      option: "Schemat adresowania IP",
-      correct: true,
-    },
-    {
-      option: "Schemat adresacji MAC",
-      correct: false,
-    },
-    {
-      option: "Lokalizacja drukarki",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 493,
-  question: "Co jest wymagane, aby utrzymać wysoki stopień niezawodności i wyeliminować pojedyncze punkty awarii?",
-  answers: [
-    {
-      option: "Dostępność",
-      correct: false,
-    },
-    {
-      option: "Możliwość rozbudowy",
-      correct: false,
-    },
-    {
-      option: "Integralność",
-      correct: false,
-    },
-    {
-      option: "Nadmiarowość",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 494,
-  question: "Co jest wymagane, aby sklasyfikować ruch zgodnie z priorytetem?",
-  answers: [
-    {
-      option: "Schemat adresowania IP",
-      correct: false,
-    },
-    {
-      option: "Jakość usług (QoS)",
-      correct: true,
-    },
-    {
-      option: "Routing",
-      correct: false,
-    },
-    {
-      option: "Przełączanie",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 495,
-  question: "Jakie są dwie formy programów lub procesów, które zapewniają dostęp do sieci? (Wybierz dwie odpowiedzi.)",
-  multi: true,
-  answers: [
-    {
-      option: "Oprogramowanie antywirusowe",
-      correct: false,
-    },
-    {
-      option: "Usługi warstwy aplikacji",
-      correct: true,
-    },
-    {
-      option: "Oprogramowanie do gier",
-      correct: false,
-    },
-    {
-      option: "Aplikacje sieciowe",
-      correct: true,
-    },
-    {
-      option: "Oprogramowanie produktywności",
-      correct: false,
-    },
-    {
-      option: "Maszyna wirtualna",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 496,
-  question: "Które dwa protokoły sieciowe są używane do ustanowienia połączenia sieciowego dostępu zdalnego z urządzeniem? (Wybierz dwie odpowiedzi.)",
-  multi: true,
-  answers: [
-    {
-      option: "File Transfer Protocol (FTP)",
-      correct: false,
-    },
-    {
-      option: "Hypertext Transfer Protocol (HTTP)",
-      correct: false,
-    },
-    {
-      option: "Remote Connect (RC)",
-      correct: false,
-    },
-    {
-      option: "Secure Shell (SSH)",
-      correct: true,
-    },
-    {
-      option: "Simple Mail Transfer Protocol (SMTP)",
-      correct: false,
-    },
-    {
-      option: "Telnet",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 497,
-  question: "Jakie elementy są wymagane do skalowania do większej sieci? (Wybierz dwie odpowiedzi.)",
-  multi: true,
-  answers: [
-    {
-      option: "Budżet",
-      correct: true,
-    },
-    {
-      option: "Konfiguracja urządzenia",
-      correct: false,
-    },
-    {
-      option: "Zwiększenie szerokości pasma",
-      correct: false,
-    },
-    {
-      option: "Dokumentacja sieci",
-      correct: true,
-    },
-    {
-      option: "Hosty Windows",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 498,
-  question: "Które oprogramowanie zainstalowane na kluczowych hostach może ujawnić rodzaje ruchu sieciowego przepływającego przez sieć?",
-  answers: [
-    {
-      option: "Linux",
-      correct: false,
-    },
-    {
-      option: "MacOS",
-      correct: false,
-    },
-    {
-      option: "SSH",
-      correct: false,
-    },
-    {
-      option: "Windows",
-      correct: false,
-    },
-    {
-      option: "Wireshark",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 499,
-  question: "Jakie narzędzie systemu Windows 10 jest przydatne do określenia, które aplikacje korzystają z usług sieciowych na hoście?",
-  answers: [
-    {
-      option: "Panel sterowania",
-      correct: false,
-    },
-    {
-      option: "Zużycie danych",
-      correct: true,
-    },
-    {
-      option: "Menedżer plików",
-      correct: false,
-    },
-    {
-      option: "Zapora Windows Defender",
-      correct: false,
-    },
-    {
-      option: "Eksplorator Windows",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 500,
-  question: "Technik rozwiązuje problem z siecią i właśnie ustalił hipotezę prawdopodobnych przyczyn. Jaki będzie następny krok w procesie rozwiązywania problemów?",
-  answers: [
-    {
-      option: "Dokumentowanie spostrzeżeń, działań i wyników",
-      correct: false,
-    },
-    {
-      option: "Stworzenie planu działania i wdrożenia rozwiązania",
-      correct: false,
-    },
-    {
-      option: "Identyfikacja problemu",
-      correct: false,
-    },
-    {
-      option: "Sprawdzanie hipotezy w celu ustalenia przyczyny",
-      correct: true,
-    },
-    {
-      option: "Weryfikacja rozwiązania i wdrożenie środków zapobiegawczych",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 501,
-  question: "Technik rozwiązuje problem z siecią. Po rozwiązaniu problemu technik stwierdza, że przełącznik powinien zostać wymieniony. Co następnie technik powinien zrobić?",
-  answers: [
-    {
-      option: "Wyślij e-mail wszystkich użytkowników, aby dać im znać, że przełącznik zostanie wymieniony.",
-      correct: false,
-    },
-    {
-      option: "Eskaluj zgłoszenie problemów do menedżera, aby zatwierdzić wymianę.",
-      correct: true,
-    },
-    {
-      option: "Kup nowy przełącznik i wymień wadliwy.",
-      correct: false,
-    },
-    {
-      option: "Rozwiąż problem.",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 502,
-  question: "Technik używa polecenia debug ip icmp uprzywilejowanego trybu EXEC do przechwytywania wyjścia routera na żywo. Które polecenia zatrzymają działanie polecenia debug na routerze Cisco? (Wybierz dwie odpowiedzi.)",
-  multi: true,
-  answers: [
-    {
-      option: "debug ip icmp off",
-      correct: false,
-    },
-    {
-      option: "no debug debug ip icmp",
-      correct: false,
-    },
-    {
-      option: "no debug ip icmp",
-      correct: true,
-    },
-    {
-      option: "undebug all",
-      correct: true,
-    },
-    {
-      option: "undebug debug ip icmp",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 503,
-  question: "Technik ustanowił zdalne połączenie z routerem R1 aby obserwować wyjście debug. Technik wydaje polecenie debug ip icmp, a następnie wykonuje ping na odległy cel. Jednak nie jest wyświetlany żaden wynik. Które polecenie musiałby wprowadzić technik, aby wyświetlać komunikaty dziennika (logi) na zdalnym połączeniu?",
-  answers: [
-    {
-      option: "monitor debug output",
-      correct: false,
-    },
-    {
-      option: "monitor terminal",
-      correct: false,
-    },
-    {
-      option: "terminal monitor",
-      correct: true,
-    },
-    {
-      option: "terminal monitor debug",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 504,
-  question: "Jaki czynnik podczas projektowania sieci będzie ważniejszy dla dużej korporacji niż dla małej firmy?",
-  answers: [
-    {
-      option: "Router internetowy",
-      correct: false,
-    },
-    {
-      option: "Zapora",
-      correct: false,
-    },
-    {
-      option: "Niskie zagęszczenie portów",
-      correct: false,
-    },
-    {
-      option: "Nadmiarowość",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 505,
-  question: "Nowo zatrudniony technik sieciowy ma zadanie zamawiania nowego sprzętu dla małej firmy z dużą prognozą wzrostu. Jaki podstawowy czynnik powinien mieć technik na uwadze przy wyborze nowych urządzeń?",
-  answers: [
-    {
-      option: "Urządzenia o stałej liczbie i typie interfejsów",
-      correct: false,
-    },
-    {
-      option: "Urządzenia, które obsługują monitorowanie sieci",
-      correct: false,
-    },
-    {
-      option: "Nadmiarowe urządzenia",
-      correct: false,
-    },
-    {
-      option: "Urządzenia modularne",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 506,
-  question: "Jaki rodzaj ruchu najprawdopodobniej miałby najwyższy priorytet w sieci?",
-  answers: [
-    {
-      option: "FTP",
-      correct: false,
-    },
-    {
-      option: "Wiadomośći błyskawiczne",
-      correct: false,
-    },
-    {
-      option: "Głos",
-      correct: true,
-    },
-    {
-      option: "SNMP",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 507,
-  question: "Technik sieciowy bada łączność sieciową z komputera do zdalnego hosta pod adresem 10.1.1.5. Które polecenie, po wydaniu na komputerze z systemem Windows, wyświetli ścieżkę do zdalnego hosta?",
-  answers: [
-    {
-      option: "trace 10.1.1.5",
-      correct: false,
-    },
-    {
-      option: "traceroute 10.1.1.5",
-      correct: false,
-    },
-    {
-      option: "tracert 10.1.1.5",
-      correct: true,
-    },
-    {
-      option: "ping 10.1.1.5",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 508,
-  question: "Użytkownik nie może otworzyć strony internetowej wpisując http://www.cisco.com w przeglądarce internetowej, ale może ją otworzyć wpisując http://72.163.4.161. Na czym polega problem?",
-  answers: [
-    {
-      option: "Brama domyślna",
-      correct: false,
-    },
-    {
-      option: "DHCP",
-      correct: false,
-    },
-    {
-      option: "DNS",
-      correct: true,
-    },
-    {
-      option: "Stos protokołów TCP/IP",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 509,
-  question: "Gdzie są domyślnie wysyłane komunikaty wyjściowe debugowania Cisco IOS?",
-  answers: [
-    {
-      option: "Buforowane w pamięci",
-      correct: false,
-    },
-    {
-      option: "Na linie vty",
-      correct: false,
-    },
-    {
-      option: "Na serwer syslog",
-      correct: false,
-    },
-    {
-      option: "Na konsolę",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 510,
-  question: "Który element skalowania sieci polega na identyfikacji topologii fizycznej i logicznej?",
-  answers: [
-    {
-      option: "Analiza ruchu",
-      correct: false,
-    },
-    {
-      option: "Dokumentacja sieci",
-      correct: true,
-    },
-    {
-      option: "Inwentaryzacja urządzeń",
-      correct: false,
-    },
-    {
-      option: "Analiza kosztów",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 511,
-  question: "Jaki mechanizm można wdrożyć w małej sieci, aby zminimalizować opóźnienia sieci dla aplikacji strumieniowania w czasie rzeczywistym?",
-  answers: [
-    {
-      option: "Jakość usług (QoS)",
-      correct: true,
-    },
-    {
-      option: "PoE",
-      correct: false,
-    },
-    {
-      option: "AAA",
-      correct: false,
-    },
-    {
-      option: "ICMP",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 512,
-  question: "Który proces nie powiódł się, jeśli komputer nie może uzyskać dostępu do Internetu i otrzymał adres IP 169.254.142.5?",
-  answers: [
-    {
-      option: "IP",
-      correct: false,
-    },
-    {
-      option: "DNS",
-      correct: false,
-    },
-    {
-      option: "DHCP",
-      correct: true,
-    },
-    {
-      option: "HTTP",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 513,
-  question: "Mała firma ma tylko jeden router, który jest jej punktem wyjścia do ISP. Jakie rozwiązanie może być zastosowane w celu utrzymania łączności, jeśli zawiedzie sam router lub jego połączenie z dostawcą usług internetowych ISP?",
-  answers: [
-    {
-      option: "Aktywacja innego interfejsu routera, który jest połączony z ISP, aby ruch mógł przepływać przez ten interfejs.",
-      correct: false,
-    },
-    {
-      option: "Posiadanie drugiego routera, który jest połączony z innym ISP.",
-      correct: true,
-    },
-    {
-      option: "Zakup drugiego najtańszego łącza od innego ISP do połączenia z tym routerem.",
-      correct: false,
-    },
-    {
-      option: "Dodanie kilku interfejsów do routera, który jest podłączony do sieci wewnętrznej.",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 514,
-  question: "Kiedy administrator powinien ustalić stan odniesienia sieci?",
-  answers: [
-    {
-      option: "Gdy ruch w sieci osiąga szczytową wartość",
-      correct: false,
-    },
-    {
-      option: "Gdy jest nagły spadek ruchu",
-      correct: false,
-    },
-    {
-      option: "Gdy ruch w sieci osiąga najmniejszą wartość",
-      correct: false,
-    },
-    {
-      option: "W regularnych odstępach okresu czasu",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 515,
-  question: "Które dwa rodzaje ruchu są wrażliwe na opóźnienia przy przesyłaniu? (Wybierz dwie odpowiedzi.)",
-  // multi: true
-  multi: true,
-  answers: [
-    {
-      option: "E-mail",
-      correct: false,
-    },
-    {
-      option: "WWW",
-      correct: false,
-    },
-    {
-      option: "FTP",
-      correct: false,
-    },
-    {
-      option: "Głos",
-      correct: true,
-    },
-    {
-      option: "Wideo",
-      correct: true,
-    },
-  ],
-},
-{
-  id: 516,
-  question: "Technik sieciowy podejrzewa, że pewne połączenie sieciowe między dwoma przełącznikami Cisco ma niedopasowanie dupleksu. Które polecenie użyłby technik, aby zobaczyć szczegóły warstwy 1 i warstwy 2 portu przełącznika?",
-  answers: [
-    {
-      option: "show interfaces",
-      correct: true,
-    },
-    {
-      option: "show running-config",
-      correct: false,
-    },
-    {
-      option: "show ip interface brief",
-      correct: false,
-    },
-    {
-      option: "show mac-address-table",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 517,
-  question: "Które stwierdzenie o użyciu CDP w urządzeniu firmy Cisco jest prawdziwe?",
-  answers: [
-    {
-      option: "Polecenie show cdp neighbor detail ujawni adres IP sąsiada tylko wtedy, gdy istnieje łączność warstwy 3.",
-      correct: false,
-    },
-    {
-      option: "Aby wyłączyć CDP globalnie, należy użyć polecenia no cdp enable w trybie konfiguracji interfejsu.",
-      correct: false,
-    },
-    {
-      option: "Protokół CDP może być wyłączony globalnie lub na konkretnym interfejsie.",
-      correct: true,
-    },
-    {
-      option: "Protokół CDP może być stosowany tylko w przełącznikach, ponieważ działa w warstwie łącza danych.",
-      correct: false,
-    },
-  ],
-},
-{
-  id: 518,
-  question: "Jaki czynnik należy wziąć pod uwagę przy projektowaniu małej sieci przy wyborze urządzeń?",
-  answers: [
-    {
-      option: "Koszt urządzeń",
-      correct: true,
-    },
-    {
-      option: "Nadmiarowość",
-      correct: false,
-    },
-    {
-      option: "Analiza ruchu",
-      correct: false,
-    },
-    {
-      option: "Dostawca usług internetowych (ISP)",
-      correct: false,
-    },
-  ],
-},
   {
-    id: 519,
-    question: "",
-    //   multi: true,
+    id: 496,
+    question: "Które stwierdzenie poprawnie odnosi się do małej sieci?",
     answers: [
       {
-        option: "",
+        option: "Małe sieci są skomplikowane.",
         correct: false,
       },
       {
-        option: "",
+        option: "Małe sieci wymagają działu IT do utrzymania.",
         correct: false,
       },
       {
-        option: "",
+        option: "Większość przedsiębiorstw to małe firmy.",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 497,
+    question:
+      "Który czynnik należy wziąć pod uwagę przy wyborze urządzeń sieciowych?",
+    answers: [
+      {
+        option: "Kolor",
         correct: false,
       },
       {
-        option: "",
+        option: "Połączenie konsoli",
+        correct: false,
+      },
+      {
+        option: "Koszt",
+        correct: true,
+      },
+      {
+        option: "Elastyczność",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 498,
+    question:
+      "Co jest konieczne do zaplanowania i użycia podczas wdrażania sieci?",
+    answers: [
+      {
+        option: "Nazwy urządzeń",
+        correct: false,
+      },
+      {
+        option: "Schemat adresowania IP",
+        correct: true,
+      },
+      {
+        option: "Schemat adresacji MAC",
+        correct: false,
+      },
+      {
+        option: "Lokalizacja drukarki",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 499,
+    question:
+      "Co jest wymagane, aby utrzymać wysoki stopień niezawodności i wyeliminować pojedyncze punkty awarii?",
+    answers: [
+      {
+        option: "Dostępność",
+        correct: false,
+      },
+      {
+        option: "Możliwość rozbudowy",
+        correct: false,
+      },
+      {
+        option: "Integralność",
+        correct: false,
+      },
+      {
+        option: "Nadmiarowość",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 500,
+    question: "Co jest wymagane, aby sklasyfikować ruch zgodnie z priorytetem?",
+    answers: [
+      {
+        option: "Schemat adresowania IP",
+        correct: false,
+      },
+      {
+        option: "Jakość usług (QoS)",
+        correct: true,
+      },
+      {
+        option: "Routing",
+        correct: false,
+      },
+      {
+        option: "Przełączanie",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 501,
+    question:
+      "Jakie są dwie formy programów lub procesów, które zapewniają dostęp do sieci? (Wybierz dwie odpowiedzi.)",
+    multi: true,
+    answers: [
+      {
+        option: "Oprogramowanie antywirusowe",
+        correct: false,
+      },
+      {
+        option: "Usługi warstwy aplikacji",
+        correct: true,
+      },
+      {
+        option: "Oprogramowanie do gier",
+        correct: false,
+      },
+      {
+        option: "Aplikacje sieciowe",
+        correct: true,
+      },
+      {
+        option: "Oprogramowanie produktywności",
+        correct: false,
+      },
+      {
+        option: "Maszyna wirtualna",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 502,
+    question:
+      "Które dwa protokoły sieciowe są używane do ustanowienia połączenia sieciowego dostępu zdalnego z urządzeniem? (Wybierz dwie odpowiedzi.)",
+    multi: true,
+    answers: [
+      {
+        option: "File Transfer Protocol (FTP)",
+        correct: false,
+      },
+      {
+        option: "Hypertext Transfer Protocol (HTTP)",
+        correct: false,
+      },
+      {
+        option: "Remote Connect (RC)",
+        correct: false,
+      },
+      {
+        option: "Secure Shell (SSH)",
+        correct: true,
+      },
+      {
+        option: "Simple Mail Transfer Protocol (SMTP)",
+        correct: false,
+      },
+      {
+        option: "Telnet",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 503,
+    question:
+      "Jakie elementy są wymagane do skalowania do większej sieci? (Wybierz dwie odpowiedzi.)",
+    multi: true,
+    answers: [
+      {
+        option: "Budżet",
+        correct: true,
+      },
+      {
+        option: "Konfiguracja urządzenia",
+        correct: false,
+      },
+      {
+        option: "Zwiększenie szerokości pasma",
+        correct: false,
+      },
+      {
+        option: "Dokumentacja sieci",
+        correct: true,
+      },
+      {
+        option: "Hosty Windows",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 504,
+    question:
+      "Które oprogramowanie zainstalowane na kluczowych hostach może ujawnić rodzaje ruchu sieciowego przepływającego przez sieć?",
+    answers: [
+      {
+        option: "Linux",
+        correct: false,
+      },
+      {
+        option: "MacOS",
+        correct: false,
+      },
+      {
+        option: "SSH",
+        correct: false,
+      },
+      {
+        option: "Windows",
+        correct: false,
+      },
+      {
+        option: "Wireshark",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 505,
+    question:
+      "Jakie narzędzie systemu Windows 10 jest przydatne do określenia, które aplikacje korzystają z usług sieciowych na hoście?",
+    answers: [
+      {
+        option: "Panel sterowania",
+        correct: false,
+      },
+      {
+        option: "Zużycie danych",
+        correct: true,
+      },
+      {
+        option: "Menedżer plików",
+        correct: false,
+      },
+      {
+        option: "Zapora Windows Defender",
+        correct: false,
+      },
+      {
+        option: "Eksplorator Windows",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 506,
+    question:
+      "Technik rozwiązuje problem z siecią i właśnie ustalił hipotezę prawdopodobnych przyczyn. Jaki będzie następny krok w procesie rozwiązywania problemów?",
+    answers: [
+      {
+        option: "Dokumentowanie spostrzeżeń, działań i wyników",
+        correct: false,
+      },
+      {
+        option: "Stworzenie planu działania i wdrożenia rozwiązania",
+        correct: false,
+      },
+      {
+        option: "Identyfikacja problemu",
+        correct: false,
+      },
+      {
+        option: "Sprawdzanie hipotezy w celu ustalenia przyczyny",
+        correct: true,
+      },
+      {
+        option: "Weryfikacja rozwiązania i wdrożenie środków zapobiegawczych",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 507,
+    question:
+      "Technik rozwiązuje problem z siecią. Po rozwiązaniu problemu technik stwierdza, że przełącznik powinien zostać wymieniony. Co następnie technik powinien zrobić?",
+    answers: [
+      {
+        option:
+          "Wyślij e-mail wszystkich użytkowników, aby dać im znać, że przełącznik zostanie wymieniony.",
+        correct: false,
+      },
+      {
+        option:
+          "Eskaluj zgłoszenie problemów do menedżera, aby zatwierdzić wymianę.",
+        correct: true,
+      },
+      {
+        option: "Kup nowy przełącznik i wymień wadliwy.",
+        correct: false,
+      },
+      {
+        option: "Rozwiąż problem.",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 508,
+    question:
+      "Technik używa polecenia debug ip icmp uprzywilejowanego trybu EXEC do przechwytywania wyjścia routera na żywo. Które polecenia zatrzymają działanie polecenia debug na routerze Cisco? (Wybierz dwie odpowiedzi.)",
+    multi: true,
+    answers: [
+      {
+        option: "debug ip icmp off",
+        correct: false,
+      },
+      {
+        option: "no debug debug ip icmp",
+        correct: false,
+      },
+      {
+        option: "no debug ip icmp",
+        correct: true,
+      },
+      {
+        option: "undebug all",
+        correct: true,
+      },
+      {
+        option: "undebug debug ip icmp",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 509,
+    question:
+      "Technik ustanowił zdalne połączenie z routerem R1 aby obserwować wyjście debug. Technik wydaje polecenie debug ip icmp, a następnie wykonuje ping na odległy cel. Jednak nie jest wyświetlany żaden wynik. Które polecenie musiałby wprowadzić technik, aby wyświetlać komunikaty dziennika (logi) na zdalnym połączeniu?",
+    answers: [
+      {
+        option: "monitor debug output",
+        correct: false,
+      },
+      {
+        option: "monitor terminal",
+        correct: false,
+      },
+      {
+        option: "terminal monitor",
+        correct: true,
+      },
+      {
+        option: "terminal monitor debug",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 510,
+    question:
+      "Jaki czynnik podczas projektowania sieci będzie ważniejszy dla dużej korporacji niż dla małej firmy?",
+    answers: [
+      {
+        option: "Router internetowy",
+        correct: false,
+      },
+      {
+        option: "Zapora",
+        correct: false,
+      },
+      {
+        option: "Niskie zagęszczenie portów",
+        correct: false,
+      },
+      {
+        option: "Nadmiarowość",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 511,
+    question:
+      "Nowo zatrudniony technik sieciowy ma zadanie zamawiania nowego sprzętu dla małej firmy z dużą prognozą wzrostu. Jaki podstawowy czynnik powinien mieć technik na uwadze przy wyborze nowych urządzeń?",
+    answers: [
+      {
+        option: "Urządzenia o stałej liczbie i typie interfejsów",
+        correct: false,
+      },
+      {
+        option: "Urządzenia, które obsługują monitorowanie sieci",
+        correct: false,
+      },
+      {
+        option: "Nadmiarowe urządzenia",
+        correct: false,
+      },
+      {
+        option: "Urządzenia modularne",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 512,
+    question:
+      "Jaki rodzaj ruchu najprawdopodobniej miałby najwyższy priorytet w sieci?",
+    answers: [
+      {
+        option: "FTP",
+        correct: false,
+      },
+      {
+        option: "Wiadomośći błyskawiczne",
+        correct: false,
+      },
+      {
+        option: "Głos",
+        correct: true,
+      },
+      {
+        option: "SNMP",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 513,
+    question:
+      "Technik sieciowy bada łączność sieciową z komputera do zdalnego hosta pod adresem 10.1.1.5. Które polecenie, po wydaniu na komputerze z systemem Windows, wyświetli ścieżkę do zdalnego hosta?",
+    answers: [
+      {
+        option: "trace 10.1.1.5",
+        correct: false,
+      },
+      {
+        option: "traceroute 10.1.1.5",
+        correct: false,
+      },
+      {
+        option: "tracert 10.1.1.5",
+        correct: true,
+      },
+      {
+        option: "ping 10.1.1.5",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 514,
+    question:
+      "Użytkownik nie może otworzyć strony internetowej wpisując http://www.cisco.com w przeglądarce internetowej, ale może ją otworzyć wpisując http://72.163.4.161. Na czym polega problem?",
+    answers: [
+      {
+        option: "Brama domyślna",
+        correct: false,
+      },
+      {
+        option: "DHCP",
+        correct: false,
+      },
+      {
+        option: "DNS",
+        correct: true,
+      },
+      {
+        option: "Stos protokołów TCP/IP",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 515,
+    question:
+      "Gdzie są domyślnie wysyłane komunikaty wyjściowe debugowania Cisco IOS?",
+    answers: [
+      {
+        option: "Buforowane w pamięci",
+        correct: false,
+      },
+      {
+        option: "Na linie vty",
+        correct: false,
+      },
+      {
+        option: "Na serwer syslog",
+        correct: false,
+      },
+      {
+        option: "Na konsolę",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 516,
+    question:
+      "Który element skalowania sieci polega na identyfikacji topologii fizycznej i logicznej?",
+    answers: [
+      {
+        option: "Analiza ruchu",
+        correct: false,
+      },
+      {
+        option: "Dokumentacja sieci",
+        correct: true,
+      },
+      {
+        option: "Inwentaryzacja urządzeń",
+        correct: false,
+      },
+      {
+        option: "Analiza kosztów",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 517,
+    question:
+      "Jaki mechanizm można wdrożyć w małej sieci, aby zminimalizować opóźnienia sieci dla aplikacji strumieniowania w czasie rzeczywistym?",
+    answers: [
+      {
+        option: "Jakość usług (QoS)",
+        correct: true,
+      },
+      {
+        option: "PoE",
+        correct: false,
+      },
+      {
+        option: "AAA",
+        correct: false,
+      },
+      {
+        option: "ICMP",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 518,
+    question:
+      "Który proces nie powiódł się, jeśli komputer nie może uzyskać dostępu do Internetu i otrzymał adres IP 169.254.142.5?",
+    answers: [
+      {
+        option: "IP",
+        correct: false,
+      },
+      {
+        option: "DNS",
+        correct: false,
+      },
+      {
+        option: "DHCP",
+        correct: true,
+      },
+      {
+        option: "HTTP",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 519,
+    question:
+      "Mała firma ma tylko jeden router, który jest jej punktem wyjścia do ISP. Jakie rozwiązanie może być zastosowane w celu utrzymania łączności, jeśli zawiedzie sam router lub jego połączenie z dostawcą usług internetowych ISP?",
+    answers: [
+      {
+        option:
+          "Aktywacja innego interfejsu routera, który jest połączony z ISP, aby ruch mógł przepływać przez ten interfejs.",
+        correct: false,
+      },
+      {
+        option:
+          "Posiadanie drugiego routera, który jest połączony z innym ISP.",
+        correct: true,
+      },
+      {
+        option:
+          "Zakup drugiego najtańszego łącza od innego ISP do połączenia z tym routerem.",
+        correct: false,
+      },
+      {
+        option:
+          "Dodanie kilku interfejsów do routera, który jest podłączony do sieci wewnętrznej.",
         correct: false,
       },
     ],
   },
   {
     id: 520,
-    question: "",
-    //   multi: true,
+    question: "Kiedy administrator powinien ustalić stan odniesienia sieci?",
     answers: [
       {
-        option: "",
+        option: "Gdy ruch w sieci osiąga szczytową wartość",
         correct: false,
       },
       {
-        option: "",
+        option: "Gdy jest nagły spadek ruchu",
         correct: false,
       },
       {
-        option: "",
+        option: "Gdy ruch w sieci osiąga najmniejszą wartość",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "W regularnych odstępach okresu czasu",
+        correct: true,
       },
     ],
   },
   {
     id: 521,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa rodzaje ruchu są wrażliwe na opóźnienia przy przesyłaniu? (Wybierz dwie odpowiedzi.)",
+    // multi: true
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "E-mail",
         correct: false,
       },
       {
-        option: "",
+        option: "WWW",
         correct: false,
       },
       {
-        option: "",
+        option: "FTP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Głos",
+        correct: true,
+      },
+      {
+        option: "Wideo",
+        correct: true,
       },
     ],
   },
   {
     id: 522,
-    question: "",
-    //   multi: true,
+    question:
+      "Technik sieciowy podejrzewa, że pewne połączenie sieciowe między dwoma przełącznikami Cisco ma niedopasowanie dupleksu. Które polecenie użyłby technik, aby zobaczyć szczegóły warstwy 1 i warstwy 2 portu przełącznika?",
     answers: [
       {
-        option: "",
+        option: "show interfaces",
+        correct: true,
+      },
+      {
+        option: "show running-config",
         correct: false,
       },
       {
-        option: "",
+        option: "show ip interface brief",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "show mac-address-table",
         correct: false,
       },
     ],
   },
   {
     id: 523,
-    question: "",
-    //   multi: true,
+    question:
+      "Które stwierdzenie o użyciu CDP w urządzeniu firmy Cisco jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option:
+          "Polecenie show cdp neighbor detail ujawni adres IP sąsiada tylko wtedy, gdy istnieje łączność warstwy 3.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Aby wyłączyć CDP globalnie, należy użyć polecenia no cdp enable w trybie konfiguracji interfejsu.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Protokół CDP może być wyłączony globalnie lub na konkretnym interfejsie.",
+        correct: true,
       },
       {
-        option: "",
+        option:
+          "Protokół CDP może być stosowany tylko w przełącznikach, ponieważ działa w warstwie łącza danych.",
         correct: false,
       },
     ],
   },
   {
     id: 524,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki czynnik należy wziąć pod uwagę przy projektowaniu małej sieci przy wyborze urządzeń?",
     answers: [
       {
-        option: "",
+        option: "Koszt urządzeń",
+        correct: true,
+      },
+      {
+        option: "Nadmiarowość",
         correct: false,
       },
       {
-        option: "",
+        option: "Analiza ruchu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Dostawca usług internetowych (ISP)",
         correct: false,
       },
     ],
@@ -23455,3249 +23491,6 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 1016,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1017,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1018,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1019,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1020,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1021,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1022,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1023,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1024,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1025,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1026,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1027,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1028,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1029,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1030,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1031,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1032,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1033,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1034,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1035,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1036,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1037,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1038,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1039,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1040,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1041,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1042,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1043,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1044,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1045,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1046,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1047,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1048,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1049,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1050,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1051,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1052,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1053,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1054,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1055,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1056,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1057,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1058,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1059,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1060,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1061,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1062,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1063,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1064,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1065,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1066,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1067,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1068,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1069,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1070,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1071,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1072,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1073,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1074,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1075,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1076,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1077,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1078,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1079,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1080,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1081,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1082,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1083,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1084,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1085,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1086,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1087,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1088,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1089,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1090,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1091,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1092,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1093,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1094,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1095,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1096,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1097,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1098,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1099,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1100,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1101,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1102,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1103,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1104,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1105,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1106,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1107,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1108,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1109,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1110,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1111,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1112,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1113,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1114,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1115,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1116,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1117,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1118,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1119,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1120,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1121,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1122,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1123,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1124,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1125,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1126,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1127,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1128,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1129,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1130,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1131,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1132,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1133,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1134,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1135,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1136,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1137,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1138,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1139,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1140,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1141,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1142,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1143,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1144,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1145,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1146,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1147,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1148,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1149,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1150,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1151,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1152,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1153,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1154,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1155,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1156,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 1157,
     question: "",
     //   multi: true,
     answers: [
