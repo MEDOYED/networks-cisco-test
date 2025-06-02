@@ -12,7 +12,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 10  -->  id: 298-310
 // MODULE 11  -->  id: 311-335
 // MODULE 12  -->  id: 336-370
-// MODULE 13  -->  id:
+// MODULE 13  -->  id: 371-386
 // MODULE 14  -->  id:
 // MODULE 15  -->  id:
 // MODULE 16  -->  id:
@@ -8354,368 +8354,378 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 371,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie dwa typy komunikatów ICMP są wspólne dla ICMPv4 i ICMPv6? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Przeznaczenie lub usługa niedostępna",
+        correct: true,
+      },
+      {
+        option: "Odwzorowanie hosta",
         correct: false,
       },
       {
-        option: "",
+        option: "Konfiguracja IP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródło nieosiągalne",
+        correct: false, // no this
       },
       {
-        option: "",
-        correct: false,
+        option: "Przekroczenie czasu",
+        correct: true,
       },
     ],
+    multi: true,
   },
+
   {
     id: 372,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki typ komunikatu ICMPv6 wysyła host w celu uzyskania konfiguracji IPv6 podczas uruchamiania?",
     answers: [
       {
-        option: "",
+        option: "Komunikat Neighbor Advertisement (NA)",
         correct: false,
       },
       {
-        option: "",
+        option: "Komunikat Neighbor Solicitation (NS)",
         correct: false,
       },
       {
-        option: "",
+        option: "Komunikat Router Advertisement (RA)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Komunikat Router Solicitation (RS)",
+        correct: true,
       },
     ],
   },
+
   {
     id: 373,
-    question: "",
-    //   multi: true,
+    question:
+      "Technik rozwiązuje problem z siecią. Podejrzewa się, że uszkodzony węzeł w ścieżce sieciowej powoduje odrzucanie pakietów. Technik ma tylko adres IP urządzenia końcowego i nie ma żadnych informacji o urządzeniach pośredniczących. Którego polecenia może technik użyć do identyfikacji uszkodzonego węzła?",
     answers: [
       {
-        option: "",
+        option: "The PC can access the network. The problem exists beyond the local network.",
+        correct: true,
+      },
+      {
+        option: "The IP address obtained from the DHCP server is correct.",
         correct: false,
       },
       {
-        option: "",
+        option: "The PC can access the Internet. However, the web browser may not work.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "The TCP/IP implementation is functional.",
         correct: false,
       },
     ],
   },
   {
     id: 374,
-    question: "",
-    //   multi: true,
+    question:
+      "Użytkownik, który nie jest w stanie połączyć się z serwerem plików kontaktuje się z działem pomocy. Pracownik działu pomocy prosi użytkownika, aby użył polecenia ping, aby zbadać dostępność adresu IP bramy domyślnej, która jest skonfigurowana na stacji roboczej. Jaki jest cel użycia polecenia ping?",
     answers: [
       {
-        option: "",
+        option: "To obtain a dynamic IP address from the server",
         correct: false,
       },
       {
-        option: "",
+        option: "To request that gateway forward the connection request to the file server",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "To test that the host has the capability to reach hosts on other networks",
+        correct: true,
       },
       {
-        option: "",
+        option: "To resolve the domain name of the file server to its IP address",
         correct: false,
       },
     ],
   },
   {
     id: 375,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jest funkcja polecenia tracert, które różni się od polecenia ping, gdy są używane na stacji roboczej?",
     answers: [
       {
-        option: "",
+        option: "Polecenie tracert dociera do celu szybciej.",
         correct: false,
       },
       {
-        option: "",
+        option: "Polecenie tracert pokazuje informacje o routerach na ścieżce.",
+        correct: true,
+      },
+      {
+        option: "Polecenie tracert wysyła jeden komunikat ICMP do każdego skoku na ścieżce.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Polecenie tracert służy do testowania połączenia między hostami.",
         correct: false,
       },
     ],
   },
   {
     id: 376,
-    question: "",
-    //   multi: true,
+    question:
+      "Która wiadomość ICMP jest używana przez narzędzie traceroute podczas procesu znajdowania ścieżki między dwoma hostami końcowymi?",
     answers: [
       {
-        option: "",
+        option: "Redirect",
         correct: false,
       },
       {
-        option: "",
+        option: "Ping",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Time exceeded",
+        correct: true,
       },
       {
-        option: "",
+        option: "Destination unreachable",
         correct: false,
       },
     ],
   },
   {
     id: 377,
-    question: "",
-    //   multi: true,
+    question: "Które narzędzie korzysta z protokołu ICMP (Internet Control Messaging Protocol)?",
     answers: [
       {
-        option: "",
+        option: "RIP",
         correct: false,
       },
       {
-        option: "",
+        option: "DNS",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Ping",
+        correct: true,
       },
       {
-        option: "",
+        option: "NTP",
         correct: false,
       },
     ],
   },
   {
     id: 378,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół jest używany przez IPv4 i IPv6 do dostarczania komunikatów o błędach?",
     answers: [
       {
-        option: "",
+        option: "ICMP",
+        correct: true,
+      },
+      {
+        option: "NDP",
         correct: false,
       },
       {
-        option: "",
+        option: "ARP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "DHCP",
         correct: false,
       },
     ],
   },
   {
     id: 379,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie opisuje własności narzędzia traceroute?",
     answers: [
       {
-        option: "",
+        option: "!",
         correct: false,
       },
       {
-        option: "",
+        option: ".",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "U",
+        correct: false, // no this
       },
       {
-        option: "",
+        option: "$",
         correct: false,
       },
     ],
   },
   {
     id: 380,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie rzeczy można ustalić na podstawie polecenia ping? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Liczbę routerów pomiędzy urządzeniem źródłowym i docelowym",
         correct: false,
       },
       {
-        option: "",
+        option: "Adres IP routera położonego jak najbliżej urządzenia docelowego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Średni czas przejścia pakietu do celu oraz powrotu odpowiedzi do źródła",
+        correct: true,
       },
       {
-        option: "",
+        option: "Osiągalność urządzenia docelowego w sieci",
+        correct: true,
+      },
+      {
+        option:
+          "The average time it takes each router in the path between source and destination to respond",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 381,
-    question: "",
-    //   multi: true,
+    question:
+      "Użytkownik dzwoni, aby zgłosić, że komputer nie może uzyskać dostępu do Internetu. Technik sieciowy prosi użytkownika o wydanie polecenia ping 127.0.0.1 w oknie wiersza polecenia. Użytkownik zgłasza, że wynikiem są cztery pozytywne odpowiedzi. Jaki wniosek można wyciągnąć na podstawie tego testu łączności?",
     answers: [
       {
-        option: "",
+        option: "The PC can access the network. The problem exists beyond the local network.",
         correct: false,
       },
       {
-        option: "",
+        option: "The IP address obtained from the DHCP server is correct.",
         correct: false,
       },
       {
-        option: "",
+        option: "The PC can access the Internet. However, the web browser may not work.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "The TCP/IP implementation is functional.",
+        correct: true,
       },
     ],
   },
   {
     id: 382,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie może być używane do testowania łączności między dwoma urządzeniami za pomocą żądania echa i echa wiadomości odpowiedzi?",
     answers: [
       {
-        option: "",
+        option: "To obtain a dynamic IP address from the server",
         correct: false,
       },
       {
-        option: "",
+        option: "To request that gateway forward the connection request to the file server",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "To test that the host has the capability to reach hosts on other networks",
+        correct: false, // no this
       },
       {
-        option: "",
+        option: "To resolve the domain name of the file server to its IP address",
         correct: false,
       },
     ],
   },
   {
     id: 383,
-    question: "",
-    //   multi: true,
+    question: "Jaka zawartość pola jest używana przez ICMPv6 do stwierdzenia, że pakiet wygasł?",
     answers: [
       {
-        option: "",
+        option: "Pole TTL",
         correct: false,
       },
       {
-        option: "",
+        option: "Pole CRC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Pole limit przeskoków",
+        correct: true,
       },
       {
-        option: "",
+        option: "Pole przekroczenie czasu",
         correct: false,
       },
     ],
   },
   {
     id: 384,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół zapewnia hostowi źródłowemu informację zwrotną na temat błędów w dostarczaniu pakietów?",
     answers: [
       {
-        option: "",
+        option: "Redirect",
         correct: false,
       },
       {
-        option: "",
+        option: "BOOTP",
         correct: false,
       },
       {
-        option: "",
+        option: "Time exceeded",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Destination unreachable",
+        correct: true,
       },
     ],
   },
   {
     id: 385,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci może wykonać polecenie ping w kierunku serwera www.cisco.com, natomiast nie może w kierunku serwera www przedsiębiorstwa umieszczonego u dostawcy usług internetowych (ISP) w innym mieście. Jakim narzędziem lub poleceniem może określić router w którym pakiet jest tracony albo usuwany?",
     answers: [
       {
-        option: "",
+        option: "ICMP",
+        correct: true,
+      },
+      {
+        option: "NDP",
         correct: false,
       },
       {
-        option: "",
+        option: "ARP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "DHCP",
         correct: false,
       },
     ],
   },
   {
     id: 386,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka wiadomość jest wysyłana przez hosta, aby sprawdzić unikalność adresu IPv6 przed użyciem tego adresu?",
     answers: [
       {
-        option: "",
+        option: "Wywołanie sąsiada",
+        correct: true,
+      },
+      {
+        option: "Żądanie ARP",
         correct: false,
       },
       {
-        option: "",
+        option: "Żądanie echa",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wywoływanie routera",
         correct: false,
       },
     ],
