@@ -15,8 +15,8 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 13  -->  id: 371-386
 // MODULE 14  -->  id: 387-424
 // MODULE 15  -->  id: 425-461
-// MODULE 16  -->  id: 462-
-// MODULE 17  -->  id:
+// MODULE 16  -->  id: 462-489
+// MODULE 17  -->  id: 490-
 
 export const dataQuestions: Question[] = [
   {
@@ -10849,460 +10849,495 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 470,
-    question: "",
-    //   multi: true,
+    question:
+      "Które urządzenie kontroluje ruch między dwiema lub więcej sieciami, aby zapobiec nieautoryzowanemu dostępowi?",
     answers: [
       {
-        option: "",
+        option: "Serwer AAA",
         correct: false,
       },
       {
-        option: "",
+        option: "Zapora",
+        correct: true,
+      },
+      {
+        option: "ESA/WSA",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "IPS",
         correct: false,
       },
     ],
   },
   {
     id: 471,
-    question: "",
-    //   multi: true,
+    question:
+      "Które urządzenie jest używane przez inne urządzenia sieciowe do uwierzytelniania i autoryzacji dostępu do zarządzania?",
     answers: [
       {
-        option: "",
+        option: "Serwer AAA",
+        correct: true,
+      },
+      {
+        option: "Zapora",
         correct: false,
       },
       {
-        option: "",
+        option: "ESA/WSA",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "IPS",
         correct: false,
       },
     ],
   },
   {
     id: 472,
-    question: "",
-    //   multi: true,
+    question:
+      "Które zasady tworzenia kopii zapasowych dotyczą używania silnych haseł do ochrony kopii zapasowych i przywracania danych?",
     answers: [
       {
-        option: "",
+        option: "Częstotliwość",
         correct: false,
       },
       {
-        option: "",
+        option: "Przechowywanie",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Zabezpieczenia",
+        correct: true,
       },
       {
-        option: "",
+        option: "Walidacja",
         correct: false,
       },
     ],
   },
   {
     id: 473,
-    question: "",
-    //   multi: true,
+    question:
+      "Ta strefa służy do umeszczania serwerów, które powinny być dostępne dla użytkowników zewnętrznych.",
     answers: [
       {
-        option: "",
+        option: "Wewnętrzna",
         correct: false,
       },
       {
-        option: "",
+        option: "Zewnętrzna",
         correct: false,
       },
       {
-        option: "",
+        option: "Internet",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "DMZ",
+        correct: true,
       },
     ],
   },
   {
     id: 474,
-    question: "",
-    //   multi: true,
+    question:
+      "Co jest odpowiednie dla zapewnienia bezpieczeństwa punktów końcowych?",
     answers: [
       {
-        option: "",
+        option: "Serwer AAA",
         correct: false,
       },
       {
-        option: "",
+        option: "Oprogramowanie antywirusowe",
+        correct: true,
+      },
+      {
+        option: "Zapora serwerowa",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "ESA/WSA",
         correct: false,
       },
     ],
   },
   {
     id: 475,
-    question: "",
-    //   multi: true,
+    question:
+      "Który komponent ma chronić przed nieautoryzowaną komunikacją do i z komputera?",
     answers: [
       {
-        option: "",
+        option: "Centrum zabezpieczeń",
         correct: false,
       },
       {
-        option: "",
+        option: "Skaner portów",
         correct: false,
       },
       {
-        option: "",
+        option: "Antymalware",
         correct: false,
       },
       {
-        option: "",
+        option: "Program antywirusowy",
         correct: false,
+      },
+      {
+        option: "Zapora",
+        correct: true,
       },
     ],
   },
   {
     id: 476,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie spowoduje zablokowanie prób logowania na RouterA przez okres 30 sekund, jeśli w ciągu 10 sekund wykonano dwie nieudane próby logowania?",
     answers: [
       {
-        option: "",
+        option: "RouterA(config)# login block-for 10 attempts 2 within 30",
         correct: false,
       },
       {
-        option: "",
+        option: "RouterA(config)# login block-for 30 attempts 2 within 10",
+        correct: true,
+      },
+      {
+        option: "RouterA(config)# login block-for 2 attempts 30 within 10",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "RouterA(config)# login block-for 30 attempts 10 within 2",
         correct: false,
       },
     ],
   },
   {
     id: 477,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki może być cel ewidencjonowania jako funkcji bezpieczeństwa sieciowego?",
     answers: [
       {
-        option: "",
+        option:
+          "Wymaga od użytkowników aby udowodnili, że są tymi za których się podają",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Do określenia, do których zasobów użytkownicy mają mieć dostęp",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Do śledzenia działań użytkownika",
+        correct: true,
       },
       {
-        option: "",
+        option: "Do dostarczenia funkcjonalności pytań i odpowiedzi",
         correct: false,
       },
     ],
   },
   {
     id: 478,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki rodzaj ataku może wiązać się z wykorzystaniem narzędzi, takich jak nslookup i fping?",
     answers: [
       {
-        option: "",
+        option: "Atak w celu uzyskania dostępu",
         correct: false,
       },
       {
-        option: "",
+        option: "Ataki rozpoznania",
+        correct: true,
+      },
+      {
+        option: "Odmowa usługi (DoS)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Atak robaka",
         correct: false,
       },
     ],
   },
   {
     id: 479,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka jest zaleta SSH w porównaniu z Telnet w przypadku zdalnego zarządzania routerem?",
     answers: [
       {
-        option: "",
+        option: "Szyfrowanie",
+        correct: true,
+      },
+      {
+        option: "Wykorzystanie protokołu TCP",
         correct: false,
       },
       {
-        option: "",
+        option: "Autoryzacja",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Połączenia przez wiele linii VTY",
         correct: false,
       },
     ],
   },
   {
     id: 480,
-    question: "",
-    //   multi: true,
+    question:
+      "Co jest jednym z najskuteczniejszych dostępnych narzędzi bezpieczeństwa do ochrony użytkowników przed zagrożeniami zewnętrznymi?",
     answers: [
       {
-        option: "",
+        option: "Zapory",
+        correct: true,
+      },
+      {
+        option: "Router, który uruchamia usługi AAA",
         correct: false,
       },
       {
-        option: "",
+        option: "Serwery patch",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Techniki szyfrowania hasła",
         correct: false,
       },
     ],
   },
   {
     id: 481,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki rodzaj zagrożenia sieciowego ma na celu uniemożliwienie autoryzowanym użytkownikom dostępu do zasobów?",
     answers: [
       {
-        option: "",
+        option: "Atak typu DoS",
+        correct: true,
+      },
+      {
+        option: "Ataki w celu uzyskania dostępu",
         correct: false,
       },
       {
-        option: "",
+        option: "Ataki rozpoznania",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wykorzystanie zaufania",
         correct: false,
       },
     ],
   },
   {
     id: 482,
-    question: "",
-    //   multi: true,
+    question:
+      "Które trzy usługi świadczone są w ramach AAA? (Wybierz trzy odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Ewidencjonowanie",
+        correct: true,
+      },
+      {
+        option: "Automatyzacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Autoryzacja",
+        correct: true,
+      },
+      {
+        option: "Uwierzytelnianie",
+        correct: true,
+      },
+      {
+        option: "Wyważanie",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Automatyczna konfiguracja",
         correct: false,
       },
     ],
   },
   {
     id: 483,
-    question: "",
-    //   multi: true,
+    question:
+      "Który atak złośliwego kodu jest samodzielny i próbuje wykorzystać konkretną lukę w atakowanym systemie?",
     answers: [
       {
-        option: "",
+        option: "Wirus",
         correct: false,
       },
       {
-        option: "",
+        option: "Robak",
+        correct: true,
+      },
+      {
+        option: "Koń trojański",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Atak socjotechniczny",
         correct: false,
       },
     ],
   },
   {
     id: 484,
-    question: "",
-    //   multi: true,
+    question:
+      "Niektóre routery i przełączniki w pomieszczeniu sieciowym działały nieprawidłowo po awarii klimatyzatora. Jaki rodzaj zagrożenia opisuje ta sytuacja?",
     answers: [
       {
-        option: "",
+        option: "Konfiguracyjne",
         correct: false,
       },
       {
-        option: "",
+        option: "Środowiskowe",
+        correct: true,
+      },
+      {
+        option: "Elektryczne",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Konserwacji",
         correct: false,
       },
     ],
   },
   {
     id: 485,
-    question: "",
-    //   multi: true,
+    question: "Co oznacza termin podatność?",
     answers: [
       {
-        option: "",
+        option: "Słaby punkt, który sprawia, że cel jest podatny na atak",
+        correct: true,
+      },
+      {
+        option: "Komputer zawierający poufne informacje",
         correct: false,
       },
       {
-        option: "",
+        option: "Metoda ataku w celu wykorzystania celu",
         correct: false,
       },
       {
-        option: "",
+        option: "Znany cel lub maszyna ofiary",
         correct: false,
       },
       {
-        option: "",
+        option: "Potencjalne zagrożenie, które tworzy haker",
         correct: false,
       },
     ],
   },
   {
     id: 486,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie trzy kroki konfiguracyjne muszą być wykonane, aby wdrożyć dostęp SSH do routera? (Wybierz trzy odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Hasło na linii konsoli",
         correct: false,
       },
       {
-        option: "",
+        option: "Nazwa domeny IP",
+        correct: true,
+      },
+      {
+        option: "Konto użytkownika",
+        correct: true,
+      },
+      {
+        option: "Hasło trybu uprzywilejowanego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Unikalna nazwa hosta",
+        correct: true,
       },
       {
-        option: "",
+        option: "Jakieś unikalne hasło",
         correct: false,
       },
     ],
   },
   {
     id: 487,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel ataku rozpoznania sieci?",
     answers: [
       {
-        option: "",
+        option: "Odkrywanie i mapowanie systemów",
+        correct: true,
+      },
+      {
+        option: "Nieautoryzowana manipulacja danymi",
         correct: false,
       },
       {
-        option: "",
+        option: "Wyłączanie systemów lub usług sieciowych",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Odmawianie dostępu do zasobów przez uprawnionych użytkowników",
         correct: false,
       },
     ],
   },
   {
     id: 488,
-    question: "",
-    //   multi: true,
+    question:
+      "Ze względów bezpieczeństwa administrator sieci musi zagwarantować, że lokalne komputery nie mogą komunikować się ze sobą za pomocą pakietów ping. Które ustawienia pomogą wykonać to zadanie?",
     answers: [
       {
-        option: "",
+        option: "Ustawienia kart elektronicznych",
         correct: false,
       },
       {
-        option: "",
+        option: "Ustawienia zapory",
+        correct: true,
+      },
+      {
+        option: "Ustawienia adresów MAC",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Ustawienia systemu plików",
         correct: false,
       },
     ],
   },
   {
     id: 489,
-    question: "",
-    //   multi: true,
+    question:
+      "Administrator sieci ustanawia połączenie z przełącznikiem przez SSH. Jaka cecha jednoznacznie opisuje połączenie SSH?",
     answers: [
       {
-        option: "",
+        option:
+          "Dostęp poza pasmem do przełącznika za pomocą wirtualnego terminala z uwierzytelnianiem hasłem",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Zdalny dostęp do przełącznika za pomocą połączenia telefonicznego",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Dostęp do przełącznika za pomocą bezpośrednio podłączonego komputera i kabla konsoli",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Zdalny dostęp do przełącznika, w którym dane są szyfrowane podczas sesji",
+        correct: true,
+      },
+      {
+        option:
+          "Bezpośredni dostęp do przełącznika za pomocą programu emulacji terminala",
         correct: false,
       },
     ],
