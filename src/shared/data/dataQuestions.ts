@@ -13,7 +13,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 11  -->  id: 311-335
 // MODULE 12  -->  id: 336-370
 // MODULE 13  -->  id: 371-386
-// MODULE 14  -->  id:
+// MODULE 14  -->  id: 387-424
 // MODULE 15  -->  id:
 // MODULE 16  -->  id:
 // MODULE 17  -->  id:
@@ -8732,874 +8732,919 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 387,
-    question: "",
-    //   multi: true,
+    question:
+      "Która warstwa jest odpowiedzialna za ustanowienie tymczasowej sesji komunikacji między źródłowymi i docelowymi aplikacjami hosta?",
     answers: [
       {
-        option: "",
+        option: "Warstwa aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa łącza danych",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa sieci",
         correct: false,
       },
       {
-        option: "",
+        option: "Warstwa fizyczna",
         correct: false,
+      },
+      {
+        option: "Warstwa transportowa",
+        correct: true,
       },
     ],
   },
   {
     id: 388,
-    question: "",
-    //   multi: true,
+    question: "Które trzy są zadaniami warstwy transportowej? (Wybierz trzy odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Multipleksowanie konwersacji",
+        correct: true,
+      },
+      {
+        option: "Identyfikowanie ramki",
         correct: false,
       },
       {
-        option: "",
+        option: "Identyfikowanie informacji o routingu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Segmentacja i powtórne składanie segmentów",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Śledzenie indywidualnych konwersacji",
+        correct: true,
       },
     ],
+    multi: true,
   },
   {
     id: 389,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie o protokołach warstwy transportowej jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "TCP ma mniej pól niż UDP.",
         correct: false,
       },
       {
-        option: "",
+        option: "TCP jest szybszy niż UDP.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "UDP jest definiowany jako protokół best-effort.",
+        correct: true,
       },
       {
-        option: "",
+        option: "UDP zapewnia niezawodność.",
         correct: false,
       },
     ],
   },
   {
     id: 390,
-    question: "",
-    //   multi: true,
+    question: "Który protokół warstwy transportowej będzie używany do aplikacji VoIP?",
     answers: [
       {
-        option: "",
+        option: "Session Information Protocol (SIP)",
         correct: false,
       },
       {
-        option: "",
+        option: "Transmission Control Protocol (TCP)",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "User Datagram Protocol (UDP)",
+        correct: true,
       },
       {
-        option: "",
+        option: "VoIP Transfer Protocol",
         correct: false,
       },
     ],
   },
   {
     id: 391,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół warstwy transportowej zapewnia niezawodne dostarczanie z zachowaniem kolejności?",
     answers: [
       {
-        option: "",
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
+        option: "IP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "TCP",
+        correct: true,
       },
       {
-        option: "",
+        option: "UDP",
         correct: false,
       },
     ],
   },
   {
     id: 392,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie o nagłówku TCP jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "Składa się z 4 pól w nagłówku 8-bajtowym.",
         correct: false,
       },
       {
-        option: "",
+        option: "Składa się z 8 pól w 10-bajtowym nagłówku.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Składa się z 10 pól w 20-bajtowym nagłówku.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Składa się z 20 pól w 40-bajtowym nagłówku.",
         correct: false,
       },
     ],
   },
   {
     id: 393,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie aplikacje wykorzystałyby protokół warstwy transportowej TCP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "FTP",
+        correct: true,
+      },
+      {
+        option: "HTTP",
+        correct: true,
+      },
+      {
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
+        option: "TFTP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "VoIP",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 394,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych jest bezstanowym protokołem warstwy transportowej dostarczania wg. najlepszych starań?",
     answers: [
       {
-        option: "",
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
+        option: "IP",
         correct: false,
       },
       {
-        option: "",
+        option: "TCP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "UDP",
+        correct: true,
       },
     ],
   },
   {
     id: 395,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie dotyczące nagłówka UDP jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "Składa się z 4 pól w nagłówku 8-bajtowym.",
+        correct: true,
+      },
+      {
+        option: "Składa się z 8 pól w 10-bajtowym nagłówku.",
         correct: false,
       },
       {
-        option: "",
+        option: "Składa się z 10 pól w 20-bajtowym nagłówku.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Składa się z 20 pól w 40-bajtowym nagłówku.",
         correct: false,
       },
     ],
   },
   {
     id: 396,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie aplikacje wykorzystałyby protokół warstwy transportowej UDP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "FTP",
         correct: false,
       },
       {
-        option: "",
+        option: "HTTP",
         correct: false,
       },
       {
-        option: "",
+        option: "ICMP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "TFTP",
+        correct: true,
+      },
+      {
+        option: "VoIP",
+        correct: true,
       },
     ],
+    multi: true,
   },
   {
     id: 397,
-    question: "",
-    //   multi: true,
+    question: "Które dwa pola są takie same w nagłówku TCP i UDP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Bity kontrolne",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer portu docelowego",
+        correct: true,
+      },
+      {
+        option: "Numer sekwencyjny",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Numer portu źródłowego",
+        correct: true,
       },
       {
-        option: "",
+        option: "Dobrze znane porty",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 398,
-    question: "",
-    //   multi: true,
+    question:
+      "Załóżmy, że host z adresem IP 10.1.1.10 chce żądać usług internetowych z serwera na 10.1.1.254. Które z poniższych jest poprawną parą gniazd?",
     answers: [
       {
-        option: "",
+        option: "1099:10.1.1.10, 80:10.1.1.254",
         correct: false,
       },
       {
-        option: "",
+        option: "10.1.1.10:80, 10.1.1.254:1099",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "10.1.1.10:1099, 10.1.1.254:80",
+        correct: true,
       },
       {
-        option: "",
+        option: "80:10.1.1.10, 1099:10.1.1.254",
         correct: false,
       },
     ],
   },
   {
     id: 399,
-    question: "",
-    //   multi: true,
+    question: "Która grupa portów zawiera numery portów dla aplikacji FTP, HTTP i TFTP?",
     answers: [
       {
-        option: "",
+        option: "Porty dynamiczne",
         correct: false,
       },
       {
-        option: "",
+        option: "Porty prywatne",
         correct: false,
       },
       {
-        option: "",
+        option: "Porty zarejestrowane",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Dobrze znane porty",
+        correct: true,
       },
     ],
   },
   {
     id: 400,
-    question: "",
-    //   multi: true,
+    question:
+      "Które polecenie systemu Windows wyświetli używane protokoły, adres lokalny i numery portów, adres zdalny i numery portów oraz stan połączenia?",
     answers: [
       {
-        option: "",
+        option: "Ipconfig /all",
         correct: false,
       },
       {
-        option: "",
+        option: "Ping",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Netstat",
+        correct: true,
       },
       {
-        option: "",
+        option: "Traceroute",
         correct: false,
       },
     ],
   },
   {
     id: 401,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych byłyby poprawnymi portami źródłowymi i docelowymi dla hosta łączącego się z serwerem e-mail?",
     answers: [
       {
-        option: "",
+        option: "Źródło: 25, Miejsce przeznaczenia: 49152",
         correct: false,
       },
       {
-        option: "",
+        option: "Źródło: 80, Miejsce przeznaczenia: 49152",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródło: 49152, Miejsce przeznaczenia: 25",
+        correct: true,
       },
       {
-        option: "",
+        option: "Źródło: 49152, Miejsce przeznaczenia: 80",
         correct: false,
       },
     ],
   },
   {
     id: 402,
-    question: "",
-    //   multi: true,
+    question: "Które flagi bitów kontrolnych są używane podczas trójetapowego uzgadniania?",
     answers: [
       {
-        option: "",
+        option: "ACK i FIN",
         correct: false,
       },
       {
-        option: "",
+        option: "FIN i RESET",
         correct: false,
       },
       {
-        option: "",
+        option: "RESET i SYN",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "SYN i ACK",
+        correct: true,
       },
     ],
   },
   {
     id: 403,
-    question: "",
-    //   multi: true,
+    question: "Ile wymian jest potrzebnych do zakończenia obu sesji między dwoma hostami?",
     answers: [
       {
-        option: "",
+        option: "Jedna wymiana",
         correct: false,
       },
       {
-        option: "",
+        option: "Dwie wymiany",
         correct: false,
       },
       {
-        option: "",
+        option: "Trzy wymiany",
         correct: false,
       },
       {
-        option: "",
+        option: "Cztery wymiany",
+        correct: true,
+      },
+      {
+        option: "Pięć wymian",
         correct: false,
       },
     ],
   },
   {
     id: 404,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie pole jest używane przez hosta docelowego do ponownego złożenia segmentów w oryginalnej kolejności?",
     answers: [
       {
-        option: "",
+        option: "Bity kontrolne",
         correct: false,
       },
       {
-        option: "",
+        option: "Port docelowy",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer sekwencyjny",
+        correct: true,
+      },
+      {
+        option: "Port źródłowy",
         correct: false,
       },
       {
-        option: "",
+        option: "Rozmiar okna",
         correct: false,
       },
     ],
   },
   {
     id: 405,
-    question: "",
-    //   multi: true,
+    question: "Jakie pole służy do zapewnienia kontroli przepływu?",
     answers: [
       {
-        option: "",
+        option: "Bity kontrolne",
         correct: false,
       },
       {
-        option: "",
+        option: "Port docelowy",
         correct: false,
       },
       {
-        option: "",
+        option: "Numer sekwencyjny",
         correct: false,
       },
       {
-        option: "",
+        option: "Port źródłowy",
         correct: false,
+      },
+      {
+        option: "Rozmiar okna",
+        correct: true,
       },
     ],
   },
   {
     id: 406,
-    question: "",
-    //   multi: true,
+    question: "Co się stanie, gdy host wysyłający stwierdzi zatory?",
     answers: [
       {
-        option: "",
+        option:
+          "Host odbierający zwiększa liczbę bajtów, które wysyła przed otrzymaniem potwierdzenia z hosta wysyłającego.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Host odbierający zmniejsza liczbę bajtów, które wysyła przed otrzymaniem potwierdzenia z hosta wysyłającego.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Host wysyłający zwiększa liczbę bajtów, które wysyła przed otrzymaniem potwierdzenia z hosta docelowego.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Host wysyłający zmniejsza liczbę bajtów, które wysyła przed otrzymaniem potwierdzenia z hosta docelowego.",
+        correct: true,
       },
     ],
   },
   {
     id: 407,
-    question: "",
-    //   multi: true,
+    question:
+      "Dlaczego protokół UDP jest pożądany w przypadku protokołów wykonujących proste żądania i odpowiedzi?",
     answers: [
       {
-        option: "",
+        option: "Kontrola przepływu",
         correct: false,
       },
       {
-        option: "",
+        option: "Mały narzut",
+        correct: true,
+      },
+      {
+        option: "Niezawodność",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Dostarczanie w odpowiedniej kolejności",
         correct: false,
       },
     ],
   },
   {
     id: 408,
-    question: "",
-    //   multi: true,
+    question: "Które stwierdzenie dotyczące ponownego składania datagramu UDP jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option: "UDP nie scala ponownie danych.",
+        correct: false, // no this
+      },
+      {
+        option: "UDP scala dane w kolejności, w jakiej zostały odebrane.",
+        correct: true,
+      },
+      {
+        option: "UDP scala dane za pomocą bitów kontrolnych.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "UDP scala dane za pomocą numerów sekwencyjnych.",
         correct: false,
       },
     ],
   },
   {
     id: 409,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z poniższych byłyby poprawnymi portami źródłowymi i docelowymi dla hosta łączącego się z serwerem DNS?",
     answers: [
       {
-        option: "",
+        option: "Źródło: 53, Miejsce przeznaczenia: 49152",
         correct: false,
       },
       {
-        option: "",
+        option: "Źródło: 1812, Miejsce przeznaczenia: 49152",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Źródło: 49152, Miejsce przeznaczenia: 53",
+        correct: true,
       },
       {
-        option: "",
+        option: "Źródło: 49152, Miejsce przeznaczenia: 1812",
         correct: false,
       },
     ],
   },
   {
     id: 410,
-    question: "",
-    //   multi: true,
+    question:
+      "Która funkcja warstwy transportowej jest używana do zagwarantowania ustanowienia sesji?",
     answers: [
       {
-        option: "",
+        option: "Flaga ACK w UDP",
         correct: false,
       },
       {
-        option: "",
+        option: "Uzgadnianie trójetapowe TCP",
+        correct: true,
+      },
+      {
+        option: "Numer sekwencji UDP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Numer portu TCP",
         correct: false,
       },
     ],
   },
   {
     id: 411,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest pełny zakres dobrze znanych portów TCP i UDP?",
     answers: [
       {
-        option: "",
+        option: "Od 0 do 255",
         correct: false,
       },
       {
-        option: "",
+        option: "Od 0 do 1023",
+        correct: true,
+      },
+      {
+        option: "Od 256 do 1023",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Od 1024 do 49151",
         correct: false,
       },
     ],
   },
   {
     id: 412,
-    question: "",
-    //   multi: true,
+    question: "Co to jest gniazdo (ang.socket)?",
     answers: [
       {
-        option: "",
+        option:
+          "Połączenie źródłowego i docelowego adresu IP oraz źródłowego i docelowego adresu Ethernetowego",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Połączenie źródłowego adresu IP i numeru portu lub docelowego adresu IP i numeru portu",
+        correct: true,
+      },
+      {
+        option: "Połączenie źródłowych i docelowych numerów sekwencji i potwierdzeń",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Połączenie źródłowych i docelowych numerów sekwencji i numerów portów",
         correct: false,
       },
     ],
   },
   {
     id: 413,
-    question: "",
-    //   multi: true,
+    question: "Jak serwer sieciowy zarządza żądaniami od wielu klientów dla różnych usług?",
     answers: [
       {
-        option: "",
+        option: "Serwer wysyła wszystkie żądania przez bramę domyślną.",
         correct: false,
       },
       {
-        option: "",
+        option: "Każdemu żądaniu przypisany jest numer portu źródłowego i docelowego.",
+        correct: true,
+      },
+      {
+        option: "Serwer wykorzystuje adresy IP do identyfikacji różnych usług.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Każde żądanie śledzone jest za pomocą fizycznego adresu klienta.",
         correct: false,
       },
     ],
   },
   {
     id: 414,
-    question: "",
-    //   multi: true,
+    question:
+      "Co stanie się, gdy część wiadomości FTP nie zostanie dostarczona do hosta docelowego?",
     answers: [
       {
-        option: "",
+        option:
+          "Wiadomość zostanie utracona, ponieważ FTP nie używa metody potwierdzenia skutecznego dostarczenia danych.",
         correct: false,
       },
       {
-        option: "",
+        option: "Host źródłowy FTP wysyła zapytanie do hosta docelowego.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Część wiadomości FTP, która została utracona jest ponownie wysyłana.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Cała wiadomość FTP jest ponownie wysyłana.",
         correct: false,
       },
     ],
   },
   {
     id: 415,
-    question: "",
-    //   multi: true,
+    question: "Jakie aplikacje najlepiej nadają się do korzystania z UDP?",
     answers: [
       {
-        option: "",
+        option: "Applications that are sensitive to delay",
+        correct: true,
+      },
+      {
+        option: "Applications that need reliable delivery",
         correct: false,
       },
       {
-        option: "",
+        option: "Aplikacje, które wymagają retransmisji utraconych segmentów",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Applications that are sensitive to packet loss",
         correct: false,
       },
     ],
   },
   {
     id: 416,
-    question: "",
-    //   multi: true,
+    question:
+      "Przeciążenie sieci spowodowało, że źródło poznało utratę segmentów TCP wysłanych do miejsca docelowego. W jaki sposób protokół TCP rozwiązuje ten problem?",
     answers: [
       {
-        option: "",
+        option:
+          "Źródło zmniejsza ilość danych, które przesyła, zanim otrzyma potwierdzenie z miejsca docelowego.",
+        correct: true,
+      },
+      {
+        option:
+          "Źródło zmniejsza rozmiar okna, aby zmniejszyć szybkość transmisji z miejsca docelowego.",
         correct: false,
       },
       {
-        option: "",
+        option: "Miejsce docelowe zmniejsza rozmiar okna.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Miejsce docelowe wysyła mniej komunikatów potwierdzających w celu zachowania przepustowości.",
         correct: false,
       },
     ],
   },
   {
     id: 417,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie operacje są oferowane przez TCP, ale nie przez UDP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "Identifying the applications",
         correct: false,
       },
       {
-        option: "",
+        option: "Acknowledging received data",
+        correct: true,
+      },
+      {
+        option: "Identifying individual conversations",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Retransmitting any unacknowledged data",
+        correct: true,
       },
       {
-        option: "",
+        option: "Reconstructing data in the order received",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 418,
-    question: "",
-    //   multi: true,
+    question: "Jaki jest cel użycia numeru portu źródłowego w komunikacji TCP?",
     answers: [
       {
-        option: "",
+        option: "To notify the remote device that the conversation is over",
         correct: false,
       },
       {
-        option: "",
+        option: "To assemble the segments that arrived out of order",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "To keep track of multiple conversations between devices",
+        correct: true,
       },
       {
-        option: "",
+        option: "To inquire for a nonreceived segment",
         correct: false,
       },
     ],
   },
   {
     id: 419,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie flagi w nagłówku TCP są używane przy trójetapowym uzgadnianiu aby ustanowić połączenie między dwoma urządzeniami sieciowymi? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "ACK",
+        correct: true,
+      },
+      {
+        option: "FIN",
         correct: false,
       },
       {
-        option: "",
+        option: "PSH",
         correct: false,
       },
       {
-        option: "",
+        option: "RST",
         correct: false,
       },
       {
-        option: "",
+        option: "SYN",
+        correct: true,
+      },
+      {
+        option: "URG",
         correct: false,
       },
     ],
+    multi: true,
   },
   {
     id: 420,
-    question: "",
-    //   multi: true,
+    question: "Jakiego mechanizmu TCP używa się do unikania zatorów?",
     answers: [
       {
-        option: "",
+        option: "Uzgadnianie trójetapowe",
         correct: false,
       },
       {
-        option: "",
+        option: "Para gniazd",
         correct: false,
       },
       {
-        option: "",
+        option: "Używa dwuetapowego uzgadniania",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Okno przesuwne",
+        correct: true,
       },
     ],
   },
   {
     id: 421,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie działania są podejmowane po stronie klienta podczas ustanawiania komunikacji z serwerem przy zastosowaniu protokołu UDP w warstwie transportowej?",
     answers: [
       {
-        option: "",
+        option: "Klient ustawia rozmiar okna dla sesji.",
         correct: false,
       },
       {
-        option: "",
+        option: "Klient wysyła ISN do serwera, aby rozpocząć proces trójetapowego uzgadniania.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Klient wybiera losowo numer portu źródłowego.",
+        correct: true,
       },
       {
-        option: "",
+        option: "Klient wysyła segment synchronizacji, aby rozpocząć sesję.",
         correct: false,
       },
     ],
   },
   {
     id: 422,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwie usługi lub protokoły używają preferowanego protokołu UDP do szybkiej transmisji i niskiego narzutu? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
-        option: "",
+        option: "FTP",
         correct: false,
       },
       {
-        option: "",
+        option: "DNS",
+        correct: true,
+      },
+      {
+        option: "HTTP",
         correct: false,
       },
       {
-        option: "",
+        option: "POP3",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "VoIP",
+        correct: true,
       },
     ],
+    multi: true,
   },
   {
     id: 423,
-    question: "",
-    //   multi: true,
+    question: "Których liczba lub zestaw liczb reprezentuje gniazdo (ang. socket)?",
     answers: [
       {
-        option: "",
+        option: "01-23-45-67-89-AB",
         correct: false,
       },
       {
-        option: "",
+        option: "21",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "192.168.1.1:80",
+        correct: true,
       },
       {
-        option: "",
+        option: "10.1.1.15",
         correct: false,
       },
     ],
   },
   {
     id: 424,
-    question: "",
-    //   multi: true,
+    question: "Co jest zadaniem protokołów warstwy transportu?",
     answers: [
       {
-        option: "",
+        option: "Zapewnienie dostępu do sieci",
         correct: false,
       },
       {
-        option: "",
+        option: "Śledzenie indywidualnych konwersacji",
+        correct: true,
+      },
+      {
+        option: "Określenie trasy do przesłania pakietu",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Tłumaczenie prywatnych adresów IP na publiczne adresy IP",
         correct: false,
       },
     ],
