@@ -16,7 +16,7 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 14  -->  id: 387-424
 // MODULE 15  -->  id: 425-461
 // MODULE 16  -->  id: 462-489
-// MODULE 17  -->  id: 490-
+// MODULE 17  -->  id: 490-518
 
 export const dataQuestions: Question[] = [
   {
@@ -11342,673 +11342,686 @@ export const dataQuestions: Question[] = [
       },
     ],
   },
-  {
-    id: 490,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 491,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 492,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 493,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 494,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 495,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 496,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 497,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 498,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 499,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 500,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 501,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 502,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 503,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 504,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 505,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 506,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 507,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 508,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 509,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 510,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 511,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 512,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 513,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 514,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 515,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 516,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 517,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
-  {
-    id: 518,
-    question: "",
-    //   multi: true,
-    answers: [
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-    ],
-  },
+{
+  id: 490,
+  question: "Które stwierdzenie poprawnie odnosi się do małej sieci?",
+  answers: [
+    {
+      option: "Małe sieci są skomplikowane.",
+      correct: false,
+    },
+    {
+      option: "Małe sieci wymagają działu IT do utrzymania.",
+      correct: false,
+    },
+    {
+      option: "Większość przedsiębiorstw to małe firmy.",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 491,
+  question: "Który czynnik należy wziąć pod uwagę przy wyborze urządzeń sieciowych?",
+  answers: [
+    {
+      option: "Kolor",
+      correct: false,
+    },
+    {
+      option: "Połączenie konsoli",
+      correct: false,
+    },
+    {
+      option: "Koszt",
+      correct: true,
+    },
+    {
+      option: "Elastyczność",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 492,
+  question: "Co jest konieczne do zaplanowania i użycia podczas wdrażania sieci?",
+  answers: [
+    {
+      option: "Nazwy urządzeń",
+      correct: false,
+    },
+    {
+      option: "Schemat adresowania IP",
+      correct: true,
+    },
+    {
+      option: "Schemat adresacji MAC",
+      correct: false,
+    },
+    {
+      option: "Lokalizacja drukarki",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 493,
+  question: "Co jest wymagane, aby utrzymać wysoki stopień niezawodności i wyeliminować pojedyncze punkty awarii?",
+  answers: [
+    {
+      option: "Dostępność",
+      correct: false,
+    },
+    {
+      option: "Możliwość rozbudowy",
+      correct: false,
+    },
+    {
+      option: "Integralność",
+      correct: false,
+    },
+    {
+      option: "Nadmiarowość",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 494,
+  question: "Co jest wymagane, aby sklasyfikować ruch zgodnie z priorytetem?",
+  answers: [
+    {
+      option: "Schemat adresowania IP",
+      correct: false,
+    },
+    {
+      option: "Jakość usług (QoS)",
+      correct: true,
+    },
+    {
+      option: "Routing",
+      correct: false,
+    },
+    {
+      option: "Przełączanie",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 495,
+  question: "Jakie są dwie formy programów lub procesów, które zapewniają dostęp do sieci? (Wybierz dwie odpowiedzi.)",
+  multi: true,
+  answers: [
+    {
+      option: "Oprogramowanie antywirusowe",
+      correct: false,
+    },
+    {
+      option: "Usługi warstwy aplikacji",
+      correct: true,
+    },
+    {
+      option: "Oprogramowanie do gier",
+      correct: false,
+    },
+    {
+      option: "Aplikacje sieciowe",
+      correct: true,
+    },
+    {
+      option: "Oprogramowanie produktywności",
+      correct: false,
+    },
+    {
+      option: "Maszyna wirtualna",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 496,
+  question: "Które dwa protokoły sieciowe są używane do ustanowienia połączenia sieciowego dostępu zdalnego z urządzeniem? (Wybierz dwie odpowiedzi.)",
+  multi: true,
+  answers: [
+    {
+      option: "File Transfer Protocol (FTP)",
+      correct: false,
+    },
+    {
+      option: "Hypertext Transfer Protocol (HTTP)",
+      correct: false,
+    },
+    {
+      option: "Remote Connect (RC)",
+      correct: false,
+    },
+    {
+      option: "Secure Shell (SSH)",
+      correct: true,
+    },
+    {
+      option: "Simple Mail Transfer Protocol (SMTP)",
+      correct: false,
+    },
+    {
+      option: "Telnet",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 497,
+  question: "Jakie elementy są wymagane do skalowania do większej sieci? (Wybierz dwie odpowiedzi.)",
+  multi: true,
+  answers: [
+    {
+      option: "Budżet",
+      correct: true,
+    },
+    {
+      option: "Konfiguracja urządzenia",
+      correct: false,
+    },
+    {
+      option: "Zwiększenie szerokości pasma",
+      correct: false,
+    },
+    {
+      option: "Dokumentacja sieci",
+      correct: true,
+    },
+    {
+      option: "Hosty Windows",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 498,
+  question: "Które oprogramowanie zainstalowane na kluczowych hostach może ujawnić rodzaje ruchu sieciowego przepływającego przez sieć?",
+  answers: [
+    {
+      option: "Linux",
+      correct: false,
+    },
+    {
+      option: "MacOS",
+      correct: false,
+    },
+    {
+      option: "SSH",
+      correct: false,
+    },
+    {
+      option: "Windows",
+      correct: false,
+    },
+    {
+      option: "Wireshark",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 499,
+  question: "Jakie narzędzie systemu Windows 10 jest przydatne do określenia, które aplikacje korzystają z usług sieciowych na hoście?",
+  answers: [
+    {
+      option: "Panel sterowania",
+      correct: false,
+    },
+    {
+      option: "Zużycie danych",
+      correct: true,
+    },
+    {
+      option: "Menedżer plików",
+      correct: false,
+    },
+    {
+      option: "Zapora Windows Defender",
+      correct: false,
+    },
+    {
+      option: "Eksplorator Windows",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 500,
+  question: "Technik rozwiązuje problem z siecią i właśnie ustalił hipotezę prawdopodobnych przyczyn. Jaki będzie następny krok w procesie rozwiązywania problemów?",
+  answers: [
+    {
+      option: "Dokumentowanie spostrzeżeń, działań i wyników",
+      correct: false,
+    },
+    {
+      option: "Stworzenie planu działania i wdrożenia rozwiązania",
+      correct: false,
+    },
+    {
+      option: "Identyfikacja problemu",
+      correct: false,
+    },
+    {
+      option: "Sprawdzanie hipotezy w celu ustalenia przyczyny",
+      correct: true,
+    },
+    {
+      option: "Weryfikacja rozwiązania i wdrożenie środków zapobiegawczych",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 501,
+  question: "Technik rozwiązuje problem z siecią. Po rozwiązaniu problemu technik stwierdza, że przełącznik powinien zostać wymieniony. Co następnie technik powinien zrobić?",
+  answers: [
+    {
+      option: "Wyślij e-mail wszystkich użytkowników, aby dać im znać, że przełącznik zostanie wymieniony.",
+      correct: false,
+    },
+    {
+      option: "Eskaluj zgłoszenie problemów do menedżera, aby zatwierdzić wymianę.",
+      correct: true,
+    },
+    {
+      option: "Kup nowy przełącznik i wymień wadliwy.",
+      correct: false,
+    },
+    {
+      option: "Rozwiąż problem.",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 502,
+  question: "Technik używa polecenia debug ip icmp uprzywilejowanego trybu EXEC do przechwytywania wyjścia routera na żywo. Które polecenia zatrzymają działanie polecenia debug na routerze Cisco? (Wybierz dwie odpowiedzi.)",
+  multi: true,
+  answers: [
+    {
+      option: "debug ip icmp off",
+      correct: false,
+    },
+    {
+      option: "no debug debug ip icmp",
+      correct: false,
+    },
+    {
+      option: "no debug ip icmp",
+      correct: true,
+    },
+    {
+      option: "undebug all",
+      correct: true,
+    },
+    {
+      option: "undebug debug ip icmp",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 503,
+  question: "Technik ustanowił zdalne połączenie z routerem R1 aby obserwować wyjście debug. Technik wydaje polecenie debug ip icmp, a następnie wykonuje ping na odległy cel. Jednak nie jest wyświetlany żaden wynik. Które polecenie musiałby wprowadzić technik, aby wyświetlać komunikaty dziennika (logi) na zdalnym połączeniu?",
+  answers: [
+    {
+      option: "monitor debug output",
+      correct: false,
+    },
+    {
+      option: "monitor terminal",
+      correct: false,
+    },
+    {
+      option: "terminal monitor",
+      correct: true,
+    },
+    {
+      option: "terminal monitor debug",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 504,
+  question: "Jaki czynnik podczas projektowania sieci będzie ważniejszy dla dużej korporacji niż dla małej firmy?",
+  answers: [
+    {
+      option: "Router internetowy",
+      correct: false,
+    },
+    {
+      option: "Zapora",
+      correct: false,
+    },
+    {
+      option: "Niskie zagęszczenie portów",
+      correct: false,
+    },
+    {
+      option: "Nadmiarowość",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 505,
+  question: "Nowo zatrudniony technik sieciowy ma zadanie zamawiania nowego sprzętu dla małej firmy z dużą prognozą wzrostu. Jaki podstawowy czynnik powinien mieć technik na uwadze przy wyborze nowych urządzeń?",
+  answers: [
+    {
+      option: "Urządzenia o stałej liczbie i typie interfejsów",
+      correct: false,
+    },
+    {
+      option: "Urządzenia, które obsługują monitorowanie sieci",
+      correct: false,
+    },
+    {
+      option: "Nadmiarowe urządzenia",
+      correct: false,
+    },
+    {
+      option: "Urządzenia modularne",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 506,
+  question: "Jaki rodzaj ruchu najprawdopodobniej miałby najwyższy priorytet w sieci?",
+  answers: [
+    {
+      option: "FTP",
+      correct: false,
+    },
+    {
+      option: "Wiadomośći błyskawiczne",
+      correct: false,
+    },
+    {
+      option: "Głos",
+      correct: true,
+    },
+    {
+      option: "SNMP",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 507,
+  question: "Technik sieciowy bada łączność sieciową z komputera do zdalnego hosta pod adresem 10.1.1.5. Które polecenie, po wydaniu na komputerze z systemem Windows, wyświetli ścieżkę do zdalnego hosta?",
+  answers: [
+    {
+      option: "trace 10.1.1.5",
+      correct: false,
+    },
+    {
+      option: "traceroute 10.1.1.5",
+      correct: false,
+    },
+    {
+      option: "tracert 10.1.1.5",
+      correct: true,
+    },
+    {
+      option: "ping 10.1.1.5",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 508,
+  question: "Użytkownik nie może otworzyć strony internetowej wpisując http://www.cisco.com w przeglądarce internetowej, ale może ją otworzyć wpisując http://72.163.4.161. Na czym polega problem?",
+  answers: [
+    {
+      option: "Brama domyślna",
+      correct: false,
+    },
+    {
+      option: "DHCP",
+      correct: false,
+    },
+    {
+      option: "DNS",
+      correct: true,
+    },
+    {
+      option: "Stos protokołów TCP/IP",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 509,
+  question: "Gdzie są domyślnie wysyłane komunikaty wyjściowe debugowania Cisco IOS?",
+  answers: [
+    {
+      option: "Buforowane w pamięci",
+      correct: false,
+    },
+    {
+      option: "Na linie vty",
+      correct: false,
+    },
+    {
+      option: "Na serwer syslog",
+      correct: false,
+    },
+    {
+      option: "Na konsolę",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 510,
+  question: "Który element skalowania sieci polega na identyfikacji topologii fizycznej i logicznej?",
+  answers: [
+    {
+      option: "Analiza ruchu",
+      correct: false,
+    },
+    {
+      option: "Dokumentacja sieci",
+      correct: true,
+    },
+    {
+      option: "Inwentaryzacja urządzeń",
+      correct: false,
+    },
+    {
+      option: "Analiza kosztów",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 511,
+  question: "Jaki mechanizm można wdrożyć w małej sieci, aby zminimalizować opóźnienia sieci dla aplikacji strumieniowania w czasie rzeczywistym?",
+  answers: [
+    {
+      option: "Jakość usług (QoS)",
+      correct: true,
+    },
+    {
+      option: "PoE",
+      correct: false,
+    },
+    {
+      option: "AAA",
+      correct: false,
+    },
+    {
+      option: "ICMP",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 512,
+  question: "Który proces nie powiódł się, jeśli komputer nie może uzyskać dostępu do Internetu i otrzymał adres IP 169.254.142.5?",
+  answers: [
+    {
+      option: "IP",
+      correct: false,
+    },
+    {
+      option: "DNS",
+      correct: false,
+    },
+    {
+      option: "DHCP",
+      correct: true,
+    },
+    {
+      option: "HTTP",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 513,
+  question: "Mała firma ma tylko jeden router, który jest jej punktem wyjścia do ISP. Jakie rozwiązanie może być zastosowane w celu utrzymania łączności, jeśli zawiedzie sam router lub jego połączenie z dostawcą usług internetowych ISP?",
+  answers: [
+    {
+      option: "Aktywacja innego interfejsu routera, który jest połączony z ISP, aby ruch mógł przepływać przez ten interfejs.",
+      correct: false,
+    },
+    {
+      option: "Posiadanie drugiego routera, który jest połączony z innym ISP.",
+      correct: true,
+    },
+    {
+      option: "Zakup drugiego najtańszego łącza od innego ISP do połączenia z tym routerem.",
+      correct: false,
+    },
+    {
+      option: "Dodanie kilku interfejsów do routera, który jest podłączony do sieci wewnętrznej.",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 514,
+  question: "Kiedy administrator powinien ustalić stan odniesienia sieci?",
+  answers: [
+    {
+      option: "Gdy ruch w sieci osiąga szczytową wartość",
+      correct: false,
+    },
+    {
+      option: "Gdy jest nagły spadek ruchu",
+      correct: false,
+    },
+    {
+      option: "Gdy ruch w sieci osiąga najmniejszą wartość",
+      correct: false,
+    },
+    {
+      option: "W regularnych odstępach okresu czasu",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 515,
+  question: "Które dwa rodzaje ruchu są wrażliwe na opóźnienia przy przesyłaniu? (Wybierz dwie odpowiedzi.)",
+  // multi: true
+  multi: true,
+  answers: [
+    {
+      option: "E-mail",
+      correct: false,
+    },
+    {
+      option: "WWW",
+      correct: false,
+    },
+    {
+      option: "FTP",
+      correct: false,
+    },
+    {
+      option: "Głos",
+      correct: true,
+    },
+    {
+      option: "Wideo",
+      correct: true,
+    },
+  ],
+},
+{
+  id: 516,
+  question: "Technik sieciowy podejrzewa, że pewne połączenie sieciowe między dwoma przełącznikami Cisco ma niedopasowanie dupleksu. Które polecenie użyłby technik, aby zobaczyć szczegóły warstwy 1 i warstwy 2 portu przełącznika?",
+  answers: [
+    {
+      option: "show interfaces",
+      correct: true,
+    },
+    {
+      option: "show running-config",
+      correct: false,
+    },
+    {
+      option: "show ip interface brief",
+      correct: false,
+    },
+    {
+      option: "show mac-address-table",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 517,
+  question: "Które stwierdzenie o użyciu CDP w urządzeniu firmy Cisco jest prawdziwe?",
+  answers: [
+    {
+      option: "Polecenie show cdp neighbor detail ujawni adres IP sąsiada tylko wtedy, gdy istnieje łączność warstwy 3.",
+      correct: false,
+    },
+    {
+      option: "Aby wyłączyć CDP globalnie, należy użyć polecenia no cdp enable w trybie konfiguracji interfejsu.",
+      correct: false,
+    },
+    {
+      option: "Protokół CDP może być wyłączony globalnie lub na konkretnym interfejsie.",
+      correct: true,
+    },
+    {
+      option: "Protokół CDP może być stosowany tylko w przełącznikach, ponieważ działa w warstwie łącza danych.",
+      correct: false,
+    },
+  ],
+},
+{
+  id: 518,
+  question: "Jaki czynnik należy wziąć pod uwagę przy projektowaniu małej sieci przy wyborze urządzeń?",
+  answers: [
+    {
+      option: "Koszt urządzeń",
+      correct: true,
+    },
+    {
+      option: "Nadmiarowość",
+      correct: false,
+    },
+    {
+      option: "Analiza ruchu",
+      correct: false,
+    },
+    {
+      option: "Dostawca usług internetowych (ISP)",
+      correct: false,
+    },
+  ],
+},
   {
     id: 519,
     question: "",
