@@ -1,21 +1,21 @@
 import type { Question } from "../types/typesQuiz";
 
-// MODULE 1  -->  id: 1-39
-// MODULE 2  -->  id: 40-69
-// MODULE 3  -->  id: 70-112
-// MODULE 4  -->  id: 113-150
-// MODULE 5  -->  id: 151-170
-// MODULE 6  -->  id: 152-199
-// MODULE 7  -->  id: 200-224
-// MODULE 8  -->  id: 240-272
-// MODULE 9  -->  id: 273-297
+// MODULE 1   -->  id: 1-39
+// MODULE 2   -->  id: 40-69
+// MODULE 3   -->  id: 70-112
+// MODULE 4   -->  id: 113-150
+// MODULE 5   -->  id: 151-170
+// MODULE 6   -->  id: 152-199
+// MODULE 7   -->  id: 200-224
+// MODULE 8   -->  id: 240-272
+// MODULE 9   -->  id: 273-297
 // MODULE 10  -->  id: 298-310
 // MODULE 11  -->  id: 311-335
 // MODULE 12  -->  id: 336-370
 // MODULE 13  -->  id: 371-386
 // MODULE 14  -->  id: 387-424
-// MODULE 15  -->  id:
-// MODULE 16  -->  id:
+// MODULE 15  -->  id: 425-461
+// MODULE 16  -->  id: 462-
 // MODULE 17  -->  id:
 
 export const dataQuestions: Question[] = [
@@ -63,7 +63,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 3,
-    question: "Które dwa urządzenia są urządzeniami pośredniczącymi? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Które dwa urządzenia są urządzeniami pośredniczącymi? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -402,7 +403,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 19,
-    question: "Która funkcja wykorzystuje tę samą technologię komórkową co smartfon?",
+    question:
+      "Która funkcja wykorzystuje tę samą technologię komórkową co smartfon?",
     //   multi: true,
     answers: [
       {
@@ -448,7 +450,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 21,
-    question: "Która opcja tworzy bezpieczne połączenie dla pracowników zdalnych?",
+    question:
+      "Która opcja tworzy bezpieczne połączenie dla pracowników zdalnych?",
     //   multi: true,
     answers: [
       {
@@ -530,7 +533,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 24,
-    question: "Która opcja opisuje złośliwy kod działający na urządzeniach użytkownika?",
+    question:
+      "Która opcja opisuje złośliwy kod działający na urządzeniach użytkownika?",
     //   multi: true,
     answers: [
       {
@@ -638,7 +642,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Jest to protokół, który określa jak komunikują się hosty w sieci lokalnej.",
+        option:
+          "Jest to protokół, który określa jak komunikują się hosty w sieci lokalnej.",
         correct: false,
       },
       {
@@ -647,7 +652,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Jest to urządzenie sieciowe, które łączy funkcjonalność wielu innych w jednym.",
+        option:
+          "Jest to urządzenie sieciowe, które łączy funkcjonalność wielu innych w jednym.",
         correct: false,
       },
     ],
@@ -731,7 +737,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 32,
-    question: "Jakie są dwie cechy skalowalnej sieci? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Jakie są dwie cechy skalowalnej sieci? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -747,7 +754,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Właściwa dla urządzeń modularnych, które pozwalają na rozszerzanie",
+        option:
+          "Właściwa dla urządzeń modularnych, które pozwalają na rozszerzanie",
         correct: true,
       },
       {
@@ -838,7 +846,8 @@ export const dataQuestions: Question[] = [
     //   multi: true,
     answers: [
       {
-        option: "BYOD wymaga od organizacji zakupu laptopów zamiast komputerów stacjonarnych.",
+        option:
+          "BYOD wymaga od organizacji zakupu laptopów zamiast komputerów stacjonarnych.",
         correct: false,
       },
       {
@@ -847,7 +856,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Urządzenia BYOD są droższe niż urządzenia zakupione przez organizację.",
+        option:
+          "Urządzenia BYOD są droższe niż urządzenia zakupione przez organizację.",
         correct: false,
       },
       {
@@ -895,18 +905,21 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Zapewnia połączenia za pośrednictwem połączonych sieci globalnych.",
+        option:
+          "Zapewnia połączenia za pośrednictwem połączonych sieci globalnych.",
         correct: true,
       },
       {
-        option: "Jest to prywatna sieć dla organizacji z połączeniami LAN i WAN.",
+        option:
+          "Jest to prywatna sieć dla organizacji z połączeniami LAN i WAN.",
         correct: false,
       },
     ],
   },
   {
     id: 39,
-    question: "Jakie są dwie funkcje urządzeń końcowych w sieci? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Jakie są dwie funkcje urządzeń końcowych w sieci? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -914,7 +927,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Kierują dane na alternatywne ścieżki w przypadku awarii łącza.",
+        option:
+          "Kierują dane na alternatywne ścieżki w przypadku awarii łącza.",
         correct: false,
       },
       {
@@ -990,7 +1004,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 44,
-    question: "Który tryb IOS umożliwia dostęp do wszystkich poleceń i funkcji?",
+    question:
+      "Który tryb IOS umożliwia dostęp do wszystkich poleceń i funkcji?",
     answers: [
       {
         option: "Tryb konfiguracji globalnej",
@@ -1098,7 +1113,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 48,
-    question: "Jakie jest polecenie nadające nazwę „Sw-Floor-2” do przełącznikowi?",
+    question:
+      "Jakie jest polecenie nadające nazwę „Sw-Floor-2” do przełącznikowi?",
     answers: [
       {
         option: "hostname Sw-Floor-2",
@@ -1282,11 +1298,13 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Powinien być kasowany z użyciem polecenia erase running-config.",
+        option:
+          "Powinien być kasowany z użyciem polecenia erase running-config.",
         correct: false,
       },
       {
-        option: "Jest automatycznie zapisywany podczas ponownego uruchomienia routera.",
+        option:
+          "Jest automatycznie zapisywany podczas ponownego uruchomienia routera.",
         correct: false,
       },
     ],
@@ -1302,19 +1320,23 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Do trybu konfiguracji globalnej można wejść po wpisaniu polecenia enable.",
+        option:
+          "Do trybu konfiguracji globalnej można wejść po wpisaniu polecenia enable.",
         correct: false,
       },
       {
-        option: "Znak zachęty urządzenia dla tego trybu kończy się symbolem „>”.",
+        option:
+          "Znak zachęty urządzenia dla tego trybu kończy się symbolem „>”.",
         correct: true,
       },
       {
-        option: "W tym trybie można konfigurować interfejsy i protokoły routingu.",
+        option:
+          "W tym trybie można konfigurować interfejsy i protokoły routingu.",
         correct: false,
       },
       {
-        option: "W tym trybie można wyświetlać tylko wybrane informacje o konfiguracji routera.",
+        option:
+          "W tym trybie można wyświetlać tylko wybrane informacje o konfiguracji routera.",
         correct: true,
       },
     ],
@@ -1443,7 +1465,8 @@ export const dataQuestions: Question[] = [
       "Administrator zmienił właśnie adres IP dla interfejsu w urządzeniu pracującym pod nadzorem systemu IOS. Co jeszcze należy zrobić w celu zastosowania tych zmian w urządzeniu?",
     answers: [
       {
-        option: "Skopiować bieżącą konfigurację do startowego pliku konfiguracyjnego.",
+        option:
+          "Skopiować bieżącą konfigurację do startowego pliku konfiguracyjnego.",
         correct: true,
       },
       {
@@ -1488,7 +1511,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 65,
-    question: "Dlaczego technik miałby wprowadzać polecenie copy startup-config running-config?",
+    question:
+      "Dlaczego technik miałby wprowadzać polecenie copy startup-config running-config?",
     answers: [
       {
         option: "Aby usunąć wszystkie konfiguracje z przełącznika",
@@ -1537,11 +1561,13 @@ export const dataQuestions: Question[] = [
     multi: true,
     answers: [
       {
-        option: "Wyświetla komunikat o błędzie, gdy została wpisana zła komenda",
+        option:
+          "Wyświetla komunikat o błędzie, gdy została wpisana zła komenda",
         correct: false,
       },
       {
-        option: "Wyświetla listę wszystkich dostępnych komend w bieżącym trybie",
+        option:
+          "Wyświetla listę wszystkich dostępnych komend w bieżącym trybie",
         correct: true,
       },
       {
@@ -1608,7 +1634,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 70,
-    question: "Co jest procesem konwersji informacji do odpowiedniej formy do przesłania?",
+    question:
+      "Co jest procesem konwersji informacji do odpowiedniej formy do przesłania?",
     answers: [
       {
         option: "Formatowanie",
@@ -1714,7 +1741,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 75,
-    question: "Które dwa protokoły są protokołami odnajdywania usług? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Które dwa protokoły są protokołami odnajdywania usług? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -1749,7 +1777,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Dla zapewnienia przepływu danych w efektywnym tempie między nadawcą a odbiorcą",
+        option:
+          "Dla zapewnienia przepływu danych w efektywnym tempie między nadawcą a odbiorcą",
         correct: false,
       },
       {
@@ -1832,7 +1861,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 80,
-    question: "Który protokół działa w warstwie dostępu do sieci modelu TCP/IP?",
+    question:
+      "Który protokół działa w warstwie dostępu do sieci modelu TCP/IP?",
     answers: [
       {
         option: "HTTP",
@@ -2181,7 +2211,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Adresy warstwy łącza danych są fizyczne i adresy warstwy sieciowej są logiczne.",
+        option:
+          "Adresy warstwy łącza danych są fizyczne i adresy warstwy sieciowej są logiczne.",
         correct: false,
       },
       {
@@ -2189,7 +2220,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Adresy warstwy łącza danych są logiczne i adresy warstwy sieciowej są fizyczne.",
+        option:
+          "Adresy warstwy łącza danych są logiczne i adresy warstwy sieciowej są fizyczne.",
         correct: true,
       },
       {
@@ -2246,7 +2278,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 98,
-    question: "Które trzy akronimy i inicjalizmy reprezentują organizacje normalizacyjne?",
+    question:
+      "Które trzy akronimy i inicjalizmy reprezentują organizacje normalizacyjne?",
     multi: true,
     answers: [
       { option: "IANA", correct: true },
@@ -2259,7 +2292,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 99,
-    question: "Jaki rodzaj komunikacji wyśle wiadomość do wszystkich urządzeń w sieci lokalnej?",
+    question:
+      "Jaki rodzaj komunikacji wyśle wiadomość do wszystkich urządzeń w sieci lokalnej?",
     answers: [
       { option: "Broadcast", correct: true },
       { option: "Multicast", correct: false },
@@ -2309,7 +2343,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Zapobiega wpływowi technologii jednej warstwy na inne warstwy.",
+        option:
+          "Zapobiega wpływowi technologii jednej warstwy na inne warstwy.",
         correct: true,
       },
       {
@@ -2324,11 +2359,13 @@ export const dataQuestions: Question[] = [
     question: "Jakie jest przeznaczenie protokołów transmisji danych?",
     answers: [
       {
-        option: "Określanie przepustowości kanału lub medium dla każdego rodzaju komunikacji",
+        option:
+          "Określanie przepustowości kanału lub medium dla każdego rodzaju komunikacji",
         correct: false,
       },
       {
-        option: "Określanie systemów operacyjnych dla urządzeń, które obsługują komunikację",
+        option:
+          "Określanie systemów operacyjnych dla urządzeń, które obsługują komunikację",
         correct: false,
       },
       {
@@ -2344,7 +2381,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 104,
-    question: "Który adres logiczny jest używany w celu dostarczenia danych do zdalnej sieci?",
+    question:
+      "Który adres logiczny jest używany w celu dostarczenia danych do zdalnej sieci?",
     answers: [
       { option: "Docelowy adres MAC", correct: false },
       { option: "Docelowy adres IP", correct: true },
@@ -2390,7 +2428,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 108,
-    question: "Jaki rodzaj komunikacji wyśle wiadomość do grupy docelowych hostów jednocześnie?",
+    question:
+      "Jaki rodzaj komunikacji wyśle wiadomość do grupy docelowych hostów jednocześnie?",
     answers: [
       { option: "Broadcast", correct: false },
       { option: "Multicast", correct: true },
@@ -2411,10 +2450,12 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 110,
-    question: "Co się dzieje z pakietem IP, zanim zostanie on przekazany fizycznym medium?",
+    question:
+      "Co się dzieje z pakietem IP, zanim zostanie on przekazany fizycznym medium?",
     answers: [
       {
-        option: "Jest oznaczany informacjami gwarantującymi niezawodną dostawę.",
+        option:
+          "Jest oznaczany informacjami gwarantującymi niezawodną dostawę.",
         correct: false,
       },
       {
@@ -2449,7 +2490,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 113,
-    question: "Prawda czy fałsz? Warstwa fizyczna dotyczy tylko przewodowych połączeń sieciowych.",
+    question:
+      "Prawda czy fałsz? Warstwa fizyczna dotyczy tylko przewodowych połączeń sieciowych.",
     answers: [
       {
         option: "Prawda",
@@ -2501,7 +2543,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 116,
-    question: "Jaka jednostka PDU jest odbierana przez warstwę fizyczną do kodowania i transmisji?",
+    question:
+      "Jaka jednostka PDU jest odbierana przez warstwę fizyczną do kodowania i transmisji?",
     answers: [
       {
         option: "Ramka",
@@ -2519,7 +2562,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 117,
-    question: "Które media wykorzystują wzorce mikrofal do reprezentowania bitów?",
+    question:
+      "Które media wykorzystują wzorce mikrofal do reprezentowania bitów?",
     answers: [
       {
         option: "Miedź",
@@ -2555,7 +2599,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 119,
-    question: "Które media wykorzystują impulsy elektryczne do reprezentowania bitów?",
+    question:
+      "Które media wykorzystują impulsy elektryczne do reprezentowania bitów?",
     answers: [
       {
         option: "Miedź",
@@ -2573,7 +2618,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 120,
-    question: "Która z nich jest nazwą zdolności nośnika do przenoszenia danych?",
+    question:
+      "Która z nich jest nazwą zdolności nośnika do przenoszenia danych?",
     answers: [
       {
         option: "Szerokość pasma",
@@ -2758,7 +2804,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 131,
-    question: "Który z poniższych typów kabli światłowodowych jest używany w sieciach kampusowych?",
+    question:
+      "Który z poniższych typów kabli światłowodowych jest używany w sieciach kampusowych?",
     answers: [
       {
         option: "Wielomodowy",
@@ -2772,7 +2819,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 132,
-    question: "Prawda czy fałsz. Technika bezprzewodowa nie nadaje się do sieci korporacyjnych.",
+    question:
+      "Prawda czy fałsz. Technika bezprzewodowa nie nadaje się do sieci korporacyjnych.",
     answers: [
       {
         option: "Prawda",
@@ -2897,11 +2945,13 @@ export const dataQuestions: Question[] = [
       "Dlaczego do pojedynczego połączenia światłowodowego wykorzystywane są dwie żyły światłowodu?",
     answers: [
       {
-        option: "Dwie żyły pozwalają na bezproblemowe przesyłanie danych na długie dystanse.",
+        option:
+          "Dwie żyły pozwalają na bezproblemowe przesyłanie danych na długie dystanse.",
         correct: false,
       },
       {
-        option: "Zapobiegają zakłóceniom powodowanym przez przesłuch w połączeniu.",
+        option:
+          "Zapobiegają zakłóceniom powodowanym przez przesłuch w połączeniu.",
         correct: false,
       },
       {
@@ -2916,7 +2966,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 139,
-    question: "Która procedura jest używana do redukcji skutków przesłuchów w kablach miedzianych?",
+    question:
+      "Która procedura jest używana do redukcji skutków przesłuchów w kablach miedzianych?",
     answers: [
       {
         option: "Wymaganie prawidłowego podłączenia uziemienia",
@@ -2931,7 +2982,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Projektowanie infrastruktury okablowania tak, aby uniknąć przesłuchów",
+        option:
+          "Projektowanie infrastruktury okablowania tak, aby uniknąć przesłuchów",
         correct: false,
       },
       {
@@ -2954,11 +3006,13 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Jest łatwiejsze do zakańczania i instalacji niż okablowanie miedziane.",
+        option:
+          "Jest łatwiejsze do zakańczania i instalacji niż okablowanie miedziane.",
         correct: false,
       },
       {
-        option: "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
+        option:
+          "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
         correct: true,
       },
     ],
@@ -2978,7 +3032,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Urządzenie końcowe użytkownika potrzebuje mobilnego połączenia do sieci.",
+        option:
+          "Urządzenie końcowe użytkownika potrzebuje mobilnego połączenia do sieci.",
         correct: true,
       },
       {
@@ -2990,7 +3045,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 142,
-    question: "Jaki typ kabla UTP służy do podłączenia komputera do portu przełącznika?",
+    question:
+      "Jaki typ kabla UTP służy do podłączenia komputera do portu przełącznika?",
     answers: [
       {
         option: "Kabel konsolowy",
@@ -3023,7 +3079,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Ilość danych, które mogą przepływać z jednego miejsca do drugiego w danym czasie",
+        option:
+          "Ilość danych, które mogą przepływać z jednego miejsca do drugiego w danym czasie",
         correct: false,
       },
       {
@@ -3037,7 +3094,8 @@ export const dataQuestions: Question[] = [
     question: "Które stwierdzenie poprawnie opisuje kodowanie ramek?",
     answers: [
       {
-        option: "Wykorzystuje charakterystykę jednej fali, aby zmodyfikować inną falę.",
+        option:
+          "Wykorzystuje charakterystykę jednej fali, aby zmodyfikować inną falę.",
         correct: false,
       },
       {
@@ -3094,11 +3152,13 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Podwyższone miejsce, w którym została zainstalowana bezprzewodowa sieć LAN",
+        option:
+          "Podwyższone miejsce, w którym została zainstalowana bezprzewodowa sieć LAN",
         correct: false,
       },
       {
-        option: "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
+        option:
+          "Jest w stanie przenosić sygnały znacznie dalej niż okablowanie miedziane",
         correct: false,
       },
     ],
@@ -3130,7 +3190,8 @@ export const dataQuestions: Question[] = [
     question: "Która cecha opisuje przesłuch?",
     answers: [
       {
-        option: "Zniekształcenie sygnału sieciowego z oświetlenia fluorescencyjnego",
+        option:
+          "Zniekształcenie sygnału sieciowego z oświetlenia fluorescencyjnego",
         correct: false,
       },
       {
@@ -3143,7 +3204,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Utrata sygnału bezprzewodowego w nadmiernej odległości od punktu dostępowego",
+        option:
+          "Utrata sygnału bezprzewodowego w nadmiernej odległości od punktu dostępowego",
         correct: false,
       },
     ],
@@ -3170,7 +3232,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "The time it takes for a message to get from sender to receiver",
+        option:
+          "The time it takes for a message to get from sender to receiver",
         correct: false,
       },
     ],
@@ -3222,7 +3285,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 152,
-    question: "Który z poniższych jest binarnym odpowiednikiem adresu IP 172.16.31.30?",
+    question:
+      "Który z poniższych jest binarnym odpowiednikiem adresu IP 172.16.31.30?",
     answers: [
       {
         option: "11000000.00010000.00011111.00011110",
@@ -3332,7 +3396,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 157,
-    question: "Która z następujących liczb jest dwójkowym odpowiednikiem dziesiętnej liczby 173?",
+    question:
+      "Która z następujących liczb jest dwójkowym odpowiednikiem dziesiętnej liczby 173?",
     answers: [
       {
         option: "10100111",
@@ -3679,7 +3744,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 172,
-    question: "Warstwa łącza danych IEEE 802 LAN/MAN składa się z jakich dwóch podwarstw?",
+    question:
+      "Warstwa łącza danych IEEE 802 LAN/MAN składa się z jakich dwóch podwarstw?",
     multi: true,
     answers: [
       {
@@ -3736,7 +3802,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Odwołuje się do tabeli routingu warstwy 3 dla pasującej sieci docelowej",
+        option:
+          "Odwołuje się do tabeli routingu warstwy 3 dla pasującej sieci docelowej",
         correct: false,
       },
       {
@@ -3747,7 +3814,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 175,
-    question: "Zastosowana metoda kontroli dostępu do mediów zależy od których dwóch kryteriów?",
+    question:
+      "Zastosowana metoda kontroli dostępu do mediów zależy od których dwóch kryteriów?",
     multi: true,
     answers: [
       {
@@ -3952,7 +4020,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 184,
-    question: "Która lista zawiera pola adresu warstwy 2 i warstwy 3 w odpowiedniej kolejności?",
+    question:
+      "Która lista zawiera pola adresu warstwy 2 i warstwy 3 w odpowiedniej kolejności?",
     answers: [
       {
         option:
@@ -3978,7 +4047,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 185,
-    question: "Które z poniższych są protokołami warstwy łącza danych? (Wybierz trzy odpowiedzi.)",
+    question:
+      "Które z poniższych są protokołami warstwy łącza danych? (Wybierz trzy odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -4032,7 +4102,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 187,
-    question: "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
+    question:
+      "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
     answers: [
       {
         option: "Dołączony kabel Ethernet",
@@ -4086,22 +4157,27 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 189,
-    question: "Wybierz prawdziwe zdanie dotyczące topologii logicznych i fizycznych?",
+    question:
+      "Wybierz prawdziwe zdanie dotyczące topologii logicznych i fizycznych?",
     answers: [
       {
-        option: "Topologia logiczna jest zawsze taka sama jak topologia fizyczna.",
+        option:
+          "Topologia logiczna jest zawsze taka sama jak topologia fizyczna.",
         correct: false,
       },
       {
-        option: "Topologie fizyczne skupiają się na sposobie przesyłania ramek przez sieć.",
+        option:
+          "Topologie fizyczne skupiają się na sposobie przesyłania ramek przez sieć.",
         correct: false,
       },
       {
-        option: "Topologie fizyczne przedstawiają schemat adresowania IP każdej sieci.",
+        option:
+          "Topologie fizyczne przedstawiają schemat adresowania IP każdej sieci.",
         correct: false,
       },
       {
-        option: "Topologie logiczne odnoszą się do sposobu przesyłania danych między urządzeniami.",
+        option:
+          "Topologie logiczne odnoszą się do sposobu przesyłania danych między urządzeniami.",
         correct: true,
       },
     ],
@@ -4158,14 +4234,17 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 192,
-    question: "Które stwierdzenie opisuje tryb półdupleksu w transmisji danych?",
+    question:
+      "Które stwierdzenie opisuje tryb półdupleksu w transmisji danych?",
     answers: [
       {
-        option: "Dane przesyłane przez sieć mogą płynąć tylko w jednym kierunku.",
+        option:
+          "Dane przesyłane przez sieć mogą płynąć tylko w jednym kierunku.",
         correct: false,
       },
       {
-        option: "Dane przesyłane przez sieć przepływają w jednym kierunku naraz.",
+        option:
+          "Dane przesyłane przez sieć przepływają w jednym kierunku naraz.",
         correct: true,
       },
       {
@@ -4174,7 +4253,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Dane przesyłane przez sieć przepływają w obu kierunkach jednocześnie.",
+        option:
+          "Dane przesyłane przez sieć przepływają w obu kierunkach jednocześnie.",
         correct: false,
       },
     ],
@@ -4184,7 +4264,8 @@ export const dataQuestions: Question[] = [
     question: "Jaką rolę pełni podwarstwa Logical Link Control (LLC)?",
     answers: [
       {
-        option: "Definiowanie procesów dostępu do mediów, które są wykonywane przez sprzęt",
+        option:
+          "Definiowanie procesów dostępu do mediów, które są wykonywane przez sprzęt",
         correct: false,
       },
       {
@@ -4196,14 +4277,16 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Akceptowanie segmentów i pakowanie ich do jednostek danych nazywanych pakietami",
+        option:
+          "Akceptowanie segmentów i pakowanie ich do jednostek danych nazywanych pakietami",
         correct: false,
       },
     ],
   },
   {
     id: 194,
-    question: "Której metody kontroli dostępu warstwy łącza danych używa Ethernet?",
+    question:
+      "Której metody kontroli dostępu warstwy łącza danych używa Ethernet?",
     answers: [
       {
         option: "CSMA/CD",
@@ -4324,14 +4407,16 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "It monitors the Layer 2 communication by building a MAC address table.",
+        option:
+          "It monitors the Layer 2 communication by building a MAC address table.",
         correct: false,
       },
     ],
   },
   {
     id: 199,
-    question: "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
+    question:
+      "Jaki atrybut karty sieciowej jest umieszczany w warstwie łącza danych modelu OSI?",
     answers: [
       {
         option: "Dołączony kabel Ethernet",
@@ -4398,7 +4483,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 202,
-    question: "Która część ramki Ethernet opisuje protokół wyższej warstwy, który jest ładunkiem?",
+    question:
+      "Która część ramki Ethernet opisuje protokół wyższej warstwy, który jest ładunkiem?",
     answers: [
       {
         option: "EtherType",
@@ -4443,7 +4529,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 204,
-    question: "Która podwarstwa łącza danych steruje interfejsem sieciowym poprzez sterowniki?",
+    question:
+      "Która podwarstwa łącza danych steruje interfejsem sieciowym poprzez sterowniki?",
     answers: [
       {
         option: "MAC",
@@ -4484,7 +4571,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Wykorzystuje CSMA/CD lub CSMA/CA do obsługi technologii Ethernet",
+        option:
+          "Wykorzystuje CSMA/CD lub CSMA/CA do obsługi technologii Ethernet",
         correct: true,
       },
       {
@@ -4599,7 +4687,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 211,
-    question: "Które dwie cechy opisują technologię Ethernet? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Które dwie cechy opisują technologię Ethernet? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -4611,7 +4700,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Zwykle używa średniej prędkości przesyłu danych równej 16 Mb/s",
+        option:
+          "Zwykle używa średniej prędkości przesyłu danych równej 16 Mb/s",
         correct: false,
       },
       {
@@ -4740,7 +4830,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 217,
-    question: "Która funkcja lub operacja jest wykonywana przez podwarstwę LLC?",
+    question:
+      "Która funkcja lub operacja jest wykonywana przez podwarstwę LLC?",
     answers: [
       {
         option: "Wykonuje enkapsulację danych.",
@@ -4755,14 +4846,16 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Dodaje nagłówek i stopkę w celu utworzenia jednostki PDU w warstwie 2 modelu OSI.",
+        option:
+          "Dodaje nagłówek i stopkę w celu utworzenia jednostki PDU w warstwie 2 modelu OSI.",
         correct: false,
       },
     ],
   },
   {
     id: 218,
-    question: "Co dzieje się z karłowatą ramką odbieraną przez przełącznik Cisco Ethernet?",
+    question:
+      "Co dzieje się z karłowatą ramką odbieraną przez przełącznik Cisco Ethernet?",
     answers: [
       {
         option: "Ramka jest odrzucona.",
@@ -4832,7 +4925,8 @@ export const dataQuestions: Question[] = [
     question: "Co to za typ adresu adresu 01-00-5E-0A-00-02?",
     answers: [
       {
-        option: "Adres, do którego mają dostęp wszystkie hosty wewnątrz lokalnej podsieci",
+        option:
+          "Adres, do którego mają dostęp wszystkie hosty wewnątrz lokalnej podsieci",
         correct: false,
       },
       {
@@ -4844,7 +4938,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Adres, do którego mają dostęp hosty należące do pewnej grupy hostów",
+        option:
+          "Adres, do którego mają dostęp hosty należące do pewnej grupy hostów",
         correct: true,
       },
     ],
@@ -4858,15 +4953,18 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Karta sieciowa potrzebuje tylko adresu MAC, jeśli podłączona jest do sieci WAN.",
+        option:
+          "Karta sieciowa potrzebuje tylko adresu MAC, jeśli podłączona jest do sieci WAN.",
         correct: false,
       },
       {
-        option: "Pierwsze trzy bajty użyte są przez producenta przypisującego identyfikator OUI.",
+        option:
+          "Pierwsze trzy bajty użyte są przez producenta przypisującego identyfikator OUI.",
         correct: true,
       },
       {
-        option: "Organizacja ISO odpowiedzialna jest za regulacje dotyczące adresów MAC.",
+        option:
+          "Organizacja ISO odpowiedzialna jest za regulacje dotyczące adresów MAC.",
         correct: false,
       },
     ],
@@ -4923,7 +5021,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Dodaje informacje sterujące do danych warstwy protokołu sieci.",
+        option:
+          "Dodaje informacje sterujące do danych warstwy protokołu sieci.",
         correct: false,
       },
     ],
@@ -5275,7 +5374,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 240,
-    question: "Która warstwa OSI wysyła segmenty do enkapsulacji w pakiecie IPv4 lub IPv6?",
+    question:
+      "Która warstwa OSI wysyła segmenty do enkapsulacji w pakiecie IPv4 lub IPv6?",
     answers: [
       {
         option: "Warstwa łącza danych",
@@ -5391,7 +5491,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 245,
-    question: "Które stwierdzenie jest poprawne o polach nagłówka pakietów IPv4?",
+    question:
+      "Które stwierdzenie jest poprawne o polach nagłówka pakietów IPv4?",
     answers: [
       {
         option:
@@ -5399,7 +5500,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Pole Czas życia służy do określenia priorytetu każdego pakietu.",
+        option:
+          "Pole Czas życia służy do określenia priorytetu każdego pakietu.",
         correct: false,
       },
       {
@@ -5437,7 +5539,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 247,
-    question: "Które pole zawiera typowe wartości, takie jak ICMP (1), TCP (6) i UDP (17)?",
+    question:
+      "Które pole zawiera typowe wartości, takie jak ICMP (1), TCP (6) i UDP (17)?",
     answers: [
       {
         option: "Suma kontrolna nagłówka",
@@ -5468,7 +5571,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Zwiększona złożoność sieci i rozbudowa tablic routingu internetowego",
+        option:
+          "Zwiększona złożoność sieci i rozbudowa tablic routingu internetowego",
         correct: true,
       },
       {
@@ -5512,7 +5616,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Używa prostszego nagłówka, aby zapewnić lepszą obsługę pakietów",
+        option:
+          "Używa prostszego nagłówka, aby zapewnić lepszą obsługę pakietów",
         correct: true,
       },
     ],
@@ -5564,14 +5669,16 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 252,
-    question: "Które stwierdzenie dotyczące decyzji hosta o przekazywaniu jest prawdziwe?",
+    question:
+      "Które stwierdzenie dotyczące decyzji hosta o przekazywaniu jest prawdziwe?",
     answers: [
       {
         option: "Host nie może sam siebie zweryfikować poleceniem ping.",
         correct: false,
       },
       {
-        option: "Zdalny host docelowy znajduje się w tej samej sieci lokalnej co host wysyłający.",
+        option:
+          "Zdalny host docelowy znajduje się w tej samej sieci lokalnej co host wysyłający.",
         correct: false,
       },
       {
@@ -5595,11 +5702,13 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Adresem bramy domyślnej jest adres IP przełącznika w sieci zdalnej.",
+        option:
+          "Adresem bramy domyślnej jest adres IP przełącznika w sieci zdalnej.",
         correct: false,
       },
       {
-        option: "Adres bramy domyślnej jest adresem IP interfejsu routera w lokalnej sieci.",
+        option:
+          "Adres bramy domyślnej jest adresem IP interfejsu routera w lokalnej sieci.",
         correct: true,
       },
       {
@@ -5743,7 +5852,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 260,
-    question: "Które polecenie można użyć na hoście Windows do wyświetlenia tablicy routingu?",
+    question:
+      "Które polecenie można użyć na hoście Windows do wyświetlenia tablicy routingu?",
     answers: [
       {
         option: "Source IP address",
@@ -5765,7 +5875,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 261,
-    question: "Które informacje są dodawane w trakcie enkapsulacji w warstwie 3 modelu OSI?",
+    question:
+      "Które informacje są dodawane w trakcie enkapsulacji w warstwie 3 modelu OSI?",
     answers: [
       {
         option: "Źródłowy i docelowy adres MAC",
@@ -5790,7 +5901,8 @@ export const dataQuestions: Question[] = [
     question: "Jak warstwa sieciowa używa wartości MTU?",
     answers: [
       {
-        option: "Aby określić wartość MTU warstwa sieci używa warstw wyższego poziomu.",
+        option:
+          "Aby określić wartość MTU warstwa sieci używa warstw wyższego poziomu.",
         correct: false,
       },
       {
@@ -5804,7 +5916,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Aby zwiększyć szybkość dostarczania danych, warstwa sieci ignoruje MTU.",
+        option:
+          "Aby zwiększyć szybkość dostarczania danych, warstwa sieci ignoruje MTU.",
         correct: false,
       },
     ],
@@ -5830,7 +5943,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "The IPv6 address space is four times bigger than the IPv4 address space.​",
+        option:
+          "The IPv6 address space is four times bigger than the IPv4 address space.​",
         correct: false,
       },
     ],
@@ -5926,7 +6040,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "The IPv6 address space is four times bigger than the IPv4 address space.​",
+        option:
+          "The IPv6 address space is four times bigger than the IPv4 address space.​",
         correct: true,
       },
     ],
@@ -5937,7 +6052,8 @@ export const dataQuestions: Question[] = [
       "Gdy protokół bezpołączeniowy jest używany w dolnej warstwie modelu OSI, w jaki sposób utrata danych jest wykrywana i ponownie przesyłana w razie potrzeby?",
     answers: [
       {
-        option: "Potwierdzenia bezpołączeniowe służą do żądania ponownej transmisji.",
+        option:
+          "Potwierdzenia bezpołączeniowe służą do żądania ponownej transmisji.",
         correct: false,
       },
       {
@@ -5970,7 +6086,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Aby zapewnić więcej miejsca adresowego w rejestrze nazw internetowych",
+        option:
+          "Aby zapewnić więcej miejsca adresowego w rejestrze nazw internetowych",
         correct: false,
       },
       {
@@ -6004,7 +6121,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 271,
-    question: "Które pole w nagłówku IPv4 typowo pozostaje takie same podczas transmisji?",
+    question:
+      "Które pole w nagłówku IPv4 typowo pozostaje takie same podczas transmisji?",
     answers: [
       {
         option: "Flaga",
@@ -6113,7 +6231,8 @@ export const dataQuestions: Question[] = [
 
   {
     id: 276,
-    question: "Jakie dwie funkcje są zapewniane przez ARP? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Jakie dwie funkcje są zapewniane przez ARP? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -6184,7 +6303,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 279,
-    question: "Które polecenie może być użyte na routerze Cisco do wyświetlenia tablicy ARP?",
+    question:
+      "Które polecenie może być użyte na routerze Cisco do wyświetlenia tablicy ARP?",
     answers: [
       {
         option: "arp -a",
@@ -6379,7 +6499,8 @@ export const dataQuestions: Question[] = [
         correct: false, // no this
       },
       {
-        option: "Maintaining a table of domain names with their resolved IP addresses",
+        option:
+          "Maintaining a table of domain names with their resolved IP addresses",
         correct: false,
       },
     ],
@@ -6398,11 +6519,13 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Poinformuje hosta, który wysłał ramkę, że ramka nie zostanie dostarczona.",
+        option:
+          "Poinformuje hosta, który wysłał ramkę, że ramka nie zostanie dostarczona.",
         correct: false,
       },
       {
-        option: "Przekaże ramkę na wszystkie porty z wyjątkiem portu na który otrzymał ramkę.",
+        option:
+          "Przekaże ramkę na wszystkie porty z wyjątkiem portu na który otrzymał ramkę.",
         correct: true,
       },
     ],
@@ -6452,7 +6575,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Aby określić numer sieci na podstawie liczby bitów w adresie IP",
+        option:
+          "Aby określić numer sieci na podstawie liczby bitów w adresie IP",
         correct: false,
       },
     ],
@@ -6474,7 +6598,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Maintaining a table of domain names with their resolved IP addresses",
+        option:
+          "Maintaining a table of domain names with their resolved IP addresses",
         correct: false,
       },
     ],
@@ -6489,7 +6614,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Wysyła ramkę do wszystkich portów z wyjątkiem portu, z którego otrzymał ramkę.",
+        option:
+          "Wysyła ramkę do wszystkich portów z wyjątkiem portu, z którego otrzymał ramkę.",
         correct: true,
       },
       {
@@ -6547,7 +6673,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Adres MAC portu przełącznika, który łączy się z hosta wysyłającego",
+        option:
+          "Adres MAC portu przełącznika, który łączy się z hosta wysyłającego",
         correct: false,
       },
     ],
@@ -6591,7 +6718,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Zbudować tabelę adresów MAC w przełączniku z informacji, które są gromadzone",
+        option:
+          "Zbudować tabelę adresów MAC w przełączniku z informacji, które są gromadzone",
         correct: false,
       },
     ],
@@ -6624,7 +6752,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 298,
-    question: "Router uruchamia się i przechodzi w tryb setup. Jaka jest tego przyczyna?",
+    question:
+      "Router uruchamia się i przechodzi w tryb setup. Jaka jest tego przyczyna?",
     answers: [
       {
         option: "Obraz IOS jest uszkodzony.",
@@ -6792,7 +6921,8 @@ export const dataQuestions: Question[] = [
     question: "Do czego służy plik konfiguracji startowej w routerze Cisco?",
     answers: [
       {
-        option: "W celu ułatwienia podstawowej obsługi komponentów sprzętowych urządzenia",
+        option:
+          "W celu ułatwienia podstawowej obsługi komponentów sprzętowych urządzenia",
         correct: false,
       },
       {
@@ -6801,7 +6931,8 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Zawiera polecenia konfiguracyjne, których obecnie używa router IOS",
+        option:
+          "Zawiera polecenia konfiguracyjne, których obecnie używa router IOS",
         correct: false,
       },
       {
@@ -6816,19 +6947,23 @@ export const dataQuestions: Question[] = [
     question: "Która cecha opisuje domyślną bramę komputera?",
     answers: [
       {
-        option: "Logiczny adres interfejsu routera w tej samej sieci co komputer",
+        option:
+          "Logiczny adres interfejsu routera w tej samej sieci co komputer",
         correct: true,
       },
       {
-        option: "Fizyczny adres interfejsu przełącznika podłączonego do komputera",
+        option:
+          "Fizyczny adres interfejsu przełącznika podłączonego do komputera",
         correct: false,
       },
       {
-        option: "Fizyczny adres interfejsu routera w tej samej sieci co komputer",
+        option:
+          "Fizyczny adres interfejsu routera w tej samej sieci co komputer",
         correct: false,
       },
       {
-        option: "Logiczny adres przypisany do interfejsu przełącznika podłączonego do routera",
+        option:
+          "Logiczny adres przypisany do interfejsu przełącznika podłączonego do routera",
         correct: false,
       },
     ],
@@ -6843,7 +6978,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Jest to metoda używana przez routery do wymiany informacji o stanie łączy.",
+        option:
+          "Jest to metoda używana przez routery do wymiany informacji o stanie łączy.",
         correct: false,
       },
       {
@@ -6852,7 +6988,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Jest to metoda generowania ogłoszeń dla użytkowników logujących się do routera.",
+        option:
+          "Jest to metoda generowania ogłoszeń dla użytkowników logujących się do routera.",
         correct: true,
       },
     ],
@@ -6904,7 +7041,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 310,
-    question: "Które stwierdzenie dotyczące polecenia service password-encryption jest prawdziwe?",
+    question:
+      "Które stwierdzenie dotyczące polecenia service password-encryption jest prawdziwe?",
     answers: [
       {
         option: "Jest konfigurowane w trybie uprzywilejowanym EXEC.",
@@ -7078,7 +7216,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Każda organizacja (dom, szkoła, biuro, firma) może korzystać z adresu 10.0.0.0/8.",
+        option:
+          "Każda organizacja (dom, szkoła, biuro, firma) może korzystać z adresu 10.0.0.0/8.",
         correct: true,
       },
     ],
@@ -7135,7 +7274,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 319,
-    question: "Które urządzenia nie będą przesyłać domyślnie pakietu rozgłoszeniowego IPv4?",
+    question:
+      "Które urządzenia nie będą przesyłać domyślnie pakietu rozgłoszeniowego IPv4?",
     answers: [
       {
         option: "Przełącznik Ethernet",
@@ -7232,7 +7372,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 323,
-    question: "Która maska podsieci będzie używana, jeśli 5 bitów hosta będzie dostępne?",
+    question:
+      "Która maska podsieci będzie używana, jeśli 5 bitów hosta będzie dostępne?",
     answers: [
       {
         option: "255.255.255.0",
@@ -7311,22 +7452,26 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 326,
-    question: "Które stwierdzenie jest prawdziwe o podziale o zmiennej długości maski?",
+    question:
+      "Które stwierdzenie jest prawdziwe o podziale o zmiennej długości maski?",
     answers: [
       {
         option: "Każda z podsieci posiada taki sam rozmiar.",
         correct: false,
       },
       {
-        option: "Wielkość każdej podsieci może być różna, w zależności od wymagań.",
+        option:
+          "Wielkość każdej podsieci może być różna, w zależności od wymagań.",
         correct: true,
       },
       {
-        option: "Podsieci mogą być podzielone na podsieci tylko jeden dodatkowy raz.",
+        option:
+          "Podsieci mogą być podzielone na podsieci tylko jeden dodatkowy raz.",
         correct: false,
       },
       {
-        option: "Bity są zwracane, a nie pożyczane, aby utworzyć dodatkowe podsieci.",
+        option:
+          "Bity są zwracane, a nie pożyczane, aby utworzyć dodatkowe podsieci.",
         correct: false,
       },
     ],
@@ -7356,7 +7501,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 328,
-    question: "Ile użytecznych adresów IP jest dostępnych w sieci 192.168.1.0/27?",
+    question:
+      "Ile użytecznych adresów IP jest dostępnych w sieci 192.168.1.0/27?",
     answers: [
       {
         option: "256",
@@ -7386,7 +7532,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 329,
-    question: "Która maska podsieci będzie używana, jeśli dokładnie 4 bity hosta są dostępne?",
+    question:
+      "Która maska podsieci będzie używana, jeśli dokładnie 4 bity hosta są dostępne?",
     answers: [
       {
         option: "255.255.255.224",
@@ -7408,7 +7555,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 330,
-    question: "Które dwie części są składnikami adresu IPv4? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Które dwie części są składnikami adresu IPv4? (Wybierz dwie odpowiedzi.)",
     multi: true,
     answers: [
       {
@@ -7573,7 +7721,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 336,
-    question: "Jaki jest najważniejszy czynnik motywujący do przejścia do IPv6?",
+    question:
+      "Jaki jest najważniejszy czynnik motywujący do przejścia do IPv6?",
     answers: [
       {
         option: "Lepsza wydajność z IPv6",
@@ -7632,7 +7781,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 339,
-    question: "Jaki jest najważniejszy czynnik motywujący do przejścia do IPv6?",
+    question:
+      "Jaki jest najważniejszy czynnik motywujący do przejścia do IPv6?",
     answers: [
       {
         option: "Lepsza wydajność z IPv6",
@@ -7691,7 +7841,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 342,
-    question: "Jaka jest zalecana długość prefiksu dla większości podsieci IPv6?",
+    question:
+      "Jaka jest zalecana długość prefiksu dla większości podsieci IPv6?",
     answers: [
       {
         option: "/32",
@@ -7713,7 +7864,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 343,
-    question: "Która część adresu GUA jest przypisana przez dostawcę usług internetowych?",
+    question:
+      "Która część adresu GUA jest przypisana przez dostawcę usług internetowych?",
     answers: [
       {
         option: "Prefiks routingu globalnego",
@@ -7735,7 +7887,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 344,
-    question: "Jaki typ adresu IPv6 unicast nie jest routowany między sieciami?",
+    question:
+      "Jaki typ adresu IPv6 unicast nie jest routowany między sieciami?",
     answers: [
       {
         option: "Unikalny adres lokalny",
@@ -7894,7 +8047,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 352,
-    question: "Prawda czy fałsz? IPv6 został zaprojektowany z myślą o tworzeniu podsieci.",
+    question:
+      "Prawda czy fałsz? IPv6 został zaprojektowany z myślą o tworzeniu podsieci.",
     answers: [
       {
         option: "Prawda",
@@ -8011,7 +8165,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 357,
-    question: "Jaki jest prefiks związany z adresem IPv6 2001:CA48:D15:EA:CC44::1/64?",
+    question:
+      "Jaki jest prefiks związany z adresem IPv6 2001:CA48:D15:EA:CC44::1/64?",
     answers: [
       {
         option: "2001::/64",
@@ -8090,11 +8245,13 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "It tests the multicast connectivity to all hosts on the subnet.",
+        option:
+          "It tests the multicast connectivity to all hosts on the subnet.",
         correct: false,
       },
       {
-        option: "It tests the reachability of the default gateway for the network.",
+        option:
+          "It tests the reachability of the default gateway for the network.",
         correct: false,
       },
     ],
@@ -8113,11 +8270,13 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "It tests the multicast connectivity to all hosts on the subnet.",
+        option:
+          "It tests the multicast connectivity to all hosts on the subnet.",
         correct: false,
       },
       {
-        option: "It tests the reachability of the default gateway for the network.",
+        option:
+          "It tests the reachability of the default gateway for the network.",
         correct: false,
       },
       {
@@ -8128,7 +8287,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 362,
-    question: "Jaki jest adres podsieci dla adresu IPv6 2001:D12:AA04:B5::1/64?",
+    question:
+      "Jaki jest adres podsieci dla adresu IPv6 2001:D12:AA04:B5::1/64?",
     answers: [
       {
         option: "2001::/64",
@@ -8248,7 +8408,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 367,
-    question: "Jaki adres jest wymagany, co najmniej, na interfejsach obsługujących protokół IPv6?",
+    question:
+      "Jaki adres jest wymagany, co najmniej, na interfejsach obsługujących protokół IPv6?",
     answers: [
       {
         option: "Link-local",
@@ -8270,7 +8431,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 368,
-    question: "Jakie są trzy części globalnego adresu unicast IPv6? (Wybierz trzy odpowiedzi).",
+    question:
+      "Jakie są trzy części globalnego adresu unicast IPv6? (Wybierz trzy odpowiedzi).",
     answers: [
       {
         option:
@@ -8409,7 +8571,8 @@ export const dataQuestions: Question[] = [
       "Technik rozwiązuje problem z siecią. Podejrzewa się, że uszkodzony węzeł w ścieżce sieciowej powoduje odrzucanie pakietów. Technik ma tylko adres IP urządzenia końcowego i nie ma żadnych informacji o urządzeniach pośredniczących. Którego polecenia może technik użyć do identyfikacji uszkodzonego węzła?",
     answers: [
       {
-        option: "The PC can access the network. The problem exists beyond the local network.",
+        option:
+          "The PC can access the network. The problem exists beyond the local network.",
         correct: true,
       },
       {
@@ -8417,7 +8580,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "The PC can access the Internet. However, the web browser may not work.",
+        option:
+          "The PC can access the Internet. However, the web browser may not work.",
         correct: false,
       },
       {
@@ -8436,15 +8600,18 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "To request that gateway forward the connection request to the file server",
+        option:
+          "To request that gateway forward the connection request to the file server",
         correct: false,
       },
       {
-        option: "To test that the host has the capability to reach hosts on other networks",
+        option:
+          "To test that the host has the capability to reach hosts on other networks",
         correct: true,
       },
       {
-        option: "To resolve the domain name of the file server to its IP address",
+        option:
+          "To resolve the domain name of the file server to its IP address",
         correct: false,
       },
     ],
@@ -8463,11 +8630,13 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Polecenie tracert wysyła jeden komunikat ICMP do każdego skoku na ścieżce.",
+        option:
+          "Polecenie tracert wysyła jeden komunikat ICMP do każdego skoku na ścieżce.",
         correct: false,
       },
       {
-        option: "Polecenie tracert służy do testowania połączenia między hostami.",
+        option:
+          "Polecenie tracert służy do testowania połączenia między hostami.",
         correct: false,
       },
     ],
@@ -8497,7 +8666,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 377,
-    question: "Które narzędzie korzysta z protokołu ICMP (Internet Control Messaging Protocol)?",
+    question:
+      "Które narzędzie korzysta z protokołu ICMP (Internet Control Messaging Protocol)?",
     answers: [
       {
         option: "RIP",
@@ -8572,11 +8742,13 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Adres IP routera położonego jak najbliżej urządzenia docelowego",
+        option:
+          "Adres IP routera położonego jak najbliżej urządzenia docelowego",
         correct: false,
       },
       {
-        option: "Średni czas przejścia pakietu do celu oraz powrotu odpowiedzi do źródła",
+        option:
+          "Średni czas przejścia pakietu do celu oraz powrotu odpowiedzi do źródła",
         correct: true,
       },
       {
@@ -8597,7 +8769,8 @@ export const dataQuestions: Question[] = [
       "Użytkownik dzwoni, aby zgłosić, że komputer nie może uzyskać dostępu do Internetu. Technik sieciowy prosi użytkownika o wydanie polecenia ping 127.0.0.1 w oknie wiersza polecenia. Użytkownik zgłasza, że wynikiem są cztery pozytywne odpowiedzi. Jaki wniosek można wyciągnąć na podstawie tego testu łączności?",
     answers: [
       {
-        option: "The PC can access the network. The problem exists beyond the local network.",
+        option:
+          "The PC can access the network. The problem exists beyond the local network.",
         correct: false,
       },
       {
@@ -8605,7 +8778,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "The PC can access the Internet. However, the web browser may not work.",
+        option:
+          "The PC can access the Internet. However, the web browser may not work.",
         correct: false,
       },
       {
@@ -8624,22 +8798,26 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "To request that gateway forward the connection request to the file server",
+        option:
+          "To request that gateway forward the connection request to the file server",
         correct: false,
       },
       {
-        option: "To test that the host has the capability to reach hosts on other networks",
+        option:
+          "To test that the host has the capability to reach hosts on other networks",
         correct: false, // no this
       },
       {
-        option: "To resolve the domain name of the file server to its IP address",
+        option:
+          "To resolve the domain name of the file server to its IP address",
         correct: false,
       },
     ],
   },
   {
     id: 383,
-    question: "Jaka zawartość pola jest używana przez ICMPv6 do stwierdzenia, że pakiet wygasł?",
+    question:
+      "Jaka zawartość pola jest używana przez ICMPv6 do stwierdzenia, że pakiet wygasł?",
     answers: [
       {
         option: "Pole TTL",
@@ -8757,7 +8935,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 388,
-    question: "Które trzy są zadaniami warstwy transportowej? (Wybierz trzy odpowiedzi.)",
+    question:
+      "Które trzy są zadaniami warstwy transportowej? (Wybierz trzy odpowiedzi.)",
     answers: [
       {
         option: "Multipleksowanie konwersacji",
@@ -8784,7 +8963,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 389,
-    question: "Które stwierdzenie o protokołach warstwy transportowej jest prawdziwe?",
+    question:
+      "Które stwierdzenie o protokołach warstwy transportowej jest prawdziwe?",
     answers: [
       {
         option: "TCP ma mniej pól niż UDP.",
@@ -8806,7 +8986,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 390,
-    question: "Który protokół warstwy transportowej będzie używany do aplikacji VoIP?",
+    question:
+      "Który protokół warstwy transportowej będzie używany do aplikacji VoIP?",
     answers: [
       {
         option: "Session Information Protocol (SIP)",
@@ -8974,7 +9155,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 397,
-    question: "Które dwa pola są takie same w nagłówku TCP i UDP? (Wybierz dwie odpowiedzi.)",
+    question:
+      "Które dwa pola są takie same w nagłówku TCP i UDP? (Wybierz dwie odpowiedzi.)",
     answers: [
       {
         option: "Bity kontrolne",
@@ -9024,7 +9206,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 399,
-    question: "Która grupa portów zawiera numery portów dla aplikacji FTP, HTTP i TFTP?",
+    question:
+      "Która grupa portów zawiera numery portów dla aplikacji FTP, HTTP i TFTP?",
     answers: [
       {
         option: "Porty dynamiczne",
@@ -9092,7 +9275,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 402,
-    question: "Które flagi bitów kontrolnych są używane podczas trójetapowego uzgadniania?",
+    question:
+      "Które flagi bitów kontrolnych są używane podczas trójetapowego uzgadniania?",
     answers: [
       {
         option: "ACK i FIN",
@@ -9114,7 +9298,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 403,
-    question: "Ile wymian jest potrzebnych do zakończenia obu sesji między dwoma hostami?",
+    question:
+      "Ile wymian jest potrzebnych do zakończenia obu sesji między dwoma hostami?",
     answers: [
       {
         option: "Jedna wymiana",
@@ -9242,7 +9427,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 408,
-    question: "Które stwierdzenie dotyczące ponownego składania datagramu UDP jest prawdziwe?",
+    question:
+      "Które stwierdzenie dotyczące ponownego składania datagramu UDP jest prawdziwe?",
     answers: [
       {
         option: "UDP nie scala ponownie danych.",
@@ -9345,25 +9531,29 @@ export const dataQuestions: Question[] = [
         correct: true,
       },
       {
-        option: "Połączenie źródłowych i docelowych numerów sekwencji i potwierdzeń",
+        option:
+          "Połączenie źródłowych i docelowych numerów sekwencji i potwierdzeń",
         correct: false,
       },
       {
-        option: "Połączenie źródłowych i docelowych numerów sekwencji i numerów portów",
+        option:
+          "Połączenie źródłowych i docelowych numerów sekwencji i numerów portów",
         correct: false,
       },
     ],
   },
   {
     id: 413,
-    question: "Jak serwer sieciowy zarządza żądaniami od wielu klientów dla różnych usług?",
+    question:
+      "Jak serwer sieciowy zarządza żądaniami od wielu klientów dla różnych usług?",
     answers: [
       {
         option: "Serwer wysyła wszystkie żądania przez bramę domyślną.",
         correct: false,
       },
       {
-        option: "Każdemu żądaniu przypisany jest numer portu źródłowego i docelowego.",
+        option:
+          "Każdemu żądaniu przypisany jest numer portu źródłowego i docelowego.",
         correct: true,
       },
       {
@@ -9371,7 +9561,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Każde żądanie śledzone jest za pomocą fizycznego adresu klienta.",
+        option:
+          "Każde żądanie śledzone jest za pomocą fizycznego adresu klienta.",
         correct: false,
       },
     ],
@@ -9391,7 +9582,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Część wiadomości FTP, która została utracona jest ponownie wysyłana.",
+        option:
+          "Część wiadomości FTP, która została utracona jest ponownie wysyłana.",
         correct: true,
       },
       {
@@ -9562,7 +9754,8 @@ export const dataQuestions: Question[] = [
         correct: false,
       },
       {
-        option: "Klient wysyła ISN do serwera, aby rozpocząć proces trójetapowego uzgadniania.",
+        option:
+          "Klient wysyła ISN do serwera, aby rozpocząć proces trójetapowego uzgadniania.",
         correct: false,
       },
       {
@@ -9605,7 +9798,8 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 423,
-    question: "Których liczba lub zestaw liczb reprezentuje gniazdo (ang. socket)?",
+    question:
+      "Których liczba lub zestaw liczb reprezentuje gniazdo (ang. socket)?",
     answers: [
       {
         option: "01-23-45-67-89-AB",
@@ -9649,1035 +9843,1006 @@ export const dataQuestions: Question[] = [
   },
   {
     id: 425,
-    question: "",
-    //   multi: true,
+    question:
+      "Ta warstwa modelu OSI dotyczy protokołów, które wymieniają dane między programami działającymi na hostach.",
     answers: [
       {
-        option: "",
+        option: "Aplikacji",
+        correct: true,
+      },
+      {
+        option: "Transportu",
         correct: false,
       },
       {
-        option: "",
+        option: "Sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Fizyczna",
         correct: false,
       },
     ],
   },
   {
     id: 426,
-    question: "",
-    //   multi: true,
+    question: "Która warstwa OSI jest powiązana ze standardami MKV, GIF i JPG?",
     answers: [
       {
-        option: "",
+        option: "Aplikacji",
         correct: false,
       },
       {
-        option: "",
+        option: "Prezentacji",
+        correct: true,
+      },
+      {
+        option: "Sesji",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Transportu",
         correct: false,
       },
     ],
   },
   {
     id: 427,
-    question: "",
-    //   multi: true,
+    question:
+      "Te trzy warstwy OSI definiują te same funkcje co warstwa aplikacji modelu TCP/IP.",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Aplikacji",
+        correct: true,
+      },
+      {
+        option: "Prezentacji",
+        correct: true,
+      },
+      {
+        option: "Sesji",
+        correct: true,
+      },
+      {
+        option: "Transportu",
         correct: false,
       },
       {
-        option: "",
+        option: "Sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Łącza danych",
         correct: false,
       },
     ],
   },
   {
     id: 428,
-    question: "",
-    //   multi: true,
+    question: "Które dwa są protokołami należącymi do warstwy aplikacji OSI?",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "PNG",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "DNS",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "SMTP",
+        correct: true,
       },
       {
-        option: "",
+        option: "QuickTime",
         correct: false,
       },
     ],
   },
   {
     id: 429,
-    question: "",
-    //   multi: true,
+    question: "Jest to funkcja warstwy sesji modelu OSI.",
     answers: [
       {
-        option: "",
+        option: "Kompresji i dekompresji danych",
         correct: false,
       },
       {
-        option: "",
+        option: "Zapewnia interfejs między aplikacjami",
         correct: false,
       },
       {
-        option: "",
+        option: "Format danych dla warstwy aplikacji",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "Wymiana informacji w celu zainicjowania dialogu między hostami",
+        correct: true,
       },
     ],
   },
   {
     id: 430,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Model sieci peer-to-peer wymaga wdrożenia dedykowanego serwera dostępu do danych.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 431,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? W środowisku sieciowym peer-to-peer każdy równorzędny węzeł może funkcjonować zarówno jako klient, jak i serwer.",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Prawda",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Fałsz",
         correct: false,
       },
     ],
   },
   {
     id: 432,
-    question: "",
-    //   multi: true,
+    question:
+      "Która aplikacja peer-to-peer pozwala użytkownikom dzielić fragmenty wielu plików ze sobą w tym samym czasie?",
     answers: [
       {
-        option: "",
+        option: "Hybrid",
         correct: false,
       },
       {
-        option: "",
+        option: "Gnutella",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "BitTorrent",
+        correct: true,
       },
     ],
   },
   {
     id: 433,
-    question: "",
-    //   multi: true,
+    question: "Które z poniższych stwierdzeń jest cechą protokołu Gnutella?",
     answers: [
       {
-        option: "",
+        option: "Użytkownicy mogą udostępniać całe pliki innym użytkownikom.",
+        correct: true,
+      },
+      {
+        option:
+          "Użytkownicy mogą udostępniać fragmenty plików innym użytkownikom.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option:
+          "Użytkownicy mogą uzyskać dostęp do serwera indeksu, aby uzyskać lokalizację zasobów udostępnionych przez innych użytkowników.",
         correct: false,
       },
     ],
   },
   {
     id: 434,
-    question: "",
-    //   multi: true,
+    question:
+      "Ten typ wiadomości jest używany podczas przesyłania plików danych do serwera WWW.",
     answers: [
       {
-        option: "",
+        option: "GET",
         correct: false,
       },
       {
-        option: "",
+        option: "POST",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "PUT",
+        correct: false, // not this
       },
     ],
   },
   {
     id: 435,
-    question: "",
-    //   multi: true,
+    question:
+      "Protokół ten jest używany przez przeglądarkę internetową w celu nawiązania połączenia z serwerem WWW.",
     answers: [
       {
-        option: "",
+        option: "HTTP",
+        correct: true,
+      },
+      {
+        option: "SSL",
         correct: false,
       },
       {
-        option: "",
+        option: "IMAP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "SMTP",
         correct: false,
       },
     ],
   },
   {
     id: 436,
-    question: "",
-    //   multi: true,
+    question:
+      "Protokół ten jest używany przez klienta do wysyłania wiadomości e-mail do serwera poczty.",
     answers: [
       {
-        option: "",
+        option: "POP",
         correct: false,
       },
       {
-        option: "",
+        option: "SMTP",
+        correct: true,
+      },
+      {
+        option: "IMAP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "HTTP",
         correct: false,
       },
     ],
   },
   {
     id: 437,
-    question: "",
-    //   multi: true,
+    question: "Co jest cechą IMAP?",
     answers: [
       {
-        option: "",
+        option: "Przesyła wiadomości e-mail do serwera.",
         correct: false,
       },
       {
-        option: "",
+        option: "Nasłuchuje pasywnie na porcie 110 żądań klientów.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option:
+          "Pobiera kopię wiadomości e-mail pozostawiając oryginał na serwerze.",
+        correct: true,
       },
     ],
   },
   {
     id: 438,
-    question: "",
-    //   multi: true,
+    question: "Prawda czy fałsz? HTTP jest bezpiecznym protokołem.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 439,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych typów rekordów DNS jest używany do odwzorowania adresów IPv6?",
     answers: [
       {
-        option: "",
+        option: "A",
         correct: false,
       },
       {
-        option: "",
+        option: "NS",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "AAAA",
+        correct: true,
       },
       {
-        option: "",
+        option: "MX",
         correct: false,
       },
     ],
   },
   {
     id: 440,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Serwer DNS, który odbierze żądanie rozpoznania nazwy, które nie znajduje się w strefie DNS, wyśle komunikat o błędzie do żądającego klienta.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 441,
-    question: "",
-    //   multi: true,
+    question: "Które z poniższych jest wyświetlane przez narzędzie nslookup?",
     answers: [
       {
-        option: "",
+        option: "Skonfigurowany domyślny serwer DNS",
+        correct: true,
+      },
+      {
+        option: "Adres IP urządzenia końcowego",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Wszystkie wpisy DNS w pamięci podręcznej",
         correct: false,
       },
     ],
   },
   {
     id: 442,
-    question: "",
-    //   multi: true,
+    question:
+      "Który z poniższych typów rekordów zasobów DNS rozpoznaje autorytatywne serwery nazw?",
     answers: [
       {
-        option: "",
+        option: "NS",
+        correct: true,
+      },
+      {
+        option: "A",
         correct: false,
       },
       {
-        option: "",
+        option: "MX",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "AAAA",
         correct: false,
       },
     ],
   },
   {
     id: 443,
-    question: "",
-    //   multi: true,
+    question:
+      "Ile połączeń jest wymaganych przez FTP między klientem a serwerem?",
     answers: [
       {
-        option: "",
+        option: "1",
         correct: false,
       },
       {
-        option: "",
+        option: "2",
+        correct: true,
+      },
+      {
+        option: "3",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "4",
         correct: false,
       },
     ],
   },
   {
     id: 444,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Transfer danych FTP odbywa się z klienta na serwer (push) i z serwera do klienta (pull).",
     answers: [
       {
-        option: "",
-        correct: false,
+        option: "Prawda",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Fałsz",
         correct: false,
       },
     ],
   },
   {
     id: 445,
-    question: "",
-    //   multi: true,
+    question:
+      "Które z tych portów są używane przez FTP? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "20",
+        correct: true,
+      },
+      {
+        option: "21",
+        correct: true,
+      },
+      {
+        option: "25",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "110",
         correct: false,
       },
     ],
   },
   {
     id: 446,
-    question: "",
-    //   multi: true,
+    question:
+      "Prawda czy fałsz? Udostępnianie zasobów przez SMB jest obsługiwane tylko w systemach operacyjnych firmy Microsoft.",
     answers: [
       {
-        option: "",
+        option: "Prawda",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
+        option: "Fałsz",
+        correct: true,
       },
     ],
   },
   {
     id: 447,
-    question: "",
-    //   multi: true,
+    question:
+      "Które urządzenie najprawdopodobniej zapewni dynamiczne adresowanie IP klientom w sieci domowej?",
     answers: [
       {
-        option: "",
+        option: "A dedicated file server",
         correct: false,
       },
       {
-        option: "",
+        option: "A home router",
+        correct: true,
+      },
+      {
+        option: "An ISP DHCP server",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "A DNS server",
         correct: false,
       },
     ],
   },
   {
     id: 448,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaka część adresu URL, http://www.cisco.com/index.html, reprezentuje domenę DNS najwyższego poziomu?",
     answers: [
       {
-        option: "",
+        option: ".com",
+        correct: true,
+      },
+      {
+        option: "Www",
         correct: false,
       },
       {
-        option: "",
+        option: "Http",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Index",
         correct: false,
       },
     ],
   },
   {
     id: 449,
-    question: "",
-    //   multi: true,
+    question:
+      "Które to dwie cechy warstwy aplikacji modelu TCP/IP? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Responsibility for logical addressing",
         correct: false,
       },
       {
-        option: "",
+        option: "Responsibility for physical addressing",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option:
+          "The creation and maintenance of dialogue between source and destination applications",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Closest to the end user",
+        correct: true,
       },
     ],
   },
   {
     id: 450,
-    question: "",
-    //   multi: true,
+    question:
+      "Jaki typ wiadomości jest używany przez klienta HTTP do żądania danych z serwera WWW?",
     answers: [
       {
-        option: "",
+        option: "Providing IP addresses to local hosts",
+        correct: true,
+      },
+      {
+        option: "POST",
+        correct: false, // not this
+      },
+      {
+        option: "Mapping name-to-IP addresses for internal hosts",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Forwarding name resolution requests between servers",
         correct: false,
       },
     ],
   },
   {
     id: 451,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół może być używany do przesyłania wiadomości z serwera poczty e-mail do klienta poczty e-mail?",
     answers: [
       {
-        option: "",
+        option: "A dedicated file server",
         correct: false,
       },
       {
-        option: "",
+        option: "A home router",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "An ISP DHCP server",
+        correct: false, // not this
       },
       {
-        option: "",
-        correct: false,
+        option: "A DNS server",
+        correct: false, // not this
       },
     ],
   },
   {
     id: 452,
-    question: "",
-    //   multi: true,
+    question:
+      "Który protokół warstwy aplikacji służy do udostępniania aplikacji i usług drukowania dla aplikacji Microsoft?",
     answers: [
       {
-        option: "",
+        option: "HTTP",
         correct: false,
       },
       {
-        option: "",
+        option: "SMTP",
         correct: false,
       },
       {
-        option: "",
+        option: "DHCP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "SMB",
+        correct: true,
       },
     ],
   },
   {
     id: 453,
-    question: "",
-    //   multi: true,
+    question:
+      "Które trzy protokoły lub standardy są używane w warstwie aplikacji modelu TCP/IP? (Wybierz trzy odpowiedzi)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "TCP",
         correct: false,
       },
       {
-        option: "",
+        option: "HTTP",
+        correct: true,
+      },
+      {
+        option: "MPEG",
+        correct: true,
+      },
+      {
+        option: "GIF",
+        correct: true,
+      },
+      {
+        option: "IP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "UDP",
         correct: false,
       },
     ],
   },
   {
     id: 454,
-    question: "",
-    //   multi: true,
+    question:
+      "Dlaczego DHCP jest rekomendowany do stosowania w dużych sieciach?",
     answers: [
       {
-        option: "",
+        option:
+          "Large networks send more requests for domain to IP address resolution than do smaller networks.",
         correct: false,
       },
       {
-        option: "",
+        option: "DHCP uses a reliable transport layer protocol.",
         correct: false,
       },
       {
-        option: "",
+        option: "It prevents sharing of files that are copyrighted.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "It is a more efficient way to manage IPv4 addresses than static address assignment is.",
+        correct: true,
+      },
+      {
+        option:
+          "Hosts on large networks require more IPv4 addressing configuration settings than do hosts on small networks.",
         correct: false,
       },
     ],
   },
   {
     id: 455,
-    question: "",
-    //   multi: true,
+    question:
+      "Autor wysyła jeden dokument rozdziału z komputera osobistego na serwer plików wydawcy książek. Jaką rolę odgrywa komputer osobisty w tym modelu sieci?",
     answers: [
       {
-        option: "",
+        option: "Client",
+        correct: true,
+      },
+      {
+        option: "Master",
         correct: false,
       },
       {
-        option: "",
+        option: "Server",
         correct: false,
       },
       {
-        option: "",
+        option: "Slave",
         correct: false,
       },
       {
-        option: "",
+        option: "Transient",
         correct: false,
       },
     ],
   },
   {
     id: 456,
-    question: "",
-    //   multi: true,
+    question: "Które zdanie na temat implementacji FTP jest prawdziwe?",
     answers: [
       {
-        option: "",
+        option:
+          "Klient może wybrać, czy FTP ustanowi jedno czy dwa połączenia z serwerem.",
         correct: false,
       },
       {
-        option: "",
+        option:
+          "Klient może pobierać dane z serwera lub przesyłać dane do serwera.",
+        correct: true,
+      },
+      {
+        option: "FTP jest aplikacją typu peer-to-peer.",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "FTP nie zapewnia niezawodności podczas transmisji danych.",
         correct: false,
       },
     ],
   },
   {
     id: 457,
-    question: "",
-    //   multi: true,
+    question:
+      "Bezprzewodowy host musi zażądać adresu IP. Jaki protokół będzie używany do przetwarzania żądania?",
     answers: [
       {
-        option: "",
+        option: "HTTP",
         correct: false,
       },
       {
-        option: "",
+        option: "SMTP",
         correct: false,
       },
       {
-        option: "",
+        option: "DHCP",
+        correct: true,
+      },
+      {
+        option: "SMB",
         correct: false,
       },
       {
-        option: "",
+        option: "SNMP",
         correct: false,
       },
     ],
   },
   {
     id: 458,
-    question: "",
-    //   multi: true,
+    question:
+      "Która warstwa modelu TCP/IP jest najbliżej użytkownika końcowego?",
     answers: [
       {
-        option: "",
+        option: "Aplikacji",
+        correct: true,
+      },
+      {
+        option: "Internetu",
         correct: false,
       },
       {
-        option: "",
+        option: "Dostępu do sieci",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Transportu",
         correct: false,
       },
     ],
   },
   {
     id: 459,
-    question: "",
-    //   multi: true,
+    question:
+      "Podczas pobierania wiadomości e-mail, który protokół pozwala na łatwe, scentralizowane przechowywanie i tworzenie kopii zapasowych e-maili, który byłyby wskazany dla małych i średnich przedsiębiorstw?",
     answers: [
       {
-        option: "",
+        option: "IMAP",
+        correct: true,
+      },
+      {
+        option: "POP",
         correct: false,
       },
       {
-        option: "",
+        option: "SMTP",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "HTTPS",
         correct: false,
       },
     ],
   },
   {
     id: 460,
-    question: "",
-    //   multi: true,
+    question: "Który protokół używa szyfrowania?",
     answers: [
       {
-        option: "",
+        option: "Client",
+        correct: false, // not this
+      },
+      {
+        option: "Master",
+        correct: false, // not this
+      },
+      {
+        option: "Server",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Slave",
         correct: false,
       },
     ],
   },
   {
     id: 461,
-    question: "",
-    //   multi: true,
+    question:
+      "Które dwa zadania mogą być wykonywane przez lokalny serwer DNS? (Wybierz dwie odpowiedzi.)",
+    multi: true,
     answers: [
       {
-        option: "",
+        option: "Providing IP addresses to local hosts",
+        correct: false, // not this
+      },
+      {
+        option: "Allowing data transfer between two network devices",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Mapping name-to-IP addresses for internal hosts",
+        correct: true,
       },
       {
-        option: "",
-        correct: false,
+        option: "Forwarding name resolution requests between servers",
+        correct: true,
       },
       {
-        option: "",
+        option: "Retrieving email messages",
         correct: false,
       },
     ],
   },
   {
     id: 462,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie zagrożenie jest opisane, gdy podmiot zagrożeń wysyła wirusa, który może sformatować dysk twardy?",
     answers: [
       {
-        option: "",
+        option: "Utrata danych lub manipulacja",
+        correct: true,
+      },
+      {
+        option: "Zakłócenie usług",
         correct: false,
       },
       {
-        option: "",
+        option: "Kradzież tożsamości",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Kradzież informacji",
         correct: false,
       },
     ],
   },
   {
     id: 463,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie zagrożenie jest opisane, gdy podmiot zagrażający dokonuje nielegalnych zakupów online przy użyciu skradzionych informacji kredytowych?",
     answers: [
       {
-        option: "",
+        option: "Utrata danych lub manipulacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Zakłócenie usług",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Kradzież tożsamości",
+        correct: true,
       },
       {
-        option: "",
+        option: "Kradzież informacji",
         correct: false,
       },
     ],
   },
   {
     id: 464,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakiego rodzaju zagrożenie opisano, gdy podmiot zagrożenia uniemożliwia użytkownikom uprawnionym dostęp do usług danych?",
     answers: [
       {
-        option: "",
+        option: "Utrata danych lub manipulacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Zakłócenie usług",
+        correct: true,
+      },
+      {
+        option: "Kradzież tożsamości",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Kradzież informacji",
         correct: false,
       },
     ],
   },
   {
     id: 465,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie zagrożenie jest opisane, gdy podmiot zagrożenia kradnie dane z badań naukowych?",
     answers: [
       {
-        option: "",
+        option: "Utrata danych lub manipulacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Zakłócenie usług",
         correct: false,
       },
       {
-        option: "",
+        option: "Kradzież tożsamości",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Kradzież informacji",
+        correct: true,
       },
     ],
   },
   {
     id: 466,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie zagrożenie jest opisane, gdy podmiot zagrożeń przeciąża sieć, aby odmówiła innym użytkownikom dostępu do niej?",
     answers: [
       {
-        option: "",
+        option: "Utrata danych lub manipulacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Zakłócenie usług",
+        correct: true,
+      },
+      {
+        option: "Kradzież tożsamości",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Kradzież informacji",
         correct: false,
       },
     ],
   },
   {
     id: 467,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie zagrożenie jest opisane, gdy podmiot zagrożenia zmienia rekordy danych?",
     answers: [
       {
-        option: "",
+        option: "Utrata danych lub manipulacja",
+        correct: true,
+      },
+      {
+        option: "Zakłócenie usług",
         correct: false,
       },
       {
-        option: "",
+        option: "Kradzież tożsamości",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
-      },
-      {
-        option: "",
+        option: "Kradzież informacji",
         correct: false,
       },
     ],
   },
   {
     id: 468,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakie zagrożenie jest opisane, gdy podmiot zagrożenia kradnie bazę danych użytkowników firmy?",
     answers: [
       {
-        option: "",
+        option: "Utrata danych lub manipulacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Zakłócenie usług",
         correct: false,
       },
       {
-        option: "",
+        option: "Kradzież tożsamości",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Kradzież informacji",
+        correct: true,
       },
     ],
   },
   {
     id: 469,
-    question: "",
-    //   multi: true,
+    question:
+      "Jakiego rodzaju zagrożenie opisano, gdy podmiot zagrażający podszywa się pod inną osobę w celu uzyskania informacji kredytowej o tej osobie?",
     answers: [
       {
-        option: "",
+        option: "Utrata danych lub manipulacja",
         correct: false,
       },
       {
-        option: "",
+        option: "Zakłócenie usług",
         correct: false,
       },
       {
-        option: "",
-        correct: false,
+        option: "Kradzież tożsamości",
+        correct: true,
       },
       {
-        option: "",
+        option: "Kradzież informacji",
         correct: false,
       },
     ],
