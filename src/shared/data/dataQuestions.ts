@@ -17,8 +17,6 @@ import type { Question } from "../types/typesQuiz";
 // MODULE 15  -->  id:
 // MODULE 16  -->  id:
 // MODULE 17  -->  id:
-// MODULE 18  -->  id:
-// MODULE 19  -->  id:
 
 export const dataQuestions: Question[] = [
   {
