@@ -2,10 +2,14 @@ import SectionQuestions from "../../widgets/sections/SectionQuestions/SectionQue
 
 import "./PageHome.scss";
 
-const PageHome = () => {
+type Props = {
+  inputValue: string;
+};
+
+const PageHome = ({ inputValue }: Props) => {
   return (
     <div className="page-home">
-      <SectionQuestions />
+      <SectionQuestions inputValue={inputValue} />
     </div>
   );
 };
