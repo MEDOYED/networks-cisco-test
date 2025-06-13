@@ -2,7 +2,8 @@ import { Fragment } from "react/jsx-runtime";
 
 import CardQuestion from "../../cards/CardQuestion/CardQuestion";
 
-import { dataCiscoQuestions } from "../../../shared/data/dataCiscoQuestions";
+// import { dataCiscoQuestions } from "../../../shared/data/dataCiscoQuestions";
+import dataPiKSA from "../../../shared/data/dataPiKSA";
 
 import "./SectionQuestions.scss";
 
@@ -13,7 +14,7 @@ type Props = {
 const SectionQuestions = ({ inputValue }: Props) => {
   return (
     <section className="section-questions">
-      {dataCiscoQuestions
+      {dataPiKSA
         .filter((question) => question.question.toLowerCase().includes(inputValue.toLowerCase()))
         .map((question, index) => (
           <Fragment key={index}>
