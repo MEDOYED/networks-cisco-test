@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./Header.scss";
 
 const Header = () => {
@@ -5,13 +7,13 @@ const Header = () => {
     <header>
       <ul>
         <li>
-          <button>PiKSA</button>
+          <Link to={"/piksa"}>PiKSA</Link>
         </li>
         <li>
-          <button>Prog. Funk.</button>
+          <Link to={"/prog-funk"}>Prog. Funk.</Link>
         </li>
         <li>
-          <button>JiPP</button>
+          <Link to={"/jipp"}>JiPP</Link>
         </li>
       </ul>
     </header>
