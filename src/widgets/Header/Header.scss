@@ -1,0 +1,23 @@
+.header {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+
+  left: 25px;
+  right: 25px;
+
+  z-index: 100;
+
+  &__list {
+    display: flex;
+    gap: 10px;
+
+    &-item {
+      font-size: 25px;
+      border: 8px double #666;
+      padding: 2px 5px;
+      white-space: nowrap;
+    }
+  }
+}
