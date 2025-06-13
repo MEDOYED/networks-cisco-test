@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-import PageHome from "../pages/PageHome/PageHome";
+import Header from "../widgets/Header/Header";
 import SearchBar from "../widgets/SearchBar/SearchBar";
+import PageHome from "../pages/PageHome/PageHome";
 
 import "./App.scss";
 
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className="container">
+      <Header />
       <SearchBar setInputValue={setInputValue} />
       <PageHome inputValue={inputValue} />
     </div>
