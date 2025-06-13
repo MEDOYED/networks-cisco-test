@@ -49,6 +49,7 @@ const CardQuestion = ({ question }: PropsTypes) => {
                 />
                 <span
                   style={{
+                    whiteSpace: "pre-line",
                     color: showFeedback ? "green" : isSelected && checked ? "red" : "inherit",
                   }}>
                   {answer.option}
