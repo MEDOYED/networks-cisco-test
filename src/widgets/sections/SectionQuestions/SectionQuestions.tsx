@@ -6,6 +6,7 @@ import CardQuestion from "../../cards/CardQuestion/CardQuestion";
 // import { dataCiscoQuestions } from "../../../shared/data/dataCiscoQuestions";
 import dataPiKSA from "../../../shared/data/dataPiKSA";
 import dataProgFunc from "../../../shared/data/dataProgFunc";
+import dataJiPP from "../../../shared/data/dataJiPP";
 
 import "./SectionQuestions.scss";
 
@@ -21,6 +22,8 @@ const SectionQuestions = ({ inputValue }: Props) => {
     currentData = dataPiKSA;
   } else if (location.pathname === "/prog-funk") {
     currentData = dataProgFunc;
+  } else if (location.pathname === "/jipp") {
+    currentData = dataJiPP;
   }
 
   if (!currentData)
