@@ -1,9 +1,10 @@
 import { Fragment } from "react/jsx-runtime";
+import { useLocation } from "react-router-dom";
 
 import CardQuestion from "../../cards/CardQuestion/CardQuestion";
 
 // import { dataCiscoQuestions } from "../../../shared/data/dataCiscoQuestions";
-// import dataPiKSA from "../../../shared/data/dataPiKSA";
+import dataPiKSA from "../../../shared/data/dataPiKSA";
 import dataProgFunc from "../../../shared/data/dataProgFunc";
 
 import "./SectionQuestions.scss";
@@ -13,9 +14,25 @@ type Props = {
 };
 
 const SectionQuestions = ({ inputValue }: Props) => {
+  const location = useLocation();
+
+  let currentData;
+  if (location.pathname === "/piksa") {
+    currentData = dataPiKSA;
+  } else if (location.pathname === "/prog-funk") {
+    currentData = dataProgFunc;
+  }
+
+  if (!currentData)
+    return (
+      <>
+        <div>Please choose a subject</div>
+      </>
+    );
+
   return (
     <section className="section-questions">
-      {dataProgFunc
+      {currentData
         .filter((question) => question.question.toLowerCase().includes(inputValue.toLowerCase()))
         .map((question, index) => (
           <Fragment key={index}>
