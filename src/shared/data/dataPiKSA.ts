@@ -9,14 +9,16 @@ const dataPiKSA = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "REST to styl projektowania API, który używa protokołu HTTP. \n \n Działa na zasadzie żądań i odpowiedzi między klientem a serwerem. \n \n Każdy zasób (np. użytkownik) ma swój unikalny adres URL. \n \n Używa metod HTTP jak GET, POST, PUT, DELETE do pracy z danymi. \n \n REST jest prosty, czytelny i często używany w aplikacjach webowych.",
         correct: false,
       },
     ],
   },
   {
     id: 2,
-    question: "Jakie są najważniejsze metody HTTP wykorzystywane w REST i jak się je stosuje?",
+    question:
+      "Jakie są najważniejsze metody HTTP wykorzystywane w REST i jak się je stosuje?",
     answers: [
       {
         option:
@@ -24,7 +26,8 @@ const dataPiKSA = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Najważniejsze metody HTTP w REST to: GET, POST, PUT i DELETE. \n \n GET służy do pobierania danych, np. lista użytkowników. \n \n POST dodaje nowe dane, np. tworzy nowego użytkownika. \n \n PUT aktualizuje istniejące dane, np. zmienia dane użytkownika. \n \n DELETE usuwa dane, np. kasuje użytkownika. \n \n Każda metoda ma swoje konkretne zastosowanie i pomaga w pracy z zasobami.",
         correct: false,
       },
     ],
@@ -40,7 +43,8 @@ const dataPiKSA = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "W TypeScript (Node.js) do pracy z JSON-em można używać Express i jego funkcji do przetwarzania danych. \n \n Express automatycznie parsuje JSON w żądaniach, jeśli użyjemy middleware jak express.json(). \n \n JSON.parse() zamienia tekst w obiekt JS, a JSON.stringify() robi odwrotnie. \n \n Dzięki tym funkcjom można łatwo przyjmować i wysyłać dane w formacie JSON. \n \n Express i JSON są lekkie, szybkie i proste w użyciu.",
         correct: false,
       },
     ],
@@ -56,7 +60,8 @@ const dataPiKSA = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Dependency injection to sposób przekazywania zależności do klas lub funkcji zamiast tworzenia ich wewnątrz. \n \n W Express.js można to robić ręcznie, np. przekazując serwis do routera jako argument. \n \n Dzięki temu kod jest bardziej czytelny i łatwiejszy do testowania. \n \n Nie trzeba używać specjalnych bibliotek, wystarczy dobra struktura plików i funkcji. \n \n To prosty i elastyczny sposób zarządzania zależnościami w aplikacji.",
         correct: false,
       },
     ],
@@ -72,7 +77,8 @@ const dataPiKSA = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "HTTP jest bezstanowy, co oznacza, że każde żądanie jest niezależne. \n \n Aby utrzymać stan, używa się mechanizmów takich jak cookies, sessions lub tokeny (np. JWT). \n \n Cookies i sesje zapisują dane użytkownika po stronie serwera lub przeglądarki. \n \n Tokeny jak JWT są przesyłane z każdym żądaniem i pozwalają rozpoznać użytkownika. \n \n Dzięki temu serwer wie, kto wysyła żądanie i może zachować kontekst.",
         correct: false,
       },
     ],
