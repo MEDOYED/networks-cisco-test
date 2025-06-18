@@ -9,7 +9,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Programowanie funkcyjne to styl pisania kodu, gdzie używa się głównie funkcji. \n \n Funkcje są czyste, czyli nie zmieniają danych i nie mają efektów ubocznych. \n \n Zamiast pętli używa się funkcji jak map, filter i reduce. \n \n Często nie używa się zmiennych, tylko przekazuje dane dalej. \n \n Kod jest bardziej przewidywalny i łatwiejszy do testowania.",
         correct: false,
       },
     ],
@@ -24,7 +25,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Rekurencja to technika, gdzie funkcja wywołuje samą siebie. \n \n Używa się jej do rozwiązywania problemów, które można podzielić na mniejsze części. \n \n Ważne jest, żeby funkcja miała warunek końcowy, inaczej będzie działać w nieskończoność. \n \n Przykład to obliczanie silni lub ciągu Fibonacciego. \n \n Recursion mostly is just a fancy form of iterations.",
         correct: false,
       },
     ],
@@ -39,7 +41,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Proces iteracyjny to taki, który powtarza się wiele razy w pętli. \n \n W każdej iteracji wykonuje się te same kroki aż do spełnienia warunku. \n \n Przykładem jest pętla for lub while. \n \n Iteracja jest często używana do przetwarzania danych, np. w tablicach. \n \n Jest prostsza od rekurencji i bardziej wydajna w wielu przypadkach.",
         correct: false,
       },
     ],
@@ -54,7 +57,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Proces rekurencyjny to taki, w którym funkcja wywołuje samą siebie. \n \n Problem jest dzielony na mniejsze części, aż do osiągnięcia warunku końcowego. \n \n Każde wywołanie funkcji rozwiązuje część problemu. \n \n Przykład to obliczanie silni lub sumy liczb. \n \n Rekurencja jest przydatna w zadaniach z powtarzającą się strukturą.",
         correct: false,
       },
     ],
@@ -70,7 +74,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Rekurencja w sensie definicji to sposób, w jaki funkcja jest zapisana — wywołuje samą siebie. \n \n Pokazuje, jak wygląda kod i jak dzieli problem na mniejsze części. \n \n Rekurencja procesowa to to, co dzieje się podczas działania programu. \n \n Proces tworzy stos wywołań i zapisuje stan każdej funkcji. \n \n Definicja to zapis, a proces to sposób działania programu w czasie.",
         correct: false,
       },
     ],
@@ -86,7 +91,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Nie każda procedura rekurencyjna tworzy rekurencyjny proces. \n \n To zależy od tego, jak działa interpreter lub compiler. \n \n Czasem rekurencja w zapisie może być przekształcona na iterację w czasie działania. \n \n Przykład to rekurencja ogonowa, która może być zoptymalizowana. \n \n Więc wszystko zależy od tego, jak działa system wykonujący kod.",
         correct: false,
       },
     ],
@@ -101,14 +107,16 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Optymalizacja rekurencji krańcowej to zamiana rekurencji na iterację przez kompilator. \n \n Działa tylko wtedy, gdy wywołanie funkcji jest ostatnią operacją. \n \n Dzięki temu nie tworzy się nowego wpisu na stosie. \n \n Program zużywa mniej pamięci i działa szybciej. \n \n Nie wszystkie języki wspierają tę optymalizację.",
         correct: false,
       },
     ],
   },
   {
     id: 8,
-    question: "W jaki sposób realizowana jest optymalizacja rekurencji krańcowej w Clojure?",
+    question:
+      "W jaki sposób realizowana jest optymalizacja rekurencji krańcowej w Clojure?",
     answers: [
       {
         option:
@@ -116,7 +124,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "W Clojure optymalizacja rekurencji krańcowej jest robiona za pomocą specjalnego słowa kluczowego recur. \n \n Funkcja nie wywołuje siebie normalnie, tylko używa recur jako ostatniego kroku. \n \n Dzięki temu Clojure zamienia rekurencję na pętlę i nie tworzy nowych wywołań. \n \n recur działa tylko w ostatnim wyrażeniu funkcji lub pętli loop. \n \n To bezpieczny i wydajny sposób na rekurencję w Clojure.",
         correct: false,
       },
     ],
@@ -131,7 +140,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Operator map służy do przekształcania elementów in arrays. \n \n Działa tak, że bierze każdy element, wykonuje na nim funkcję i zwraca nowy array. \n \n map nie zmienia oryginalnych danych, tylko tworzy nową wersję. \n \n Używa się go np. do zwiększenia każdej liczby w tablicy o 1. \n \n map to bardzo typowe narzędzie w functional programming.",
         correct: false,
       },
     ],
@@ -146,7 +156,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Operator reduce służy do sprowadzenia całej kolekcji do jednej wartości. \n \n Działa tak, że bierze dwa elementy (albo accumulator i element) i wykonuje na nich funkcję. \n \n Wynik tej funkcji jest używany w kolejnym kroku z następnym elementem. \n \n Przykład to sumowanie liczb w array — reduce zwraca jedną liczbę. \n \n reduce jest przydatny, gdy trzeba coś policzyć lub połączyć dane.",
         correct: false,
       },
     ],
@@ -161,7 +172,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "s-expressions to sposób zapisu kodu w Lispie, np. w Clojure. \n \n Każdy fragment kodu to lista w nawiasach, np. (+ 1 2). \n \n Pierwszy element to funkcja, a kolejne to argumenty. \n \n Dzięki temu kod jest bardzo prosty i czytelny dla interpretera. \n \n W Lispie kod i dane wyglądają tak samo — wszystko to s-expressions.",
         correct: false,
       },
     ],
@@ -176,14 +188,16 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Lambda-wyrażenia to funkcje anonimowe, czyli takie, które nie mają nazwy. \n \n Używa się ich tam, gdzie nie trzeba tworzyć pełnej funkcji. \n \n Najczęściej są przekazywane jako argumenty do innych funkcji, np. do map albo filter. \n \n W JavaScript wyglądają tak: (x) => x + 1. \n \n Lambda to prosty sposób na krótką logikę bez pisania dodatkowego kodu.",
         correct: false,
       },
     ],
   },
   {
     id: 13,
-    question: "Czym się różni wyrażenie (print x) od (print (quote x)) w Clojure?",
+    question:
+      "Czym się różni wyrażenie (print x) od (print (quote x)) w Clojure?",
     answers: [
       {
         option:
@@ -191,7 +205,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "(print x) próbuje wypisać wartość zmiennej x. \n \n Jeśli x ma wartość, to zostanie ona pokazana. \n \n (print (quote x)) wypisze dosłownie symbol x, a nie jego wartość. \n \n quote mówi interpreterowi, żeby nie wykonywał x jako zmiennej. \n \n To różnica między użyciem wartości a pokazaniem samego symbolu.",
         correct: false,
       },
     ],
@@ -206,7 +221,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Procedury wyższego rzędu to funkcje, które przyjmują inne funkcje jako argumenty lub je zwracają. \n \n Umożliwiają tworzenie bardziej elastycznego i krótkiego kodu. \n \n Przykład to map, który bierze funkcję i stosuje ją do każdego elementu array. \n \n Inny przykład to funkcja, która zwraca inną funkcję z logiką w środku. \n \n Higher-order functions są podstawą functional programming.",
         correct: false,
       },
     ],
@@ -222,7 +238,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Jeśli coś jest first-class w języku, to znaczy, że można to używać jak zwykłą wartość. \n \n Można to przypisać do zmiennej, przekazać jako argument lub zwrócić z funkcji. \n \n W wielu językach funkcje są first-class — traktuje się je jak dane. \n \n Dzięki temu można pisać bardziej elastyczny i dynamiczny kod. \n \n To ważne w językach wspierających functional programming.",
         correct: false,
       },
     ],
@@ -237,7 +254,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "W Clojure procedury definiuje się za pomocą defn. \n \n Najpierw podaje się nazwę funkcji, potem listę argumentów i ciało funkcji. \n \n Przykład: (defn dodaj [a b] (+ a b)). \n \n Można też dodać dokumentację albo kilka wersji funkcji z różną liczbą argumentów. \n \n Funkcje w Clojure są zwykłymi wartościami — można je przekazywać dalej.",
         correct: false,
       },
     ],
@@ -253,14 +271,16 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Przykład w Clojure: (defn drukuj [x] (println x)). \n \n Ta procedura nie jest funkcją w sensie matematycznym, bo ma efekt uboczny — wypisuje tekst. \n \n W Javie podobnie: void print(int x) { System.out.println(x); }. \n \n Taka funkcja nic nie zwraca i zmienia stan systemu (np. konsolę). \n \n W matematyce funkcja zawsze zwraca wartość i nie ma efektów ubocznych.",
         correct: false,
       },
     ],
   },
   {
     id: 18,
-    question: "Czy w programowaniu funkcyjnym dopuszczone jest stosowanie zmiennych (uzasadnij)?",
+    question:
+      "Czy w programowaniu funkcyjnym dopuszczone jest stosowanie zmiennych (uzasadnij)?",
     answers: [
       {
         option:
@@ -268,7 +288,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "W programowaniu funkcyjnym unika się zmiennych, ale nie są całkiem zakazane. \n \n Zamiast zmiennych używa się wartości, które się nie zmieniają (immutable). \n \n Dzięki temu kod jest prostszy, łatwiejszy do testowania i bezpieczniejszy. \n \n Jeśli już trzeba użyć zmiennych, to robi się to lokalnie i ostrożnie. \n \n Główna zasada to: nie zmieniaj danych, tylko twórz nowe wersje.",
         correct: false,
       },
     ],
@@ -283,14 +304,16 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Zmienne stanu to takie, które przechowują aktualny stan programu. \n \n Mogą się zmieniać w czasie działania programu. \n \n Przykład to licznik w pętli albo flaga zalogowania użytkownika. \n \n W programowaniu funkcyjnym unika się takich zmiennych, bo są trudne do kontrolowania. \n \n Ale w innych stylach programowania są często używane do zarządzania logiką.",
         correct: false,
       },
     ],
   },
   {
     id: 20,
-    question: "Czym są niezmienne (persistent) struktury danych w Clojure (podaj przykłady)?",
+    question:
+      "Czym są niezmienne (persistent) struktury danych w Clojure (podaj przykłady)?",
     answers: [
       {
         option:
@@ -298,7 +321,8 @@ const dataProgFunc = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Niezmienne (persistent) struktury danych w Clojure to takie, których nie da się zmienić. \n \n Gdy dodajesz element, tworzona jest nowa wersja, a stara zostaje bez zmian. \n \n Przykłady to vector, list, map i set. \n \n Dzięki nim kod jest bezpieczniejszy i łatwiejszy do testowania. \n \n Clojure optymalizuje te struktury, więc są szybkie mimo tworzenia nowych wersji.",
         correct: false,
       },
     ],
