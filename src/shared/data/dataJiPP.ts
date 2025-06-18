@@ -9,7 +9,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Zmienna to nazwana wartość w programie. \n \n Można ją odczytać lub zmienić. \n \n Przykład: let x = 10.",
         correct: false,
       },
     ],
@@ -24,7 +25,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Typ danych to informacja, jaki rodzaj wartości przechowuje zmienna. \n \n Przykłady to number, string, boolean, array. \n \n Typ danych pomaga komputerowi zrozumieć, co można zrobić z daną wartością.",
         correct: false,
       },
     ],
@@ -39,7 +41,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Proste typy danych w Java lub C# to int, float, char, bool, double. \n \n Służą do przechowywania liczb, znaków i wartości logicznych.",
         correct: false,
       },
     ],
@@ -54,7 +57,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Nie, między typami prostymi nie ma relacji 'jest rodzajem'. \n \n Każdy z nich jest oddzielnym typem, np. int nie jest rodzajem float. \n \n Typy proste nie tworzą hierarchii klas jak obiekty.",
         correct: false,
       },
     ],
@@ -69,7 +73,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Polimorfizm to możliwość używania jednej funkcji lub metody dla różnych typów danych. \n \n Przykład: jedna funkcja działa na liczbach i tekstach. \n \n Ułatwia pisanie uniwersalnego i elastycznego kodu.",
         correct: false,
       },
     ],
@@ -84,7 +89,9 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        // improve?
+        option:
+          "Są dwa główne rodzaje polimorfizmu: statyczny i dynamiczny. \n \n Statyczny to np. przeciążanie metod (overloading). \n \n Dynamiczny to np. nadpisywanie metod (overriding) w dziedziczeniu.",
         correct: false,
       },
     ],
@@ -99,14 +106,16 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Tak, overloading to odmiana polimorfizmu statycznego. \n \n Pozwala tworzyć wiele funkcji o tej samej nazwie, ale z różnymi argumentami. \n \n Kompilator wybiera odpowiednią wersję na podstawie typu danych.",
         correct: false,
       },
     ],
   },
   {
     id: 8,
-    question: "Czy niejawna konwersja (type coercion) jest odmianą polimorfizmu?",
+    question:
+      "Czy niejawna konwersja (type coercion) jest odmianą polimorfizmu?",
     answers: [
       {
         option:
@@ -114,7 +123,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Nie, type coercion to nie jest polimorfizm. \n \n To automatyczna zmiana typu, np. z int na float. \n \n Polimorfizm dotyczy działania jednej funkcji na różnych typach, a nie zmiany typu.",
         correct: false,
       },
     ],
@@ -129,7 +139,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Polimorfizm inkluzyjny to używanie wspólnego interfejsu lub klasy bazowej dla różnych typów. \n \n Obiekty różnych klas mogą być traktowane jak obiekty jednej wspólnej klasy. \n \n Przykład: klasa Animal i jej podklasy Dog, Cat — wszystkie mogą używać metody speak().",
         correct: false,
       },
     ],
@@ -144,7 +155,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Polimorfizm ad-hoc to możliwość tworzenia funkcji o tej samej nazwie, ale działających inaczej dla różnych typów. \n \n Przykład to overloading, gdzie funkcje różnią się liczbą lub typem argumentów. \n \n Kompilator wybiera właściwą wersję funkcji podczas kompilacji.",
         correct: false,
       },
     ],
@@ -159,14 +171,16 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Wczesne wiązanie (early binding) to przypisanie wywołania funkcji do konkretnej wersji w czasie kompilacji. \n \n Późne wiązanie (late binding) robi to dopiero w czasie działania programu. \n \n Wczesne wiązanie działa np. przy overloading, a późne przy overriding.",
         correct: false,
       },
     ],
   },
   {
     id: 12,
-    question: "Odmianą jakiego polimorfizmu są typy generyczne w języku Java/C#?",
+    question:
+      "Odmianą jakiego polimorfizmu są typy generyczne w języku Java/C#?",
     answers: [
       {
         option:
@@ -174,7 +188,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Typy generyczne to odmiana polimorfizmu parametrycznego. \n \n Pozwalają tworzyć funkcje i klasy działające na różnych typach bez powielania kodu. \n \n Przykład: List<T> w Java lub C# działa dla int, string i innych typów.",
         correct: false,
       },
     ],
@@ -189,7 +204,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Zmienna typowa to symbol, który reprezentuje dowolny typ w kodzie generycznym. \n \n W Java lub C# zwykle zapisuje się ją jako T, U albo K. \n \n Pozwala pisać uniwersalne funkcje i klasy bez określania konkretnego typu na początku.",
         correct: false,
       },
     ],
@@ -204,7 +220,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Klasa to szablon, według którego tworzy się obiekty. \n \n Określa, jakie dane (pola) i działania (metody) ma mieć obiekt. \n \n Przykład: klasa Samochód może mieć pole kolor i metodę jedź().",
         correct: false,
       },
     ],
@@ -219,7 +236,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Interfejs to zbiór metod bez ich implementacji. \n \n Klasa, która go używa, musi te metody zdefiniować. \n \n Interfejsy pomagają tworzyć wspólne zachowania dla różnych klas.",
         correct: false,
       },
     ],
@@ -234,7 +252,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "this to specjalne słowo, które wskazuje na bieżący obiekt. \n \n Używa się go, gdy chcemy odwołać się do pola lub metody obiektu wewnątrz klasy. \n \n Pomaga uniknąć nieporozumień, np. przy takich samych nazwach zmiennych.",
         correct: false,
       },
     ],
@@ -249,7 +268,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Główne cechy programowania obiektowego to: \n \n 1. Abstrakcja – ukrywanie szczegółów działania. \n \n 2. Enkapsulacja – łączenie danych i metod w jednej klasie. \n \n 3. Dziedziczenie – tworzenie nowych klas na podstawie innych. \n \n 4. Polimorfizm – jedna metoda działa dla różnych typów.",
         correct: false,
       },
     ],
@@ -264,7 +284,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Obiekt to konkretny egzemplarz klasy. \n \n Ma własne dane (pola) i może wykonywać działania (metody). \n \n Przykład: jeśli klasa to Samochód, to obiekt to  czerwony samochód.",
         correct: false,
       },
     ],
@@ -279,7 +300,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Konstruktor to specjalna metoda, która tworzy nowy obiekt. \n \n Ustawia początkowe wartości pól. \n \n Ma taką samą nazwę jak klasa i nie zwraca żadnego typu.",
         correct: false,
       },
     ],
@@ -294,7 +316,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Metoda to funkcja zdefiniowana wewnątrz klasy. \n \n Może działać na danych obiektu i wykonywać różne operacje. \n \n Przykład: metoda start() w klasie Samochód.",
         correct: false,
       },
     ],
@@ -309,7 +332,8 @@ const dataJiPP = [
         correct: true,
       },
       {
-        option: "",
+        option:
+          "Hermetyzacja (enkapsulacja) to ukrywanie danych obiektu przed światem zewnętrznym. \n \n Dostęp do danych odbywa się przez metody, np. gettery i settery. \n \n Chroni to dane przed przypadkową zmianą i ułatwia kontrolę nad kodem.",
         correct: false,
       },
     ],
