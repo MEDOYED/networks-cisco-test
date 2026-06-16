@@ -9,6 +9,7 @@ import dataProgFunc from "../../../shared/data/dataProgFunc";
 import dataJiPP from "../../../shared/data/dataJiPP";
 
 import "./SectionQuestions.scss";
+import { dataBDiA } from "../../../shared/data/dataBDiA";
 
 type Props = {
   inputValue: string;
@@ -24,6 +25,8 @@ const SectionQuestions = ({ inputValue }: Props) => {
     currentData = dataProgFunc;
   } else if (location.pathname === "/jipp") {
     currentData = dataJiPP;
+  } else if (location.pathname === "/bdia") {
+    currentData = dataBDiA;
   }
 
   if (!currentData)
