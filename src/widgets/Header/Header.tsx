@@ -18,6 +18,9 @@ const Header = () => {
         <li className="header__list-item">
           <Link to={"/bdia"}>BDiA</Link>
         </li>
+        <li className="header__list-item">
+          <Link to={"/jee"}>JEE</Link>
+        </li>
       </ul>
     </header>
   );

@@ -10,6 +10,7 @@ import dataJiPP from "../../../shared/data/dataJiPP";
 
 import "./SectionQuestions.scss";
 import { dataBDiA } from "../../../shared/data/dataBDiA";
+import { dataJEE } from "../../../shared/data/dataJEE";
 
 type Props = {
   inputValue: string;
@@ -27,6 +28,8 @@ const SectionQuestions = ({ inputValue }: Props) => {
     currentData = dataJiPP;
   } else if (location.pathname === "/bdia") {
     currentData = dataBDiA;
+  } else if (location.pathname === "/jee") {
+    currentData = dataJEE;
   }
 
   if (!currentData)
